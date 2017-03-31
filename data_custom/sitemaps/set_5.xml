@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.lovinity.org/radio/guided-meditations.htm</loc>
+        <lastmod>2016-10-09T19:19:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/-unslider-slide3.htm</loc>
+        <lastmod>2016-10-16T01:18:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/activism/start.htm</loc>
+        <lastmod>2016-11-06T00:26:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/panel-top.htm</loc>
+        <lastmod>2016-11-12T04:19:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/prizecode.htm</loc>
+        <lastmod>2016-11-18T06:32:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/radio/dashboard.htm</loc>
+        <lastmod>2017-02-02T21:30:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+</urlset>

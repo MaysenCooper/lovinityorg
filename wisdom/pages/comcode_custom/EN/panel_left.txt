@@ -1,0 +1,1 @@
+[semihtml][block param="wisdom_side" title="Section Menu" type="embossed" tray_status="tray_open" silent_failure="0" javascript_highlighting="1"]menu[/block][/semihtml]

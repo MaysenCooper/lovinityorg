@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+TIP_0a=Welcome to the Admin Zone, the administrative heart of your website. The first thing you should do with a new {2} installation is to run the &lsquo;Setup Wizard&rsquo; to perform basic configuration. You will find the site wizard at Admin Zone > Setup > Setup Wizard. If you are not sure which area of {2} to use to perform a task, try using the &lsquo;Search for&rsquo;; feature in the top-right. You may also refer to the <a href="{5}">{2} documentation</a> for help.\n\nDismiss this tip when you are ready to move on to the next level of tips.

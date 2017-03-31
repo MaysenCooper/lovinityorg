@@ -1,0 +1,17 @@
+[descriptions]
+ENTER_YOUR_BIRTHDAY=The birthday in terms of you specifying your it, i.e. what is more accurately referred to as "birth-date"
+FORUM_POSTS=Post, plural (a listing not a tally [-->COUNT_POSTS])
+FORUM_TOPICS=Topic, plural (a listing not a tally [-->COUNT_TOPICS])
+SPECIFIC_FORUM_POSTS=When it needs to be very clear that posts are forum posts and not any other kind of post
+FORUM_POST=Post, noun
+
+[runtime_processing]
+PT_ALLOW_DESCRIPTION=platform_specific
+PT_ALLOW_DESCRIPTION_CHAT=platform_specific
+
+[strings]
+WARN_MEMBER=Warn/Prosecute member
+ADD_WARNING=Add accountability/prosecution
+EDIT_WARNING=Edit accountability/prosecution
+DELETE_WARNING=Delete accountability/prosecution
+PUNITIVE_HISTORY=Warrant/Prosecution history

@@ -1,0 +1,36 @@
+[descriptions]
+
+[runtime_processing]
+
+[strings]
+MODULE_TRANS_NAME_warnings=Accountability vs. Prosecution
+NEW_WARNING_TO_YOU=[Important] Prosecution Statement: {1}
+DESCRIPTION_PP_MESSAGE=In the field below, please provide a copy of, or an explanation of, the content that was found to be in violation of the rules. This could be a quote from the forums or a link to inappropriate submitted content, for example.
+HAS_ALREADY_X_WARNINGS=Use this form to make accountable/prosecute {1}. <strong><a href="{6}">{1}</a></strong> has <strong>{2} {2|prosecution|prosecutions}</strong> against their account. You may wish to consult the &lsquo;{3}&rsquo; <a href="{4}">website rules</a> as well as the <a href="http://lovinity.org/adminzone/pg/disciplineguide">Discipline Guide</a> before deciding if/how to proceed with any punishment. Also remember that he/she may have already been punished in relation to prior accountables/prosecutions &ndash; check his/her <a href="{5}">full accountability/prosecution history</a>.
+FOR_PUNISHMENT=Accountability/Prosecution #{1}
+WHETHER_MAKE_WARNING=Is a prosecution
+DESCRIPTION_WHETHER_MAKE_WARNING=Check this box if you are prosecuting the user. If this box is unchecked, the system will assume you're issuing an accountability statement.
+DESCRIPTION_SILENCE_FROM_TOPIC=Punish/restrain the member by preventing them posting in the topic his/her impinging post is within, until a set date. <strong>It may be advised restricting for at least 72 hours if issuing accountability on a member who has had problems in a topic.</strong> This will not work on a super administrator, but will start to apply if you demote them.
+DESCRIPTION_SILENCE_FROM_FORUM=Punish/restrain the member by preventing them posting in the forum his/her impinging post is within, until a set date. <strong>It may be advised restricting for at least 72 hours if issuing accountability on a member who has had problems in the forums.</strong This will not work on a super administrator, but will start to apply if you demote them.
+DESCRIPTION_EXTEND_PROBATION=If the member is in probation, extend it by this number of days. Otherwise start a new probation period of this number of days. <strong>It may be advised to issue 72 hours of probation if issuing accountability for a member who posted content against the rules.</strong> Members in probation are limited to the permissions of the probation usergroup.
+DESCRIPTION_WHETHER_BANNED_IP=Whether to ban the member's IP address. It is advised against doing this if issuing accountability. If you do this, he/she will not be able to access the website, whether logged-in or not, from his/her last-known computer. <strong>You should not IP ban a member unless you are permanently banning them; their message will indicate perma-ban if you check this.</strong> Also, be sure to do a ban member as well if you do a ban IP.
+DESCRIPTION_BANNED_MEMBER=Whether to ban/suspend this member (This will prevent them from being able to log in to their account. Note: If you check this, but you do not check IP ban, it is assumed you are suspending the user, and their message will state such. But if you check both this and IP ban, it is assumed you are permanently banning them.). It is advised against doing this if issuing accountability.
+PUNITIVE_HISTORY_TEXT=The following are all the accountabilities/prosecutions for this member. You may choose to undo individual punishments if you wish. Accountability/prosecution entries may not be deleted, for record-keeping reasons, but if they were made in error you can edit them so as for them to be benign.
+UNDO_CHARGE_FOR=Undo charge for Accountability/Prosecution #{1}
+NEW_WARRANT_TO_YOU=[Timely action requested] Accountability Statement: {1}
+FURTHER_ACTIONS=Further Actions / Accountability instructions
+BANNED_MEMBER=Ban/Suspend member
+DESCRIPTION_FURTHER_ACTIONS=Is there anything that the user needs to do, or that you suggest that the user should do (other than reading the rules, which will always be suggested in the auto-generated message), as a result of this discipline? For accountability statements, include instructions in this field as to what the user needs to do to claim personal accountability and make the situation well again. <strong>Also include a deadline!</strong>
+DESCRIPTION_EXPLANATION2=Explain very briefly which rules and regulations were violated. For example, "section 0.0 and 0.5 (lying about age and lying about identity)". Note that this, and only this, will appear in records. Everything else in this section will only be included in the private topic sent to the user.
+VIOLATING_CONTENT=Violating Content
+VIOLATING_RULE=Violating Rule(s)
+DESCRIPTION_VIOLATING_RULE=Describe how the Content above violates the rules. It is important to quote the rules that were violated from https://lovinity.org/rules . It is also important to explain why we have those rules in place.
+ADDITIONAL_DISCIPLINE=Additional Discipline
+DESCRIPTION_ADDITIONAL_DISCIPLINE=<strong>Excluding the disciplinary actions you defined in the punitive actions section</strong>, what other disciplinary actions, if any, were taken by staff (such as "content was removed/censored")? <strong>In order to preserve formatting of the auto-generated private message, list these actions in a bullet point list.</strong>
+DISCIPLINE_APPEAL=Discipline Appeal?
+DESCRIPTION_DISCIPLINE_APPEAL=Can the user appeal this warning/punishment within 72 hours of being issued? If you check this box, information about how to appeal this action will be included in the message to the user. <strong>This option is not effective if issuing an accountability statement.</strong>
+EXPLANATORY_HELP=It is very important for the user to understand what was violated. In this section are a list of fields to fill out. The user will be sent an automatically-generated private message based off of the information you provide in these fields.
+LOG_WARNING=Issue Accountability/Prosecution
+KARMA=New User Karma
+DESCRIPTION_KARMA=A user's karma is a reflection of their stance in terms of following the rules. Karma can be a value between 0 and 100, with 100 being perfect standing. If this punishment lowers a user's Karma to 0 for first time, consider suspension. Second time and beyond, consider permanent ban. User's Karma rebuilds slowly over time each day they log in to the site. Their current Karma is listed.
+BAD_KARMA_RANGE=The user's Karma value can only be between 0 and 100. If this discipline would technically drop the user's karma below 0, set it to 0 and consider suspension (if it's the first time hitting 0) or permanent ban (if second+ time). Discuss with other staff first.

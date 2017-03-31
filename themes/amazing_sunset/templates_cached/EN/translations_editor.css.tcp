@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dd9c020390a4.66140191_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:19:\"translations_editor\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dd9c020390a4.66140191_1\";s:604:\"\$tpl_funcs['tcpfunc_58dd9c020390a4.66140191_1']=\" echo \\\"/*\\\\n Composr\\\\n Copyright (c) ocProducts, 2004-2016\\\\n*/\\\\n\\\\n.translate_field {\\\\n	color: \\\",\\n	ecv_GET(\\\$cl,array(),array(\\\"native_ui_foreground\\\")),\\n	\\\" !important;\\\\n}\\\\n\\\\ntd.translate_line_first {\\\\n	padding: 0.5em;\\\\n}\\\\n\\\\n.translate_line_second {\\\\n	padding: 0.5em 0.5em 2em 0.5em;\\\\n}\\\\n\\\\n.translate_line_second textarea {\\\\n	border-style: dotted;\\\\n}\\\\n\\\\n.translate_original_text {\\\\n	color: \\\",\\n	ecv_GET(\\\$cl,array(),array(\\\"unfilled_input_text\\\")),\\n	\\\";\\\\n}\\\\n\\\\n.translate_iframe {\\\\n	height: 130px;\\\\n	width: 100%;\\\\n}\\\\n\\\";\";\";}}");
+
+?>

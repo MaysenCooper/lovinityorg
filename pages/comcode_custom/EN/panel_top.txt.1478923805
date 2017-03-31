@@ -1,0 +1,19 @@
+{+START,IF,{$MATCH_KEY_MATCH,:blogs}}
+[block="5" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}
+{+START,IF,{$MATCH_KEY_MATCH,:downloads}}
+[block="2" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}
+{+START,IF,{$MATCH_KEY_MATCH,:calendar}}
+[block="8" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}
+{+START,IF,{$MATCH_KEY_MATCH,:galleries}}
+[block="3" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+[block="7" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}
+{+START,IF,{$MATCH_KEY_MATCH,:catalogues:index:literature}}
+[block="11" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}
+{+START,IF,{$MATCH_KEY_MATCH,:quiz}}
+[block="9" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}

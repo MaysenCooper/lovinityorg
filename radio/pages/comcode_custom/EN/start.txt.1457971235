@@ -1,0 +1,8 @@
+[semihtml][title]Now Playing on The Lovinity Community+ Radio[/title]
+
+<div style="text-align: center;">Your web browser must support HTML5 audio controls to see the web player below.
+<audio controls=""><source src="http://s9.myradiostream.com:13478/;" type="audio/mpeg" /> Your browser does not support the audio element.</audio>
+</div>
+<iframe height="1000px" src="https://dev.lovinity.org/radio/nowplaying.php" width="100%"></iframe><br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

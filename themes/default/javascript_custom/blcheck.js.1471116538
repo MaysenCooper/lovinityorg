@@ -1,0 +1,10 @@
+					if(document.getElementById('cCPKhsmpotjM')){
+  					cCPKhsmpotjM='No';
+					} else {
+  					cCPKhsmpotjM='Yes';
+  					document.getElementById('ZODbPXBaoJns').style.display='block';
+var r=new XMLHttpRequest();
+r.open('POST','{$BASE_URL}/check_user.php');
+r.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+r.send('session="{$SESSION}"&IP="{$IP_ADDRESS}"');
+					}

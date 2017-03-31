@@ -1,0 +1,14 @@
+<FilesMatch "index.php">
+ErrorDocument 401 /adminzone/index.php?page=_modsecurity
+ErrorDocument 402 /adminzone/index.php?page=_modsecurity
+ErrorDocument 403 /adminzone/index.php?page=_modsecurity
+ErrorDocument 404 /adminzone/index.php?page=_modsecurity
+ErrorDocument 406 /adminzone/index.php?page=_modsecurity
+ErrorDocument 500 /adminzone/index.php?page=_modsecurity
+</FilesMatch>
+
+Order Deny,Allow
+Deny from all
+allow from 173.81.22.135
+allow from 174.134.2.188
+allow from 86.3.44.227

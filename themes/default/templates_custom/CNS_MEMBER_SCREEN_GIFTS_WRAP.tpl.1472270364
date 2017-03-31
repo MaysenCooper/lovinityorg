@@ -1,0 +1,32 @@
+<div>
+	<h2>
+	{!GIFTR_TITLE}
+	</h2>
+
+	{$REQUIRE_CSS,gifts}
+	{$REQUIRE_CSS,catalogues}
+
+	<div class="flex-container">
+		{+START,LOOP,GIFTS}
+			<div class="flex-item-max" style="max-width: 200px; min-width: 168px;">
+			<section class="box box___catalogue_default_grid_entry_wrap">
+			<div class="box_inner">
+			<h3><span class="name">{$TRUNCATE_LEFT,{GIFT_NAME},25,1,1}</span></h3>
+					{+START,IF_NON_EMPTY,{IMAGE_URL}}
+						<p><img src="{$THUMBNAIL*,{IMAGE_URL},168}"/></p>
+					{+END}
+					<p>{GIFT_EXPLANATION}</p>
+			</div></section></div>
+		{+END}
+	</div>
+	
+			{+START,IF_EMPTY,{GIFTS}}
+			<p class="nothing_here">
+				<span class="cns_member_detailer_titler">{!NO_GIFTS_TO_DISPLAY}</span>
+			</p>
+			{+END}
+			
+			{+START,IF_NON_EMPTY,{GIFT_LINK}}
+			<p><a href="{GIFT_LINK}">{!GIFT_GIFT}</a></p>
+			{+END}
+</div>

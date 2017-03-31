@@ -1,0 +1,6 @@
+[semihtml]
+{+START,IF,{$MATCH_KEY_MATCH,forum:forumview}}
+[block param="6" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+[block param="12" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}
+[/semihtml]{$,page hint: no_wysiwyg}

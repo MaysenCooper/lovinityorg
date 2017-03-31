@@ -1,0 +1,10 @@
+[strings]
+REPORT_CONTENT=Report Content
+DESCRIPTION_REPORT_CONTENT=You are making a report on &ldquo;{1}&rdquo;. You should only report content found to be in violation of our rules, terms, or policies (see About -> Rules). If {2} {2|person|people} report the content, it will be hidden automatically until staff review it.<br /><br />Please include your reasoning behind why the content you are reporting is in violation of our rules, terms, or policies. Include screenshots/attachments as necessary. Completion of this report will result in the creation of a support ticket with staff. If you file the report as a guest rather than a logged in user, be aware that staff will not have communication with you and therefore an inconclusive report will be tossed.
+CONFIG_OPTION_reported_times=The number of times content has to be reported for it to be unvalidated.
+REPORTED_TIMES=Reports until unvalidation
+
+REPORTED_CONTENT=I am reporting {1} for being in violation of the website's rules/terms. This content was created by {2}
+REPORTED_CONTENT_TITLE=Reported content in '{1}'
+
+ALREADY_REPORTED_CONTENT=You have already reported this content.

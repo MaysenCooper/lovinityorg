@@ -1,0 +1,8 @@
+[descriptions]
+
+[runtime_processing]
+DESCRIPTION_FILES=platform_specific
+
+
+[strings]
+FILEDUMP_NOTIFICATION_MAIL=A new file, {2} has been uploaded to the File/Media Library under [page="_SEARCH:filedump:browse:place={3}"]{3}[/page].\n\nDescription: "{4}".

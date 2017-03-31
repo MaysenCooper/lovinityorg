@@ -1,0 +1,50 @@
+[semihtml][title]2B. Staff Chain of Command / Staff Positions[/title]
+
+<h2>Chain of Command</h2>
+The Lovinity Community+ staff chain of command is split into 4 main powers and 2 unofficial powers, each with their own set duties and responsibilities. Despite this chain of command, all staff are expected to work together as a team. However, staff with more experience are usually given a higher power. This does not mean they are better than those below them on the chain. It simply means they have more responsibilities. It is expected of all staff to treat each other with respect regardless of where they sit on the chain of command. However, you are more than free to dispute an issue with a staff member privately with an administrator.<br />
+<br />
+In this guide, we will discuss the chain of command in order from top to bottom.
+<h3>High-level Administrators</h3>
+High level administrators are your CEOs and vice CEOs. They have responsibilities and power around the entire website. They make the final decision for big decisions and have the power to overrule decisions made by staff in lower chain of commands. They help out across all teams and ensure server and software payments are paid and legal matters, if they come up, are taken care of. They also have the power to hire and fire other staff.
+
+<h3>Low-level administrators / Advisers</h3>
+Low level administrators, also called advisers, are trained professionals who assist the high level administrators in certain areas of the website. Though they have some of the same powers as high-level administrators, they do not make final decisions nor hire and fire other staff. They are mainly around to provide assistance and a check on power when, and only when, needed by other staff. Unlike most other staff, advisers are professionally trained in fields such as psychology, sociology, LGBTQA affairs, interdisciplinary studies, activism, and so on.
+
+<h3>Team Leaders</h3>
+Team leaders are in charge of everyone within their position. They ensure everyone within a team are working together and working productively. They have the final say-so in decisions relating to their team, though an administrator can over-rule it. They also have a say-so in hiring and firing procedures for staff related to the team they lead, although the administrators make the final decision.<br />
+<br />
+Currently, we do not use Team leaders as our staff force is too small. All teams are lead by administrators.
+<h3>Staff Members</h3>
+Official staff members are those who have passed trials and are actively carrying out some of the main duties of the staff team. They are the worker bees of the website. And although they are not that high in the chain of command, they are one of the most essential groups of people in the staff system.
+
+<h3>Trainees</h3>
+Trainees are those who have yet to pass the training and trials. They are not recognized by The Lovinity Community+ as official staff yet, and therefore do not carry out the duties and responsibilities of other staff. Their focus is to learn and be trained.
+
+<h3>Regular members</h3>
+Though regular members are not staff members, it is important to recognize our members in the chain of command because they&nbsp;<strong>do&nbsp;</strong>have some say in how our website operates. Without our regular members, The Lovinity Community+ would not exist. Our members provide the content and the activity necessary to make a running website. They also provide staff with feedback, suggestions, and complaints in order to help them improve upon the website. It is important that all staff consider / discuss the suggestions of the user community with an open mind, no matter how illogical they sound.
+
+<h2>Teams / Positions</h2>
+In addition to the chain of command, The Lovinity Community+ also has split the staff into 6 separate teams, each with their own set duties and responsibilities. The separation of teams ensures that members are placed in a team matching their skills and their interests.<br />
+<br />
+For the purposes of avoiding redundancy, we have ommitted the Administrator and Adviser teams from this section. Please refer to the Chain of Command for those two teams.
+<h3>Moderators</h3>
+The moderation team is responsible for moderating the content that is on our website, especially content submitted by other users. Moderators ensure that content on site is in line with the rules and policies of our website. If they are not, they will take appropriate action, including issuing discipline if necessary. Moderators are also in charge of approving or disapproving content that needs reviewed.
+
+<h3>Developers</h3>
+Developers are the technical staff who work on the back-end of the website. They ensure that the website is functional. They also maintain the server. If features need coding, they will code in new features or modify existing ones. And they ensure software bugs are reported to the high-end admins to be reported to Composr CMS&hellip; while ensuring the bugs do not interfere with normal site operation. Developers are also in charge of maintaining the security of the website.
+
+<h3>Ambassadors / Public Relations</h3>
+Ambassadors are mainly in charge of relations with others off site. They discuss affiliations with other websites and communities and conduct business with outside entities. They also manage our advertising. Ambassadors might also be in charge of making newsletters and planning website events.
+
+<h3>Mentors</h3>
+Mentors are staff members who interact and talk with members on site. Though anyone is free to give advice, mentors are trusted individuals by the Lovinity Community for advice and someone to talk to. They ensure everyone feels welcomed and valued in the community. Mentors are also in charge of gathering user feedback and suggestions for the Lovinity Community+.<br />
+&nbsp;
+<hr /><br />
+[box param="Exercise"]Send a message to the staff member overseeing your training. In your message, discuss the following:
+<ol>
+	<li>What are three goals you have that you want to accomplish during your staff training?</li>
+	<li>What are three goals you wish to accomplish during the first three months of being an official staff, assuming you passed the training?</li>
+	<li>What challenges may set you back from achieving your goals&hellip; and what do you plan to do to make sure they have minimal impact?</li>
+</ol>
+[/box]<br />
+[block]main_comcode_page_children[/block][/semihtml]

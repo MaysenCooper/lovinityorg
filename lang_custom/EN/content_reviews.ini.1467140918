@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+NOTIFICATION_BODY_CONTENT_REVIEWS={1} needs a periodic review. Perform the review on the edit screen:\n[url="{3}"]{3}[/url]\n\nYou can also change the review settings on the edit screen. Save the edit even if you make no changes, to mark the review done.\n\nPending the review, the following has been done to the content: {2}

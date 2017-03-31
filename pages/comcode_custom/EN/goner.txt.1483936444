@@ -1,0 +1,45 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,jquery}
+[box param="Lovinity Hearts"]
+<div class="flex-container">
+<div class="flex-item-max" style="width: 120px;">
+<img src="{$THUMBNAIL*,{$AVATAR},120x120}">
+</div>
+<div class="flex-item-max" style="width: 85%;">
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b>30</b></span></p>
+<p><span style="font-size:1.3em;">Strength</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b>15</b></span></p>
+<p><span style="font-size:1.3em;">Defense</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b>50</b></span></p>
+<p><span style="font-size:1.3em;">Speed</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b>25</b></span></p>
+<p><span style="font-size:1.3em;">Accuracy</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b>60</b></span></p>
+<p><span style="font-size:1.3em;">Endurance</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b>20</b></span></p>
+<p><span style="font-size:1.3em;">Immunity</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b>100</b></span></p>
+<p><span style="font-size:1.3em;">Intuition</span></p>
+</div>
+</div>
+
+</div>
+</div>
+
+[/box]
+[/semihtml]
+{$,page hint: no_wysiwyg}

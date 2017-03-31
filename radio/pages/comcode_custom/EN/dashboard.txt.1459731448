@@ -1,0 +1,4 @@
+[semihtml][title]Radio Dashboard[/title]
+<br />
+<iframe height="1000px" src="https://dev.lovinity.org/show/dash.php?session={$SESSION}" width="100%"></iframe><br />
+[block]main_comcode_page_children[/block][/semihtml]

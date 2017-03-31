@@ -1,0 +1,5 @@
+[semihtml][title]Radio Dashboard[/title]
+<kbd class="cms_keep_block" title="moderator_message">[moderator_message]The Radio Dashboard is currently out of order as we re-code the radio system to integrate with our website&amp;#039;s calendar system. This will allow for easy adding of shows that air more than once per week or have unusual repeats, such as every-other-week.[/moderator_message]</kbd><br />
+<br />
+<iframe height="1000px" src="https://dev.lovinity.org/show/dash.php?session={$SESSION}" width="100%"></iframe><br />
+[block]main_comcode_page_children[/block][/semihtml]

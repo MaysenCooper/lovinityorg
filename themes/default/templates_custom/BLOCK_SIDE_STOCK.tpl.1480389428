@@ -1,0 +1,61 @@
+{$REQUIRE_JAVASCRIPT,karma_bar}
+<section class="box box___block_side_stats"><div class="box_inner">
+<h3>Activity Index</h3>
+		<p>{STOCK_INDEX} current index</p>
+		<div class="flex-container">
+		<div class="flex-item-max" style="width: 100px;">
+		<div class="circle" id="trend1"><strong>{TREND_1}</strong> 24-HR</div>
+		</div>
+		<div class="flex-item-max" style="width: 100px;">
+		<div class="circle" id="trend7"><strong>{TREND_7}</strong> 7-DAY</div>
+		</div>
+		<div class="flex-item-max" style="width: 100px;">
+		<div class="circle" id="trend30"><strong>{TREND_30}</strong> 30-DAY</div>
+		</div>
+		</div>
+		<p><a href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-activity.htm" target="_blank">What is this?</a></p>
+</div></section>
+
+<script>
+window.onload = function(){
+    $('#trend1').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: {TREND_1_VALUE},
+        size: 90,
+        fill: {
+            color: "{TREND_1_COLOR}",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+});
+    $('#trend7').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: {TREND_7_VALUE},
+        size: 90,
+        fill: {
+            color: "{TREND_7_COLOR}",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+});
+    $('#trend30').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: {TREND_30_VALUE},
+        size: 90,
+        fill: {
+            color: "{TREND_30_COLOR}",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+});
+};
+</script>

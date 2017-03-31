@@ -1,0 +1,52 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,jquery}
+[box param="Lovinity Hearts"]
+<div class="flex-container">
+<div class="flex-item-max" style="width: 120px;">
+<img src="{$THUMBNAIL*,{$AVATAR},120x120}">
+</div>
+<div class="flex-item-max" style="width: 85%;">
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b><div id="1_strength">30</div></b></span></p>
+<p><span style="font-size:1.3em;">Strength</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b><div id="1_defense">15</div></b></span></p>
+<p><span style="font-size:1.3em;">Defense</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b><div id="1_speed">50</div></b></span></p>
+<p><span style="font-size:1.3em;">Speed</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b><div id="1_accuracy">25</div></b></span></p>
+<p><span style="font-size:1.3em;">Accuracy</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b><div id="1_endurance">60</div></b></span></p>
+<p><span style="font-size:1.3em;">Endurance</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b><div id="1_immunity">20</div></b></span></p>
+<p><span style="font-size:1.3em;">Immunity</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><span style="font-size: 1.3em;"><b><div id="1_intuition">100</div></b></span></p>
+<p><span style="font-size:1.3em;">Intuition</span></p>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 150px;">
+<canvas id="pop_2" width="250" height="250" style="width: 75px; height: 75px; position: absolute; left: 0px; top: 0px; display: inline; float: none;">
+    [No canvas support]
+</canvas>
+</div>
+</div>
+
+</div>
+</div>
+
+[/box]
+[/semihtml]
+{$,page hint: no_wysiwyg}

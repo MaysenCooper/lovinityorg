@@ -1,0 +1,319 @@
+[semihtml][title]Comcode help[/title]
+Comcode is used for formatting input data (the data marked as being Comcode).<br />
+<br />
+{+START,IF,{$IS_STAFF}}<mark class="comcode_highlight">For full Comcode help, see the <a class="user_link" href="http://compo.sr/docs10/tut-comcode.htm" rel=" external" target="_blank" title="Composr Comcode tutorial (this link will open in a new window)">Composr Comcode tutorial</a> (only staff see this link).</mark>{+END}<br />
+<br />
+The title for this page and smaller title below were generated using <kbd>[title]Comcode help[/title]</kbd> and <kbd>[title=&quot;2&quot;]Lists[/title]</kbd>.<br />
+&nbsp;
+<h2>Lists</h2>
+The list shown on the right is generated using the Comcode below.<br />
+Numbers are used on the example list to provide a frame of reference &ndash; your lists would have text rather than numbers.<br />
+&nbsp;
+<div class="wide_table_wrap">
+<table class="columned_table results_table wide_table">
+	<colgroup>
+		<col style="width: 50%" />
+		<col style="width: 50%" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>[code param="Comcode"]A list<br />
+			&nbsp;- 1<br />
+			&nbsp;- 2<br />
+			&nbsp;&nbsp;- 2.1<br />
+			&nbsp;&nbsp;&nbsp;- 2.1.1<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;- 2.1.1.1<br />
+			&nbsp;&nbsp;- 2.2<br />
+			&nbsp;- 3<br />
+			[/code]</td>
+			<td>A list
+			<ul>
+				<li>1</li>
+				<li>2
+				<ul>
+					<li>2.1
+					<ul>
+						<li>2.1.1
+						<ul>
+							<li>2.1.1.1</li>
+						</ul>
+						</li>
+					</ul>
+					</li>
+					<li>2.2</li>
+				</ul>
+				</li>
+				<li>3</li>
+			</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<h2>Emoticons</h2>
+Emoticons are inputted just by entering the emoticon code, e.g. <kbd>:)</kbd>.<br />
+<br />
+[block]main_emoticon_codes[/block]
+<h2>Shortcuts</h2>
+Shortcuts are also entered just by inputting their code, e.g. <kbd>(c)</kbd>.<br />
+&nbsp;
+<table class="columned_table results_table">
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><kbd>(c)</kbd></td>
+			<td>&copy;</td>
+		</tr>
+		<tr>
+			<td><kbd>(r)</kbd></td>
+			<td>&reg;</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<h2>Code blocks</h2>
+
+<div class="wide_table_wrap">
+<table class="columned_table results_table wide_table">
+	<colgroup>
+		<col style="width: 50%" />
+		<col style="width: 50%" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><kbd>[code=&quot;php&quot;]<br />
+			function cms()<br />
+			{<br />
+			&nbsp;&nbsp;&nbsp;echo &quot;Example PHP syntax highlighting&quot;;<br />
+			}<br />
+			[/code]</kbd></td>
+			<td>[code param="php"]function cms() { echo &quot;Example PHP syntax highlighting&quot;; }[/code]</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+&nbsp;
+
+<h2>Images</h2>
+You can put inline images into your text easily and quickly, with the <kbd>[img]</kbd> tag. There is also a thumbnail tag <kbd>[thumb]</kbd> which will show (and cache) a thumbnail of an image. If the tag is given a URL as a parameter as well as the main URL, then that will be used as the thumbnail.<br />
+&nbsp;
+<div class="wide_table_wrap">
+<table class="columned_table results_table wide_table autosized_table">
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><kbd>[img=&quot;Logo&quot;]themes/default/images/no_image.png[/img]</kbd></td>
+			<td><img alt="Logo" src="https://lovinity.org/themes/default/images/no_image.png" title="Logo" /></td>
+		</tr>
+		<tr>
+			<td><kbd>[thumb=&quot;Logo&quot;]themes/default/images/no_image.png[/thumb]</kbd></td>
+			<td><a class="link_exempt" href="https://lovinity.org/themes/default/images/no_image.png" rel="lightbox" target="_blank" title=" (this link will open in a new window)"><img alt="" src="https://lovinity.org/uploads/auto_thumbs/https%3B%2147%2147lovinity.org%2147themes%2147default%2147images%2147no_image.png" style="vertical-align: bottom" title="" /></a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+&nbsp;
+
+<h2>Security</h2>
+Long text which isn&#39;t naturally breakable into lines is forced into pieces.<br />
+<br />
+JavaScript script tags, onX handlers and URLs will all be filtered/blocked. Don&#39;t use them unless you want the staff to be alerted to a suspected hacking attempt!
+<h2>Encryption</h2>
+If you have sensitive content that you would like to have encrypted in our database, we have two different tags you can use:
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="col">{!CODE}</th>
+			<th scope="col">{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><strong>[encrypt]</strong>Content to be encrypted<strong>[/encrypt]</strong></td>
+			<td>Causes the content to be encrypted in our database. When rendered on the website, it appears inside a hide box. Expanding the box shows the encrypted form of the text along with a button to make a Javascript call to decrypt it. Clicking the button instantly decrypts the content on the page.</td>
+		</tr>
+		<tr>
+			<td><strong>[pencrypt]</strong>Content to be encrypted<strong>[/pencrypt]</strong></td>
+			<td>This tag does similarly what the encrypt tag does. The only difference is the decryption key is not stored on our website; instead, it is emailed to you. When clicking the decrypt button on the website, you&#39;ll be asked to paste the decryption key in. Otherwise, the content cannot be decrypted. This makes your content even more secure.</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<h2>Links</h2>
+
+<div class="wide_table_wrap">
+<table class="columned_table results_table wide_table">
+	<colgroup>
+		<col style="width: 50%" />
+		<col style="width: 50%" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><kbd>[url=&quot;This is a link&quot;]</kbd>{$BASE_URL*}<kbd>[/url]</kbd></td>
+			<td><a class="user_link" href="https://lovinity.org" rel="" target="_top">This is a link</a></td>
+		</tr>
+		<tr>
+			<td><kbd>[email=&quot;My E-Mail&quot;]fake_address@example.com[/email]</kbd></td>
+			<td><a href="mailto:fake_address@example.com">My E-Mail</a></td>
+		</tr>
+		<tr>
+			<td><kbd>[page=&quot;cms:cms&quot;]Content Management[/page]</kbd></td>
+			<td><a class="user_link" href="https://lovinity.org/cms/cms.htm">Content Management</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+&nbsp;
+
+<h2>Boxes</h2>
+You can put things in boxes. For example:<br />
+[code param="Comcode"][box=&quot;My Box&quot;]Testing boxes[/box][/code]&hellip;produces:<br />
+[box param="My Box"]Testing boxes[/box]
+
+<h2>Formatting</h2>
+
+<div class="wide_table_wrap">
+<table class="columned_table results_table wide_table">
+	<colgroup>
+		<col style="width: 50%" />
+		<col style="width: 50%" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><kbd>[b]text[/b]</kbd></td>
+			<td><b>text</b></td>
+		</tr>
+		<tr>
+			<td><kbd>[u]text[/u]</kbd></td>
+			<td><u>text</u></td>
+		</tr>
+		<tr>
+			<td><kbd>[i]text[/i]</kbd></td>
+			<td><i>text</i></td>
+		</tr>
+		<tr>
+			<td><kbd>[s]text[/s]</kbd></td>
+			<td><strike>text</strike></td>
+		</tr>
+		<tr>
+			<td><kbd>[font param=&quot;Helvetica&quot; size=&quot;3&quot; color=&quot;red&quot;]text[/font]</kbd></td>
+			<td><span style="font-family: Helvetica; color: red; font-size: 3em;">text</span></td>
+		</tr>
+		<tr>
+			<td><kbd>----------------------</kbd></td>
+			<td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+&nbsp;
+
+<h2>Mathematical notation</h2>
+
+<div class="wide_table_wrap">
+<table class="columned_table results_table wide_table">
+	<colgroup>
+		<col style="width: 50%" />
+		<col style="width: 50%" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><kbd>a[sub]2[/sub]</kbd></td>
+			<td>a<sub>2</sub></td>
+		</tr>
+		<tr>
+			<td><kbd>a[sup]2[/sup]</kbd></td>
+			<td>a<sup>2</sup></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+&nbsp;
+
+<h2>Attachments</h2>
+You can use attachments with a number of different Comcode forms. The attachment tags are automatically inserted into your Comcode when you choose an attachment, and you may re-arrange them to move the attachments around; you may also wish to change the width, height, description, or set the type to &#39;download&#39;. After adding your attachments you may re-use them in other pieces of Comcode, and the attachment will exist until all references are deleted.<br />
+<br />
+Attachments may be movies, flash animations, audio, images or general downloads. The website automatically decides how to treat your attachment.<br />
+<br />
+Users may add attachments according to their quota, and re-use other people&#39;s attachments according to privileges.<br />
+&nbsp;
+<h2>Advanced</h2>
+
+<div class="wide_table_wrap">
+<table class="columned_table results_table wide_table autosized_table">
+	<thead>
+		<tr>
+			<th>{!CODE}</th>
+			<th>{!RESULT}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><kbd>[hide=&quot;Secret&quot;]This is an example of hidden text.[/hide]</kbd></td>
+			<td>[hide param="Secret"]This is an example of hidden text.[/hide]</td>
+		</tr>
+		<tr>
+			<td><kbd>[reference type=&quot;url&quot; param=&quot;Wikipedia&quot;]http://wikipedia.org[/reference]</kbd></td>
+			<td>[reference type="url" param="Wikipedia"]http://wikipedia.org[/reference]</td>
+		</tr>
+		<tr>
+			<td><kbd>[quote param=&quot;Philip&quot;]This is an example of a quote.[/quote]</kbd></td>
+			<td>[quote param="Philip"]This is an example of a quote.[/quote]</td>
+		</tr>
+		<tr>
+			<td><kbd>[staff_note]This isn&#39;t displayed (not even for staff), but is saved. Staff can view it when editing the Comcode.[/staff_note]</kbd></td>
+			<td>[staff_note]This isn&#39;t displayed (not even for staff), but is saved. Staff can view it when editing the Comcode.[/staff_note]</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<br />
+{+START,IF,{$ADDON_INSTALLED,custom_comcode}}<br />
+<h2>Custom Comcode tags</h2>
+These Custom Comcode tags have been added by the staff&hellip;<br />
+<br />
+[block]main_custom_comcode_tags[/block]{+END}[/semihtml]

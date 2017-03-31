@@ -1,0 +1,21 @@
+[semihtml][title]Staff[/title]
+The following is a current list of official Lovinity Community+ staff. These individuals put in volunteer hours to help this community run efficiently. Please don&#39;t hesitate to talk to any of them. However, we highly recommend using our support tickets system (About -&gt; Support Tickets , or email support@lovinity.org ) opposed to directly messaging a staff for staff related matters. That way, you will get a response faster and more efficiently.
+
+<h2>Administrators</h2>
+Administrators are the highest level of staff. They operate the website and its procedures as well as help out in any of the other teams that need the help.<br />
+<br />
+[block display_mode="boxes" must_have_avatar="0" must_have_photo="0" include_form="0" usergroup="2" max="30" start="0" pagination="0" sort="random ASC"]main_members[/block]
+<h2>Moderators</h2>
+Moderators are the staff that go through content submitted on the website. They make sure everything is appropriate and in line with the website&#39;s rules and policies. Should something not be in line, moderators will take appropriate action to ensure the problem is corrected.<br />
+<br />
+[block display_mode="boxes" must_have_avatar="0" must_have_photo="0" include_form="0" usergroup="3" max="30" start="0" pagination="0" sort="random ASC"]main_members[/block]
+<h2>Developers</h2>
+Developers work on the back end of the website. They do the coding and technical work to make sure the website is functioning properly. They also code in new features as needed.
+
+<h2>Ambassadors</h2>
+Ambassadors are in charge of relations outside of the website. They coordinate affiliations with other websites and conduct business relating to outside sources. They also help plan website and community events.
+
+<h2>Mentors</h2>
+Although anyone is free to give advice and support to members in the community, mentors are those chosen by staff to be the most helpful and trustworthy individuals when it comes to help and support. If you need someone to talk to, mentors will be there for you.<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

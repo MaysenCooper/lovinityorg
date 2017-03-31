@@ -1,0 +1,62 @@
+[strings]
+MODULE_TRANS_NAME_warnings=Warnings
+NEW_WARNING_TO_YOU=[Important] Terms of Use violation notice: {1}
+DESCRIPTION_PP_MESSAGE=In the field below, please provide a copy of, or an explanation of, the content that was found to be in violation of the rules. This could be a quote from the forums or a link to inappropriate submitted content, for example.
+EXTEND_PROBATION=Extend probation
+REDUCE_PROBATION=Reduce probation
+START_PROBATION=Start probation
+STOP_PROBATION=Stop probation
+HAS_ALREADY_X_WARNINGS=Use this form to warn/punish {1}. <strong><a href="{6}">{1}</a></strong> has <strong>{2} {2|strike|strikes}</strong> against their account. You may wish to consult the &lsquo;{3}&rsquo; <a href="{4}">website rules</a> as well as the <a href="http://lovinity.org/adminzone/pg/disciplineguide">Discipline Guide</a> before deciding if/how to proceed with any punishment. Also remember that he/she may have already been punished in relation to prior warnings/strikes &ndash; check his/her <a href="{5}">full warning/punishment history</a>.
+EXPLANATORY_TEXT=Explanatory text
+PUNITIVE_ACTIONS=Punitive actions
+FOR_PUNISHMENT=For sanction #{1}
+WHETHER_MAKE_WARNING=Is a strike
+DESCRIPTION_WHETHER_MAKE_WARNING=Should this count as a strike against their account rather than a simple warning?
+SILENCE_FROM_TOPIC=Silence from the topic
+SILENCE_FROM_FORUM=Silence from the forum
+DESCRIPTION_SILENCE_FROM_TOPIC=Punish/restrain the member by preventing them posting in the topic his/her impinging post is within, until a set date. This will not work on a super administrator, but will start to apply if you demote them.
+DESCRIPTION_SILENCE_FROM_FORUM=Punish/restrain the member by preventing them posting in the forum his/her impinging post is within, until a set date. This will not work on a super administrator, but will start to apply if you demote them.
+DESCRIPTION_EXTEND_PROBATION=If the member is in probation, extend it by this number of days. Otherwise start a new probation period of this number of days. Members in probation are limited to the permissions of the probation usergroup.
+WHETHER_BANNED_IP=Ban the member's IP address
+DESCRIPTION_WHETHER_BANNED_IP=Whether to ban the member's IP address. If you do this, he/she will not be able to access the website, whether logged-in or not, from his/her last-known computer. <strong>You should not IP ban a member unless you are permanently banning them; their message will indicate perma-ban if you check this.</strong> Also, be sure to do a ban member as well if you do a ban IP.
+CHARGED_POINTS=Charge points
+DESCRIPTION_CHARGED_POINTS=Charge the member this many points, as a penalty. They currently have {1} points.
+CHANGE_USERGROUP_TO=Change usergroup to
+CHANGED_USERGROUP=Changed usergroup
+DESCRIPTION_CHANGE_USERGROUP_TO=Change the member's usergroup to this usergroup (or N/A for no change).
+PUNITIVE_HISTORY_TEXT=The following are all the warnings/strikes/punishments for this member. You may choose to undo individual punishments if you wish. Warning/strike/punishment entries may not be deleted, for record-keeping reasons, but if they were made in error you can edit them so as for them to be benign.
+UNBAN_IP=Unban IP address
+UNSILENCE_TOPIC=Unsilence from topic
+UNSILENCE_FORUM=Unsilence from forum
+UNDO_CHARGE=Undo charge
+UNDO_CHARGE_FOR=Undo charge for warning/strike #{1}
+FURTHER_ACTIONS=Further Actions
+UNDO_PROBATION=Undo probation
+REMOVE_PROBATION_DAYS=Remove {1}\nprobation days
+RESTORE_POINTS=Restore {1} points
+SAVE_WARNING_DETAILS=Save explanatory details
+DESCRIPTION_SAVE_WARNING_DETAILS=Fill this in with a name, if you wish to save the explanation and Private Topic message for future re-use. If you use an existing name, the previous save will be overwritten. Please note that the system does not store actual punishment settings &ndash; these are often best decided on a case-by-case basis, in accordance with your chosen rules, precedent, and special circumstances.
+LOAD_SAVED_WARNING=<a onclick="window.open(maintain_theme_in_link('{1}'),'','width=360,height=400,status=no,resizable=yes,scrollbars=yes'); return false;" href="{1}">Load an explanation/message</a> from those previously saved.
+CHOOSE_SAVED_WARNING=Choose saved explanatory text
+DELETE_SAVED_WARNING=Delete saved explanatory text
+PUNISHMENT_UNDOING=Undo punishment(s)
+SAVED_WARNINGS=Saves warnings
+
+MARK_AS_SPAMMER=Mark as spammer
+PUT_ON_PROBATION=Put member on probation
+REMOVE_FROM_PROBATION=Remove member from probation
+
+BANNED_MEMBER=Ban/Suspend member
+DESCRIPTION_BANNED_MEMBER=Whether to ban/suspend this member (This will prevent them from being able to log in to their account. Note: If you check this, but you do not check IP ban, it is assumed you are suspending the user, and their message will state such. But if you check both this and IP ban, it is assumed you are permanently banning them.).
+
+DESCRIPTION_FURTHER_ACTIONS=Is there anything that the user needs to do, or that you suggest that the user should do (other than reading the rules, which will always be suggested in the auto-generated message), as a result of this discipline? An example may be that the user needs to log in by X date to avoid account deletion.
+DESCRIPTION_EXPLANATION2=Explain very briefly which rules and regulations were violated. For example, "section 0.0 and 0.5 (lying about age and lying about identity)". Note that this, and only this, will appear in records. Everything else in this section will only be included in the private topic sent to the user.
+VIOLATING_CONTENT=Violating Content
+VIOLATING_RULE=Violating Rule(s)
+DESCRIPTION_VIOLATING_RULE=Describe how the Content above violates the rules. It is important to quote the rules that were violated from https://lovinity.org/pg/rules . It is also important to explain why we have those rules in place.
+ADDITIONAL_DISCIPLINE=Additional Discipline
+DESCRIPTION_ADDITIONAL_DISCIPLINE=<strong>Excluding the disciplinary actions you defined in the punitive actions section</strong>, what other disciplinary actions, if any, were taken by staff (such as "content was removed/censored")? <strong>In order to preserve formatting of the auto-generated private message, list these actions in a bullet point list.</strong>
+DISCIPLINE_APPEAL=Discipline Appeal?
+DESCRIPTION_DISCIPLINE_APPEAL=Can the user appeal this warning/punishment within 72 hours of being issued? If you check this box, information about how to appeal this action will be included in the message to the user.
+EXPLANATORY_HELP=It is very important for the user to understand what was violated. In this section are a list of fields to fill out. The user will be sent an automatically-generated private message based off of the information you provide in these fields.
+LOG_WARNING=Issue Warning/Punishment

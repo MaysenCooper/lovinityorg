@@ -1,0 +1,8 @@
+[semihtml][title]Now Playing on The Lovinity Community+ Radio[/title]
+<iframe height="230" scrolling="no" src="http://player.inimusic.com/mashter/player/webplayershoutcast/6/344fc85244afd92ffefd66607f22f3d8.html" style="margin: 0;padding: 0; border: none;" width="360">webplayer powered by &amp;lt;a data-cke-saved-href=&#39;http://webplayershoutcast.com/&#39; href=&#39;http://webplayershoutcast.com/&#39;&amp;gt;webplayershoutcast.com&amp;lt;/a&amp;gt;&amp;lt;br/&amp;gt; &amp;lt;a data-cke-saved-href=&#39;http://www.webplayershoutcast.com&#39; href=&#39;http://www.webplayershoutcast.com&#39; title=&#39;Powered by webplayershoutcast.com&#39;&amp;gt;Powered by webplayershoutcast.com&amp;lt;/a&amp;gt;</iframe>
+
+<center><a href="http://webplayershoutcast.com" target="_blank">powered by Web Player</a></center>
+<br />
+<iframe height="1000px" src="https://dev.lovinity.org/radio/nowplaying.php" width="100%"></iframe><br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

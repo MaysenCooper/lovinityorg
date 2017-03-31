@@ -1,0 +1,176 @@
+<?php /*
+
+ Composr
+ Copyright (c) ocProducts, 2004-2016
+
+ See text/EN/licence.txt for full licencing information.
+
+*/
+
+/**
+ * @license    http://opensource.org/licenses/cpal_1.0 Common Public Attribution License
+ * @copyright  ocProducts Ltd
+ * @package    core
+ */
+
+// This is the standard zone bootstrap file. Zone: root.
+
+// Find Composr base directory, and chdir into it
+global $FILE_BASE, $RELATIVE_PATH;
+$FILE_BASE = (strpos(__FILE__, './') === false) ? __FILE__ : realpath(__FILE__);
+$FILE_BASE = dirname($FILE_BASE);
+$RELATIVE_PATH = '';
+if (getcwd() != $FILE_BASE) {
+    @chdir($FILE_BASE);
+}
+
+$profile = false;//array_key_exists('tick_profile', $_GET);
+if ($profile) {
+    global $FUNC_WATCH, $MICROTIME;
+
+    $MICROTIME = microtime(true);
+
+    /**
+     * Profile tick function.
+     */
+    function tick_func()
+    {
+        global $FUNC_WATCH, $MICROTIME;
+        $LAST_MICROTIME = $MICROTIME;
+        $MICROTIME = microtime(true);
+
+        $trace = debug_backtrace();
+        $func = $trace[1]['function'];
+        if (isset($trace[1]['class'])) {
+            $func = $trace[1]['class'] . $trace[1]['type'] . $func;
+        }
+        if (!isset($FUNC_WATCH[$func])) {
+            $FUNC_WATCH[$func] = 0;
+        }
+        $FUNC_WATCH[$func] += $LAST_MICROTIME - $MICROTIME;
+    }
+    /* register_tick_function('tick_func');
+        declare(ticks=10);*/
+}
+
+global $FORCE_INVISIBLE_GUEST;
+$FORCE_INVISIBLE_GUEST = false;
+global $EXTERNAL_CALL;
+$EXTERNAL_CALL = true;
+global $CSRF_TOKENS;
+$CSRF_TOKENS = true;
+global $STATIC_CACHE_ENABLED;
+$STATIC_CACHE_ENABLED = true;
+if (!is_file($FILE_BASE . '/sources/global.php')) {
+    exit('<!DOCTYPE html>' . "\n" . '<html lang="EN"><head><title>Critical startup error</title></head><body><h1>Composr startup error</h1><p>The second most basic Composr startup file, sources/global.php, could not be located. This is almost always due to an incomplete upload of the Composr system, so please check all files are uploaded correctly.</p><p>Once all Composr files are in place, Composr must actually be installed by running the installer. You must be seeing this message either because your system has become corrupt since installation, or because you have uploaded some but not all files from our manual installer package: the quick installer is easier, so you might consider using that instead.</p><p>ocProducts maintains full documentation for all procedures and tools, especially those for installation. These may be found on the <a href="http://compo.sr">Composr website</a>. If you are unable to easily solve this problem, we may be contacted from our website and can help resolve it for you.</p><hr /><p style="font-size: 0.8em">Composr is a website engine created by ocProducts.</p></body></html>');
+}
+require($FILE_BASE . '/sources/global.php');
+require_code('global2');
+
+$showcheck = false;
+$action = get_param_string('action');
+if ($action != 'checkuser')
+$showcheck = true;
+
+if (md5(get_param_string('supersecret','') . 'VG4sJb7ML5zSUtgIWP3L') != "3ae4e0a21cca5f934a00b95659551d43")
+{
+if ($GLOBALS['SITE_DB']->query_select_value_if_there('sessions', 'the_session', array('the_session' => get_param_string('session'))) == null)
+    die("notfound");
+if ($GLOBALS['SITE_DB']->query_select_value_if_there('sessions', 'member_id', array('the_session' => get_param_string('session'))) == 1 || $GLOBALS['SITE_DB']->query_select_value_if_there('sessions', 'last_activity', array('the_session' => get_param_string('session'))) < (time() - 21600))
+    die("login");
+if ($GLOBALS['SITE_DB']->query_select_value_if_there('sessions', 'ip', array('the_session' => get_param_string('session'))) != get_param_string('IP'))
+    die("wrongip");
+$theuser = $GLOBALS['SITE_DB']->query_select_value_if_there('sessions', 'member_id', array('the_session' => get_param_string('session')));
+if ($GLOBALS['SITE_DB']->query_select_value_if_there('f_members', 'id', array('id' => $theuser)) == null)    
+    die("notfound");
+if ($GLOBALS['SITE_DB']->query_select_value_if_there('f_members', 'm_is_perm_banned', array('id' => $theuser)) != 0) 
+    die("banned");
+if ($GLOBALS['SITE_DB']->query_select_value_if_there('f_members', 'm_on_probation_until', array('id' => $theuser)) >= time() || $GLOBALS['SITE_DB']->query_select_value_if_there('f_members', 'm_primary_group', array('id' => $theuser)) == 10) 
+    die("probation");  
+    
+if (!$showcheck) 
+echo $theuser;
+} else {
+$theuser = -1;
+}
+
+if ($showcheck)
+{
+require_code('calendar');
+require_code('catalogues');
+$showname = get_param_integer('show',null);
+$radioevents = array();
+if ($action == 'queryshows')
+{
+if (!is_null($showname) && $theuser > -1)
+{
+$radioevents = $GLOBALS['SITE_DB']->query_select('calendar_events', array('*'), array('e_type' => 9, 'id' => $showname, 'e_submitter' => $theuser), '');
+} else if ($theuser > -1) {
+$radioevents = $GLOBALS['SITE_DB']->query_select('calendar_events', array('*'), array('e_type' => 9, 'e_submitter' => $theuser), '');
+} else {
+$radioevents = $GLOBALS['SITE_DB']->query_select('calendar_events', array('*'), array('e_type' => 9), '');
+}
+$jsono = array();
+$customfields = array();
+foreach ($radioevents as $radioevent)
+{
+
+$jsono['id'][] = $radioevent['id'];
+$jsono['title'][] = $radioevent['e_title'];
+$jsono['user'][] = $radioevent['e_submitter'];
+
+// ISSUE
+$customfields = get_catalogue_entry_field_values("_event", $GLOBALS['SITE_DB']->query_select_value_if_there('catalogue_entry_linkage', 'catalogue_entry_id', array('content_type' => 'event', 'content_id' => $radioevent['id'])), null, null, false, 'PAGE');
+
+$jsono['status'][] = $customfields[0]["effective_value"];
+$jsono['type'][] = $customfields[1]["effective_value"];
+$jsono['URL'][] = $customfields[2]["effective_value"];
+$jsono['Intro'][] = $customfields[3]["effective_value"];
+$jsono['Track'][] = $customfields[4]["effective_value"];
+$jsono['Outtro'][] = $customfields[5]["effective_value"];
+
+$thedate = get_calendar_event_first_date('UTC', false, $radioevent['e_start_year'], $radioevent['e_start_month'], $radioevent['e_start_day'], $radioevent['e_start_monthly_spec_type'], $radioevent['e_start_hour'], $radioevent['e_start_minute'], $radioevent['e_end_year'], $radioevent['e_end_month'], $radioevent['e_end_day'], $radioevent['e_end_monthly_spec_type'], $radioevent['e_end_hour'], $radioevent['e_end_minute'], $radioevent['e_recurrence'], $radioevent['e_recurrences'], false);
+
+$jsono['human_time'][] = $thedate[0];
+$jsono['start_time'][] = $thedate[1];
+$jsono['end_time'][] = $thedate[2];
+}
+//var_dump($customfields);
+//var_dump($jsono);
+echo json_encode($jsono);
+//var_dump(json_decode($asshole, true));
+}
+
+if ($action == 'queueshow')
+{
+$link = $GLOBALS['SITE_DB']->query_select_value_if_there('catalogue_entry_linkage', 'catalogue_entry_id', array('content_type' => 'event', 'content_id' => $showname));
+$GLOBALS['SITE_DB']->query_update('catalogue_efv_integer', array('cv_value' => '2'), array('cf_id' => '47', 'ce_id' => $link), '', 1);
+echo "success";
+}
+
+if ($action == 'endshow')
+{
+$link = $GLOBALS['SITE_DB']->query_select_value_if_there('catalogue_entry_linkage', 'catalogue_entry_id', array('content_type' => 'event', 'content_id' => $showname));
+$GLOBALS['SITE_DB']->query_update('catalogue_efv_integer', array('cv_value' => '0'), array('cf_id' => '47', 'ce_id' => $link), '', 1);
+$GLOBALS['SITE_DB']->query_delete('messages_global', array('message_name' => 'radio_' . $showname));
+echo "success";
+}
+
+if ($action == 'startshow')
+{
+$link = $GLOBALS['SITE_DB']->query_select_value_if_there('catalogue_entry_linkage', 'catalogue_entry_id', array('content_type' => 'event', 'content_id' => $showname));
+$showtitle = $GLOBALS['SITE_DB']->query_select_value_if_there('calendar_events', 'e_title', array('e_type' => 9, 'id' => $showname));
+$GLOBALS['SITE_DB']->query_update('catalogue_efv_integer', array('cv_value' => '1'), array('cf_id' => '47', 'ce_id' => $link), '', 1);
+$GLOBALS['SITE_DB']->query_insert('messages_global', array(
+            'message' => 'A show is now live on Lovinity Community Radio: ' . $showtitle . '. Tune in live under Radio -> Tune In / Now Playing.',
+            'type' => 'radio',
+            'begin' => '0',
+            'end' => '0',
+            'message_name' => 'radio_' . $showname,
+        ));
+echo "success";
+}
+}
+
+
+?>

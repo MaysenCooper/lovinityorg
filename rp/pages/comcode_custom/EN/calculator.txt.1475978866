@@ -1,0 +1,14 @@
+[semihtml][title]Calculator[/title]
+Game masters: Use this calculator page to run equations on things such as attacks, spells, and so on.
+
+<h2>Attack HP damage calculator</h2>
+[block message=&quot;The attack dealt xxx HP damage (round it up)&quot; equation=&quot;(((this.Strength1/(this.Strength1+this.Defense2))*Math.random())*this.maxhp)*100&quot; Strength1=&quot;Strength stat of attacking character&quot; Defense2=&quot;Defense stat of character being attacked&quot; maxhp=&quot;Maximum HP damage of attack&quot;]main_calculator[/block]
+
+<h2>Attack Miss Calculator</h2>
+Step 1 (Y):<br />
+[block message=&quot;The value of Y is xxx&quot; equation=&quot;(100*(this.Accuracy1/(this.Accuracy1+this.Speed2)))*500&quot; Accuracy1=&quot;Accuracy stat of attacking character&quot; Speed2=&quot;Speed stat of character being attacked&quot;]main_calculator[/block]<br />
+Step 2 (X):<br />
+[block message=&quot;The value of X is xxx&quot; equation=&quot;(math.random()*1000)&quot;]main_calculator[/block]<br />
+If X &lt; Y, then the attack missed.<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

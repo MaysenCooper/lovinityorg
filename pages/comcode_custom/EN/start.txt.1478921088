@@ -1,0 +1,211 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,karma_bar}
+[title]Welcome to {$SITE_NAME*}[/title]
+<div style="text-align: center; width: 100%; height: auto;">
+<img src="https://lovinity.org/uploads/attachments/58268a2dc79192.06583567.jpg" width="100%" height="auto">
+</div>
+<div style="text-align: center;"><span style="font-size:1.5em;">[block param="3"]main_greeting[/block]</span></div>
+<hr />
+
+
+{+START,IF,{$NOT,{$IS_GUEST}}}
+<h2>Latest / Featured Content</h2>
+&nbsp;
+
+[tabs param="Latest news,Weekly Topics / Goal,Forum Activity,Featured Content,Featured Media,Featured Social"]
+[tab param="Latest news" default="1"][block="7" member_based="0" select="8" multiplier="0.5" fallback_full="1" fallback_archive="3" blogs="0" zone="_SEARCH" title="Latest news" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="0" as_guest="0" optimise="0" defer="1"]main_news[/block][/tab]
+
+[tab param="Weekly Topics / Goal"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 300px;">
+[block="14" limit="5" hot="0" date_key="lasttime" username_key="lastusername" title="Topics of the Week" check="0" defer="1"]main_forum_topics[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+[block zone="_SEARCH" defer="1"]main_poll[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+[box="Goal of the Week"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td style="width: 160px;">
+			<div class="circle" id="circle">&nbsp;</div>
+			</td>
+			<td><span style="font-size:1.3em;">GOAL OF THE WEEK</span><br />
+			<br />
+			<span style="font-size:1em;">Receive $20 in donations by the end of the day November 11. See About -> Donate.<br />
+			<br />
+Reward: Free 30-day (opposed to standard 7-day) chatroom requests accepted via. Support Tickets for the next week.
+</span></td>
+		</tr>
+	</tbody>
+</table>
+[/box]
+<script>
+window.onload = function(){
+    $('#circle').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 0,
+        size: 150,
+        fill: {
+            color: "rgba(0,128,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 3000,
+            easing: 'circleProgressEasing'
+        },
+    });
+};
+</script>
+</div>
+</div>
+[/tab]
+[tab param="Forum Activity"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 400px;">
+[block="16,28,29,30,31,32,33,34,35,36,37,38" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Activism / Injustice" check="0" defer="1"]main_forum_topics[/block]
+</div>
+<div class="flex-item-max" style="max-width: 400px;">
+[block="15,18,19,20,21,22,23,24,25" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Advice / Wisdom" check="0" defer="1"]main_forum_topics[/block]
+</div>
+</div>
+[/tab]
+
+[tab param="Featured Content"]
+[block="12" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]<br />
+[block="5" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]<br />
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 300px;">
+[block="6" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+[block="11" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+</div>
+[/tab]
+
+[tab param="Featured Media"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 500px;">
+			<td>[block="3" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 300px;">
+			<td>[block="2" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+			<td>[block="7" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+</div>
+[/tab]
+
+[tab param="Featured Social"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 400px;">
+[block="4" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 400px;">
+[block="8" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 400px;">
+[block="10" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+</div>
+[/tab]
+[/tabs]
+
+<br />
+<h2>Activity Feed&nbsp;</h2>
+[block param="Status update" defer="1"]main_activities_state[/block]<br />
+[block param="Activity Feed" max="10" start="0" mode="all" grow="0" refresh_time="30" defer="1"]main_activities[/block]<br />
+{+END}
+<br />
+
+{+START,IF,{$IS_GUEST}}
+<h2>Explore</h2>
+<div style="text-align: center;"><span style="font-size:1.5em;">Welcome to the&nbsp;safe/brave space social network, The Lovinity Community+<br />
+<br />
+Share various thoughts throughout our community:</span>
+
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Wisdom" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/wisdom.png[/media]</p>
+<p><span style="font-size:1.3em;">Advice / Wisdom</span><br />
+			<span style="font-size:1em;">Chat with others on advice, wisdom, and activism. Debate issues, vent about life, and partake in weekly topics the staff create.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Activism" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/report.png[/media]</p>
+<p><span style="font-size:1.3em;">[page="activism:"]Activism[/page]</span><br />
+			<span style="font-size:1em;">We promote activist causes and movements. Contact us to have yours promoted! Utilize our website features to gain a following.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Internet Radio" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/microphone.png[/media]</p>
+<p><span style="font-size:1.3em;">[page="radio:"]Internet Radio[/page]</span><br />
+			<span style="font-size:1em;">Free community internet radio stream. All registered members may host a weekly show up to 1 hour for free. Donor users can host more/longer shows.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Literature" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/book.png[/media]</p>
+<p><span style="font-size:1.3em;">[url="Literature" title="Literature"]https://lovinity.org/catalogues/index/literature[/url]</span><br />
+			<span style="font-size:1em;">Share poems, prose, and more on various subjects. Rate and comment on others' entries.</span></p>
+</div>
+</div>
+<span style="font-size:1.5em;">And have fun while doing so:</span><br />
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Earn Points" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/star.png[/media]</p>
+<p><span style="font-size:1.3em;"><a href="https://lovinity.org/catalogues/entry/website-functionality/what-are-points-gift.htm">Earn Points</a></span><br />
+			<span style="font-size:1em;">Earn points for engaging in our community. Points can be used for a variety of different rewards.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Featured Content" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/award.png[/media]</p>
+<p><span style="font-size:1.3em;"><a href="https://lovinity.org/awards.htm">Featured Content</a></span><br />
+			<span style="font-size:1em;">Staff may feature your content, which will earn you points and gain more exposure. You can set groups of content (via. profile) or individual content (via. its options) to not be featured if you desire.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Role Play" width="128" height="128" framed="0" thumb="0"]uploads/filedump/sliders/rp/pokeball_code_lyoko_symbol_request_idea_2_by_kalel7-d6u4pvq.png[/media]</p>
+<p><span style="font-size:1.3em;"><a href="https://rp.lovinity.org/">Role Play</a></span><br />
+			<span style="font-size:1em;">Join our role play section to participate in a variety of different role plays. You can role play in our main canon, create your own, or do non-canon. We are also multi-fandom friendly.</span></p>
+</div>
+</div>
+
+<span style="font-size:1.5em;">All while enjoying the convenience of our&nbsp;<a class="user_link" href="https://lovinity.org/safespace">Safe/Brave Space Policies</a>:</span><br />
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Inclusion" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/family-of-six-including-a-baby.png[/media]</p>
+<p><span style="font-size:1.3em;">Inclusive Community</span><br />
+			<span style="font-size:1em;">We do not tolerate discrimination, even if religiously influenced. Everyone is welcome here.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Anti-bullying" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/report-symbol.png[/media]</p>
+<p><span style="font-size:1.3em;">Anti-Bullying</span><br />
+We take an active role to ensure bullying does not take place in our community.</p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Privacy" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/keyhole.png[/media]</p>
+<p><span style="font-size:1.3em;">Privacy</span><br />
+<span style="font-size:1em;">Privacy is important. Therefore everything is encrypted under HTTPS. In addition, we prohibit copying of any content from our website.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Moderation" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/flag.png[/media]</p>
+<p><span style="font-size:1.3em;">Moderation</span><br />
+			<span style="font-size:1em;">We have moderators who will intervene with the goal to educate should an issue arise. Our site contains report links to notify staff of issues.</span></p>
+</div>
+</div>
+<br /><br />
+<div style="text-align: center;"><span style="font-size:1.5em;"><a href="https://lovinity.org/join">join our community</a>&nbsp;for free to access <a href="https://lovinity.org/catalogues/entry/website-functionality/what-features-does-the.htm">all of our features</a> and member-only sections of the forum.</span></div>
+{+END}
+<br />
+[block]main_bottom_bar[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

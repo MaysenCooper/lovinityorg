@@ -1,0 +1,7 @@
+[semihtml][title]Welcome to {$SITE_NAME*}[/title]
+[block pages="slide1,slide2,slide3,slide4,slide5,slide6" width="100%" buttons="1" delay="7000" speed="500" keypresses="0" slider_id="unslider_front"]main_unslider[/block]<br />
+[block param="3"]main_greeting[/block]<br />
+<br />
+<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

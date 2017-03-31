@@ -1,0 +1,6 @@
+[semihtml][title]Prize Code[/title]
+Use the form below to submit a prize code to redeem your prize or obtain access to a restricted page or survey. Please be aware <b>prize codes are case sensitive.</b><br />
+<br />
+[block cache=&quot;0&quot;]points_submitcode[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

@@ -1,0 +1,20 @@
+[semihtml][title]Now Playing on The Lovinity Community+ Radio[/title]
+
+<div style="text-align: center;">Your web browser must support HTML5 audio controls to see the web player below.<br />
+&nbsp;
+<script>(function (win, doc, script, source, objectName) { (win.RadionomyPlayerObject = win.RadionomyPlayerObject || []).push(objectName); win[objectName] = win[objectName] || function (k, v) { (win[objectName].parameters = win[objectName].parameters || { src: source, version: '1.1' })[k] = v; }; var js, rjs = doc.getElementsByTagName(script)[0]; js = doc.createElement(script); js.async = 1; js.src = source; rjs.parentNode.insertBefore(js, rjs); }(window, document, 'script', 'https://www.radionomy.com/js/radionomy.player.js', 'radplayer'));
+radplayer('url', 'thelovinitycommunity-');
+radplayer('type', 'horizontal');
+radplayer('autoplay', '0');
+radplayer('volume', '50');
+radplayer('color1', '#000000');
+radplayer('color2', '#ffffff');
+</script>
+<div class="radionomy-player"></div>
+<br />
+<br />
+<strong>Disclaimer:</strong> We do not review all of the content played on our internet radio stream. If you hear something that violates our website rules, please report it by submitting a support ticket (About -&gt; Support Tickets, or email support@lovinity.org ). Include in the report what you heard and at what time you heard it (including time zone).<br />
+&nbsp;</div>
+<iframe height="1000px" src="https://dev.lovinity.org/radio/nowplaying.php" width="100%"></iframe><br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

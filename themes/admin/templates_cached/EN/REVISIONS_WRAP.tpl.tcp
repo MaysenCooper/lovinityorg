@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc87b48e63e4.40717577_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:14:\"REVISIONS_WRAP\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dc87b48e63e4.40717577_1\";s:546:\"\$tpl_funcs['tcpfunc_58dc87b48e63e4.40717577_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc87b48e63e4.40717577_1']=recall_named_function('58dc87b48e6423.70517366','\$parameters,\$cl',\"extract(\\\$parameters,EXTR_PREFIX_ALL,'bound'); echo ((otp(isset(\\\$bound_RESULTS)?\\\$bound_RESULTS:null,\\\"RESULTS/REVISIONS_WRAP\\\")!='')?(\\\"\\\\n	<div class=\\\\\\\"box box___revisions_wrap\\\\\\\"><div class=\\\\\\\"box_inner\\\\\\\">\\\\n		<h2>\\\".\\\"Revisions\\\".\\\"</h2>\\\\n\\\\n		\\\".otp(isset(\\\$bound_RESULTS)?\\\$bound_RESULTS:null,\\\"RESULTS/REVISIONS_WRAP\\\").\\\"\\\\n	</div></div>\\\\n\\\"):''),\\n	\\\"\\\\n\\\";\");\";}}");
+
+?>

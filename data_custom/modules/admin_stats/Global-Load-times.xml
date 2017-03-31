@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://lovinity.org/themes/default/css/svg.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024.00 400.00" preserveAspectRatio="xMinYMin meet" width="1024.00" height="400.00" version="1.1">
+<script>// <![CDATA[
+if (typeof window.addEventListenerAbstract=='undefined') addEventListenerAbstract=function(element,the_event,command,capture)
+{
+    if(element)
+    {
+        if (typeof element.simulated_events=='undefined') element.simulated_events=[];
+        if (typeof element.simulated_events[the_event]=='undefined') element.simulated_events[the_event]=[];
+        element.simulated_events[the_event].push(command);
+
+        if(typeof element.addEventListener!='undefined')
+        {
+            return element.addEventListener(the_event,command,capture);
+        }
+        else if(typeof element.attachEvent!='undefined')
+        {
+            return element.attachEvent("on"+the_event,command);
+        }
+        else return false;
+    }
+    else return false;
+};
+//]]></script>
+<script xlink:href="https://lovinity.org/themes/admin/templates_cached/EN/global.js" />
+<text x="50.00" y="359.97" class="axis_marker_text">307</text>
+<line x1="75.00" y1="359.97" x2="100.00" y2="359.97" class="axis_marker" />
+<line x1="100.00" y1="359.97" x2="1024.00" y2="359.97" class="axis_background_line" />
+<text x="50.00" y="345.94" class="axis_marker_text">614</text>
+<line x1="75.00" y1="345.94" x2="100.00" y2="345.94" class="axis_marker" />
+<line x1="100.00" y1="345.94" x2="1024.00" y2="345.94" class="axis_background_line" />
+<text x="50.00" y="331.91" class="axis_marker_text">921</text>
+<line x1="75.00" y1="331.91" x2="100.00" y2="331.91" class="axis_marker" />
+<line x1="100.00" y1="331.91" x2="1024.00" y2="331.91" class="axis_background_line" />
+<text x="50.00" y="317.87" class="axis_marker_text">1,228</text>
+<line x1="75.00" y1="317.87" x2="100.00" y2="317.87" class="axis_marker" />
+<line x1="100.00" y1="317.87" x2="1024.00" y2="317.87" class="axis_background_line" />
+<text x="50.00" y="303.84" class="axis_marker_text">1,535</text>
+<line x1="75.00" y1="303.84" x2="100.00" y2="303.84" class="axis_marker" />
+<line x1="100.00" y1="303.84" x2="1024.00" y2="303.84" class="axis_background_line" />
+<text x="50.00" y="289.81" class="axis_marker_text">1,842</text>
+<line x1="75.00" y1="289.81" x2="100.00" y2="289.81" class="axis_marker" />
+<line x1="100.00" y1="289.81" x2="1024.00" y2="289.81" class="axis_background_line" />
+<text x="50.00" y="275.78" class="axis_marker_text">2,149</text>
+<line x1="75.00" y1="275.78" x2="100.00" y2="275.78" class="axis_marker" />
+<line x1="100.00" y1="275.78" x2="1024.00" y2="275.78" class="axis_background_line" />
+<text x="50.00" y="261.75" class="axis_marker_text">2,456</text>
+<line x1="75.00" y1="261.75" x2="100.00" y2="261.75" class="axis_marker" />
+<line x1="100.00" y1="261.75" x2="1024.00" y2="261.75" class="axis_background_line" />
+<text x="50.00" y="247.72" class="axis_marker_text">2,763</text>
+<line x1="75.00" y1="247.72" x2="100.00" y2="247.72" class="axis_marker" />
+<line x1="100.00" y1="247.72" x2="1024.00" y2="247.72" class="axis_background_line" />
+<text x="50.00" y="233.68" class="axis_marker_text">3,070</text>
+<line x1="75.00" y1="233.68" x2="100.00" y2="233.68" class="axis_marker" />
+<line x1="100.00" y1="233.68" x2="1024.00" y2="233.68" class="axis_background_line" />
+<text x="50.00" y="219.65" class="axis_marker_text">3,377</text>
+<line x1="75.00" y1="219.65" x2="100.00" y2="219.65" class="axis_marker" />
+<line x1="100.00" y1="219.65" x2="1024.00" y2="219.65" class="axis_background_line" />
+<text x="50.00" y="205.62" class="axis_marker_text">3,684</text>
+<line x1="75.00" y1="205.62" x2="100.00" y2="205.62" class="axis_marker" />
+<line x1="100.00" y1="205.62" x2="1024.00" y2="205.62" class="axis_background_line" />
+<text x="50.00" y="191.59" class="axis_marker_text">3,991</text>
+<line x1="75.00" y1="191.59" x2="100.00" y2="191.59" class="axis_marker" />
+<line x1="100.00" y1="191.59" x2="1024.00" y2="191.59" class="axis_background_line" />
+<text x="50.00" y="177.56" class="axis_marker_text">4,298</text>
+<line x1="75.00" y1="177.56" x2="100.00" y2="177.56" class="axis_marker" />
+<line x1="100.00" y1="177.56" x2="1024.00" y2="177.56" class="axis_background_line" />
+<text x="50.00" y="163.53" class="axis_marker_text">4,605</text>
+<line x1="75.00" y1="163.53" x2="100.00" y2="163.53" class="axis_marker" />
+<line x1="100.00" y1="163.53" x2="1024.00" y2="163.53" class="axis_background_line" />
+<text x="50.00" y="149.49" class="axis_marker_text">4,912</text>
+<line x1="75.00" y1="149.49" x2="100.00" y2="149.49" class="axis_marker" />
+<line x1="100.00" y1="149.49" x2="1024.00" y2="149.49" class="axis_background_line" />
+<text x="50.00" y="135.46" class="axis_marker_text">5,219</text>
+<line x1="75.00" y1="135.46" x2="100.00" y2="135.46" class="axis_marker" />
+<line x1="100.00" y1="135.46" x2="1024.00" y2="135.46" class="axis_background_line" />
+<text x="50.00" y="121.43" class="axis_marker_text">5,526</text>
+<line x1="75.00" y1="121.43" x2="100.00" y2="121.43" class="axis_marker" />
+<line x1="100.00" y1="121.43" x2="1024.00" y2="121.43" class="axis_background_line" />
+<text x="50.00" y="107.40" class="axis_marker_text">5,833</text>
+<line x1="75.00" y1="107.40" x2="100.00" y2="107.40" class="axis_marker" />
+<line x1="100.00" y1="107.40" x2="1024.00" y2="107.40" class="axis_background_line" />
+<text x="50.00" y="93.37" class="axis_marker_text">6,140</text>
+<line x1="75.00" y1="93.37" x2="100.00" y2="93.37" class="axis_marker" />
+<line x1="100.00" y1="93.37" x2="1024.00" y2="93.37" class="axis_background_line" />
+<text x="50.00" y="79.34" class="axis_marker_text">6,447</text>
+<line x1="75.00" y1="79.34" x2="100.00" y2="79.34" class="axis_marker" />
+<line x1="100.00" y1="79.34" x2="1024.00" y2="79.34" class="axis_background_line" />
+<text x="50.00" y="65.30" class="axis_marker_text">6,754</text>
+<line x1="75.00" y1="65.30" x2="100.00" y2="65.30" class="axis_marker" />
+<line x1="100.00" y1="65.30" x2="1024.00" y2="65.30" class="axis_background_line" />
+<text x="50.00" y="51.27" class="axis_marker_text">7,061</text>
+<line x1="75.00" y1="51.27" x2="100.00" y2="51.27" class="axis_marker" />
+<line x1="100.00" y1="51.27" x2="1024.00" y2="51.27" class="axis_background_line" />
+<text x="50.00" y="37.24" class="axis_marker_text">7,368</text>
+<line x1="75.00" y1="37.24" x2="100.00" y2="37.24" class="axis_marker" />
+<line x1="100.00" y1="37.24" x2="1024.00" y2="37.24" class="axis_background_line" />
+<text x="50.00" y="23.21" class="axis_marker_text">7,675</text>
+<line x1="75.00" y1="23.21" x2="100.00" y2="23.21" class="axis_marker" />
+<line x1="100.00" y1="23.21" x2="1024.00" y2="23.21" class="axis_background_line" />
+<text x="50.00" y="374.00" class="axis_marker_text">0</text>
+<line x1="50.00" y1="374.00" x2="1024.00" y2="374.00" class="axis_line" />
+<text x="102.00" y="387.00" class="axis_text">Page</text>
+<line x1="100.00" y1="0.00" x2="100.00" y2="387.00" class="axis_line" />
+<text transform="translate(50.00,374.00) rotate(270)" class="axis_text">Minimum load time (Seconds)</text>
+<line x1="100.00" y1="354.26" x2="1024.00" y2="354.26" class="average_line" />
+<rect id="102.00374.00_bar" x="102.00" y="374.00" width="15.00" height="0.00" style="fill: #333333;" class="bar_chart" />
+<rect id="119.00372.77_bar" x="119.00" y="372.77" width="15.00" height="1.23" style="fill: #3333CC;" class="bar_chart" />
+<rect id="136.00372.58_bar" x="136.00" y="372.58" width="15.00" height="1.42" style="fill: #339933;" class="bar_chart" />
+<rect id="153.00372.35_bar" x="153.00" y="372.35" width="15.00" height="1.65" style="fill: #663333;" class="bar_chart" />
+<rect id="170.00372.35_bar" x="170.00" y="372.35" width="15.00" height="1.65" style="fill: #FF3333;" class="bar_chart" />
+<rect id="187.00372.26_bar" x="187.00" y="372.26" width="15.00" height="1.74" style="fill: #6633CC;" class="bar_chart" />
+<rect id="204.00372.17_bar" x="204.00" y="372.17" width="15.00" height="1.83" style="fill: #669933;" class="bar_chart" />
+<rect id="221.00372.03_bar" x="221.00" y="372.03" width="15.00" height="1.97" style="fill: #993366;" class="bar_chart" />
+<rect id="238.00371.81_bar" x="238.00" y="371.81" width="15.00" height="2.19" style="fill: #9933FF;" class="bar_chart" />
+<rect id="255.00371.67_bar" x="255.00" y="371.67" width="15.00" height="2.33" style="fill: #99CC33;" class="bar_chart" />
+<rect id="272.00371.49_bar" x="272.00" y="371.49" width="15.00" height="2.51" style="fill: #CC3399;" class="bar_chart" />
+<rect id="289.00371.39_bar" x="289.00" y="371.39" width="15.00" height="2.61" style="fill: #CC6633;" class="bar_chart" />
+<rect id="306.00371.35_bar" x="306.00" y="371.35" width="15.00" height="2.65" style="fill: #CCFF33;" class="bar_chart" />
+<rect id="323.00371.35_bar" x="323.00" y="371.35" width="15.00" height="2.65" style="fill: #FF33CC;" class="bar_chart" />
+<rect id="340.00371.26_bar" x="340.00" y="371.26" width="15.00" height="2.74" style="fill: #FF9933;" class="bar_chart" />
+<rect id="357.00371.21_bar" x="357.00" y="371.21" width="15.00" height="2.79" style="fill: #336666;" class="bar_chart" />
+<rect id="374.00371.21_bar" x="374.00" y="371.21" width="15.00" height="2.79" style="fill: #3366FF;" class="bar_chart" />
+<rect id="391.00371.12_bar" x="391.00" y="371.12" width="15.00" height="2.88" style="fill: #3399CC;" class="bar_chart" />
+<rect id="408.00370.94_bar" x="408.00" y="370.94" width="15.00" height="3.06" style="fill: #33CC99;" class="bar_chart" />
+<rect id="425.00370.94_bar" x="425.00" y="370.94" width="15.00" height="3.06" style="fill: #33FF66;" class="bar_chart" />
+<rect id="442.00370.85_bar" x="442.00" y="370.85" width="15.00" height="3.15" style="fill: #33FFFF;" class="bar_chart" />
+<rect id="459.00370.43_bar" x="459.00" y="370.43" width="15.00" height="3.57" style="fill: #333399;" class="bar_chart" />
+<rect id="476.00370.43_bar" x="476.00" y="370.43" width="15.00" height="3.57" style="fill: #336633;" class="bar_chart" />
+<rect id="493.00370.39_bar" x="493.00" y="370.39" width="15.00" height="3.61" style="fill: #33FF33;" class="bar_chart" />
+<rect id="510.00370.16_bar" x="510.00" y="370.16" width="15.00" height="3.84" style="fill: #CC3333;" class="bar_chart" />
+<rect id="527.00369.75_bar" x="527.00" y="369.75" width="15.00" height="4.25" style="fill: #663399;" class="bar_chart" />
+<rect id="544.00369.66_bar" x="544.00" y="369.66" width="15.00" height="4.34" style="fill: #666633;" class="bar_chart" />
+<rect id="561.00369.61_bar" x="561.00" y="369.61" width="15.00" height="4.39" style="fill: #66FF33;" class="bar_chart" />
+<rect id="578.00369.38_bar" x="578.00" y="369.38" width="15.00" height="4.62" style="fill: #9933CC;" class="bar_chart" />
+<rect id="595.00369.34_bar" x="595.00" y="369.34" width="15.00" height="4.66" style="fill: #999933;" class="bar_chart" />
+<rect id="612.00369.25_bar" x="612.00" y="369.25" width="15.00" height="4.75" style="fill: #CC3366;" class="bar_chart" />
+<rect id="629.00368.93_bar" x="629.00" y="368.93" width="15.00" height="5.07" style="fill: #CC33FF;" class="bar_chart" />
+<rect id="646.00368.79_bar" x="646.00" y="368.79" width="15.00" height="5.21" style="fill: #CCCC33;" class="bar_chart" />
+<rect id="663.00368.65_bar" x="663.00" y="368.65" width="15.00" height="5.35" style="fill: #FF3399;" class="bar_chart" />
+<rect id="680.00368.52_bar" x="680.00" y="368.52" width="15.00" height="5.48" style="fill: #FF6633;" class="bar_chart" />
+<rect id="697.00368.38_bar" x="697.00" y="368.38" width="15.00" height="5.62" style="fill: #FFFF33;" class="bar_chart" />
+<rect id="714.00368.10_bar" x="714.00" y="368.10" width="15.00" height="5.90" style="fill: #3366CC;" class="bar_chart" />
+<rect id="731.00367.78_bar" x="731.00" y="367.78" width="15.00" height="6.22" style="fill: #339999;" class="bar_chart" />
+<rect id="748.00367.46_bar" x="748.00" y="367.46" width="15.00" height="6.54" style="fill: #33CC66;" class="bar_chart" />
+<rect id="765.00367.33_bar" x="765.00" y="367.33" width="15.00" height="6.67" style="fill: #33CCFF;" class="bar_chart" />
+<rect id="782.00367.28_bar" x="782.00" y="367.28" width="15.00" height="6.72" style="fill: #33FFCC;" class="bar_chart" />
+<rect id="799.00366.96_bar" x="799.00" y="366.96" width="15.00" height="7.04" style="fill: #333366;" class="bar_chart" />
+<rect id="816.00366.73_bar" x="816.00" y="366.73" width="15.00" height="7.27" style="fill: #3333FF;" class="bar_chart" />
+<rect id="833.00366.64_bar" x="833.00" y="366.64" width="15.00" height="7.36" style="fill: #33CC33;" class="bar_chart" />
+<rect id="850.00366.64_bar" x="850.00" y="366.64" width="15.00" height="7.36" style="fill: #993333;" class="bar_chart" />
+<rect id="867.00366.41_bar" x="867.00" y="366.41" width="15.00" height="7.59" style="fill: #663366;" class="bar_chart" />
+<rect id="884.00365.96_bar" x="884.00" y="365.96" width="15.00" height="8.04" style="fill: #6633FF;" class="bar_chart" />
+<rect id="901.00365.41_bar" x="901.00" y="365.41" width="15.00" height="8.59" style="fill: #66CC33;" class="bar_chart" />
+<rect id="918.00364.86_bar" x="918.00" y="364.86" width="15.00" height="9.14" style="fill: #93399;" class="bar_chart" />
+<rect id="935.00364.77_bar" x="935.00" y="364.77" width="15.00" height="9.23" style="fill: #996633;" class="bar_chart" />
+<rect id="952.00364.72_bar" x="952.00" y="364.72" width="15.00" height="9.28" style="fill: #99FF33;" class="bar_chart" />
+<rect id="969.00364.45_bar" x="969.00" y="364.45" width="15.00" height="9.55" style="fill: #CC33CC;" class="bar_chart" />
+<rect id="986.00364.22_bar" x="986.00" y="364.22" width="15.00" height="9.78" style="fill: #CC9933;" class="bar_chart" />
+<rect id="1003.00364.22_bar" x="1003.00" y="364.22" width="15.00" height="9.78" style="fill: #FF3366;" class="bar_chart" />
+<rect id="1020.00364.04_bar" x="1020.00" y="364.04" width="15.00" height="9.96" style="fill: #FF33FF;" class="bar_chart" />
+<rect id="1037.00363.99_bar" x="1037.00" y="363.99" width="15.00" height="10.01" style="fill: #FFCC33;" class="bar_chart" />
+<rect id="1054.00363.72_bar" x="1054.00" y="363.72" width="15.00" height="10.28" style="fill: #336699;" class="bar_chart" />
+<rect id="1071.00363.44_bar" x="1071.00" y="363.44" width="15.00" height="10.56" style="fill: #339966;" class="bar_chart" />
+<rect id="1088.00362.85_bar" x="1088.00" y="362.85" width="15.00" height="11.15" style="fill: #3399FF;" class="bar_chart" />
+<rect id="1105.00360.97_bar" x="1105.00" y="360.97" width="15.00" height="13.03" style="fill: #33CCCC;" class="bar_chart" />
+<rect id="1122.00360.88_bar" x="1122.00" y="360.88" width="15.00" height="13.12" style="fill: #33FF99;" class="bar_chart" />
+<rect id="1139.00360.43_bar" x="1139.00" y="360.43" width="15.00" height="13.57" style="fill: #333333;" class="bar_chart" />
+<rect id="1156.00360.33_bar" x="1156.00" y="360.33" width="15.00" height="13.67" style="fill: #3333CC;" class="bar_chart" />
+<rect id="1173.00360.29_bar" x="1173.00" y="360.29" width="15.00" height="13.71" style="fill: #339933;" class="bar_chart" />
+<rect id="1190.00360.15_bar" x="1190.00" y="360.15" width="15.00" height="13.85" style="fill: #663333;" class="bar_chart" />
+<rect id="1207.00359.69_bar" x="1207.00" y="359.69" width="15.00" height="14.31" style="fill: #FF3333;" class="bar_chart" />
+<rect id="1224.00359.65_bar" x="1224.00" y="359.65" width="15.00" height="14.35" style="fill: #6633CC;" class="bar_chart" />
+<rect id="1241.00359.51_bar" x="1241.00" y="359.51" width="15.00" height="14.49" style="fill: #669933;" class="bar_chart" />
+<rect id="1258.00359.24_bar" x="1258.00" y="359.24" width="15.00" height="14.76" style="fill: #993366;" class="bar_chart" />
+<rect id="1275.00359.05_bar" x="1275.00" y="359.05" width="15.00" height="14.95" style="fill: #9933FF;" class="bar_chart" />
+<rect id="1292.00358.87_bar" x="1292.00" y="358.87" width="15.00" height="15.13" style="fill: #99CC33;" class="bar_chart" />
+<rect id="1309.00358.64_bar" x="1309.00" y="358.64" width="15.00" height="15.36" style="fill: #CC3399;" class="bar_chart" />
+<rect id="1326.00356.68_bar" x="1326.00" y="356.68" width="15.00" height="17.32" style="fill: #CC6633;" class="bar_chart" />
+<rect id="1343.00356.49_bar" x="1343.00" y="356.49" width="15.00" height="17.51" style="fill: #CCFF33;" class="bar_chart" />
+<rect id="1360.00355.99_bar" x="1360.00" y="355.99" width="15.00" height="18.01" style="fill: #FF33CC;" class="bar_chart" />
+<rect id="1377.00355.85_bar" x="1377.00" y="355.85" width="15.00" height="18.15" style="fill: #FF9933;" class="bar_chart" />
+<rect id="1394.00355.81_bar" x="1394.00" y="355.81" width="15.00" height="18.19" style="fill: #336666;" class="bar_chart" />
+<rect id="1411.00355.81_bar" x="1411.00" y="355.81" width="15.00" height="18.19" style="fill: #3366FF;" class="bar_chart" />
+<rect id="1428.00354.85_bar" x="1428.00" y="354.85" width="15.00" height="19.15" style="fill: #3399CC;" class="bar_chart" />
+<rect id="1445.00354.85_bar" x="1445.00" y="354.85" width="15.00" height="19.15" style="fill: #33CC99;" class="bar_chart" />
+<rect id="1462.00354.30_bar" x="1462.00" y="354.30" width="15.00" height="19.70" style="fill: #33FF66;" class="bar_chart" />
+<rect id="1479.00354.03_bar" x="1479.00" y="354.03" width="15.00" height="19.97" style="fill: #33FFFF;" class="bar_chart" />
+<rect id="1496.00354.03_bar" x="1496.00" y="354.03" width="15.00" height="19.97" style="fill: #333399;" class="bar_chart" />
+<rect id="1513.00353.75_bar" x="1513.00" y="353.75" width="15.00" height="20.25" style="fill: #336633;" class="bar_chart" />
+<rect id="1530.00353.66_bar" x="1530.00" y="353.66" width="15.00" height="20.34" style="fill: #33FF33;" class="bar_chart" />
+<rect id="1547.00353.52_bar" x="1547.00" y="353.52" width="15.00" height="20.48" style="fill: #CC3333;" class="bar_chart" />
+<rect id="1564.00353.16_bar" x="1564.00" y="353.16" width="15.00" height="20.84" style="fill: #663399;" class="bar_chart" />
+<rect id="1581.00353.11_bar" x="1581.00" y="353.11" width="15.00" height="20.89" style="fill: #666633;" class="bar_chart" />
+<rect id="1598.00353.07_bar" x="1598.00" y="353.07" width="15.00" height="20.93" style="fill: #66FF33;" class="bar_chart" />
+<rect id="1615.00353.02_bar" x="1615.00" y="353.02" width="15.00" height="20.98" style="fill: #9933CC;" class="bar_chart" />
+<rect id="1632.00353.02_bar" x="1632.00" y="353.02" width="15.00" height="20.98" style="fill: #999933;" class="bar_chart" />
+<rect id="1649.00352.79_bar" x="1649.00" y="352.79" width="15.00" height="21.21" style="fill: #CC3366;" class="bar_chart" />
+<rect id="1666.00352.43_bar" x="1666.00" y="352.43" width="15.00" height="21.57" style="fill: #CC33FF;" class="bar_chart" />
+<rect id="1683.00349.82_bar" x="1683.00" y="349.82" width="15.00" height="24.18" style="fill: #CCCC33;" class="bar_chart" />
+<rect id="1700.00349.36_bar" x="1700.00" y="349.36" width="15.00" height="24.64" style="fill: #FF3399;" class="bar_chart" />
+<rect id="1717.00348.27_bar" x="1717.00" y="348.27" width="15.00" height="25.73" style="fill: #FF6633;" class="bar_chart" />
+<rect id="1734.00347.90_bar" x="1734.00" y="347.90" width="15.00" height="26.10" style="fill: #FFFF33;" class="bar_chart" />
+<rect id="1751.00346.21_bar" x="1751.00" y="346.21" width="15.00" height="27.79" style="fill: #3366CC;" class="bar_chart" />
+<rect id="1768.00345.53_bar" x="1768.00" y="345.53" width="15.00" height="28.47" style="fill: #339999;" class="bar_chart" />
+<rect id="1785.00340.27_bar" x="1785.00" y="340.27" width="15.00" height="33.73" style="fill: #33CC66;" class="bar_chart" />
+<rect id="1802.00327.20_bar" x="1802.00" y="327.20" width="15.00" height="46.80" style="fill: #33CCFF;" class="bar_chart" />
+<rect id="1819.00326.97_bar" x="1819.00" y="326.97" width="15.00" height="47.03" style="fill: #33FFCC;" class="bar_chart" />
+<rect id="1836.00324.91_bar" x="1836.00" y="324.91" width="15.00" height="49.09" style="fill: #333366;" class="bar_chart" />
+<rect id="1853.00308.73_bar" x="1853.00" y="308.73" width="15.00" height="65.27" style="fill: #3333FF;" class="bar_chart" />
+<rect id="1870.00301.60_bar" x="1870.00" y="301.60" width="15.00" height="72.40" style="fill: #33CC33;" class="bar_chart" />
+<rect id="1887.00244.52_bar" x="1887.00" y="244.52" width="15.00" height="129.48" style="fill: #993333;" class="bar_chart" />
+<rect id="1904.00114.03_bar" x="1904.00" y="114.03" width="15.00" height="259.97" style="fill: #663366;" class="bar_chart" />
+<rect id="1921.0010.00_bar" x="1921.00" y="10.00" width="15.00" height="364.00" style="fill: #6633FF;" class="bar_chart" />
+<text style="fill: black; font-weight: normal" id="102.00374.00" transform="translate(113.00,360.00) rotate(270)" class="bar_chart_text">/access_denied</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("102.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("102.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("102.00374.00").de_clarify=function(event) { document.getElementById("102.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("102.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("102.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("102.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("102.00374.00_bar").de_clarify=function(event) { document.getElementById("102.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("102.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="119.00372.77" transform="translate(130.00,360.00) rotate(270)" class="bar_chart_text">site:pointstore</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("119.00372.77"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("119.00372.77").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("119.00372.77").de_clarify=function(event) { document.getElementById("119.00372.77").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("119.00372.77"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("119.00372.77_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("119.00372.77").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("119.00372.77_bar").de_clarify=function(event) { document.getElementById("119.00372.77").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("119.00372.77_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="136.00372.58" transform="translate(147.00,360.00) rotate(270)" class="bar_chart_text">:feedback (Leave feedback)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("136.00372.58"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("136.00372.58").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("136.00372.58").de_clarify=function(event) { document.getElementById("136.00372.58").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("136.00372.58"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("136.00372.58_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("136.00372.58").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("136.00372.58_bar").de_clarify=function(event) { document.getElementById("136.00372.58").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("136.00372.58_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="153.00372.35" transform="translate(164.00,360.00) rotate(270)" class="bar_chart_text">:login</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("153.00372.35"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("153.00372.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("153.00372.35").de_clarify=function(event) { document.getElementById("153.00372.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("153.00372.35"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("153.00372.35_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("153.00372.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("153.00372.35_bar").de_clarify=function(event) { document.getElementById("153.00372.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("153.00372.35_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="170.00372.35" transform="translate(181.00,360.00) rotate(270)" class="bar_chart_text">forum:topics</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("170.00372.35"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("170.00372.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("170.00372.35").de_clarify=function(event) { document.getElementById("170.00372.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("170.00372.35"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("170.00372.35_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("170.00372.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("170.00372.35_bar").de_clarify=function(event) { document.getElementById("170.00372.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("170.00372.35_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="187.00372.26" transform="translate(198.00,360.00) rotate(270)" class="bar_chart_text">:rules</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("187.00372.26"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("187.00372.26").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("187.00372.26").de_clarify=function(event) { document.getElementById("187.00372.26").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("187.00372.26"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("187.00372.26_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("187.00372.26").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("187.00372.26_bar").de_clarify=function(event) { document.getElementById("187.00372.26").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("187.00372.26_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="204.00372.17" transform="translate(215.00,360.00) rotate(270)" class="bar_chart_text">site:notifications</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("204.00372.17"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("204.00372.17").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("204.00372.17").de_clarify=function(event) { document.getElementById("204.00372.17").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("204.00372.17"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("204.00372.17_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("204.00372.17").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("204.00372.17_bar").de_clarify=function(event) { document.getElementById("204.00372.17").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("204.00372.17_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="221.00372.03" transform="translate(232.00,360.00) rotate(270)" class="bar_chart_text">cms:filedump</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("221.00372.03"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("221.00372.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("221.00372.03").de_clarify=function(event) { document.getElementById("221.00372.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("221.00372.03"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("221.00372.03_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("221.00372.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("221.00372.03_bar").de_clarify=function(event) { document.getElementById("221.00372.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("221.00372.03_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="238.00371.81" transform="translate(249.00,360.00) rotate(270)" class="bar_chart_text">forum:topicview</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("238.00371.81"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("238.00371.81").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("238.00371.81").de_clarify=function(event) { document.getElementById("238.00371.81").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("238.00371.81"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("238.00371.81_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("238.00371.81").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("238.00371.81_bar").de_clarify=function(event) { document.getElementById("238.00371.81").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("238.00371.81_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="255.00371.67" transform="translate(266.00,360.00) rotate(270)" class="bar_chart_text">radio:start (Now Playing on The Lovinity Community+ Radio)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("255.00371.67"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("255.00371.67").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("255.00371.67").de_clarify=function(event) { document.getElementById("255.00371.67").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("255.00371.67"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("255.00371.67_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("255.00371.67").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("255.00371.67_bar").de_clarify=function(event) { document.getElementById("255.00371.67").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("255.00371.67_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="272.00371.49" transform="translate(283.00,360.00) rotate(270)" class="bar_chart_text">:start (Welcome to {$SITE_NAME*})</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("272.00371.49"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("272.00371.49").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("272.00371.49").de_clarify=function(event) { document.getElementById("272.00371.49").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("272.00371.49"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("272.00371.49_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("272.00371.49").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("272.00371.49_bar").de_clarify=function(event) { document.getElementById("272.00371.49").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("272.00371.49_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="289.00371.39" transform="translate(300.00,360.00) rotate(270)" class="bar_chart_text">radio:thetalk (The Talk)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("289.00371.39"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("289.00371.39").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("289.00371.39").de_clarify=function(event) { document.getElementById("289.00371.39").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("289.00371.39"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("289.00371.39_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("289.00371.39").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("289.00371.39_bar").de_clarify=function(event) { document.getElementById("289.00371.39").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("289.00371.39_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="306.00371.35" transform="translate(317.00,360.00) rotate(270)" class="bar_chart_text">:about (Who We Are)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("306.00371.35"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("306.00371.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("306.00371.35").de_clarify=function(event) { document.getElementById("306.00371.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("306.00371.35"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("306.00371.35_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("306.00371.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("306.00371.35_bar").de_clarify=function(event) { document.getElementById("306.00371.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("306.00371.35_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="323.00371.35" transform="translate(334.00,360.00) rotate(270)" class="bar_chart_text">site:help</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("323.00371.35"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("323.00371.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("323.00371.35").de_clarify=function(event) { document.getElementById("323.00371.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("323.00371.35"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("323.00371.35_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("323.00371.35").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("323.00371.35_bar").de_clarify=function(event) { document.getElementById("323.00371.35").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("323.00371.35_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="340.00371.26" transform="translate(351.00,360.00) rotate(270)" class="bar_chart_text">:privacy (Privacy policy)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("340.00371.26"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("340.00371.26").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("340.00371.26").de_clarify=function(event) { document.getElementById("340.00371.26").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("340.00371.26"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("340.00371.26_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("340.00371.26").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("340.00371.26_bar").de_clarify=function(event) { document.getElementById("340.00371.26").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("340.00371.26_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="357.00371.21" transform="translate(368.00,360.00) rotate(270)" class="bar_chart_text">site:calendar</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("357.00371.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("357.00371.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("357.00371.21").de_clarify=function(event) { document.getElementById("357.00371.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("357.00371.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("357.00371.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("357.00371.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("357.00371.21_bar").de_clarify=function(event) { document.getElementById("357.00371.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("357.00371.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="374.00371.21" transform="translate(385.00,360.00) rotate(270)" class="bar_chart_text">radio:library (Track Library / Request)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("374.00371.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("374.00371.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("374.00371.21").de_clarify=function(event) { document.getElementById("374.00371.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("374.00371.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("374.00371.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("374.00371.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("374.00371.21_bar").de_clarify=function(event) { document.getElementById("374.00371.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("374.00371.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="391.00371.12" transform="translate(402.00,360.00) rotate(270)" class="bar_chart_text">radio_theikebshow:start (The Ike B Show)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("391.00371.12"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("391.00371.12").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("391.00371.12").de_clarify=function(event) { document.getElementById("391.00371.12").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("391.00371.12"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("391.00371.12_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("391.00371.12").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("391.00371.12_bar").de_clarify=function(event) { document.getElementById("391.00371.12").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("391.00371.12_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="408.00370.94" transform="translate(419.00,360.00) rotate(270)" class="bar_chart_text">site:wiki</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("408.00370.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("408.00370.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("408.00370.94").de_clarify=function(event) { document.getElementById("408.00370.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("408.00370.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("408.00370.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("408.00370.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("408.00370.94_bar").de_clarify=function(event) { document.getElementById("408.00370.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("408.00370.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="425.00370.94" transform="translate(436.00,360.00) rotate(270)" class="bar_chart_text">site:catalogues</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("425.00370.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("425.00370.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("425.00370.94").de_clarify=function(event) { document.getElementById("425.00370.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("425.00370.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("425.00370.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("425.00370.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("425.00370.94_bar").de_clarify=function(event) { document.getElementById("425.00370.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("425.00370.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="442.00370.85" transform="translate(453.00,360.00) rotate(270)" class="bar_chart_text">:staff (Staff)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("442.00370.85"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("442.00370.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("442.00370.85").de_clarify=function(event) { document.getElementById("442.00370.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("442.00370.85"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("442.00370.85_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("442.00370.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("442.00370.85_bar").de_clarify=function(event) { document.getElementById("442.00370.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("442.00370.85_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="459.00370.43" transform="translate(470.00,360.00) rotate(270)" class="bar_chart_text">forum:forumview</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("459.00370.43"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("459.00370.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("459.00370.43").de_clarify=function(event) { document.getElementById("459.00370.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("459.00370.43"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("459.00370.43_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("459.00370.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("459.00370.43_bar").de_clarify=function(event) { document.getElementById("459.00370.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("459.00370.43_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="476.00370.43" transform="translate(487.00,360.00) rotate(270)" class="bar_chart_text">:safespace (Safe Space Policy)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("476.00370.43"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("476.00370.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("476.00370.43").de_clarify=function(event) { document.getElementById("476.00370.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("476.00370.43"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("476.00370.43_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("476.00370.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("476.00370.43_bar").de_clarify=function(event) { document.getElementById("476.00370.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("476.00370.43_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="493.00370.39" transform="translate(504.00,360.00) rotate(270)" class="bar_chart_text">site:members</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("493.00370.39"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("493.00370.39").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("493.00370.39").de_clarify=function(event) { document.getElementById("493.00370.39").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("493.00370.39"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("493.00370.39_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("493.00370.39").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("493.00370.39_bar").de_clarify=function(event) { document.getElementById("493.00370.39").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("493.00370.39_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="510.00370.16" transform="translate(521.00,360.00) rotate(270)" class="bar_chart_text">site:downloads</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("510.00370.16"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("510.00370.16").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("510.00370.16").de_clarify=function(event) { document.getElementById("510.00370.16").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("510.00370.16"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("510.00370.16_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("510.00370.16").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("510.00370.16_bar").de_clarify=function(event) { document.getElementById("510.00370.16").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("510.00370.16_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="527.00369.75" transform="translate(538.00,360.00) rotate(270)" class="bar_chart_text">site:galleries</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("527.00369.75"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("527.00369.75").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("527.00369.75").de_clarify=function(event) { document.getElementById("527.00369.75").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("527.00369.75"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("527.00369.75_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("527.00369.75").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("527.00369.75_bar").de_clarify=function(event) { document.getElementById("527.00369.75").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("527.00369.75_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="544.00369.66" transform="translate(555.00,360.00) rotate(270)" class="bar_chart_text">radio:dashboard (Radio Dashboard)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("544.00369.66"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("544.00369.66").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("544.00369.66").de_clarify=function(event) { document.getElementById("544.00369.66").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("544.00369.66"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("544.00369.66_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("544.00369.66").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("544.00369.66_bar").de_clarify=function(event) { document.getElementById("544.00369.66").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("544.00369.66_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="561.00369.61" transform="translate(572.00,360.00) rotate(270)" class="bar_chart_text">:blogs (Blogs)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("561.00369.61"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("561.00369.61").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("561.00369.61").de_clarify=function(event) { document.getElementById("561.00369.61").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("561.00369.61"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("561.00369.61_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("561.00369.61").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("561.00369.61_bar").de_clarify=function(event) { document.getElementById("561.00369.61").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("561.00369.61_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="578.00369.38" transform="translate(589.00,360.00) rotate(270)" class="bar_chart_text">:donate (&lt;span style=&quot;  font-size: 1.3em&quot;&gt;Donate&lt;/span&gt;)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("578.00369.38"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("578.00369.38").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("578.00369.38").de_clarify=function(event) { document.getElementById("578.00369.38").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("578.00369.38"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("578.00369.38_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("578.00369.38").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("578.00369.38_bar").de_clarify=function(event) { document.getElementById("578.00369.38").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("578.00369.38_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="595.00369.34" transform="translate(606.00,360.00) rotate(270)" class="bar_chart_text">:tos</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("595.00369.34"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("595.00369.34").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("595.00369.34").de_clarify=function(event) { document.getElementById("595.00369.34").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("595.00369.34"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("595.00369.34_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("595.00369.34").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("595.00369.34_bar").de_clarify=function(event) { document.getElementById("595.00369.34").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("595.00369.34_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="612.00369.25" transform="translate(623.00,360.00) rotate(270)" class="bar_chart_text">radio:schedule (Radio Schedule)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("612.00369.25"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("612.00369.25").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("612.00369.25").de_clarify=function(event) { document.getElementById("612.00369.25").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("612.00369.25"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("612.00369.25_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("612.00369.25").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("612.00369.25_bar").de_clarify=function(event) { document.getElementById("612.00369.25").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("612.00369.25_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="629.00368.93" transform="translate(640.00,360.00) rotate(270)" class="bar_chart_text">site:report_content</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("629.00368.93"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("629.00368.93").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("629.00368.93").de_clarify=function(event) { document.getElementById("629.00368.93").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("629.00368.93"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("629.00368.93_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("629.00368.93").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("629.00368.93_bar").de_clarify=function(event) { document.getElementById("629.00368.93").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("629.00368.93_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="646.00368.79" transform="translate(657.00,360.00) rotate(270)" class="bar_chart_text">site:news</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("646.00368.79"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("646.00368.79").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("646.00368.79").de_clarify=function(event) { document.getElementById("646.00368.79").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("646.00368.79"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("646.00368.79_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("646.00368.79").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("646.00368.79_bar").de_clarify=function(event) { document.getElementById("646.00368.79").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("646.00368.79_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="663.00368.65" transform="translate(674.00,360.00) rotate(270)" class="bar_chart_text">:advertise (Advertising Opportunities)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("663.00368.65"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("663.00368.65").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("663.00368.65").de_clarify=function(event) { document.getElementById("663.00368.65").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("663.00368.65"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("663.00368.65_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("663.00368.65").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("663.00368.65_bar").de_clarify=function(event) { document.getElementById("663.00368.65").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("663.00368.65_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="680.00368.52" transform="translate(691.00,360.00) rotate(270)" class="bar_chart_text">site:chat</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("680.00368.52"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("680.00368.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("680.00368.52").de_clarify=function(event) { document.getElementById("680.00368.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("680.00368.52"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("680.00368.52_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("680.00368.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("680.00368.52_bar").de_clarify=function(event) { document.getElementById("680.00368.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("680.00368.52_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="697.00368.38" transform="translate(708.00,360.00) rotate(270)" class="bar_chart_text">:404 (404 Not Found)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("697.00368.38"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("697.00368.38").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("697.00368.38").de_clarify=function(event) { document.getElementById("697.00368.38").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("697.00368.38"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("697.00368.38_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("697.00368.38").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("697.00368.38_bar").de_clarify=function(event) { document.getElementById("697.00368.38").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("697.00368.38_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="714.00368.10" transform="translate(725.00,360.00) rotate(270)" class="bar_chart_text">radio:hostshow (Host Your Own Radio Show)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("714.00368.10"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("714.00368.10").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("714.00368.10").de_clarify=function(event) { document.getElementById("714.00368.10").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("714.00368.10"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("714.00368.10_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("714.00368.10").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("714.00368.10_bar").de_clarify=function(event) { document.getElementById("714.00368.10").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("714.00368.10_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="731.00367.78" transform="translate(742.00,360.00) rotate(270)" class="bar_chart_text">forum:vforums</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("731.00367.78"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("731.00367.78").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("731.00367.78").de_clarify=function(event) { document.getElementById("731.00367.78").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("731.00367.78"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("731.00367.78_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("731.00367.78").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("731.00367.78_bar").de_clarify=function(event) { document.getElementById("731.00367.78").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("731.00367.78_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="748.00367.46" transform="translate(759.00,360.00) rotate(270)" class="bar_chart_text">activism:start (Your Activism Cause Here)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("748.00367.46"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("748.00367.46").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("748.00367.46").de_clarify=function(event) { document.getElementById("748.00367.46").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("748.00367.46"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("748.00367.46_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("748.00367.46").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("748.00367.46_bar").de_clarify=function(event) { document.getElementById("748.00367.46").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("748.00367.46_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="765.00367.33" transform="translate(776.00,360.00) rotate(270)" class="bar_chart_text">site:groups</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("765.00367.33"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("765.00367.33").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("765.00367.33").de_clarify=function(event) { document.getElementById("765.00367.33").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("765.00367.33"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("765.00367.33_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("765.00367.33").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("765.00367.33_bar").de_clarify=function(event) { document.getElementById("765.00367.33").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("765.00367.33_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="782.00367.28" transform="translate(793.00,360.00) rotate(270)" class="bar_chart_text">site:users_online</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("782.00367.28"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("782.00367.28").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("782.00367.28").de_clarify=function(event) { document.getElementById("782.00367.28").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("782.00367.28"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("782.00367.28_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("782.00367.28").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("782.00367.28_bar").de_clarify=function(event) { document.getElementById("782.00367.28").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("782.00367.28_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="799.00366.96" transform="translate(810.00,360.00) rotate(270)" class="bar_chart_text">:recommend</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("799.00366.96"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("799.00366.96").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("799.00366.96").de_clarify=function(event) { document.getElementById("799.00366.96").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("799.00366.96"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("799.00366.96_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("799.00366.96").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("799.00366.96_bar").de_clarify=function(event) { document.getElementById("799.00366.96").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("799.00366.96_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="816.00366.73" transform="translate(827.00,360.00) rotate(270)" class="bar_chart_text">site:awards</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("816.00366.73"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("816.00366.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("816.00366.73").de_clarify=function(event) { document.getElementById("816.00366.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("816.00366.73"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("816.00366.73_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("816.00366.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("816.00366.73_bar").de_clarify=function(event) { document.getElementById("816.00366.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("816.00366.73_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="833.00366.64" transform="translate(844.00,360.00) rotate(270)" class="bar_chart_text">site:authors</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("833.00366.64"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("833.00366.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("833.00366.64").de_clarify=function(event) { document.getElementById("833.00366.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("833.00366.64"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("833.00366.64_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("833.00366.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("833.00366.64_bar").de_clarify=function(event) { document.getElementById("833.00366.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("833.00366.64_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="850.00366.64" transform="translate(861.00,360.00) rotate(270)" class="bar_chart_text">:join</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("850.00366.64"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("850.00366.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("850.00366.64").de_clarify=function(event) { document.getElementById("850.00366.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("850.00366.64"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("850.00366.64_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("850.00366.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("850.00366.64_bar").de_clarify=function(event) { document.getElementById("850.00366.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("850.00366.64_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="867.00366.41" transform="translate(878.00,360.00) rotate(270)" class="bar_chart_text">:keymap (Keyboard shortcuts)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("867.00366.41"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("867.00366.41").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("867.00366.41").de_clarify=function(event) { document.getElementById("867.00366.41").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("867.00366.41"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("867.00366.41_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("867.00366.41").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("867.00366.41_bar").de_clarify=function(event) { document.getElementById("867.00366.41").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("867.00366.41_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="884.00365.96" transform="translate(895.00,360.00) rotate(270)" class="bar_chart_text">site:polls</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("884.00365.96"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("884.00365.96").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("884.00365.96").de_clarify=function(event) { document.getElementById("884.00365.96").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("884.00365.96"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("884.00365.96_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("884.00365.96").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("884.00365.96_bar").de_clarify=function(event) { document.getElementById("884.00365.96").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("884.00365.96_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="901.00365.41" transform="translate(912.00,360.00) rotate(270)" class="bar_chart_text">site:userguide_chatcode (Chatcode help)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("901.00365.41"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("901.00365.41").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("901.00365.41").de_clarify=function(event) { document.getElementById("901.00365.41").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("901.00365.41"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("901.00365.41_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("901.00365.41").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("901.00365.41_bar").de_clarify=function(event) { document.getElementById("901.00365.41").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("901.00365.41_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="918.00364.86" transform="translate(929.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_blogs</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("918.00364.86"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("918.00364.86").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("918.00364.86").de_clarify=function(event) { document.getElementById("918.00364.86").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("918.00364.86"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("918.00364.86_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("918.00364.86").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("918.00364.86_bar").de_clarify=function(event) { document.getElementById("918.00364.86").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("918.00364.86_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="935.00364.77" transform="translate(946.00,360.00) rotate(270)" class="bar_chart_text">site:shopping</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("935.00364.77"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("935.00364.77").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("935.00364.77").de_clarify=function(event) { document.getElementById("935.00364.77").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("935.00364.77"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("935.00364.77_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("935.00364.77").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("935.00364.77_bar").de_clarify=function(event) { document.getElementById("935.00364.77").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("935.00364.77_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="952.00364.72" transform="translate(963.00,360.00) rotate(270)" class="bar_chart_text">radio:guided_meditations (Guided Meditations)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("952.00364.72"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("952.00364.72").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("952.00364.72").de_clarify=function(event) { document.getElementById("952.00364.72").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("952.00364.72"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("952.00364.72_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("952.00364.72").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("952.00364.72_bar").de_clarify=function(event) { document.getElementById("952.00364.72").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("952.00364.72_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="969.00364.45" transform="translate(980.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("969.00364.45"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("969.00364.45").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("969.00364.45").de_clarify=function(event) { document.getElementById("969.00364.45").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("969.00364.45"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("969.00364.45_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("969.00364.45").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("969.00364.45_bar").de_clarify=function(event) { document.getElementById("969.00364.45").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("969.00364.45_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="986.00364.22" transform="translate(997.00,360.00) rotate(270)" class="bar_chart_text">:leaders (Leaders)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("986.00364.22"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("986.00364.22").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("986.00364.22").de_clarify=function(event) { document.getElementById("986.00364.22").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("986.00364.22"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("986.00364.22_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("986.00364.22").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("986.00364.22_bar").de_clarify=function(event) { document.getElementById("986.00364.22").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("986.00364.22_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1003.00364.22" transform="translate(1014.00,360.00) rotate(270)" class="bar_chart_text">site:tickets</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1003.00364.22"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1003.00364.22").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1003.00364.22").de_clarify=function(event) { document.getElementById("1003.00364.22").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1003.00364.22"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1003.00364.22_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1003.00364.22").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1003.00364.22_bar").de_clarify=function(event) { document.getElementById("1003.00364.22").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1003.00364.22_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1020.00364.04" transform="translate(1031.00,360.00) rotate(270)" class="bar_chart_text">site:userguide_comcode (Comcode help)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1020.00364.04"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1020.00364.04").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1020.00364.04").de_clarify=function(event) { document.getElementById("1020.00364.04").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1020.00364.04"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1020.00364.04_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1020.00364.04").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1020.00364.04_bar").de_clarify=function(event) { document.getElementById("1020.00364.04").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1020.00364.04_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1037.00363.99" transform="translate(1048.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_commandr</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1037.00363.99"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1037.00363.99").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1037.00363.99").de_clarify=function(event) { document.getElementById("1037.00363.99").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1037.00363.99"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1037.00363.99_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1037.00363.99").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1037.00363.99_bar").de_clarify=function(event) { document.getElementById("1037.00363.99").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1037.00363.99_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1054.00363.72" transform="translate(1065.00,360.00) rotate(270)" class="bar_chart_text">site:newsletter</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1054.00363.72"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1054.00363.72").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1054.00363.72").de_clarify=function(event) { document.getElementById("1054.00363.72").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1054.00363.72"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1054.00363.72_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1054.00363.72").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1054.00363.72_bar").de_clarify=function(event) { document.getElementById("1054.00363.72").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1054.00363.72_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1071.00363.44" transform="translate(1082.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_pointstore</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1071.00363.44"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1071.00363.44").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1071.00363.44").de_clarify=function(event) { document.getElementById("1071.00363.44").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1071.00363.44"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1071.00363.44_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1071.00363.44").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1071.00363.44_bar").de_clarify=function(event) { document.getElementById("1071.00363.44").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1071.00363.44_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1088.00362.85" transform="translate(1099.00,360.00) rotate(270)" class="bar_chart_text">:recommend_help</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1088.00362.85"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1088.00362.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1088.00362.85").de_clarify=function(event) { document.getElementById("1088.00362.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1088.00362.85"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1088.00362.85_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1088.00362.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1088.00362.85_bar").de_clarify=function(event) { document.getElementById("1088.00362.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1088.00362.85_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1105.00360.97" transform="translate(1116.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_newsletter</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1105.00360.97"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1105.00360.97").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1105.00360.97").de_clarify=function(event) { document.getElementById("1105.00360.97").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1105.00360.97"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1105.00360.97_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1105.00360.97").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1105.00360.97_bar").de_clarify=function(event) { document.getElementById("1105.00360.97").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1105.00360.97_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1122.00360.88" transform="translate(1133.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_zones</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1122.00360.88"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1122.00360.88").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1122.00360.88").de_clarify=function(event) { document.getElementById("1122.00360.88").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1122.00360.88"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1122.00360.88_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1122.00360.88").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1122.00360.88_bar").de_clarify=function(event) { document.getElementById("1122.00360.88").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1122.00360.88_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1139.00360.43" transform="translate(1150.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_giftr</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1139.00360.43"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1139.00360.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1139.00360.43").de_clarify=function(event) { document.getElementById("1139.00360.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1139.00360.43"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1139.00360.43_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1139.00360.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1139.00360.43_bar").de_clarify=function(event) { document.getElementById("1139.00360.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1139.00360.43_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1156.00360.33" transform="translate(1167.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_galleries</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1156.00360.33"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1156.00360.33").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1156.00360.33").de_clarify=function(event) { document.getElementById("1156.00360.33").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1156.00360.33"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1156.00360.33_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1156.00360.33").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1156.00360.33_bar").de_clarify=function(event) { document.getElementById("1156.00360.33").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1156.00360.33_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1173.00360.29" transform="translate(1184.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_polls</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1173.00360.29"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1173.00360.29").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1173.00360.29").de_clarify=function(event) { document.getElementById("1173.00360.29").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1173.00360.29"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1173.00360.29_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1173.00360.29").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1173.00360.29_bar").de_clarify=function(event) { document.getElementById("1173.00360.29").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1173.00360.29_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1190.00360.15" transform="translate(1201.00,360.00) rotate(270)" class="bar_chart_text">site:banners</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1190.00360.15"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1190.00360.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1190.00360.15").de_clarify=function(event) { document.getElementById("1190.00360.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1190.00360.15"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1190.00360.15_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1190.00360.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1190.00360.15_bar").de_clarify=function(event) { document.getElementById("1190.00360.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1190.00360.15_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1207.00359.69" transform="translate(1218.00,360.00) rotate(270)" class="bar_chart_text">adminzone:start (Admin Dashboard)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1207.00359.69"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1207.00359.69").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1207.00359.69").de_clarify=function(event) { document.getElementById("1207.00359.69").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1207.00359.69"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1207.00359.69_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1207.00359.69").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1207.00359.69_bar").de_clarify=function(event) { document.getElementById("1207.00359.69").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1207.00359.69_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1224.00359.65" transform="translate(1235.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_community_billboard</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1224.00359.65"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1224.00359.65").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1224.00359.65").de_clarify=function(event) { document.getElementById("1224.00359.65").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1224.00359.65"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1224.00359.65_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1224.00359.65").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1224.00359.65_bar").de_clarify=function(event) { document.getElementById("1224.00359.65").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1224.00359.65_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1241.00359.51" transform="translate(1252.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_themes</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1241.00359.51"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1241.00359.51").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1241.00359.51").de_clarify=function(event) { document.getElementById("1241.00359.51").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1241.00359.51"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1241.00359.51_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1241.00359.51").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1241.00359.51_bar").de_clarify=function(event) { document.getElementById("1241.00359.51").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1241.00359.51_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1258.00359.24" transform="translate(1269.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_stats</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1258.00359.24"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1258.00359.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1258.00359.24").de_clarify=function(event) { document.getElementById("1258.00359.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1258.00359.24"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1258.00359.24_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1258.00359.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1258.00359.24_bar").de_clarify=function(event) { document.getElementById("1258.00359.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1258.00359.24_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1275.00359.05" transform="translate(1286.00,360.00) rotate(270)" class="bar_chart_text">adminzone:NDA (1. Non-Disclosure agreement)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1275.00359.05"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1275.00359.05").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1275.00359.05").de_clarify=function(event) { document.getElementById("1275.00359.05").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1275.00359.05"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1275.00359.05_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1275.00359.05").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1275.00359.05_bar").de_clarify=function(event) { document.getElementById("1275.00359.05").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1275.00359.05_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1292.00358.87" transform="translate(1303.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_cleanup</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1292.00358.87"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1292.00358.87").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1292.00358.87").de_clarify=function(event) { document.getElementById("1292.00358.87").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1292.00358.87"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1292.00358.87_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1292.00358.87").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1292.00358.87_bar").de_clarify=function(event) { document.getElementById("1292.00358.87").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1292.00358.87_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1309.00358.64" transform="translate(1320.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_content_reviews</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1309.00358.64"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1309.00358.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1309.00358.64").de_clarify=function(event) { document.getElementById("1309.00358.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1309.00358.64"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1309.00358.64_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1309.00358.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1309.00358.64_bar").de_clarify=function(event) { document.getElementById("1309.00358.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1309.00358.64_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1326.00356.68" transform="translate(1337.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_comcode_pages</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1326.00356.68"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1326.00356.68").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1326.00356.68").de_clarify=function(event) { document.getElementById("1326.00356.68").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1326.00356.68"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1326.00356.68_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1326.00356.68").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1326.00356.68_bar").de_clarify=function(event) { document.getElementById("1326.00356.68").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1326.00356.68_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1343.00356.49" transform="translate(1354.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_email_log</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1343.00356.49"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1343.00356.49").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1343.00356.49").de_clarify=function(event) { document.getElementById("1343.00356.49").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1343.00356.49"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1343.00356.49_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1343.00356.49").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1343.00356.49_bar").de_clarify=function(event) { document.getElementById("1343.00356.49").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1343.00356.49_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1360.00355.99" transform="translate(1371.00,360.00) rotate(270)" class="bar_chart_text">:forums</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1360.00355.99"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1360.00355.99").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1360.00355.99").de_clarify=function(event) { document.getElementById("1360.00355.99").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1360.00355.99"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1360.00355.99_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1360.00355.99").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1360.00355.99_bar").de_clarify=function(event) { document.getElementById("1360.00355.99").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1360.00355.99_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1377.00355.85" transform="translate(1388.00,360.00) rotate(270)" class="bar_chart_text">adminzone:training_B (2B. Staff Chain of Command / Staff Positions)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1377.00355.85"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1377.00355.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1377.00355.85").de_clarify=function(event) { document.getElementById("1377.00355.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1377.00355.85"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1377.00355.85_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1377.00355.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1377.00355.85_bar").de_clarify=function(event) { document.getElementById("1377.00355.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1377.00355.85_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1394.00355.81" transform="translate(1405.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_addons</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1394.00355.81"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1394.00355.81").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1394.00355.81").de_clarify=function(event) { document.getElementById("1394.00355.81").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1394.00355.81"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1394.00355.81_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1394.00355.81").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1394.00355.81_bar").de_clarify=function(event) { document.getElementById("1394.00355.81").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1394.00355.81_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1411.00355.81" transform="translate(1422.00,360.00) rotate(270)" class="bar_chart_text">site:points</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1411.00355.81"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1411.00355.81").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1411.00355.81").de_clarify=function(event) { document.getElementById("1411.00355.81").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1411.00355.81"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1411.00355.81_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1411.00355.81").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1411.00355.81_bar").de_clarify=function(event) { document.getElementById("1411.00355.81").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1411.00355.81_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1428.00354.85" transform="translate(1439.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_menus</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1428.00354.85"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1428.00354.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1428.00354.85").de_clarify=function(event) { document.getElementById("1428.00354.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1428.00354.85"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1428.00354.85_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1428.00354.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1428.00354.85_bar").de_clarify=function(event) { document.getElementById("1428.00354.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1428.00354.85_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1445.00354.85" transform="translate(1456.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_quiz</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1445.00354.85"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1445.00354.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1445.00354.85").de_clarify=function(event) { document.getElementById("1445.00354.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1445.00354.85"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1445.00354.85_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1445.00354.85").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1445.00354.85_bar").de_clarify=function(event) { document.getElementById("1445.00354.85").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1445.00354.85_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1462.00354.30" transform="translate(1473.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_themewizard</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1462.00354.30"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1462.00354.30").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1462.00354.30").de_clarify=function(event) { document.getElementById("1462.00354.30").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1462.00354.30"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1462.00354.30_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1462.00354.30").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1462.00354.30_bar").de_clarify=function(event) { document.getElementById("1462.00354.30").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1462.00354.30_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1479.00354.03" transform="translate(1490.00,360.00) rotate(270)" class="bar_chart_text">adminzone:training_C (2C. Expectations)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1479.00354.03"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1479.00354.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1479.00354.03").de_clarify=function(event) { document.getElementById("1479.00354.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1479.00354.03"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1479.00354.03_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1479.00354.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1479.00354.03_bar").de_clarify=function(event) { document.getElementById("1479.00354.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1479.00354.03_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1496.00354.03" transform="translate(1507.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_config</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1496.00354.03"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1496.00354.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1496.00354.03").de_clarify=function(event) { document.getElementById("1496.00354.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1496.00354.03"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1496.00354.03_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1496.00354.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1496.00354.03_bar").de_clarify=function(event) { document.getElementById("1496.00354.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1496.00354.03_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1513.00353.75" transform="translate(1524.00,360.00) rotate(270)" class="bar_chart_text">adminzone:training_A (2A. Introduction to staff training / Syllabus)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1513.00353.75"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1513.00353.75").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1513.00353.75").de_clarify=function(event) { document.getElementById("1513.00353.75").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1513.00353.75"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1513.00353.75_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1513.00353.75").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1513.00353.75_bar").de_clarify=function(event) { document.getElementById("1513.00353.75").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1513.00353.75_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1530.00353.66" transform="translate(1541.00,360.00) rotate(270)" class="bar_chart_text">adminzone:guide (Staff Guide Home)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1530.00353.66"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1530.00353.66").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1530.00353.66").de_clarify=function(event) { document.getElementById("1530.00353.66").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1530.00353.66"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1530.00353.66_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1530.00353.66").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1530.00353.66_bar").de_clarify=function(event) { document.getElementById("1530.00353.66").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1530.00353.66_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1547.00353.52" transform="translate(1558.00,360.00) rotate(270)" class="bar_chart_text">site:warnings</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1547.00353.52"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1547.00353.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1547.00353.52").de_clarify=function(event) { document.getElementById("1547.00353.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1547.00353.52"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1547.00353.52_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1547.00353.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1547.00353.52_bar").de_clarify=function(event) { document.getElementById("1547.00353.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1547.00353.52_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1564.00353.16" transform="translate(1575.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_tickets</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1564.00353.16"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1564.00353.16").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1564.00353.16").de_clarify=function(event) { document.getElementById("1564.00353.16").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1564.00353.16"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1564.00353.16_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1564.00353.16").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1564.00353.16_bar").de_clarify=function(event) { document.getElementById("1564.00353.16").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1564.00353.16_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1581.00353.11" transform="translate(1592.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_ip_ban</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1581.00353.11"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1581.00353.11").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1581.00353.11").de_clarify=function(event) { document.getElementById("1581.00353.11").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1581.00353.11"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1581.00353.11_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1581.00353.11").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1581.00353.11_bar").de_clarify=function(event) { document.getElementById("1581.00353.11").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1581.00353.11_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1598.00353.07" transform="translate(1609.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_calendar</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1598.00353.07"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1598.00353.07").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1598.00353.07").de_clarify=function(event) { document.getElementById("1598.00353.07").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1598.00353.07"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1598.00353.07_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1598.00353.07").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1598.00353.07_bar").de_clarify=function(event) { document.getElementById("1598.00353.07").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1598.00353.07_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1615.00353.02" transform="translate(1626.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_lookup</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1615.00353.02"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1615.00353.02").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1615.00353.02").de_clarify=function(event) { document.getElementById("1615.00353.02").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1615.00353.02"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1615.00353.02_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1615.00353.02").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1615.00353.02_bar").de_clarify=function(event) { document.getElementById("1615.00353.02").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1615.00353.02_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1632.00353.02" transform="translate(1643.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_unvalidated</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1632.00353.02"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1632.00353.02").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1632.00353.02").de_clarify=function(event) { document.getElementById("1632.00353.02").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1632.00353.02"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1632.00353.02_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1632.00353.02").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1632.00353.02_bar").de_clarify=function(event) { document.getElementById("1632.00353.02").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1632.00353.02_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1649.00352.79" transform="translate(1660.00,360.00) rotate(270)" class="bar_chart_text">cms:cms</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1649.00352.79"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1649.00352.79").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1649.00352.79").de_clarify=function(event) { document.getElementById("1649.00352.79").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1649.00352.79"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1649.00352.79_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1649.00352.79").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1649.00352.79_bar").de_clarify=function(event) { document.getElementById("1649.00352.79").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1649.00352.79_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1666.00352.43" transform="translate(1677.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_news</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1666.00352.43"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1666.00352.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1666.00352.43").de_clarify=function(event) { document.getElementById("1666.00352.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1666.00352.43"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1666.00352.43_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1666.00352.43").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1666.00352.43_bar").de_clarify=function(event) { document.getElementById("1666.00352.43").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1666.00352.43_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1683.00349.82" transform="translate(1694.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_permissions</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1683.00349.82"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1683.00349.82").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1683.00349.82").de_clarify=function(event) { document.getElementById("1683.00349.82").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1683.00349.82"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1683.00349.82_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1683.00349.82").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1683.00349.82_bar").de_clarify=function(event) { document.getElementById("1683.00349.82").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1683.00349.82_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1700.00349.36" transform="translate(1711.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_cns_forums</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1700.00349.36"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1700.00349.36").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1700.00349.36").de_clarify=function(event) { document.getElementById("1700.00349.36").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1700.00349.36"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1700.00349.36_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1700.00349.36").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1700.00349.36_bar").de_clarify=function(event) { document.getElementById("1700.00349.36").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1700.00349.36_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1717.00348.27" transform="translate(1728.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_catalogues</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1717.00348.27"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1717.00348.27").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1717.00348.27").de_clarify=function(event) { document.getElementById("1717.00348.27").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1717.00348.27"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1717.00348.27_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1717.00348.27").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1717.00348.27_bar").de_clarify=function(event) { document.getElementById("1717.00348.27").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1717.00348.27_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1734.00347.90" transform="translate(1745.00,360.00) rotate(270)" class="bar_chart_text">:sitemap ({$SITE_NAME} Site-Map)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1734.00347.90"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1734.00347.90").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1734.00347.90").de_clarify=function(event) { document.getElementById("1734.00347.90").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1734.00347.90"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1734.00347.90_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1734.00347.90").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1734.00347.90_bar").de_clarify=function(event) { document.getElementById("1734.00347.90").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1734.00347.90_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1751.00346.21" transform="translate(1762.00,360.00) rotate(270)" class="bar_chart_text">site:contact_member</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1751.00346.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1751.00346.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1751.00346.21").de_clarify=function(event) { document.getElementById("1751.00346.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1751.00346.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1751.00346.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1751.00346.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1751.00346.21_bar").de_clarify=function(event) { document.getElementById("1751.00346.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1751.00346.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1768.00345.53" transform="translate(1779.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_chat</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1768.00345.53"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1768.00345.53").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1768.00345.53").de_clarify=function(event) { document.getElementById("1768.00345.53").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1768.00345.53"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1768.00345.53_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1768.00345.53").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1768.00345.53_bar").de_clarify=function(event) { document.getElementById("1768.00345.53").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1768.00345.53_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1785.00340.27" transform="translate(1796.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_redirects</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1785.00340.27"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1785.00340.27").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1785.00340.27").de_clarify=function(event) { document.getElementById("1785.00340.27").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1785.00340.27"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1785.00340.27_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1785.00340.27").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1785.00340.27_bar").de_clarify=function(event) { document.getElementById("1785.00340.27").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1785.00340.27_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1802.00327.20" transform="translate(1813.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_errorlog</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1802.00327.20"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1802.00327.20").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1802.00327.20").de_clarify=function(event) { document.getElementById("1802.00327.20").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1802.00327.20"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1802.00327.20_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1802.00327.20").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1802.00327.20_bar").de_clarify=function(event) { document.getElementById("1802.00327.20").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1802.00327.20_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1819.00326.97" transform="translate(1830.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_notifications</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1819.00326.97"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1819.00326.97").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1819.00326.97").de_clarify=function(event) { document.getElementById("1819.00326.97").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1819.00326.97"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1819.00326.97_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1819.00326.97").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1819.00326.97_bar").de_clarify=function(event) { document.getElementById("1819.00326.97").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1819.00326.97_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1836.00324.91" transform="translate(1847.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_custom_comcode</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1836.00324.91"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1836.00324.91").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1836.00324.91").de_clarify=function(event) { document.getElementById("1836.00324.91").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1836.00324.91"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1836.00324.91_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1836.00324.91").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1836.00324.91_bar").de_clarify=function(event) { document.getElementById("1836.00324.91").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1836.00324.91_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1853.00308.73" transform="translate(1864.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_actionlog</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1853.00308.73"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1853.00308.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1853.00308.73").de_clarify=function(event) { document.getElementById("1853.00308.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1853.00308.73"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1853.00308.73_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1853.00308.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1853.00308.73_bar").de_clarify=function(event) { document.getElementById("1853.00308.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1853.00308.73_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1870.00301.60" transform="translate(1881.00,360.00) rotate(270)" class="bar_chart_text">:staff_apply (Apply for Staff)</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1870.00301.60"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1870.00301.60").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1870.00301.60").de_clarify=function(event) { document.getElementById("1870.00301.60").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1870.00301.60"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1870.00301.60_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1870.00301.60").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1870.00301.60_bar").de_clarify=function(event) { document.getElementById("1870.00301.60").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1870.00301.60_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1887.00244.52" transform="translate(1898.00,360.00) rotate(270)" class="bar_chart_text">cms:cms_chat</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1887.00244.52"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1887.00244.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1887.00244.52").de_clarify=function(event) { document.getElementById("1887.00244.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1887.00244.52"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1887.00244.52_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1887.00244.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1887.00244.52_bar").de_clarify=function(event) { document.getElementById("1887.00244.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1887.00244.52_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1904.00114.03" transform="translate(1915.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_lang</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1904.00114.03"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1904.00114.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1904.00114.03").de_clarify=function(event) { document.getElementById("1904.00114.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1904.00114.03"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1904.00114.03_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1904.00114.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1904.00114.03_bar").de_clarify=function(event) { document.getElementById("1904.00114.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1904.00114.03_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1921.0010.00" transform="translate(1932.00,360.00) rotate(270)" class="bar_chart_text">adminzone:admin_phpinfo</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1921.0010.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1921.0010.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1921.0010.00").de_clarify=function(event) { document.getElementById("1921.0010.00").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1921.0010.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1921.0010.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1921.0010.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1921.0010.00_bar").de_clarify=function(event) { document.getElementById("1921.0010.00").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1921.0010.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+</svg>

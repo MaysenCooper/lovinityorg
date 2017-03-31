@@ -1,0 +1,10 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+IM_INVITED_MESSAGE=You have been invited (as of {1}) to join in an Instant Messaging conversation, hosted by {4}.\n\nYou have been sent this notification because you were not in the chat lobby at the time of invite. If you however go to the lobby now you will be entered into the conversation.\n[url="{3}"]{3}[/url]\n\nPlease don't delay if you wish to join in, because the other participants may not be able to wait in the lobby long.\n\n[quote="{4}"]\n{5}\n[/quote]
+WANT_TO_DOWNLOAD_LOGS=(You are closing this chat)\nWould you like to download the conversation log to save on your computer?
+YOURE_MY_FRIEND_BODY=Hi {5}, {{{4}}} has set you as a friend on {2}. If you'd like to make the friendship two-way (i.e. befriend them back) use this link:\n[url="{3}"]{3}[/url]
+MEC_NOTIFICATION_MAIL={2} entered the {3} chatroom on {1}.\n\nMaybe now is a good time to chat?\n[url="{4}"]{4}[/url]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://lovinity.org/themes/default/css/svg.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024.00 400.00" preserveAspectRatio="xMinYMin meet" width="1024.00" height="400.00" version="1.1">
+<script>// <![CDATA[
+if (typeof window.addEventListenerAbstract=='undefined') addEventListenerAbstract=function(element,the_event,command,capture)
+{
+    if(element)
+    {
+        if (typeof element.simulated_events=='undefined') element.simulated_events=[];
+        if (typeof element.simulated_events[the_event]=='undefined') element.simulated_events[the_event]=[];
+        element.simulated_events[the_event].push(command);
+
+        if(typeof element.addEventListener!='undefined')
+        {
+            return element.addEventListener(the_event,command,capture);
+        }
+        else if(typeof element.attachEvent!='undefined')
+        {
+            return element.attachEvent("on"+the_event,command);
+        }
+        else return false;
+    }
+    else return false;
+};
+//]]></script>
+<script xlink:href="https://lovinity.org/themes/admin/templates_cached/EN/global.js" />
+<rect x="386.00" y="2.00" width="10.00" height="10.00" style="fill: #333333;" class="key_box" />
+<text x="401.00" y="12.00" class="key_text">Other (100.00%)</text>
+<circle cx="192.00" cy="192.00" r="190.00" style="fill: #333333;" class="pie_chart" />
+</svg>

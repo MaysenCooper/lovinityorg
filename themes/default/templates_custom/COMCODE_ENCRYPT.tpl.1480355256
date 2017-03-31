@@ -1,0 +1,9 @@
+{$REQUIRE_JAVASCRIPT,profile}
+{$REQUIRE_JAVASCRIPT,editing}
+{$REQUIRE_CSS,cns}
+
+<div class="box"><div class="box_inner">
+	<h3>Encrypted text</h3>
+
+		{$DECRYPT,{CONTENT},82f803c1875974c0c06ffd5ec1d39192}
+</div></div>

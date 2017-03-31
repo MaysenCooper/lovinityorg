@@ -1,0 +1,6 @@
+[descriptions]
+
+[runtime_processing]
+
+[strings]
+CONFIG_OPTION_enable_highlight_name=Whether to enable the member name highlighting feature. Highlighting of names is a status symbol, purchasable from the Yang store (if installed) or manually assignable by staff.

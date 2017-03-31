@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://lovinity.org/themes/default/css/svg.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024.00 400.00" preserveAspectRatio="xMinYMin meet" width="1024.00" height="400.00" version="1.1">
+<script>// <![CDATA[
+if (typeof window.addEventListenerAbstract=='undefined') addEventListenerAbstract=function(element,the_event,command,capture)
+{
+    if(element)
+    {
+        if (typeof element.simulated_events=='undefined') element.simulated_events=[];
+        if (typeof element.simulated_events[the_event]=='undefined') element.simulated_events[the_event]=[];
+        element.simulated_events[the_event].push(command);
+
+        if(typeof element.addEventListener!='undefined')
+        {
+            return element.addEventListener(the_event,command,capture);
+        }
+        else if(typeof element.attachEvent!='undefined')
+        {
+            return element.attachEvent("on"+the_event,command);
+        }
+        else return false;
+    }
+    else return false;
+};
+//]]></script>
+<script xlink:href="https://lovinity.org/themes/admin/templates_cached/EN/global.js" />
+<text x="50.00" y="357.45" class="axis_marker_text">6</text>
+<line x1="75.00" y1="357.45" x2="100.00" y2="357.45" class="axis_marker" />
+<line x1="100.00" y1="357.45" x2="1024.00" y2="357.45" class="axis_background_line" />
+<text x="50.00" y="340.91" class="axis_marker_text">12</text>
+<line x1="75.00" y1="340.91" x2="100.00" y2="340.91" class="axis_marker" />
+<line x1="100.00" y1="340.91" x2="1024.00" y2="340.91" class="axis_background_line" />
+<text x="50.00" y="324.36" class="axis_marker_text">18</text>
+<line x1="75.00" y1="324.36" x2="100.00" y2="324.36" class="axis_marker" />
+<line x1="100.00" y1="324.36" x2="1024.00" y2="324.36" class="axis_background_line" />
+<text x="50.00" y="307.82" class="axis_marker_text">24</text>
+<line x1="75.00" y1="307.82" x2="100.00" y2="307.82" class="axis_marker" />
+<line x1="100.00" y1="307.82" x2="1024.00" y2="307.82" class="axis_background_line" />
+<text x="50.00" y="291.27" class="axis_marker_text">30</text>
+<line x1="75.00" y1="291.27" x2="100.00" y2="291.27" class="axis_marker" />
+<line x1="100.00" y1="291.27" x2="1024.00" y2="291.27" class="axis_background_line" />
+<text x="50.00" y="274.73" class="axis_marker_text">36</text>
+<line x1="75.00" y1="274.73" x2="100.00" y2="274.73" class="axis_marker" />
+<line x1="100.00" y1="274.73" x2="1024.00" y2="274.73" class="axis_background_line" />
+<text x="50.00" y="258.18" class="axis_marker_text">42</text>
+<line x1="75.00" y1="258.18" x2="100.00" y2="258.18" class="axis_marker" />
+<line x1="100.00" y1="258.18" x2="1024.00" y2="258.18" class="axis_background_line" />
+<text x="50.00" y="241.64" class="axis_marker_text">48</text>
+<line x1="75.00" y1="241.64" x2="100.00" y2="241.64" class="axis_marker" />
+<line x1="100.00" y1="241.64" x2="1024.00" y2="241.64" class="axis_background_line" />
+<text x="50.00" y="225.09" class="axis_marker_text">54</text>
+<line x1="75.00" y1="225.09" x2="100.00" y2="225.09" class="axis_marker" />
+<line x1="100.00" y1="225.09" x2="1024.00" y2="225.09" class="axis_background_line" />
+<text x="50.00" y="208.55" class="axis_marker_text">60</text>
+<line x1="75.00" y1="208.55" x2="100.00" y2="208.55" class="axis_marker" />
+<line x1="100.00" y1="208.55" x2="1024.00" y2="208.55" class="axis_background_line" />
+<text x="50.00" y="192.00" class="axis_marker_text">66</text>
+<line x1="75.00" y1="192.00" x2="100.00" y2="192.00" class="axis_marker" />
+<line x1="100.00" y1="192.00" x2="1024.00" y2="192.00" class="axis_background_line" />
+<text x="50.00" y="175.45" class="axis_marker_text">72</text>
+<line x1="75.00" y1="175.45" x2="100.00" y2="175.45" class="axis_marker" />
+<line x1="100.00" y1="175.45" x2="1024.00" y2="175.45" class="axis_background_line" />
+<text x="50.00" y="158.91" class="axis_marker_text">78</text>
+<line x1="75.00" y1="158.91" x2="100.00" y2="158.91" class="axis_marker" />
+<line x1="100.00" y1="158.91" x2="1024.00" y2="158.91" class="axis_background_line" />
+<text x="50.00" y="142.36" class="axis_marker_text">84</text>
+<line x1="75.00" y1="142.36" x2="100.00" y2="142.36" class="axis_marker" />
+<line x1="100.00" y1="142.36" x2="1024.00" y2="142.36" class="axis_background_line" />
+<text x="50.00" y="125.82" class="axis_marker_text">90</text>
+<line x1="75.00" y1="125.82" x2="100.00" y2="125.82" class="axis_marker" />
+<line x1="100.00" y1="125.82" x2="1024.00" y2="125.82" class="axis_background_line" />
+<text x="50.00" y="109.27" class="axis_marker_text">96</text>
+<line x1="75.00" y1="109.27" x2="100.00" y2="109.27" class="axis_marker" />
+<line x1="100.00" y1="109.27" x2="1024.00" y2="109.27" class="axis_background_line" />
+<text x="50.00" y="92.73" class="axis_marker_text">102</text>
+<line x1="75.00" y1="92.73" x2="100.00" y2="92.73" class="axis_marker" />
+<line x1="100.00" y1="92.73" x2="1024.00" y2="92.73" class="axis_background_line" />
+<text x="50.00" y="76.18" class="axis_marker_text">108</text>
+<line x1="75.00" y1="76.18" x2="100.00" y2="76.18" class="axis_marker" />
+<line x1="100.00" y1="76.18" x2="1024.00" y2="76.18" class="axis_background_line" />
+<text x="50.00" y="59.64" class="axis_marker_text">114</text>
+<line x1="75.00" y1="59.64" x2="100.00" y2="59.64" class="axis_marker" />
+<line x1="100.00" y1="59.64" x2="1024.00" y2="59.64" class="axis_background_line" />
+<text x="50.00" y="43.09" class="axis_marker_text">120</text>
+<line x1="75.00" y1="43.09" x2="100.00" y2="43.09" class="axis_marker" />
+<line x1="100.00" y1="43.09" x2="1024.00" y2="43.09" class="axis_background_line" />
+<text x="50.00" y="26.55" class="axis_marker_text">126</text>
+<line x1="75.00" y1="26.55" x2="100.00" y2="26.55" class="axis_marker" />
+<line x1="100.00" y1="26.55" x2="1024.00" y2="26.55" class="axis_background_line" />
+<text x="50.00" y="10.00" class="axis_marker_text">132</text>
+<line x1="75.00" y1="10.00" x2="100.00" y2="10.00" class="axis_marker" />
+<line x1="100.00" y1="10.00" x2="1024.00" y2="10.00" class="axis_background_line" />
+<text x="50.00" y="374.00" class="axis_marker_text">0</text>
+<line x1="50.00" y1="374.00" x2="1024.00" y2="374.00" class="axis_line" />
+<text x="102.00" y="387.00" class="axis_text">Date</text>
+<line x1="100.00" y1="0.00" x2="100.00" y2="387.00" class="axis_line" />
+<text transform="translate(50.00,374.00) rotate(270)" class="axis_text">Total</text>
+<line x1="100.00" y1="318.85" x2="1024.00" y2="318.85" class="average_line" />
+<rect id="102.00374.00_bar" x="102.00" y="374.00" width="15.00" height="0.00" style="fill: #333333;" class="bar_chart" />
+<rect id="119.00351.94_bar" x="119.00" y="351.94" width="15.00" height="22.06" style="fill: #3333CC;" class="bar_chart" />
+<rect id="136.00338.15_bar" x="136.00" y="338.15" width="15.00" height="35.85" style="fill: #339933;" class="bar_chart" />
+<rect id="153.00365.73_bar" x="153.00" y="365.73" width="15.00" height="8.27" style="fill: #663333;" class="bar_chart" />
+<rect id="170.00354.70_bar" x="170.00" y="354.70" width="15.00" height="19.30" style="fill: #FF3333;" class="bar_chart" />
+<rect id="187.00365.73_bar" x="187.00" y="365.73" width="15.00" height="8.27" style="fill: #6633CC;" class="bar_chart" />
+<rect id="204.00255.42_bar" x="204.00" y="255.42" width="15.00" height="118.58" style="fill: #669933;" class="bar_chart" />
+<rect id="221.00338.15_bar" x="221.00" y="338.15" width="15.00" height="35.85" style="fill: #993366;" class="bar_chart" />
+<rect id="238.00362.97_bar" x="238.00" y="362.97" width="15.00" height="11.03" style="fill: #9933FF;" class="bar_chart" />
+<rect id="255.00354.70_bar" x="255.00" y="354.70" width="15.00" height="19.30" style="fill: #99CC33;" class="bar_chart" />
+<rect id="272.00346.42_bar" x="272.00" y="346.42" width="15.00" height="27.58" style="fill: #CC3399;" class="bar_chart" />
+<rect id="289.00211.30_bar" x="289.00" y="211.30" width="15.00" height="162.70" style="fill: #CC6633;" class="bar_chart" />
+<rect id="306.00357.45_bar" x="306.00" y="357.45" width="15.00" height="16.55" style="fill: #CCFF33;" class="bar_chart" />
+<rect id="323.00368.48_bar" x="323.00" y="368.48" width="15.00" height="5.52" style="fill: #FF33CC;" class="bar_chart" />
+<rect id="340.00244.39_bar" x="340.00" y="244.39" width="15.00" height="129.61" style="fill: #FF9933;" class="bar_chart" />
+<rect id="357.0021.03_bar" x="357.00" y="21.03" width="15.00" height="352.97" style="fill: #336666;" class="bar_chart" />
+<rect id="374.00360.21_bar" x="374.00" y="360.21" width="15.00" height="13.79" style="fill: #3366FF;" class="bar_chart" />
+<rect id="391.00351.94_bar" x="391.00" y="351.94" width="15.00" height="22.06" style="fill: #3399CC;" class="bar_chart" />
+<rect id="408.00299.55_bar" x="408.00" y="299.55" width="15.00" height="74.45" style="fill: #33CC99;" class="bar_chart" />
+<rect id="425.00374.00_bar" x="425.00" y="374.00" width="15.00" height="0.00" style="fill: #33FF66;" class="bar_chart" />
+<rect id="442.00360.21_bar" x="442.00" y="360.21" width="15.00" height="13.79" style="fill: #33FFFF;" class="bar_chart" />
+<rect id="459.00374.00_bar" x="459.00" y="374.00" width="15.00" height="0.00" style="fill: #333399;" class="bar_chart" />
+<rect id="476.00338.15_bar" x="476.00" y="338.15" width="15.00" height="35.85" style="fill: #336633;" class="bar_chart" />
+<rect id="493.00349.18_bar" x="493.00" y="349.18" width="15.00" height="24.82" style="fill: #33FF33;" class="bar_chart" />
+<rect id="510.00258.18_bar" x="510.00" y="258.18" width="15.00" height="115.82" style="fill: #CC3333;" class="bar_chart" />
+<rect id="527.00288.52_bar" x="527.00" y="288.52" width="15.00" height="85.48" style="fill: #663399;" class="bar_chart" />
+<rect id="544.00346.42_bar" x="544.00" y="346.42" width="15.00" height="27.58" style="fill: #666633;" class="bar_chart" />
+<rect id="561.00310.58_bar" x="561.00" y="310.58" width="15.00" height="63.42" style="fill: #66FF33;" class="bar_chart" />
+<rect id="578.00299.55_bar" x="578.00" y="299.55" width="15.00" height="74.45" style="fill: #9933CC;" class="bar_chart" />
+<rect id="595.00357.45_bar" x="595.00" y="357.45" width="15.00" height="16.55" style="fill: #999933;" class="bar_chart" />
+<rect id="612.00169.94_bar" x="612.00" y="169.94" width="15.00" height="204.06" style="fill: #CC3366;" class="bar_chart" />
+<rect id="629.00374.00_bar" x="629.00" y="374.00" width="15.00" height="0.00" style="fill: #CC33FF;" class="bar_chart" />
+<rect id="646.00371.24_bar" x="646.00" y="371.24" width="15.00" height="2.76" style="fill: #CCCC33;" class="bar_chart" />
+<rect id="663.00340.91_bar" x="663.00" y="340.91" width="15.00" height="33.09" style="fill: #FF3399;" class="bar_chart" />
+<rect id="680.00371.24_bar" x="680.00" y="371.24" width="15.00" height="2.76" style="fill: #FF6633;" class="bar_chart" />
+<rect id="697.00351.94_bar" x="697.00" y="351.94" width="15.00" height="22.06" style="fill: #FFFF33;" class="bar_chart" />
+<rect id="714.00368.48_bar" x="714.00" y="368.48" width="15.00" height="5.52" style="fill: #3366CC;" class="bar_chart" />
+<rect id="731.00360.21_bar" x="731.00" y="360.21" width="15.00" height="13.79" style="fill: #339999;" class="bar_chart" />
+<rect id="748.00360.21_bar" x="748.00" y="360.21" width="15.00" height="13.79" style="fill: #33CC66;" class="bar_chart" />
+<rect id="765.00365.73_bar" x="765.00" y="365.73" width="15.00" height="8.27" style="fill: #33CCFF;" class="bar_chart" />
+<rect id="782.00374.00_bar" x="782.00" y="374.00" width="15.00" height="0.00" style="fill: #33FFCC;" class="bar_chart" />
+<rect id="799.00288.52_bar" x="799.00" y="288.52" width="15.00" height="85.48" style="fill: #333366;" class="bar_chart" />
+<rect id="816.00351.94_bar" x="816.00" y="351.94" width="15.00" height="22.06" style="fill: #3333FF;" class="bar_chart" />
+<rect id="833.00371.24_bar" x="833.00" y="371.24" width="15.00" height="2.76" style="fill: #33CC33;" class="bar_chart" />
+<rect id="850.00365.73_bar" x="850.00" y="365.73" width="15.00" height="8.27" style="fill: #993333;" class="bar_chart" />
+<rect id="867.00360.21_bar" x="867.00" y="360.21" width="15.00" height="13.79" style="fill: #663366;" class="bar_chart" />
+<rect id="884.0010.00_bar" x="884.00" y="10.00" width="15.00" height="364.00" style="fill: #6633FF;" class="bar_chart" />
+<rect id="901.00349.18_bar" x="901.00" y="349.18" width="15.00" height="24.82" style="fill: #66CC33;" class="bar_chart" />
+<rect id="918.0056.88_bar" x="918.00" y="56.88" width="15.00" height="317.12" style="fill: #93399;" class="bar_chart" />
+<rect id="935.00332.64_bar" x="935.00" y="332.64" width="15.00" height="41.36" style="fill: #996633;" class="bar_chart" />
+<rect id="952.00360.21_bar" x="952.00" y="360.21" width="15.00" height="13.79" style="fill: #99FF33;" class="bar_chart" />
+<rect id="969.00158.91_bar" x="969.00" y="158.91" width="15.00" height="215.09" style="fill: #CC33CC;" class="bar_chart" />
+<rect id="986.00351.94_bar" x="986.00" y="351.94" width="15.00" height="22.06" style="fill: #CC9933;" class="bar_chart" />
+<rect id="1003.00374.00_bar" x="1003.00" y="374.00" width="15.00" height="0.00" style="fill: #FF3366;" class="bar_chart" />
+<rect id="1020.00365.73_bar" x="1020.00" y="365.73" width="15.00" height="8.27" style="fill: #FF33FF;" class="bar_chart" />
+<rect id="1037.00216.82_bar" x="1037.00" y="216.82" width="15.00" height="157.18" style="fill: #FFCC33;" class="bar_chart" />
+<rect id="1054.00374.00_bar" x="1054.00" y="374.00" width="15.00" height="0.00" style="fill: #336699;" class="bar_chart" />
+<text style="fill: black; font-weight: normal" id="102.00374.00" transform="translate(113.00,360.00) rotate(270)" class="bar_chart_text">2016/03/30</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("102.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("102.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("102.00374.00").de_clarify=function(event) { document.getElementById("102.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("102.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("102.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("102.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("102.00374.00_bar").de_clarify=function(event) { document.getElementById("102.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("102.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="119.00351.94" transform="translate(130.00,360.00) rotate(270)" class="bar_chart_text">2016/03/31</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("119.00351.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("119.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("119.00351.94").de_clarify=function(event) { document.getElementById("119.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("119.00351.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("119.00351.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("119.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("119.00351.94_bar").de_clarify=function(event) { document.getElementById("119.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("119.00351.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="136.00338.15" transform="translate(147.00,360.00) rotate(270)" class="bar_chart_text">2016/04/01</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("136.00338.15"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("136.00338.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("136.00338.15").de_clarify=function(event) { document.getElementById("136.00338.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("136.00338.15"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("136.00338.15_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("136.00338.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("136.00338.15_bar").de_clarify=function(event) { document.getElementById("136.00338.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("136.00338.15_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="153.00365.73" transform="translate(164.00,360.00) rotate(270)" class="bar_chart_text">2016/04/02</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("153.00365.73"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("153.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("153.00365.73").de_clarify=function(event) { document.getElementById("153.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("153.00365.73"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("153.00365.73_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("153.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("153.00365.73_bar").de_clarify=function(event) { document.getElementById("153.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("153.00365.73_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="170.00354.70" transform="translate(181.00,360.00) rotate(270)" class="bar_chart_text">2016/04/03</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("170.00354.70"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("170.00354.70").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("170.00354.70").de_clarify=function(event) { document.getElementById("170.00354.70").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("170.00354.70"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("170.00354.70_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("170.00354.70").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("170.00354.70_bar").de_clarify=function(event) { document.getElementById("170.00354.70").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("170.00354.70_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="187.00365.73" transform="translate(198.00,360.00) rotate(270)" class="bar_chart_text">2016/04/04</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("187.00365.73"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("187.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("187.00365.73").de_clarify=function(event) { document.getElementById("187.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("187.00365.73"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("187.00365.73_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("187.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("187.00365.73_bar").de_clarify=function(event) { document.getElementById("187.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("187.00365.73_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="204.00255.42" transform="translate(215.00,360.00) rotate(270)" class="bar_chart_text">2016/04/05</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("204.00255.42"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("204.00255.42").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("204.00255.42").de_clarify=function(event) { document.getElementById("204.00255.42").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("204.00255.42"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("204.00255.42_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("204.00255.42").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("204.00255.42_bar").de_clarify=function(event) { document.getElementById("204.00255.42").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("204.00255.42_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="221.00338.15" transform="translate(232.00,360.00) rotate(270)" class="bar_chart_text">2016/04/06</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("221.00338.15"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("221.00338.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("221.00338.15").de_clarify=function(event) { document.getElementById("221.00338.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("221.00338.15"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("221.00338.15_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("221.00338.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("221.00338.15_bar").de_clarify=function(event) { document.getElementById("221.00338.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("221.00338.15_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="238.00362.97" transform="translate(249.00,360.00) rotate(270)" class="bar_chart_text">2016/04/07</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("238.00362.97"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("238.00362.97").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("238.00362.97").de_clarify=function(event) { document.getElementById("238.00362.97").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("238.00362.97"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("238.00362.97_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("238.00362.97").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("238.00362.97_bar").de_clarify=function(event) { document.getElementById("238.00362.97").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("238.00362.97_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="255.00354.70" transform="translate(266.00,360.00) rotate(270)" class="bar_chart_text">2016/04/08</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("255.00354.70"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("255.00354.70").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("255.00354.70").de_clarify=function(event) { document.getElementById("255.00354.70").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("255.00354.70"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("255.00354.70_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("255.00354.70").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("255.00354.70_bar").de_clarify=function(event) { document.getElementById("255.00354.70").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("255.00354.70_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="272.00346.42" transform="translate(283.00,360.00) rotate(270)" class="bar_chart_text">2016/04/09</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("272.00346.42"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("272.00346.42").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("272.00346.42").de_clarify=function(event) { document.getElementById("272.00346.42").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("272.00346.42"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("272.00346.42_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("272.00346.42").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("272.00346.42_bar").de_clarify=function(event) { document.getElementById("272.00346.42").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("272.00346.42_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="289.00211.30" transform="translate(300.00,360.00) rotate(270)" class="bar_chart_text">2016/04/10</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("289.00211.30"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("289.00211.30").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("289.00211.30").de_clarify=function(event) { document.getElementById("289.00211.30").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("289.00211.30"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("289.00211.30_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("289.00211.30").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("289.00211.30_bar").de_clarify=function(event) { document.getElementById("289.00211.30").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("289.00211.30_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="306.00357.45" transform="translate(317.00,360.00) rotate(270)" class="bar_chart_text">2016/04/11</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("306.00357.45"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("306.00357.45").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("306.00357.45").de_clarify=function(event) { document.getElementById("306.00357.45").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("306.00357.45"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("306.00357.45_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("306.00357.45").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("306.00357.45_bar").de_clarify=function(event) { document.getElementById("306.00357.45").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("306.00357.45_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="323.00368.48" transform="translate(334.00,360.00) rotate(270)" class="bar_chart_text">2016/04/12</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("323.00368.48"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("323.00368.48").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("323.00368.48").de_clarify=function(event) { document.getElementById("323.00368.48").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("323.00368.48"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("323.00368.48_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("323.00368.48").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("323.00368.48_bar").de_clarify=function(event) { document.getElementById("323.00368.48").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("323.00368.48_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="340.00244.39" transform="translate(351.00,360.00) rotate(270)" class="bar_chart_text">2016/04/13</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("340.00244.39"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("340.00244.39").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("340.00244.39").de_clarify=function(event) { document.getElementById("340.00244.39").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("340.00244.39"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("340.00244.39_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("340.00244.39").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("340.00244.39_bar").de_clarify=function(event) { document.getElementById("340.00244.39").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("340.00244.39_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="357.0021.03" transform="translate(368.00,360.00) rotate(270)" class="bar_chart_text">2016/04/14</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("357.0021.03"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("357.0021.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("357.0021.03").de_clarify=function(event) { document.getElementById("357.0021.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("357.0021.03"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("357.0021.03_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("357.0021.03").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("357.0021.03_bar").de_clarify=function(event) { document.getElementById("357.0021.03").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("357.0021.03_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="374.00360.21" transform="translate(385.00,360.00) rotate(270)" class="bar_chart_text">2016/04/15</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("374.00360.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("374.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("374.00360.21").de_clarify=function(event) { document.getElementById("374.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("374.00360.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("374.00360.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("374.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("374.00360.21_bar").de_clarify=function(event) { document.getElementById("374.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("374.00360.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="391.00351.94" transform="translate(402.00,360.00) rotate(270)" class="bar_chart_text">2016/04/16</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("391.00351.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("391.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("391.00351.94").de_clarify=function(event) { document.getElementById("391.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("391.00351.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("391.00351.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("391.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("391.00351.94_bar").de_clarify=function(event) { document.getElementById("391.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("391.00351.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="408.00299.55" transform="translate(419.00,360.00) rotate(270)" class="bar_chart_text">2016/04/17</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("408.00299.55"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("408.00299.55").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("408.00299.55").de_clarify=function(event) { document.getElementById("408.00299.55").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("408.00299.55"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("408.00299.55_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("408.00299.55").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("408.00299.55_bar").de_clarify=function(event) { document.getElementById("408.00299.55").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("408.00299.55_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: black; font-weight: normal" id="425.00374.00" transform="translate(436.00,360.00) rotate(270)" class="bar_chart_text">2016/04/18</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("425.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("425.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("425.00374.00").de_clarify=function(event) { document.getElementById("425.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("425.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("425.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("425.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("425.00374.00_bar").de_clarify=function(event) { document.getElementById("425.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("425.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="442.00360.21" transform="translate(453.00,360.00) rotate(270)" class="bar_chart_text">2016/04/19</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("442.00360.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("442.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("442.00360.21").de_clarify=function(event) { document.getElementById("442.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("442.00360.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("442.00360.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("442.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("442.00360.21_bar").de_clarify=function(event) { document.getElementById("442.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("442.00360.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: black; font-weight: normal" id="459.00374.00" transform="translate(470.00,360.00) rotate(270)" class="bar_chart_text">2016/04/20</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("459.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("459.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("459.00374.00").de_clarify=function(event) { document.getElementById("459.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("459.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("459.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("459.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("459.00374.00_bar").de_clarify=function(event) { document.getElementById("459.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("459.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="476.00338.15" transform="translate(487.00,360.00) rotate(270)" class="bar_chart_text">2016/04/21</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("476.00338.15"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("476.00338.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("476.00338.15").de_clarify=function(event) { document.getElementById("476.00338.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("476.00338.15"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("476.00338.15_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("476.00338.15").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("476.00338.15_bar").de_clarify=function(event) { document.getElementById("476.00338.15").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("476.00338.15_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="493.00349.18" transform="translate(504.00,360.00) rotate(270)" class="bar_chart_text">2016/04/22</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("493.00349.18"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("493.00349.18").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("493.00349.18").de_clarify=function(event) { document.getElementById("493.00349.18").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("493.00349.18"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("493.00349.18_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("493.00349.18").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("493.00349.18_bar").de_clarify=function(event) { document.getElementById("493.00349.18").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("493.00349.18_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="510.00258.18" transform="translate(521.00,360.00) rotate(270)" class="bar_chart_text">2016/04/23</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("510.00258.18"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("510.00258.18").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("510.00258.18").de_clarify=function(event) { document.getElementById("510.00258.18").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("510.00258.18"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("510.00258.18_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("510.00258.18").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("510.00258.18_bar").de_clarify=function(event) { document.getElementById("510.00258.18").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("510.00258.18_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="527.00288.52" transform="translate(538.00,360.00) rotate(270)" class="bar_chart_text">2016/04/24</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("527.00288.52"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("527.00288.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("527.00288.52").de_clarify=function(event) { document.getElementById("527.00288.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("527.00288.52"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("527.00288.52_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("527.00288.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("527.00288.52_bar").de_clarify=function(event) { document.getElementById("527.00288.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("527.00288.52_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="544.00346.42" transform="translate(555.00,360.00) rotate(270)" class="bar_chart_text">2016/04/25</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("544.00346.42"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("544.00346.42").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("544.00346.42").de_clarify=function(event) { document.getElementById("544.00346.42").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("544.00346.42"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("544.00346.42_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("544.00346.42").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("544.00346.42_bar").de_clarify=function(event) { document.getElementById("544.00346.42").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("544.00346.42_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="561.00310.58" transform="translate(572.00,360.00) rotate(270)" class="bar_chart_text">2016/04/26</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("561.00310.58"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("561.00310.58").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("561.00310.58").de_clarify=function(event) { document.getElementById("561.00310.58").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("561.00310.58"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("561.00310.58_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("561.00310.58").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("561.00310.58_bar").de_clarify=function(event) { document.getElementById("561.00310.58").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("561.00310.58_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="578.00299.55" transform="translate(589.00,360.00) rotate(270)" class="bar_chart_text">2016/04/27</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("578.00299.55"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("578.00299.55").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("578.00299.55").de_clarify=function(event) { document.getElementById("578.00299.55").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("578.00299.55"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("578.00299.55_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("578.00299.55").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("578.00299.55_bar").de_clarify=function(event) { document.getElementById("578.00299.55").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("578.00299.55_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="595.00357.45" transform="translate(606.00,360.00) rotate(270)" class="bar_chart_text">2016/04/28</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("595.00357.45"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("595.00357.45").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("595.00357.45").de_clarify=function(event) { document.getElementById("595.00357.45").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("595.00357.45"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("595.00357.45_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("595.00357.45").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("595.00357.45_bar").de_clarify=function(event) { document.getElementById("595.00357.45").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("595.00357.45_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="612.00169.94" transform="translate(623.00,360.00) rotate(270)" class="bar_chart_text">2016/04/29</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("612.00169.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("612.00169.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("612.00169.94").de_clarify=function(event) { document.getElementById("612.00169.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("612.00169.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("612.00169.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("612.00169.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("612.00169.94_bar").de_clarify=function(event) { document.getElementById("612.00169.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("612.00169.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: black; font-weight: normal" id="629.00374.00" transform="translate(640.00,360.00) rotate(270)" class="bar_chart_text">2016/04/30</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("629.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("629.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("629.00374.00").de_clarify=function(event) { document.getElementById("629.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("629.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("629.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("629.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("629.00374.00_bar").de_clarify=function(event) { document.getElementById("629.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("629.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="646.00371.24" transform="translate(657.00,360.00) rotate(270)" class="bar_chart_text">2016/05/01</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("646.00371.24"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("646.00371.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("646.00371.24").de_clarify=function(event) { document.getElementById("646.00371.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("646.00371.24"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("646.00371.24_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("646.00371.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("646.00371.24_bar").de_clarify=function(event) { document.getElementById("646.00371.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("646.00371.24_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="663.00340.91" transform="translate(674.00,360.00) rotate(270)" class="bar_chart_text">2016/05/02</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("663.00340.91"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("663.00340.91").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("663.00340.91").de_clarify=function(event) { document.getElementById("663.00340.91").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("663.00340.91"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("663.00340.91_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("663.00340.91").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("663.00340.91_bar").de_clarify=function(event) { document.getElementById("663.00340.91").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("663.00340.91_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="680.00371.24" transform="translate(691.00,360.00) rotate(270)" class="bar_chart_text">2016/05/03</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("680.00371.24"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("680.00371.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("680.00371.24").de_clarify=function(event) { document.getElementById("680.00371.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("680.00371.24"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("680.00371.24_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("680.00371.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("680.00371.24_bar").de_clarify=function(event) { document.getElementById("680.00371.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("680.00371.24_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="697.00351.94" transform="translate(708.00,360.00) rotate(270)" class="bar_chart_text">2016/05/04</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("697.00351.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("697.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("697.00351.94").de_clarify=function(event) { document.getElementById("697.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("697.00351.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("697.00351.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("697.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("697.00351.94_bar").de_clarify=function(event) { document.getElementById("697.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("697.00351.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="714.00368.48" transform="translate(725.00,360.00) rotate(270)" class="bar_chart_text">2016/05/05</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("714.00368.48"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("714.00368.48").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("714.00368.48").de_clarify=function(event) { document.getElementById("714.00368.48").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("714.00368.48"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("714.00368.48_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("714.00368.48").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("714.00368.48_bar").de_clarify=function(event) { document.getElementById("714.00368.48").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("714.00368.48_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="731.00360.21" transform="translate(742.00,360.00) rotate(270)" class="bar_chart_text">2016/05/06</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("731.00360.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("731.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("731.00360.21").de_clarify=function(event) { document.getElementById("731.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("731.00360.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("731.00360.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("731.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("731.00360.21_bar").de_clarify=function(event) { document.getElementById("731.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("731.00360.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="748.00360.21" transform="translate(759.00,360.00) rotate(270)" class="bar_chart_text">2016/05/07</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("748.00360.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("748.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("748.00360.21").de_clarify=function(event) { document.getElementById("748.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("748.00360.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("748.00360.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("748.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("748.00360.21_bar").de_clarify=function(event) { document.getElementById("748.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("748.00360.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="765.00365.73" transform="translate(776.00,360.00) rotate(270)" class="bar_chart_text">2016/05/08</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("765.00365.73"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("765.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("765.00365.73").de_clarify=function(event) { document.getElementById("765.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("765.00365.73"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("765.00365.73_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("765.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("765.00365.73_bar").de_clarify=function(event) { document.getElementById("765.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("765.00365.73_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: black; font-weight: normal" id="782.00374.00" transform="translate(793.00,360.00) rotate(270)" class="bar_chart_text">2016/05/09</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("782.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("782.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("782.00374.00").de_clarify=function(event) { document.getElementById("782.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("782.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("782.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("782.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("782.00374.00_bar").de_clarify=function(event) { document.getElementById("782.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("782.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="799.00288.52" transform="translate(810.00,360.00) rotate(270)" class="bar_chart_text">2016/05/10</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("799.00288.52"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("799.00288.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("799.00288.52").de_clarify=function(event) { document.getElementById("799.00288.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("799.00288.52"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("799.00288.52_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("799.00288.52").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("799.00288.52_bar").de_clarify=function(event) { document.getElementById("799.00288.52").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("799.00288.52_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="816.00351.94" transform="translate(827.00,360.00) rotate(270)" class="bar_chart_text">2016/05/11</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("816.00351.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("816.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("816.00351.94").de_clarify=function(event) { document.getElementById("816.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("816.00351.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("816.00351.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("816.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("816.00351.94_bar").de_clarify=function(event) { document.getElementById("816.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("816.00351.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="833.00371.24" transform="translate(844.00,360.00) rotate(270)" class="bar_chart_text">2016/05/12</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("833.00371.24"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("833.00371.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("833.00371.24").de_clarify=function(event) { document.getElementById("833.00371.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("833.00371.24"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("833.00371.24_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("833.00371.24").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("833.00371.24_bar").de_clarify=function(event) { document.getElementById("833.00371.24").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("833.00371.24_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="850.00365.73" transform="translate(861.00,360.00) rotate(270)" class="bar_chart_text">2016/05/13</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("850.00365.73"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("850.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("850.00365.73").de_clarify=function(event) { document.getElementById("850.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("850.00365.73"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("850.00365.73_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("850.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("850.00365.73_bar").de_clarify=function(event) { document.getElementById("850.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("850.00365.73_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="867.00360.21" transform="translate(878.00,360.00) rotate(270)" class="bar_chart_text">2016/05/14</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("867.00360.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("867.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("867.00360.21").de_clarify=function(event) { document.getElementById("867.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("867.00360.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("867.00360.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("867.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("867.00360.21_bar").de_clarify=function(event) { document.getElementById("867.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("867.00360.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="884.0010.00" transform="translate(895.00,360.00) rotate(270)" class="bar_chart_text">2016/05/15</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("884.0010.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("884.0010.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("884.0010.00").de_clarify=function(event) { document.getElementById("884.0010.00").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("884.0010.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("884.0010.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("884.0010.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("884.0010.00_bar").de_clarify=function(event) { document.getElementById("884.0010.00").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("884.0010.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="901.00349.18" transform="translate(912.00,360.00) rotate(270)" class="bar_chart_text">2016/05/16</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("901.00349.18"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("901.00349.18").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("901.00349.18").de_clarify=function(event) { document.getElementById("901.00349.18").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("901.00349.18"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("901.00349.18_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("901.00349.18").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("901.00349.18_bar").de_clarify=function(event) { document.getElementById("901.00349.18").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("901.00349.18_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="918.0056.88" transform="translate(929.00,360.00) rotate(270)" class="bar_chart_text">2016/05/17</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("918.0056.88"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("918.0056.88").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("918.0056.88").de_clarify=function(event) { document.getElementById("918.0056.88").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("918.0056.88"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("918.0056.88_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("918.0056.88").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("918.0056.88_bar").de_clarify=function(event) { document.getElementById("918.0056.88").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("918.0056.88_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="935.00332.64" transform="translate(946.00,360.00) rotate(270)" class="bar_chart_text">2016/05/18</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("935.00332.64"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("935.00332.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("935.00332.64").de_clarify=function(event) { document.getElementById("935.00332.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("935.00332.64"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("935.00332.64_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("935.00332.64").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("935.00332.64_bar").de_clarify=function(event) { document.getElementById("935.00332.64").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("935.00332.64_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="952.00360.21" transform="translate(963.00,360.00) rotate(270)" class="bar_chart_text">2016/05/19</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("952.00360.21"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("952.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("952.00360.21").de_clarify=function(event) { document.getElementById("952.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("952.00360.21"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("952.00360.21_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("952.00360.21").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("952.00360.21_bar").de_clarify=function(event) { document.getElementById("952.00360.21").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("952.00360.21_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="969.00158.91" transform="translate(980.00,360.00) rotate(270)" class="bar_chart_text">2016/05/20</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("969.00158.91"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("969.00158.91").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("969.00158.91").de_clarify=function(event) { document.getElementById("969.00158.91").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("969.00158.91"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("969.00158.91_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("969.00158.91").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("969.00158.91_bar").de_clarify=function(event) { document.getElementById("969.00158.91").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("969.00158.91_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="986.00351.94" transform="translate(997.00,360.00) rotate(270)" class="bar_chart_text">2016/05/21</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("986.00351.94"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("986.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("986.00351.94").de_clarify=function(event) { document.getElementById("986.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("986.00351.94"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("986.00351.94_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("986.00351.94").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("986.00351.94_bar").de_clarify=function(event) { document.getElementById("986.00351.94").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("986.00351.94_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: black; font-weight: normal" id="1003.00374.00" transform="translate(1014.00,360.00) rotate(270)" class="bar_chart_text">2016/05/22</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1003.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1003.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1003.00374.00").de_clarify=function(event) { document.getElementById("1003.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("1003.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1003.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1003.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1003.00374.00_bar").de_clarify=function(event) { document.getElementById("1003.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("1003.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1020.00365.73" transform="translate(1031.00,360.00) rotate(270)" class="bar_chart_text">2016/05/23</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1020.00365.73"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1020.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1020.00365.73").de_clarify=function(event) { document.getElementById("1020.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1020.00365.73"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1020.00365.73_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1020.00365.73").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1020.00365.73_bar").de_clarify=function(event) { document.getElementById("1020.00365.73").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1020.00365.73_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: white; font-weight: normal" id="1037.00216.82" transform="translate(1048.00,360.00) rotate(270)" class="bar_chart_text">2016/05/24</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1037.00216.82"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1037.00216.82").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1037.00216.82").de_clarify=function(event) { document.getElementById("1037.00216.82").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1037.00216.82"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1037.00216.82_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1037.00216.82").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1037.00216.82_bar").de_clarify=function(event) { document.getElementById("1037.00216.82").setAttribute("style","fill: white"); };
+            addEventListenerAbstract(document.getElementById("1037.00216.82_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+<text style="fill: black; font-weight: normal" id="1054.00374.00" transform="translate(1065.00,360.00) rotate(270)" class="bar_chart_text">2016/05/25</text>
+        <script>
+        <![CDATA[
+            page_loaded=true;
+            addEventListenerAbstract(document.getElementById("1054.00374.00"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1054.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1054.00374.00").de_clarify=function(event) { document.getElementById("1054.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("1054.00374.00"),"focus",function(event) { this.onmouseover(event); },false);
+            addEventListenerAbstract(document.getElementById("1054.00374.00_bar"),"mouseover",function(event) { if (window.current_bar) window.current_bar.de_clarify(); window.current_bar=this; document.getElementById("1054.00374.00").setAttribute("style","fill: red; background-color: black; z-index: 999999;"); },false);
+            document.getElementById("1054.00374.00_bar").de_clarify=function(event) { document.getElementById("1054.00374.00").setAttribute("style","fill: black"); };
+            addEventListenerAbstract(document.getElementById("1054.00374.00_bar"),"focus",function(event) { this.onmouseover(event); },false);
+        ]]>
+        </script>
+</svg>

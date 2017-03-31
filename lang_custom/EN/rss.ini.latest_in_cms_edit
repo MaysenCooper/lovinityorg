@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+ERROR_HANDLING_RSS_FEED=An error occurred trying to download/parse an RSS feed ({1}):\n{2}

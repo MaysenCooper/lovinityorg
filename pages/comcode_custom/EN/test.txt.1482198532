@@ -1,0 +1,27 @@
+[semihtml][title]Test[/title]
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}
+{$REQUIRE_JAVASCRIPT,RGraph.gauge}
+<div style="width: 100px; height: 100px; display: block;">
+<canvas id="cvs" width="250" height="250">
+    [No canvas support]
+</canvas>
+</div>
+<script>
+add_event_listener_abstract(window,'load',function() {
+        var gauge = new RGraph.Gauge({
+            id: 'cvs',
+            min: 0,
+            max: 100,
+            value: 84,
+            options: {
+            textAccessible: true,
+            textSize: 8,
+            labelsOffsetRadius: 4,
+            labelsOffsetx: 0,
+            labelsOffsety: 0,
+            colorsRanges: [[0,5,'rgba(255,0,0,1)'], [5,20,'rgba(255,255,0,1)'], [20,50,'rgba(128,255,128,1'], [50,100,'rgba(0,128,0,1']]
+            }
+        }).draw();
+    });
+</script>
+[/semihtml]{$,page hint: no_wysiwyg}

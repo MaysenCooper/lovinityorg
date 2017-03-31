@@ -1,0 +1,159 @@
+[semihtml]
+[title]Welcome to {$SITE_NAME*}[/title]
+{+START,IF,{$NOT,{$IS_GUEST}}}
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}
+{$REQUIRE_JAVASCRIPT,RGraph.common.dynamic}
+{$REQUIRE_JAVASCRIPT,RGraph.meter}
+<div style="text-align: center;"><span style="font-size:1.5em;">[block param="3"]main_greeting[/block]</span></div>
+<hr />
+<h2>Latest News</h2>
+[box="Taking a Stamp"]
+<div style="text-align: center;">[block="takeastamp" max="100"]main_banner_wave[/block]
+Suggestion for a stamp? Let us know at [page=":tickets"]Help -> Tickets / Contact[/page]</div>
+[/box]
+&nbsp;
+<div class="flex-container">
+<div class="flex-item-max" style="min-width: 150px; width: 55%;">
+[block="7" member_based="0" select="8" multiplier="0.5" fallback_full="1" fallback_archive="3" blogs="0" zone="_SEARCH" title="What's Happening Here?" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="0" as_guest="0" optimise="0"]main_news[/block]
+</div>
+<div class="flex-item-max" style="min-width: 375px; width: 40%;">
+[box="The Lovinity Community+ Official Discord Server"]
+<iframe src="https://discordapp.com/widget?id=260824811268210691&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+[/box]
+</div>
+</div>
+<br />
+
+<div class="flex-container">
+<div class="flex-item-max" style="min-width: 150px; width: 20%;">
+[block]side_stock[/block]
+[block="quotes" title="Affirmation of the Hour" cache="1"]main_quotes[/block]
+[block cache="1"]side_journal[/block]
+[block param="14" limit="5" hot="0" date_key="lasttime" username_key="lastusername" title="Topics of the Week" check="0"]main_forum_topics[/block]
+[block param="66" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Tidbit Topics" check="0"]main_forum_topics[/block]
+[block zone="_SEARCH"]main_poll[/block]
+[block param="16,28,29,30,31,32,33,34,35,36,37,38" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Activism / Injustice" check="1"]main_forum_topics[/block][block param="15,18,19,20,21,22,23,24,25" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Advice / Wisdom" check="1"]main_forum_topics[/block]
+</div>
+<div class="flex-item-max" style="width: 75%">
+[box="Goal of the Week"]
+<div class="flex-container">
+<div class="flex-container">
+<div class="flex-item-max" style="width: 200px;">
+<canvas id="circle1" width="600" height="450" style="width: 200px; height: 150px;">
+    [No canvas support]
+</canvas>
+</div>
+<div class="flex-item-max" style="width: 60%; color: DarkGreen;">
+			<span style="font-size:1.3em;">GOAL OF THE WEEK</span><br />
+			<br />
+			<span style="font-size:1em;">Reach a total of 9 or more users in our official Discord server by the end of the day December 30th.<br />
+			<br />
+Reward: 2-hour Discord party (date to be determined after goal is reached).</span>
+</div>
+</div>
+</div>
+[/box]
+<script>
+add_event_listener_abstract(window,'load',function() {
+
+        var meter = new RGraph.Meter({
+            id: 'circle1',
+            min: 5,
+            max: 9,
+            value: 6,
+            options: {
+            valueText: true,
+            valueTextUnitsPost: ' Users',
+            backgroundColor: 'transparent',
+                anglesStart: RGraph.PI - 0.55,
+                anglesEnd: RGraph.TWOPI + 0.5,
+                centery: 300,
+                linewidthSegments: 15,
+                textSize: 26,
+                textColor: 'black',
+                greenColor: '#0a0',
+                segmentRadiusStart: 175,
+                border: false,
+                textAccessible: false,
+                strokestyle: 'transparent',
+                tickmarksSmallNum: 0,
+                tickmarksBigNum: 0,
+                needleRadius: 200,
+                needleColor: 'darkgreen',
+                textValign: 'bottom',
+                centerpinFill: 'white',
+                tickmarksSmallNum: 0,
+                tickmarksBigNum: 0,
+                centerpinStroke: 'black',
+                centerpinFill: '#ddd',
+                centerpinStroke: 'darkgreen',
+                colorsRanges: [
+                    [5,7.5,'gold'],
+                    [7.5,8.5,'lightgreen'],
+                    [8.5,9,'green']
+                ],
+                labelsSpecific: [['6 Users',6],['7 Users',7],['8 Users', 8],['GOAL',8.66]],
+            }
+        }).grow({frames: 250});
+
+});
+</script>
+<h2>Activity Feed&nbsp;</h2>
+[block param="Status update"]main_activities_state[/block]<br />
+[block param="Activity Feed" max="10" start="0" mode="all" grow="0" refresh_time="30"]main_activities[/block]<br />
+</div>
+</div>
+<br />
+<br />
+{+END}
+{+START,IF,{$IS_GUEST}}
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>We provide a safe activist social network and support system for everyone.</p>
+
+<p><a  class="menu___generic_admin__add_one button_screen" onclick="return open_link_as_overlay(this);" rel="nofollow" href="https://lovinity.org/login.htm">Login or Join for Free</a></p></span></div>
+
+<hr />
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Common Social Network Problems:</p></span></div>
+
+[block="78" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>How We're Different from Them:</p></span></div>
+
+[block="79" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Ready to join our community? <a  class="menu___generic_admin__add_one button_screen" onclick="return open_link_as_overlay(this);" rel="nofollow" href="https://lovinity.org/login.htm">Login or Join for Free</a></p></span></div>
+
+<hr />
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Our Solutions / Main features:</p></span></div>
+
+[block="80" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Here's what others have to say about us:</p></span></div>
+
+[quote="Silent Dawn (Long time user)"]The Lovinity Community+ is a safe place where even those going through depression and paranoia can feel like they have meaning somewhere, where they won't have to fear how others would normally see them.[/quote]
+
+[quote="Rarapony (user)"]I love lovinity.org! It's a lovely place to hang out and have fun. The members are always nice and willing to help, It's got a nice radio station, role play section, and everything.[/quote]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Affiliations:</p></span></div>
+
+[block="81" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+<hr />
+<div class="flex-container">
+<div class="flex-item-max" style="min-width: 128px; width: 20%;">
+<a href="https://ssl.comodo.com" target="_blank">
+<img src="https://ssl.comodo.com/images/comodo_secure_seal_113x59_transp.png" alt="SSL Certificate" width="128" height="67" style="border: 0px;"><br> <span style="font-weight:bold; font-size:7pt">SSL Certificate</span></a><br>
+</div>
+<div class="flex-item-max" style="min-width: 128px; width: 20%;">
+<a href="https://www.wright.edu/student-affairs/culture-and-identity-centers/lgbtqa-affairs/safe-space-ally-development-network" target="_blank"><img src="https://lovinity.org/uploads/filedump/misc/frontpageicons/safe_space.png" width="128px"></a>
+</div>
+<div class="flex-item-max" style="min-width: 128px; width: 20%;">
+<a href="http://compo.sr" target="_blank"><img src="https://lovinity.org/uploads/filedump/misc/frontpageicons/composr_full_logo.png" width="128px"></a>
+</div>
+</div>
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Convinced? <a  class="menu___generic_admin__add_one button_screen" onclick="return open_link_as_overlay(this);" rel="nofollow" href="https://lovinity.org/login.htm">Login or Join for Free</a></p></span></div>
+{+END}
+[block]main_bottom_bar[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

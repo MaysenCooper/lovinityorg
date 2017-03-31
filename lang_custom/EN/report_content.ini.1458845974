@@ -1,0 +1,10 @@
+[strings]
+REPORT_CONTENT=Report Content
+DESCRIPTION_REPORT_CONTENT=You are making a report on &ldquo;{1}&rdquo;. You should only report content found to be in violation of our rules, terms, or policies (see About -> Rules). <br><br>Please be mindful of what you report. For example, if only a specific post in a forum topic is the problem and not the topic as a whole, report that post and not the whole topic. Reporting the topic could result in the entire topic being marked hidden instead of just the problematic post. <br /><br /> Please do not report content to notify staff you wish to have something locked/moved as doing so could unintentionally result in the content being marked hidden. Instead, please make a support ticket under About -> Support Tickets or emailing support@lovinity.org. <br><br> If {2} {2|person|people} report the content, it will be hidden automatically until staff review it.<br /><br />Please include your reasoning behind why the content you are reporting is in violation of our rules, terms, or policies. Include screenshots/attachments as necessary. Completion of this report will result in the creation of a support ticket with staff. If you file the report as a guest rather than a logged in user, be aware that staff will not have communication with you and therefore an inconclusive report will be tossed. <strong>All reports are kept confidential.</strong>
+CONFIG_OPTION_reported_times=The number of times content has to be reported for it to be unvalidated.
+REPORTED_TIMES=Reports until unvalidation
+
+REPORTED_CONTENT=I am reporting {1} for being in violation of the website's rules/terms. This content was created by {2}
+REPORTED_CONTENT_TITLE=Reported content in '{1}'
+
+ALREADY_REPORTED_CONTENT=You have already reported this content. If you have new or updated information to give to staff regarding this content, please locate the support ticket that was created when you filed the report and make a new reply in that support ticket with the new or updated information.

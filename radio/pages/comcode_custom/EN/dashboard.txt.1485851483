@@ -1,0 +1,8 @@
+[semihtml][title]Radio Dashboard[/title]
+<span style="color:#000000;"><strong>PRIVACY DISCLAIMER:&nbsp;</strong>The dashboard page uses an iframe which will connect to dev.lovinity.org. This is the system that runs our internet radio station.</span><br />
+<br />
+Please be patient; it may take several seconds for the dashboard to load.<br />
+&nbsp;
+<div id="cns_ads_radiodash"><iframe height="1000px" src="https://dev.lovinity.org/show/dash.php?session={$SESSION}" width="100%">Please wait&amp;amp;amp;amp;amp;amp;amp;amp;hellip; the dashboard may take several seconds to load.</iframe></div>
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

@@ -1,0 +1,12 @@
+[descriptions]
+
+[runtime_processing]
+DESCRIPTION_SUBMITTER_GETS_POINTS=entry_in_param_1
+REVERSE_TITLE_DESCRIPTION=entry_in_param_1
+
+
+[strings]
+GIVEN_POINTS_FOR=A member of the {1} community ({5}) has given {2} {2|point|points} for:\n\n{3}\n\nYou can view your point profile from the link below:\n{4}
+MEMBER_GIVEN_POINTS_FOR={5} has given {2} {2|point|points} to {1} for:\n\n{3}
+GIVEN_POINTS_FOR_ANON=A member of the {1} community has anonymously given {2} {2|point|points} for:\n\n{3}\n\nYou can view your point profile from the link below:\n{4}
+DOC_EXPORT_POINTS=You can export points from historical time intervals as a [acronym="Comma-Separated-Values"]CSV[/acronym] file. This works as an approximation that is accurate so long as member content had not been deleted in the interim, and point scoring parameters had not been changed. The export may take considerable time, depending on the size of your member-base.\n\nThe CSV file will be ordered via a winner algorithm. Each member has a 'ticket' from each point they've earned, in a randomised 'lottery' -- the top CSV result is the top winner, then runner ups follow on in the same fashion. This is a useful feature if you want to run competitions based on site activity.

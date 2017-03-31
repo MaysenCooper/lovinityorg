@@ -1,0 +1,88 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,karma_bar}
+[title]Welcome to {$SITE_NAME*}[/title]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 1000px;">
+<img src="https://lovinity.org/uploads/attachments/58268a2dc79192.06583567.jpg" width="100%" height="auto">
+</div>
+</div>
+<div style="text-align: center;"><span style="font-size:1.5em;">[block param="3"]main_greeting[/block]</span></div>
+<hr />
+<h2>Latest News</h2>
+&nbsp;
+[block="7" member_based="0" select="8" multiplier="0.5" fallback_full="1" fallback_archive="3" blogs="0" zone="_SEARCH" title="Latest news" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="0" as_guest="0" optimise="0" defer="1"]main_news[/block]
+
+<br />
+
+<div class="flex-container">
+<div class="flex-item-max" style="min-width: 150px; width: 20%;">
+[block defer="1"]side_stock[/block]
+[block="quotes" title="Random Affirmation" cache="1" defer="1"]main_quotes[/block]
+{+START,IF,{$NOT,{$IS_GUEST}}}
+[block defer="1" cache="1"]side_journal[/block]
+{+END}
+[block param="14" limit="5" hot="0" date_key="lasttime" username_key="lastusername" title="Topics of the Week" check="1" defer="1"]main_forum_topics[/block]
+{+START,IF,{$NOT,{$IS_GUEST}}}
+[block zone="_SEARCH" defer="1"]main_poll[/block]
+[block param="16,28,29,30,31,32,33,34,35,36,37,38" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Activism / Injustice" check="1" defer="1"]main_forum_topics[/block][block param="15,18,19,20,21,22,23,24,25" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Advice / Wisdom" check="1" defer="1"]main_forum_topics[/block]
+{+END}
+</div>
+{+START,IF,{$NOT,{$IS_GUEST}}}
+<div class="flex-item-max" style="width: 75%">
+[box="Goal of the Week"]
+<div class="flex-container">
+<div class="flex-item-max" style="width: 160px;">
+			<div class="circle" style="position: relative;"><strong>0</strong></div>
+</div>
+<div class="flex-item-max" style="width: 66%;">
+			<span style="font-size:1.3em;">GOAL OF THE WEEK</span><br />
+			<br />
+			<span style="font-size:1em;">Reach an Activity Index of 10 at some point by the end of the day November 25.<br />
+			<br />
+Reward: A prize code to redeem for 250 points will be given to all members in the next weekly newsletter.</span>
+</div>
+{+END}
+</div>
+[/box]
+{+START,IF,{$NOT,{$IS_GUEST}}}
+<script>
+window.onload = function(){
+    $('.circle').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: {$GOAL_ACTIVITYINDEX,1479513743,10,1},
+        size: 150,
+        fill: {
+            color: "rgba(0,128,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+}).on('circle-animation-progress', function(event, progress) {
+  $(this).find('strong').html({$GOAL_ACTIVITYINDEX,1479513743,10,2});
+});
+};
+</script>
+<h2>Activity Feed&nbsp;</h2>
+[block param="Status update" defer="1"]main_activities_state[/block]<br />
+[block param="Activity Feed" max="10" start="0" mode="all" grow="0" refresh_time="30" defer="1"]main_activities[/block]<br />
+</div>
+</div>
+{+END}
+<br />
+{+START,IF,{$IS_GUEST}}
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Not Logged In" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/locked-2.png[/media]</p>
+<p><span style="font-size:1.3em;">Not Logged In</span><br />
+</p>
+</div>
+</div>
+<div style="text-align: center;"><span style="font-size:1.5em;"><a href="https://lovinity.org/join">join our community</a>&nbsp;for free to access <a href="https://lovinity.org/catalogues/entry/website-functionality/what-features-does-the.htm">all of our features</a> and member-only sections of the forum.</span></div>
+{+END}
+<br />
+[block]main_bottom_bar[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

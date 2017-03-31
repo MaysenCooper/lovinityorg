@@ -1,0 +1,47 @@
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}
+{$REQUIRE_JAVASCRIPT,RGraph.drawing.background}
+{$REQUIRE_JAVASCRIPT,RGraph.line}
+<section class="box box___block_side_stats"><div class="box_inner">
+<h3>Activity Index</h3>
+		<p>{STOCK_INDEX} current index</p>
+		<canvas id="stock_trend" width="600" height="250" style="width: 175px;">
+                [No canvas support]
+                </canvas>
+		<p><a href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-activity.htm" target="_blank">What is this?</a></p>
+</div></section>
+<script>
+add_event_listener_abstract(window,'load',function() {
+
+    new RGraph.Drawing.Background({
+        id: 'cvs',
+        options: {
+            gutterLeft: 55,
+            gutterRight: 35,
+            gutterTop: 35,
+            gutterBottom: 35,
+            backgroundGridAutofitNumvlines:48,
+            backgroundGridAutofitNumhlines: 20,
+            backgroundGridColor: '#eee'
+        }
+    }).draw();
+
+    new RGraph.Line({
+        id: 'cvs',
+        data: [5,4,1,6,8,5,3],
+        options: {
+            labels: ['7 days','6 days','5 days','4 days','3 days','2 days','1 day','Now'],
+            gutterLeft: 55,
+            gutterRight: 35,
+            gutterBottom: 35,
+            gutterTop: 35,
+            title: '7-Day Trend',
+            backgroundGridColor: '#aaa',
+            backgroundGridDashed: true,
+            textAccessible: true,
+            scaleZerostart: true,
+            labelsOffsety: 5
+        }
+    }).draw();
+
+});
+</script>

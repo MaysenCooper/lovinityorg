@@ -1,0 +1,13 @@
+[semihtml][title]Track Library / Request[/title]
+&nbsp;
+<div style="max-width: 320px; text-align: center;">
+[box param="Advertisement"]
+ {$SET,B320100,{$BANNER,320x100}} {$,This is to avoid evaluating the banner parameter twice}
+   {+START,IF_NON_EMPTY,{$GET,B320100}}
+      <div style="text-align: {!en_right}; top: 0px;">{$GET,B320100}</div>
+   {+END}
+[/box]
+</div>
+<div id="cns_ads_radio"><iframe height="1000px" src="https://dev.lovinity.org/radio/request_global.php" width="100%"></iframe></div>
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

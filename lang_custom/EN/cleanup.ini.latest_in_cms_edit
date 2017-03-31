@@ -1,0 +1,8 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+MYSQL_QUERY_CHANGES_MAKE_1=The following queries will make the meta database consistent with the actual database:\n<code class="whitespace_visible">\n{1}</code><br /><br />We did not check against the expected database due to these issues. Manually check these queries and run what you are confident about. They could potentially be removing legitimate modifications you or a non-bundled addon has made.
+MYSQL_QUERY_CHANGES_MAKE_2=The following queries will make the actual database consistent with the expected database:\n<code class="whitespace_visible">\n{1}</code><br /><br />There were no issues between the meta database and the actual database. They could potentially be removing legitimate modifications you or a non-bundled addon has made.

@@ -1,0 +1,39 @@
+[semihtml][title]Emotional[/title]
+Emotional advice and wisdom revolves around our feelings and how we react to day to day situations. Here are some places you can go to browse and submit content relating to emotional advice and wisdom.<br />
+<br />
+<br />
+<div class="flex-container">
+
+<div class="flex-item-landing">
+<p>
+[block="18" limit="6" hot="0" date_key="lasttime" username_key="firstusername" title="Emotional Forums" check="1" defer="1"]main_forum_topics[/block]
+</p>
+</div>
+
+<div class="flex-item-landing">
+<p>
+[block="5" blogs="1" zone="_SEARCH" select="17" title="Emotional Blogs" as_guest="0" defer="1"]side_news[/block]
+</p>
+</div>
+
+<div class="flex-item-landing">
+<p>
+[block="emotional" depth="0" zone="_SEARCH" show_empty="1" defer="1"]side_galleries[/block]
+</p>
+</div>
+
+<div class="flex-item-landing">
+<p>
+[block="20" display_type="TITLELIST" sorting="1" max="30" start="0" pagination="1" as_guest="0" defer="1"]main_cc_embed[/block]
+</p>
+</div>
+
+<div class="flex-item-landing">
+<p>
+[block content_type="download_category" content_id="7"]main_render_box[/block]
+</p>
+</div>
+
+</div>
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

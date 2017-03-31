@@ -1,0 +1,12 @@
+[descriptions]
+
+[runtime_processing]
+
+[strings]
+BLOCK_main_leader_board_DESCRIPTION=Show the members with the most Yang, via weekly snapshots.
+BLOCK_main_leader_board_USE=Encourage competition between members, keeping up community interest and participation. Note that the snapshots show total Yang, not Yang earned since the last snapshot.
+LEADER_BOARD_ABOUT=The top {1} Yang holders as of this week.
+LEADER_BOARD_PAGE_TEXT=This page shows the top Yang holders for each week of our site's history.
+MODULE_TRANS_NAME_leader_board=Yang leader-board
+BLOCK_TRANS_NAME_main_leader_board=Yang Leader-board
+CONFIG_OPTION_leader_board_start_date=This date defines what will be &ldquo;Week One&rdquo; in the leader-board ranking table. This doesn't in any way reset the Yang tally, it just specifies where the leader-board page starts showing snapshots from.

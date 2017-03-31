@@ -1,0 +1,18 @@
+[semihtml][title]Radio Dashboard[/title]
+<span style="color:#000000;"><strong>PRIVACY DISCLAIMER:&nbsp;</strong>The dashboard page uses an iframe which will connect to dev.lovinity.org. This is the system that runs our internet radio station.</span><br />
+<br />
+Please be patient; it may take several seconds for the dashboard to load.<br />
+&nbsp;
+<div id="cns_ads_radiodash"><iframe height="1000px" src="https://dev.lovinity.org/show/dash.php?session={$SESSION}" width="100%">Please wait&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;hellip; the dashboard may take several seconds to load.</iframe></div>
+ {$SET,B320100,{$BANNER,320x100}} {$,This is to avoid evaluating the banner parameter twice}
+   {+START,IF_NON_EMPTY,{$GET,B320100}}
+<div style="text-align: center;">
+<div style="max-width: 330px; display: inline-block;">
+[box param="Advertisement"]
+      <div style="text-align: {!en_right}; top: 0px;">{$GET,B320100}</div>
+[/box]
+</div>
+</div>
+   {+END}
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

@@ -1,0 +1,10 @@
+<section class="box box___block_side_stats"><div class="box_inner">
+<h3>Activity Index</h3>
+	<div class="points_box box">
+		<p class="intro">Activity Index:</p>
+		<p><span class="figure">{STOCK_INDEX}</span> current index</p>
+		<p>{TREND_1} 24-hour trend<br />
+		{TREND_7} 7-day trend<br />
+		{TREND_30} 30-day trend</p>
+	</div>
+</div></section>

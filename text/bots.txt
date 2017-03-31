@@ -1,0 +1,14 @@
+zyborg=Looksmart
+googlebot=Google
+teoma=Teoma
+jeeves=Ask Jeeves
+ultraseek=Infoseek
+ia_archiver=Alexa/Archive.org
+msnbot=Bing
+bingbot=Bing
+mantraagent=LookSmart
+wisenutbot=Looksmart
+paros=Paros
+sqworm=Aol.com
+baidu=Baidu
+facebookexternalhit=Facebook

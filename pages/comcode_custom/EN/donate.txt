@@ -1,0 +1,142 @@
+[semihtml][title]<span style="  font-size: 1.3em">Donate</span>[/title]
+{+START,IF,{$IS_STAFF}}<br />
+<strong>Staff members:&nbsp;</strong>Please be sure to log all donations in the admin dashboard under audit -&gt; ecommerce -&gt; Manual Transaction, category Wages.{+END}[box param="Women's Causes"]80% of all received donations between now and the end of the day March 10 will go towards Women&#39;s Causes.[/box]<br />
+[box param="A note from Lovinity Hearts, Founder"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<tbody>
+		<tr>
+			<td style="width: 96px"><img alt="" height="100" src="{$AVATAR,2}" title="" width="100" /></td>
+			<td style="width: 510px">Dear Lovinity Community+ members,<br />
+			<br />
+			It is in my hopes as well as the hopes of all the staff here that you thoroughly enjoy our community and what it has to offer. My staff and I put countless volunteer hours and effort into this site for no monetary gain in order to make sure you get the most out of it for free. Unfortunately, a website is not free to run. And given we are a non-profit community, our costs are paid for by your donations as well as what you provide for other services.<br />
+			<br />
+			Please consider donating to our community to help support the costs necessary to own the domain name, run the server and internet radio stream, serve you content, and purchase necessary software. You will be rewarded for your donation as defined below. And in addition, we make a strong commitment to show our donating members proof of what their donation money went towards. That way, you know we aren&#39;t using it for our own personal gain.<br />
+			<br />
+			Thank you so much!<br />
+			<br />
+			Sincerely,<br />
+			Lovinity hearts / Patrick Schmalstig<br />
+			CEO/Founder of the Lovinity Community+</td>
+		</tr>
+	</tbody>
+</table>
+[/box]<br />
+Donate and be rewarded:
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">TOTAL Donated since you&#39;ve joined TLC+&nbsp;(US Dollars)</th>
+			<th scope="col">Rewards given</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>All donations under $1</td>
+			<td>All donations under $1 will not count towards any rewards due to PayPal fees. We apologize.</td>
+		</tr>
+		<tr>
+			<td>Every $1 donated</td>
+			<td>100 Yang + 20 Yin.</td>
+		</tr>
+		<tr>
+			<td><font color="rgb(128,0,128)">Every $10 donated</font></td>
+			<td><span style=" color: #800080; ">14-days donor status for every $10 donated.</span></td>
+		</tr>
+		<tr>
+			<td>$10 donated total</td>
+			<td>1GB permanent* storage quota on our secure file storage / sharing site, file.lovinity.org</td>
+		</tr>
+		<tr>
+			<td>$50 donated total</td>
+			<td>5GB permanent* storage quota on our secure file storage / sharing site, file.lovinity.org</td>
+		</tr>
+		<tr>
+			<td>$100 donated total</td>
+			<td>10GB permanent* storage quota on our secure file storage / sharing site, file.lovinity.org</td>
+		</tr>
+	</tbody>
+</table>
+(These rates subject to change without notice)<br />
+*You can lose your privilege to the file storage / sharing website if you get suspended on TLC+ or if you use file.lovinity.org for inappropriate means or you upload unsafe or inappropriate content to file.lovinity.org.<br />
+<br />
+<br />
+<br />
+The chart below will outline benefits of Donors versus regular users.
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="row">Feature</th>
+			<th scope="col" style="width: 152px">Regular Users</th>
+			<th scope="col" style="width: 214px">Donor Status Users</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Donor badge in forums</th>
+			<td style="text-align: center; width: 152px">No</td>
+			<td style="text-align: center; width: 214px"><span style=" color: #006400; "><b>Yes (until donor status expires)</b></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Donor&nbsp;charm for profile</th>
+			<td style="text-align: center; width: 152px">No</td>
+			<td style="text-align: center; width: 214px"><b><span style=" color: #006400; ">Yes (permanent)</span></b></td>
+		</tr>
+		<tr>
+			<th scope="row">Yin per day</th>
+			<td style="text-align: center; width: 152px">5</td>
+			<td style="text-align: center; width: 214px"><b><span style=" color: #006400; ">10</span></b></td>
+		</tr>
+		<tr>
+			<th scope="row">Max attachments per post</th>
+			<td style="text-align: center; width: 152px">3</td>
+			<td style="text-align: center; width: 214px"><span style=" color: #006400; "><b>10</b></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Daily Upload quota (individual files limited to 32MB each)</th>
+			<td style="text-align: center; width: 152px">64 MB</td>
+			<td style="text-align: center; width: 214px"><span style=" color: #006400; "><b>128 MB</b></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Log in even when logged in users limit reached (site busy)</th>
+			<td style="text-align: center; width: 152px">No</td>
+			<td style="text-align: center; width: 214px"><span style=" color: #006400; "><b>Yes</b></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Banner-free browsing</th>
+			<td style="text-align: center; width: 152px">No</td>
+			<td style="text-align: center; width: 214px"><span style=" color: #006400; "><b>Yes</b></span></td>
+		</tr>
+		<tr>
+			<th scope="row">More allowed files in galleries</th>
+			<td style="text-align: center; width: 152px">No</td>
+			<td style="text-align: center; width: 214px"><span style=" color: #006400; "><b>Yes</b></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Set a Custom Title / Slogan that appears below your name on forum posts</th>
+			<td style="text-align: center; width: 152px">No (generic titles depending on your usergroup)</td>
+			<td style="text-align: center; width: 214px"><span style="color:#006400;"><strong>Yes&nbsp;(when donor status expires, your custom title will remain, but you cannot change it anymore)</strong></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Register for more/longer/higher priority radio shows</th>
+			<td style="text-align: center; width: 152px">No</td>
+			<td style="text-align: center; width: 214px"><span style=" color: #006400; "><b>Yes (until donor status expires; shows registered will NOT expire when donor status expires)</b></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Ability to request chat rooms that last 30 days opposed to default 7 days (via. support tickets)</th>
+			<td style="text-align: center; width: 152px">No</td>
+			<td style="text-align: center; width: 214px"><span style="color:#006400;"><strong>Yes</strong></span></td>
+		</tr>
+		<tr>
+			<th scope="row">Cost for each additional canon character for the role play database (after you register your one free character)</th>
+			<td style="text-align: center; width: 152px">1,000 Yang</td>
+			<td style="text-align: center; width: 214px"><span style="color:#006400;"><strong>500 Yang</strong></span></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">To donate, please visit&nbsp;<br />
+https://www.paypal.me/lovinity<br />
+<br />
+After donating, unless you provided your username in the PayPal transaction,&nbsp;to claim your donation reward, immediately create a support ticket under Help -&gt; Tickets / Contact , or email support@lovinity.org , and specify the amount you donated (and in what currency).<br />
+&nbsp;</form>[/semihtml]

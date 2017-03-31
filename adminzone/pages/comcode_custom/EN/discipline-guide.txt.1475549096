@@ -1,0 +1,673 @@
+[semihtml][title param=&quot;1&quot;]Discipline Guide[/title] This guide serves administrators a guide for moderating and executing disciplinary actions on members. <b>This is only a guide.</b> If you feel the need to do something different, by all means do so. If you think this guide needs revised, please contact Lovinity.<br />
+<br />
+[contents][/contents] &nbsp;&nbsp;[title param=&quot;2&quot;]General Statement[/title] As a moderator or administrator, one of your duties is to moderate the content of The Lovinity Community+ for any behavior or content that could pose a threat to others or the website. It is vital to understand that the way you communicate to users when moderating content should not be that which is harsh, strict, or mean. You should maintain a professional &quot;customer service&quot; behavior and attitude when speaking with other users about matters regarding moderation and the rules. Be sure to listen to the other user as well and be open-minded about any disputes he/she may have.<br />
+<br />
+It is vital to read and understand the rules to a great capacity in order to effectively moderate. The rules can be located by <a class="user_link" href="http://lovinity.org/pg/rules" rel="" target="_top">Clicking This Link.</a><br />
+<br />
+It is also very important to routinely check the support tickets for any rule violating content that has been reported by the community as well as ban appeals. On the admin home page, the Checklist block will let you know when there are any support tickets that are in need of review. Be sure to take care of these promptly and accurately.<br />
+<br />
+<b>IMPORTANT: Do not punish other staff members! If a staff member violates a rule, please bring it to the attention of Lovinity for review.</b> &nbsp;[title param=&quot;2&quot;]Taking care of reported items[/title] Part of your job as a moderator is to deal with reported content. Reported content will appear as Support tickets in the Lovinity Community. The number of open support tickets (total), if any, will be displayed in the checklist on the admin control panel front page. Clicking the link will take you to the support tickets.<br />
+<br />
+There is a specific procedure to handling reported content.&nbsp;The procedure for handling reports is as follows:
+<ul>
+	<li>Don&#39;t handle a report that someone else has already been assigned to, unless they later indicate they are opening it back up for someone else to handle.</li>
+	<li>Read an unhandled report in its entirety and make sure you understand everything going on in the report. Then, make a <b>regular (non-staff) reply</b>&nbsp;to the support ticket indicating that you are handling it. This is so that other staff know not to touch it, and so the user who filed the report knows a staff is now handling it. In addition,&nbsp;<strong>assign</strong>&nbsp;yourself to the ticket (see the top of the ticket).</li>
+	<li>If you need to do things or get more information about a report before you can continue, be sure to do so ASAP (use the support ticket and make a <b>regular (non-staff) reply</b>&nbsp;if you have any questions or need more info from the user who filed the report). If you cannot do it right away, then make an item in the admin frontpage checklist stating &quot;(username): (task)&quot; and don&#39;t set any recurrance.</li>
+	<li>Put all relevant information to a report inside the report support ticket as a <b>staff-only reply</b>&nbsp;to it. This is important for record keeping, especially if the user later decides to appeal your discipline.</li>
+	<li>Once you have decided an appropriate action, make a <b>staff-only reply</b>&nbsp;to the support ticket explaining what you did and why. Include everything (such as edits you made to posts, discipline you issued and to whom, a copy of the message you sent to the user, etc.)</li>
+	<li>Then, make another&nbsp;<b>regular (non-staff-only) reply</b>&nbsp;to the support ticket explaining to the user who filed the report that the report has been handled by staff. Please do not include private information , such as what disciplinary measure you took. That stuff should be a separate staff-only reply.</li>
+	<li>After all replies are made and the case is finished, scroll down and find the close button to close the support ticket.</li>
+</ul>
+[title param=&quot;1&quot;]Discipline[/title][title param=&quot;2&quot;]Important notes: Moderating content[/title] When moderating content on the website, especially when it comes to the forums, please be aware of the following:
+
+<ul>
+	<li>Do&nbsp;<b>NOT</b>&nbsp;delete comments, replies, etc. Instead, if you have to censor content from a comment or reply, use the edit functionality as described in the &quot;Editing Comments / Forum Posts&quot; section. That way, a record can be kept of the original post, necessary for when users appeal moderator decisions.
+
+	<ul>
+		<li>If a forum topic is so out of hand you need to prevent others from communicating on it, lock the topic and move it to the &quot;archives&quot; forum; don&#39;t delete it.</li>
+	</ul>
+	</li>
+	<li>Do&nbsp;<b>NOT</b>&nbsp;delete content, such as downloads, pictures and media, form submissions, etc. until after the 72-hour appeal time period is up, and only if the user did not file an appeal in that time frame and if you no longer need the content for other purposes (such as law enforcement). Instead, invalidate the content so that it&#39;s not visible to the public. Exceptions to this rule may be stated in the guide.</li>
+</ul>
+[title param=&quot;2&quot;]How to: Punish a user[/title]There are two ways to issue disciplinary sanctions to a user. It depends on what you are punishing the user for which way you use.
+
+<ul>
+	<li>If you are punishing a user for something they said in the forums, in a comment, in a private topic, or anywhere where a &quot;punish&quot; button is available below, click the &quot;punish&quot; button.</li>
+	<li>If you are punishing a user for content they submitted, such as downloads, media, form entries, anything where a punish button is not available below the content, then go to the user&#39;s profile page. On the bottom right, click the arrow next to &quot;Audit&quot; to open its menu. And then click &quot;warn/punish member&quot;.</li>
+	<li>Review the case again, and also review the punishment and warning history of the user you&#39;re about to punish before punishing him/her . You want to make sure the user wasn&#39;t already spoken to about this issue, or you may decide to elevate the severity of your punishment if the user had violated the same rule in the past. <b>Also make note of the current user&#39;s karma.</b></li>
+	<li>If the violation is not severe nor repetitive, proceed with issuing a.&nbsp;<strong>accountability statement</strong>. If the violation was severe, or you're confident the user has no care for the rules, prosecute immediately instead.</li>
+	<li>To issue an accountability statement, you&#39;d use the punish button or warn/punish member link accordingly. Fill in the fields as appropriate (do not check the prosecution box).&nbsp;<strong>Only issue preventive discipline for an accountability statement if necessary.&nbsp;</strong>For example, if a user was spamming, you may want to issue 3 days probation or silence them from the specific topic/forum they were causing an issue in. Point fines, karma reductions, suspensions, and bans should not be issued with an accountability statement.</li>
+	<li>Once the accountability statement is issued, check back in however long you gave the user (typically 72 hours) to see if the user cooperated with the tasks you asked them to perform to take accountability. If so, ensure the tasks were completed satisfactorily. If they were, no further discipline is necessary for the user.</li>
+	<li>Once you&#39;ve decided how to punish the user, fill out the punishment form as described below:
+	<ul>
+		<li><b>Is a prosecution:</b>&nbsp;Check this box if you are issuing a prosecution, that-is a final decision on what discipline to issue to the user (usually if the violation was severe/repetitive, or the user did not complete their tasks in the accountability statement).</li>
+		<li><b>Silence from the topic</b>&nbsp;(only available if you used a punish button): If you wish to prevent the user from being able to reply anymore to the topic they violated the rules in, set a date and time for when their silence expires. Otherwise, leave this blank.</li>
+		<li><b>Silence from the forum</b>&nbsp;(only available if you used a punish button): If you want to prevent the user from being able to reply to any topics in the forum, or create any new topics in that forum they violated the rules in, set a date and time their silence is to expire. Otherwise, leave blank.</li>
+		<li><b>Set Probation:</b>&nbsp;Here, specify the number of days to put the member in probation. If the member is already in probation, this number of days is added on. Leave at 0 to not issue [additional] probation. Keep reading to learn about what probation is.</li>
+		<li><b>Ban the member&#39;s IP address:</b>&nbsp;Checking this box will ban their IP. This completely prohibits their ability to access lovinity.org from their last-known IP. The system will assume you are issuing a permanent ban if you check this box. Be sure to ban the member too if you ban an IP.</li>
+		<li><b>Syndicate to Stop Forum Spam (and beyond):</b>&nbsp;Checking this box will report the user to online spam databases. When added to a spam database, many websites that perform spam checks will notice the user in the database, thereby preventing them from registering. You should ONLY report a user to Stop Forum Spam if you are SURE that they are a spammer or a troll.</li>
+		<li><b>Charge points:</b>&nbsp;Insert the number of points to charge the user for their discipline. This guide will give you ideas on how much to charge, but ultimately it&#39;s at your discretion. You should not charge points for accountability statements, but you should charge points for prosecutions.</li>
+		<li><strong>Change Karma:&nbsp;</strong>The current user&#39;s karma level (0 to 100) is displayed in the box. Change it to the karma level they should be at after this discipline, if applicable.</li>
+		<li><b>Ban member:</b>&nbsp;Use this to ban (or in our definition, suspend) the member. Unlike banning their IP, this prevents them from logging in, but they can still use lovinity.org as a guest user.</li>
+		<li><b>Change usergroup to:</b>&nbsp;Move the user to a different usergroup. Typically this should not be needed unless an admin is demoting a staff member as a result of their violation.</li>
+		<li><b>Explanation:</b>&nbsp;This is a short line of text explaining what the violation is. This is what appears in records. For explanation, you should write something like &quot;Section 0.0 (violation)&quot;, where section is the section / rule number they violated according to the rules page, and violation is a brief description of their violation. If they violated multiple sections, then put something like &quot;Section 0.0; 0.1; 0.2 (blah; blah blah; more blah)&quot;</li>
+		<li><b>Violating Content:&nbsp;</b>Explain here what exactly the user posted or did that was found to be in violation of the rules.</li>
+		<li><strong>Violating Rule(s):&nbsp;</strong>Explain here which rules the user violated.</li>
+		<li><strong>Additional Discipline:&nbsp;</strong>If you did something in addition to any of the Punitive actions (you do not need to mention what you set for punitive actions; that will automatically be included in the message), such as censored or &quot;removed&quot; content, explain so here in a bullet point list.</li>
+		<li><strong>Discipline Appeal?: </strong>Check this box if the user is allowed to appeal the discipline within 72 hours. Typically you would check this box unless this guide says otherwise. Checking this box will provide appeal instructions automatically to the user.</li>
+		<li><strong>Further Actions / Accountabilityrequirements:</strong>&nbsp;Here, include any additional steps or actions (besides re-reading the rules; that&#39;s already included) the user should take. For accountability statements, include the tasks that the user needs to perform in order to take accountability. Be sure to indicate how much time the user has to do so (usually 72 hours). Make sure the tasks you give the user are appropriate for their violations, help the user restore some of the damage they caused, and learn from their mistakes.</li>
+		<li><span style=" color: #FF0000; "><b>Don&#39;t ever use save explanatory details;</b>&nbsp;the system is faulty. If you want to use your own templates, save them at your own risk somewhere on your computer.</span></li>
+	</ul>
+	</li>
+</ul>
+<span style="orphans: 1">[title param=&quot;2&quot;]Editing comments / forum posts[/title]</span><span style="orphans: 1">&nbsp;</span><span style="orphans: 1"><b>If you are issuing discipline for a user because of a comment or forum post, please click the &quot;punish&quot; button and discipline them before editing / hiding content. That way the DA message includes a copy of the violating message.</b></span><br style="orphans: 1" />
+<br style="orphans: 1" />
+<span style="orphans: 1">First off, if the disciplinary action requires the hiding of content, such as forum posts and comments, to staff only. place a staff_note comcode around the content that is to be hidden (example, removing the asterisks: [*staff_note*]Offending content[*/staff_note*] ) . If it&#39;s only to be hidden for a time, usually 72 hours to allow appeal, then make a note in the notes box on the admin dashboard indicating to remove hidden content at (insert date) if user does not appeal. Then paste a link to the post (On the forum, to the top right of a post, you&#39;ll see a number. This is the post number. Right-click it and copy link address. Then paste it in your note. If it&#39;s a comment, at the bottom you&#39;ll see a small long box with a gear icon that has a link to take you to comment thread. You may have to click the linear button to see the post numbers.).</span><br style="orphans: 1" />
+<br style="orphans: 1" />
+<span style="orphans: 1">If you edit or hide content from any social posts or comments, please do not fully delete them. Instead, edit them and put &quot;[Content was in violation of the rules and was removed by staff]&quot; in place of the content you remove (or under the content you hid). The only exception is if you have to remove many comments or posts in the same thread by the same user. But in that case you should consider locking the topic instead.</span><br />
+[title param=&quot;2&quot;]Disciplinary guide[/title]Use the box below to help guide you in determining what discipline you should issue the user, depending on the rule violated, severity, and the number of times the user violated the rule in the past.<br />
+<b>This is only a guide;</b>&nbsp;you should issue discipline at your discretion according to what you feel is fair. But if you think something should be changed, please let Lovinity know.[title param=&quot;3&quot;]Disciplinary definitions[/title]
+
+<p style="line-height: 100%; margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; "><b>DEFINITION OF</b></span>&nbsp;<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #0000ff; "><b>PROBATION</b></span><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; "><b>:</b></span>&nbsp;<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Probation requires most new content submitted by the user to be approved by a moderator during their probation period. In addition some permissions are revoked, such as for hosting radio shows and using private topics, during probation.</span><br />
+<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">There is an option in the punishment form for setting probation amount. Thus no specific instructions.</span><br />
+<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; "><b>DEFINITION OF</b></span>&nbsp;<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #a52a2a; "><b>SUSPENSION</b></span><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; "><b>:</b></span>&nbsp;<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">A suspension is similar to a ban in that a user cannot access his/her account, however the user can appeal a suspension after a given time. In addition, their IP is still able to access the site as a guest.</span><br />
+<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">To suspend an account, issue a member ban and then mark in their staff notes regarding the suspension and the earliest the suspension can be appealed by the member. To expire a suspension, simply unban the member.</span><br />
+<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; "><b>DEFINITION OF</b></span>&nbsp;<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #ff0000; "><b>PERMANENT BAN</b></span><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; "><b>:</b></span>&nbsp;<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">A permanent ban is a non-expiring ban in which the user cannot log in nor access the website, even as a guest.</span><br />
+<span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Ban the account via. both member and by IP. Ban all IPs associated with the account and have been used within the last 30 days on the account (ban specific IPs, don&#39;t use the 000.000.000.* wildcard ban).</span></p>
+[title param=&quot;3&quot;]How to navigate the guide[/title]The disciplinary guide is formatted into a series of collapse and expand boxes. Click the box that relates to the rule violation to read on the recommended discipline and actions.<br />
+<br />
+If a section is not available, then likely it is not a rule that can be violated per-se. If I made a mistake, let Lovinity know.<br />
+[title param=&quot;3&quot;]The guide[/title]Here is the guide:<br />
+<br />
+<b>Note: You should allow 72 hours to appeal any disciplinary actions before permanently removing content, unless otherwise noted.<br />
+<br />
+Note 2: These guides do not provide discipline suggestions based on offense number, only offense severity.</b>&nbsp;<br />
+<br />
+<br />
+[hide param="1.1 & 1.2 (Copyright)"]<b>When to discipline:</b>&nbsp;Whenever copyright violations are detected.<br />
+<b>Reason for rule:</b>&nbsp;Copyright infringement is against the law and thus is not condoned by The Lovinity Community.<br />
+<br />
+These are violations of copyright, so proceed with copyright procedure:
+<table cellpadding="2" cellspacing="0" width="665">
+	<colgroup>
+		<col width="209" />
+		<col width="445" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th bgcolor="#d0a4e0" style="padding: 0.02in" width="209">
+			<div style=" color: #ffffff; ">
+			<div style="text-align: center">Offense Severity</div>
+			</div>
+			</th>
+			<th bgcolor="#d0a4e0" style="padding: 0.02in" width="445">
+			<div style=" color: #ffffff; ">
+			<div style="text-align: center">Action</div>
+			</div>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="padding: 0.02in" width="209">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Not giving credit, you feel user didn&#39;t intentionally do it and doesn&#39;t need punishment yet.</b></span></span></div>
+			</div>
+			</td>
+			<td style="padding: 0.02in" width="445">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left">Informal warning, hide content. No warrants nor prosecutions</div>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 0.02in" width="209">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Not giving credit, but you feel user needs punishment. Or, posting when content author gives clear note that it is prohibited.</b></span></span></div>
+			</div>
+			</td>
+			<td style="padding: 0.02in" width="445">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left">Warrant. Then For Prosecution: consider 250 point fine and 25 karma loss per violation. Hide content.</div>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 0.02in" width="209">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Repeat / careless violations</b></span></span></div>
+			</div>
+			</td>
+			<td style="padding: 0.02in" width="445">
+			<div style="text-align: left"><span style=" color: #2a212d; ">Warrant. Then for Prosecution: consider 400 point fine, 40 karma loss, and 7-day&nbsp;<span style=" color: #0000ff; "><b>PROBATION</b></span>. Hide content.</span></div>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 0.02in" width="209">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Copyright law violation</b></span></span></div>
+			</div>
+			</td>
+			<td style="padding: 0.02in" width="445">
+			<div style="text-align: left">Warrant. Then for prosecution: lose all Karma (SUSPENSION if first time user lost all Karma, consider PERMANENT BAN otherwise), 1,000 point fine.</div>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 0.02in" width="209">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left">After 72 hours</div>
+			</div>
+			</td>
+			<td style="padding: 0.02in" width="445">
+			<div style=" color: #2a212d; ">
+			<div style="text-align: left">Remove hidden content permanently</div>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+[hide param="2.2 (Downloading site content to computer against 2.1)"]<b>When to discipline:</b>&nbsp;In a typical situation, it is hard to determine when someone illegally copies content from our website and saves it to their computer. However, if proof can be obtained of such actions happening, issue this discipline.<br />
+<br />
+<b>Reason for rule:</b>&nbsp;Downloading content from our website for uses other than permitted is a copyright violation in the eyes of the law.
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">Offense Severity</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>No intention of harm &amp; first violation</td>
+			<td>Informal warning. No warrants/prosecutions.</td>
+		</tr>
+		<tr>
+			<td><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Non-first-time violation, downloading only a small amount</b></span></span></td>
+			<td>Warrant. Then for prosecution: 250 point fine and 25 karma loss.</td>
+		</tr>
+		<tr>
+			<td>Downloading a significant amount</td>
+			<td>Warrant. Then for prosecution: 500 point fine and 50 karma loss.</td>
+		</tr>
+		<tr>
+			<td>Downloading a significant amount repeatedly</td>
+			<td>Consider loss of all Karma (SUSPENSION or PERMANENT BAN).</td>
+		</tr>
+	</tbody>
+</table>
+[/hide] <span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">[hide param="2.3 (Illegal use of website)"]<br />
+Illegal use of our website is typically defined as using our website for commercial or business related purposes without written consent. This is a matter that should be addressed with Lovinity rather than handled yourself.</span><br />
+[/hide]<br />
+[hide param="2.4 (Editing material against the terms)"]Due to the permissions system in place on the website, this rule should be very hard to violate. Typically speaking, the only people who would violate this are untrustworthy staff. Thus, these violations should be brought up with Lovinity.<br />
+[/hide]<br />
+[hide param="3.1 (Breaching website security or integrity)"]This is a zero-tolerance rule and thus in most instances, a&nbsp;<b><span style=" color: #FF0000; ">PERMA-BAN</span></b>&nbsp;should be issued. Reason for this rule should be obvious. The website needs to be stable and secure for our community to enjoy it.<br />
+[/hide]<br />
+[hide param="3.2, 8.3, 8.17 (giving false information / gossip)"]<b>When to discipline:</b>&nbsp;If the misinformation is no cause for problems, then no need to discipline&hellip; maybe just let the user know their information is a little off.<br />
+<br />
+<b>Why we have this rule:</b>&nbsp;Having accurate information is best for a self-help community like this one. In addition, correct information for the staff is a must for being able to accurately and fairly handle reports and other matters. And finally, gossip serves no benefit and simply causes un-needed drama and falsely-damaged reputations.<br />
+<br />
+In a typical situation, this rule is violated when a member provides staff with false information when staff ask for such information, such as to investigate reports.
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">Offense Severity</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>General misinformation that the user unintentionally gave</td>
+			<td>Informal Warning, correct misinformation</td>
+		</tr>
+		<tr>
+			<td><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>User tells &quot;white lies&quot; on purpose (trivial and virtually harmless)</b></span></span></td>
+			<td>correct misinformation and warrant. For prosecution: 250 point fine and 25 karma loss.</td>
+		</tr>
+		<tr>
+			<td>Giving staff false info when asked</td>
+			<td>Warrant. For prosecution, 250-500 point fine and 25-50 karma loss.</td>
+		</tr>
+		<tr>
+			<td><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Spreading general gossip</b></span></span></td>
+			<td>Warrant (immediate 7-day PROBATION). For prosecution: 250 point fine and 25 karma loss.</td>
+		</tr>
+		<tr>
+			<td>Spreading gossip with the intent to damage reputation of site, staff, or users</td>
+			<td>Warrant (immediate 7-day PROBATION). For prosecution: 500-1,000 point fine and 50-100 Karma loss depending on severity.</td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+[hide param="4.1 (Registering against COPPA regulations)"]When to discipline: When it happens.<br />
+Why we have this rule: To protect the privacy rights and the safety of minors.<br />
+<br />
+Delete the account. <span style=" color: #FF0000; "><b>PERMA-BAN</b></span> the IP after the second time.<br />
+[/hide]<br />
+[hide param="4.4 (unauthorized use of another's account)"]This falls under a violation of website security, and thus warrants a <span style=" color: #FF0000; "><b>PERMA-BAN</b></span>.<br />
+[/hide]<br />
+[hide param="4.5 (Registering multiple accounts)"]When to discipline: Whenever you know for sure there are multiple accounts by the same person (usually, but not always, indicated by accounts registered on the same IP, by the same/similar email, etc.)<br />
+<br />
+Why this rule: There are several reasons. If we allowed multiple accounts, people can take advantage of that in terms of moderation. In addition, points and other things should all be kept central on one account for the person, or it becomes disorganized.
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">Offense Number</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>First and Second</td>
+			<td>
+			<ul>
+				<li>
+				<div style=" color: #2a212d; ">
+				<div style="text-align: left">Determine all the accounts that were created by same person</div>
+				</div>
+				</li>
+				<li>
+				<div style=" color: #2a212d; ">
+				<div style="text-align: left">Determine which of the accounts were created first</div>
+				</div>
+				</li>
+				<li>
+				<div style="text-align: left"><span style=" color: #2a212d; "><span style=" color: #a52a2a; "><b>Suspend</b></span>&nbsp;(do not delete) all of the accounts except for the one created first</span></div>
+				</li>
+				<li>
+				<div style=" color: #2a212d; ">
+				<div style="text-align: left">Issue a reduction of 25 karma and a 250 point fine on remaining account.</div>
+				</div>
+				</li>
+				<li>
+				<p align="left" style="margin-bottom: 0.2in"><span style=" color: #2a212d; ">Do not delete any of the banned accounts until the ability to appeal is gone.</span></p>
+				</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Third</td>
+			<td><span style=" color: #FF0000; "><b>PERMA-BAN</b></span></td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+[hide param="4.6 (Inactive accounts [90+ days])"]When to discipline: As the guide discusses below.<br />
+<br />
+Why we have this rule: The Lovinity Community wishes to keep only active accounts on the system in order to avoid a mess of inactive accounts.
+<ul>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Routinely do the following, preferably a couple times per month.</span></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Use the delurkers tool found at</span>&nbsp;<a class="user_link" href="http://lovinity.org/adminzone/pg/admin_ocf_join/delurk" rel="" target="_top"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #731696; ">http://lovinity.org/adminzone/pg/admin_ocf_join/delurk</span></a></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Maximum posts, maximum points, maximum logged actions should each be set at a very high number such as 1000000.</span></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Minimum days since last visit, set at 90.</span></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Minimum days since joining set at 90.</span></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #2a212d; ">Proceed and make note of the accounts that meet the criteria, but&nbsp;<span style=" color: #ff0000; "><b>DO NOT PROCEED WITH DELETING THE ACCOUNTS!</b></span></span></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #000000; ">For each of the users, issue an informal warning about account inactivity (be sure to check to make sure one wasn&#39;t already issued). Mention they have 7 days to log in at least once before their account gets deleted.</span></p>
+	</li>
+	<li>
+	<p style="margin-bottom: 0in; orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #000000; ">Set a new checklist event on the admin front page stating to delete (username and member ID number) on (7 days from today&#39;s date) if not logged in by AFTER that date.</span></p>
+	</li>
+	<li>
+	<p style="orphans: 1"><span style="font-family: Open Sans, Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif; color: #000000; ">Be sure to check account again in 7 days and if user is still inactive, delete user if user has no times they lost all their karma AND current karma is A or A+, otherwise</span>&nbsp;<span style=" color: #a52a2a; "><b>SUSPEND</b></span>&nbsp;<span style=" color: #000000; ">it.</span></p>
+	</li>
+</ul>
+<br />
+[/hide]<br />
+[hide param="5.2 (Misguided username)"]A username that is in violation of the rules should follow the same disciplinary sanctions as whatever rule was violated.<br />
+[/hide]<br />
+[hide param="5.5 (failure to keep password secure)"]As it states, hold the user liable for the consequences that resulted. If the compromise password resulted in a breach of website security or stability, the user at fault for giving out the password should be <span style=" color: #FF0000; "><b>PERMA-BANNED</b></span> in addition to the people involved in compromising security.<br />
+[/hide]<br />
+[hide param="7.X (licence to use content)"]Any and all content published by other users on our website becomes copyright Lovinity Community, and thus subject to all copyright related punishments should such content be infringed on.<br />
+[/hide]<br />
+[hide param="8.2, 8.8, 8.9, 8.12 (Violation of the law)"]When it should be disciplined: Anytime it happens, no exceptions.<br />
+<br />
+Why we have this rule: The Lovinity Community strongly discourages illegal activity on our website.<br />
+<br />
+Doing anything found to be in violation of the law should follow this discipline:
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">Offense Severity</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>If the law violated is not a felony</td>
+			<td>IMMEDIATE prosecution (lose all karma, 1,000 point fine, for all users involved).</td>
+		</tr>
+		<tr>
+			<td>If the law violated was a felony</td>
+			<td><span style=" color: #FF0000; "><b>PERMA-BAN</b></span> (all users involved)</td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+[hide param="8.4, 8.18, 8.19, 8.20 (Vulgar / Obscene behaviour)"]When should it be disciplined: Whenever it is, or could potentially, cause a problem&hellip; or if it&#39;s reported.<br />
+<br />
+Why we have this rule: The Lovinity Community aims to be a welcoming, frriendly, and safe environment for all individuals where they can express themselves without fear of being judged nor attacked.<br />
+<br />
+<b>NOTE: If the disrespectful behavior contains any direct threats, then the lowest tier of punishment a user can receive is the Significant tier. If the direct threats regard threats to personal safety and security (such as death threats) then issue a severe tier punishment.</b>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col" style="width: 197px">Offense Severity</th>
+			<th scope="col" style="width: 409px">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="width: 197px">(all)</td>
+			<td style="width: 409px">Hide the content with the behavior. Do not completely remove until ability to appeal has passed and you don&#39;t need it for legal reasons&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 197px"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Minor, unintentional vulgarity</b></span></span></td>
+			<td style="width: 409px">Informal Warning</td>
+		</tr>
+		<tr>
+			<td style="width: 197px"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Minor, intentional vulgarity</b></span></span></td>
+			<td style="width: 409px">Warrant (immediate 3-day silence from topic or forum.). For prosecution: 25 karma loss and 250 point fine.</td>
+		</tr>
+		<tr>
+			<td style="width: 197px">Mild/significant</td>
+			<td style="width: 409px">Warrant (immediate 7-day silence from topic or forum. Consider locking topic if necessary.). For prosecution: 50 karma loss and 500 point fine.</td>
+		</tr>
+		<tr>
+			<td style="width: 197px">Severe</td>
+			<td style="width: 409px">IMMEDIATE prosecution&hellip; lose all Karma, 1,000 point fine.</td>
+		</tr>
+		<tr>
+			<td style="width: 197px">Excessive / Very severe</td>
+			<td style="width: 409px">Consider <span style=" color: #FF0000; "><b>PERMA-BAN</b></span></td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+[hide param="8.5 (Copyright Infringement)"]When to discipline: Anytime it happens; it&#39;s a law thing.<br />
+<br />
+Why we have this rule: It is against the law to infringe on the copyright of others.<br />
+&nbsp;
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">Offense Severity</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Copyright holder requests removal to Lovinity Community</td>
+			<td>
+			<div style="text-align: left"><span style=" color: #2a212d; ">Remove content completely, IMMEDIATE prosecution of 50 karma loss, 500 point fine, and 14-day PROBATION.</span></div>
+			</td>
+		</tr>
+		<tr>
+			<td><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Unintentionally neglecting proper credit</b></span></span></td>
+			<td>Informal Warning, hide content</td>
+		</tr>
+		<tr>
+			<td><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Intentionally neglecting to post proper credit</b></span></span></td>
+			<td>hide content. Warrant. For prosecution: 25 karma loss and 250 point fine.</td>
+		</tr>
+		<tr>
+			<td><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Posting content when copyright holder made clear it&#39;s not allowed</b></span></span></td>
+			<td>
+			<div style="text-align: left"><font color="#2a212d">hide content. Warrant. For prosecution: 40 karma loss,&nbsp;400 point fine, and 7-days PROBATION.</font></div>
+			</td>
+		</tr>
+		<tr>
+			<td>Violation of copyright law</td>
+			<td>See section 8.2</td>
+		</tr>
+		<tr>
+			<td>After 72 hours (appeal time)</td>
+			<td>Remove hidden content permanently</td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+<br />
+<br />
+[hide param="8.6, 8.23 (Violating right to privacy)"]<b>Note: If the user posts private info regarding his/her own self, then that is not against the rules and they do so on their own risk. It is against the rules if the content they posted contains private info from another person.</b>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">What was Posted</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>(all)</td>
+			<td>Hide content. Do not remove it until ability to appeal has passed (72 hours) and you don&#39;t need it for legal reasons.</td>
+		</tr>
+		<tr>
+			<td>Nothing overly sensitive</td>
+			<td>Warrant (immediate 3-day PROBATION). For prosecution: 25 karma loss and 250 point fine.</td>
+		</tr>
+		<tr>
+			<td>Full names, Emails, Contact information, sensitive private conversations, etc.</td>
+			<td>Warrant (immediate 7-day PROBATION). For prosecution: 50 karma loss and 500 point fine.</td>
+		</tr>
+		<tr>
+			<td>Legal information like Identity, SS numbers, credit cards, etc.</td>
+			<td>IMMEDIATE prosecution&hellip; loss of all karma and 1,000 point fine.</td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+[hide param="8.10, 8.11, 8.26 (Discriminatory Content)"]This one can be a little tricky. You will need to make a judgment call on this and possibly ask staff for advice, because you need to determine whether or not the violation is a hate crime.
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col" style="width: 94px">Offense Severity</th>
+			<th scope="col" style="width: 512px">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="width: 94px">Minor</td>
+			<td style="width: 512px">Warrant. For prosecution: 25 karma loss and 250 point fine.</td>
+		</tr>
+		<tr>
+			<td style="width: 94px">Significant</td>
+			<td style="width: 512px">Warrant (immediate 7-day PROBATION). For prosecution: 50 karma loss and 500 point fine.</td>
+		</tr>
+		<tr>
+			<td style="width: 94px">Hate Crime</td>
+			<td style="width: 512px">See section 8.2</td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+[hide param="8.13 (Violation to personal contracts)"]If it is a personal contract between two users that was violated, it should not be the staff&#39;s business unless the contract involved the Lovinity Community website in any way. In that case, discipline should be determined by the staff following intervention between the two or more parties regarding the contract.<br />
+If the violation was of a contract directly with The Lovinity Community, then execute the liability fine print stated within the contract. Contact Lovinity for more info.<br />
+[/hide]<br />
+[hide param="8.14 (Excessive Gore)"]<b>Gore that is tolerable by 90% or more of the general public is acceptable.</b> You will need to make your own call in determining the &quot;toleration&quot; percentage&hellip; but imagine yourself as an average user.
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)">Gore Toleration Level</span></span></th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>(all)</td>
+			<td>Hide gore content. Do not permanently remove until ability to appeal has passed.<br />
+			Gore content includes both media and text.</td>
+		</tr>
+		<tr>
+			<td>50-90%, unintentional</td>
+			<td>Informal Warning</td>
+		</tr>
+		<tr>
+			<td>50-90%, intentional</td>
+			<td>Warrant (immediate 3-day PROBATION). For prosecution: 25 karma loss and 250 point fine.</td>
+		</tr>
+		<tr>
+			<td>25-50%</td>
+			<td>Warrant (immediate 7-day PROBATION). For prosecution: 50 karma loss and 500 point fine.</td>
+		</tr>
+		<tr>
+			<td>less than 25%</td>
+			<td>Warrant (immediate 14-day PROBATION). For prosecution: 75 Karma loss and 1,000 point fine.</td>
+		</tr>
+	</tbody>
+</table>
+[/hide] </span>[hide param="8.15 (Sexually Explicit Content)"]<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)">Content posted</span></span></span></th>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Action</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">(all)</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">This rule applies to media AND text.&nbsp;Hide (do not remove) pornographic content. Don&#39;t completely remove until ability to appeal passes and only remove if you don&#39;t need it for legal reasons (aka. child porn).</span></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Minor sexually suggestive, unintentional</b></span></span></span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Informal Warning</span></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Minor sexually suggestive, intentional</b></span></span></span></td>
+			<td><font face="monospace"><span style="background-color: rgb(186, 186, 255);"><b>Warrant (immediate 3-day PROBATION). For prosecution: 25 Karma loss and 250 point fine.</b></span></font></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Sexual activity, non-penetration</span></td>
+			<td><font face="monospace"><span style="background-color: rgb(186, 186, 255);"><b>Warrant (immediate 7-day PROBATION). For prosecution: 50 karma loss and 500 point fine.</b></span></font></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Penetrative sexual activity</span></td>
+			<td><font face="monospace"><span style="background-color: rgb(186, 186, 255);"><b>Warrant (immediate 14-day PROBATION). For prosecution: 75 Karma loss and 1,000 point fine.</b></span></font></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Minors involved</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"><span style=" color: #FF0000; "><b>PERMA-BAN</b></span> (alert authorities with evidence after 72 hours of appeal is up)</span></td>
+		</tr>
+	</tbody>
+</table>
+[/hide]<br />
+<span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">[hide param="8.16 (Tobacco/Drug/Violence/Gambling/Weapon/Endangered Species promotion)"]Offense severity in this case is determined by how much/hard the user is promoting what is against this rule.
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col">Offense Severity</th>
+			<th scope="col">Action</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>(all)</td>
+			<td>Applies to media AND text.&nbsp;Hide content. Do not permanently remove until ability to appeal has passed.</td>
+		</tr>
+		<tr>
+			<td>Minor, unintentional</td>
+			<td>Informal Warning</td>
+		</tr>
+		<tr>
+			<td><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Mild</b></span></span></td>
+			<td>Warrant (immediate 3-day PROBATION). For prosecution: 25 Karma loss and 250 point fine.</td>
+		</tr>
+		<tr>
+			<td>Significant</td>
+			<td>Warrant (immediate 7-day PROBATION). For prosecution: 50 Karma loss and 500 point fine.</td>
+		</tr>
+		<tr>
+			<td>Severe</td>
+			<td>Warrant (immediate 14-day PROBATION). For prosecution: 75 Karma loss and 1,000 point fine.</td>
+		</tr>
+	</tbody>
+</table>
+[/hide] </span>[hide param="8.21, 8.22, 8.24, 8.25 (spam)"]<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Number of spam items</span></th>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Action</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">(all)</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Hide the content. Do not permanently remove until ability to appeal has passed.</span></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">1-2, unintentional</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Informal Warning</span></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">1-2, intentional</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Warrant (immediate 3-day PROBATION). For prosecution: 10 Karma loss and 100 point fine for each spam item.</span></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">3+</span></td>
+			<td><font face="monospace"><span style="background-color: rgb(186, 186, 255);"><b>Warrant (immediate 7-day PROBATION). For prosecution: 10 karma loss and 100 point fine for each spam item.</b></span></font></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Excessive</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Consider loss of all karma instead.</span></td>
+		</tr>
+	</tbody>
+</table>
+[/hide] <span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"> </span>[hide param="9.2 (Neglecting to pay for goods or services)"]<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Amount of money owed</span></th>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Action</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">(all)</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Cancel service / order of goods.</span></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">$0-$20</span></td>
+			<td><font face="monospace"><span style="background-color: rgb(186, 186, 255);"><b>immediate prosecution. Probation until paid off. 5 Karma loss and 50 point fine for each $1 owed.</b></span></font></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">$20+</span></td>
+			<td><font face="monospace"><span style="background-color: rgb(186, 186, 255);"><b>Immediate prosecution. Loss of all karma (suspension) until paid off. 50 point fine for every $1 owed.</b></span></font></td>
+		</tr>
+	</tbody>
+</table>
+[/hide] <span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"> </span>[hide param="12.2 (Disciplinary Evasion)"]<table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+	<thead>
+		<tr>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Conditions</span></th>
+			<th scope="col"><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Action</span></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">First offense and discipline that was evaded does not include suspension or worse</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"><span style="font-family: monospace;  "><span style="background-color: rgb(186, 186, 255)"><b>Double the severity/length all the actions given for the discipline evaded<br />
+			<br />
+			Example: If a user evaded a discipline that included 50 Karma loss, 500 point fine, and 7-day probation&hellip; then issue another 50 Karma loss, another 500-point fine, and another 7 days of probation.</b></span></span></span></td>
+		</tr>
+		<tr>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold">Second+ Offense -OR- discipline evaded included a suspension or worse</span></td>
+			<td><span style="background-color: rgb(186, 186, 255); font-family: monospace; font-weight: bold"><span style=" color: #FF0000; "><b>PERMA-BAN</b></span></span></td>
+		</tr>
+	</tbody>
+</table>
+[/hide][/semihtml]{$,page hint: no_wysiwyg}

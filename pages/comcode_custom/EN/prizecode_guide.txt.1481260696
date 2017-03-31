@@ -1,0 +1,28 @@
+[semihtml][title]Prizecode Guide[/title]
+This is a guide containing examples of EVAL code you can use for prize codes.<br />
+<br />
+Note: use the variable $userid in your eval code to insert the ID of the member submitting the code.<br />
+Note2: Whatever is returned from the eval code is what is displayed to the user when their code is redeemed.
+<h2>Award or Charge Points</h2>
+[code scroll="1"]require_code(&quot;points&quot;);<br />
+require_code(&quot;points2&quot;);<br />
+system_gift_transfer(&quot;<strong>Reason</strong>&quot;,<strong>(Number of points to give [negative = charge])</strong>,$userid);<br />
+return &quot;You earned <strong>(points)</strong> points. Your new points balance is &quot; . available_points($userid);<br />
+[/code]
+
+<h2>Mark that a user completed a survey (not using tokens)&nbsp;</h2>
+[code scroll="1"]log_it(&#39;COMPLETED_SURVEY&#39;, <b>(ID OF THE SURVEY)</b>);[/code]&nbsp;Use in combination with other code, such as awarding points, if desired.
+
+<h2>Check for and Mark that a user completed a survey (using tokens)</h2>
+[code scroll="1"]require_code(&quot;survey&quot;);<br />
+$tempresult = checkSurveyCompletion(<strong>ID of the survey we&#39;re checking for</strong>,$userid);<br />
+if ($tempresult == 1)<br />
+{<br />
+//Insert code here that will execute if user completed survey, such as awarding points. Be sure to have a return statement in here too.<br />
+}<br />
+return $tempresult;<br />
+[/code]Use in combination with other code, such as awarding points, if desired. Be sure to put code to execute if the user completed the survey in where the tempresult if condition is.<br />
+If using this code, you do NOT need to use log_it; checkSurveyCompletion function automatically does that.&nbsp;
+<h2>Create token for a survey</h2>
+&nbsp;[code scroll="1"]require_code(&quot;survey&quot;);<br />
+return makeToken(<strong>(</strong><strong>ID of the survey to make a token for), (anonymous? true or false)</strong>);[/code][/semihtml]

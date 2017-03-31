@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc76e40919a2.53945062_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:12:\"WYSIWYG_LOAD\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dc76e40919a2.53945062_1\";s:306:\"\$tpl_funcs['tcpfunc_58dc76e40919a2.53945062_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc76e40919a2.53945062_1']=recall_named_function('58dc76e4091a06.21336705','\$parameters,\$cl',\"echo \\\"<script src=\\\\\\\"https://www.lovinity.org/\\\",\\n	ecv(\\\$cl,array(1),0,\\\"CKEDITOR_PATH\\\",array()),\\n	\\\"/ckeditor.js\\\\\\\"></script>\\\";\");\";}}");
+
+?>

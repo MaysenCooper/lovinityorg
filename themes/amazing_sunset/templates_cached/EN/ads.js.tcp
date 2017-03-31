@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc766fb61033.80591890_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:3:\"ads\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dc766fb61033.80591890_1\";s:425:\"\$tpl_funcs['tcpfunc_58dc766fb61033.80591890_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc766fb61033.80591890_1']=recall_named_function('58dc766fb61089.23444584','\$parameters,\$cl',\"echo ((ecv_NOT(\\\$cl,array(),array(ecv_MOBILE(\\\$cl,array(),array())))==\\\"1\\\")?(\\\"\\\\n\\\\\\\$(window).load(function() {\\\\nvar e=document.createElement('div'); e.id='cCPKhsmpotjM'; e.style.display='none'; document.body.appendChild(e);\\\\n\\\".\\\"}\\\".\\\");\\\\n\\\"):'');\");\";}}");
+
+?>

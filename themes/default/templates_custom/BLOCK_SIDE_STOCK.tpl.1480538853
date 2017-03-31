@@ -1,0 +1,9 @@
+
+<section class="box box___block_side_stats"><div class="box_inner">
+<h3>Activity Index</h3>
+		<p></div>{STOCK_INDEX} current index</p>
+		<p>{TREND_1} 24-hour trend<br />
+		{TREND_7} 7-day trend<br />
+		{TREND_30} 30-day trend</p>
+		<p><a href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-activity.htm" target="_blank">What is this?</a></p>
+</div></section>

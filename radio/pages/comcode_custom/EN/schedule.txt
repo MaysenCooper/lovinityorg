@@ -1,0 +1,8 @@
+[semihtml][title]Radio Schedule[/title]
+<strong>All times are in Eastern Time.</strong><br />
+<br />
+When no shows nor programming is going, the station plays random Karaoke MIDIs, songs, EDM tracks, &nbsp;website news and updates, affirmations, and underwritings. <a href="https://radio.lovinity.org/hostshow.htm">Click Here</a>&nbsp;if you would like to host your own radio show.<br />
+<br />
+[block param="listing" zone="_SEARCH" days="7" title="Radio Shows next 7 days" filter="Radio Show" as_guest="0"]side_calendar[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

@@ -1,0 +1,153 @@
+# Disable inaccurate security scanning (Composr has its own)
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+# Compress some static resources
+<IfModule mod_deflate.c>
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript
+</IfModule>
+</IfModule>
+
+# We do not want for TAR files, due to IE bug http://blogs.msdn.com/b/wndp/archive/2006/08/21/content-encoding-not-equal-content-type.aspx (IE won't decompress again as it thinks it's a mistake)
+<IfModule mod_setenvif.c>
+SetEnvIfNoCase Request_URI \.tar$ no-gzip dont-vary
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+# Needed for mod_rewrite. Disable this line if your server does not have AllowOverride permission (can be one cause of Internal Server Errors)
+Options +SymLinksIfOwnerMatch -MultiViews
+
+RewriteEngine on
+	
+# block proxy servers from site access
+# https://perishablepress.com/press/2008/04/20/how-to-block-proxy-servers-via-htaccess/
+
+# RewriteCond %{HTTP:VIA}                 !^$ [OR]
+# RewriteCond %{HTTP:FORWARDED}           !^$ [OR]
+# RewriteCond %{HTTP:USERAGENT_VIA}       !^$ [OR]
+# RewriteCond %{HTTP:X_FORWARDED_FOR}     !^$ [OR]
+# RewriteCond %{HTTP:PROXY_CONNECTION}    !^$ [OR]
+# RewriteCond %{HTTP:XPROXY_CONNECTION}   !^$ [OR]
+# RewriteCond %{HTTP:HTTP_PC_REMOTE_ADDR} !^$ [OR]
+# RewriteCond %{HTTP:HTTP_CLIENT_IP}      !^$
+# RewriteRule ^(.*)$ - [F]
+	
+RewriteEngine on
+
+# If rewrites are directing to bogus URLs, try adding a "RewriteBase /" line, or a "RewriteBase /subdir" line if you're in a subdirectory. Requirements vary from server to server.
+
+# Serve pre-compressed CSS/JS files if they exist and the client accepts gzip
+<FilesMatch "\.js\.gz($|\?)">
+ForceType application/javascript
+Header set Content-Encoding: gzip
+Header append Vary: Accept-Encoding
+</FilesMatch>
+<FilesMatch "\.css\.gz($|\?)">
+ForceType text/css
+Header set Content-Encoding: gzip
+Header append Vary: Accept-Encoding
+</FilesMatch>
+RewriteCond %{HTTP:Accept-encoding} gzip
+RewriteCond %{REQUEST_FILENAME}\.gz -s
+RewriteRule (.*/templates_cached/[^/]*/[^/]*\.(css|js)) $1.gz [QSA]
+SetEnvIfNoCase Request_URI (.*/templates_cached/[^/]*/[^/]*\.(css|js)) no-gzip
+
+# Anything that would point to a real file should actually be allowed to do so. If you have a "RewriteBase /subdir" command, you may need to change to "%{DOCUMENT_ROOT}/subdir/$1".
+RewriteCond $1 ^\d+.shtml [OR]
+RewriteCond %{DOCUMENT_ROOT}/$1 -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/$1 -l [OR]
+RewriteCond %{DOCUMENT_ROOT}/$1 -d
+RewriteRule (.*) - [L]
+
+# crossdomain.xml is actually Composr-driven
+RewriteRule ^crossdomain.xml data/crossdomain.php
+
+# WebDAV implementation (requires the non-bundled WebDAV addon)
+RewriteRule ^webdav(/.*|$) data_custom/webdav.php [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+RewriteCond %{HTTP_HOST} ^webdav\.lovinity\.org
+RewriteRule (.*) data_custom/webdav.php [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L]
+
+#FAILOVER STARTS
+### LEAVE THIS ALONE, AUTOMATICALLY MAINTAINED ###
+#FAILOVER ENDS
+
+# Redirect away from modules called directly by URL. Helpful as it allows you to "run" a module file in a debugger and still see it running.
+RewriteRule ^([^=]*)pages/(modules|modules_custom)/([^/]*)\.php$ $1index.php\?page=$3 [L,QSA,R]
+
+# PG STYLE: These have a specially reduced form (no need to make it too explicit that these are Wiki+). We shouldn't shorten them too much, or the actual zone or base URL might conflict
+RewriteRule ^([^=]*)pg/s/([^\&\?]*)/index\.php$ $1index.php\?page=wiki&id=$2 [L,QSA]
+
+# PG STYLE: These are standard patterns
+RewriteRule ^([^=]*)pg/([^/\&\?]*)/([^/\&\?]*)/([^\&\?]*)/index\.php(.*)$ $1index.php\?page=$2&type=$3&id=$4$5 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?]*)/([^/\&\?]*)/index\.php(.*)$ $1index.php\?page=$2&type=$3$4 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?]*)/index\.php(.*)$ $1index.php\?page=$2$3 [L,QSA]
+RewriteRule ^([^=]*)pg/index\.php(.*)$ $1index.php\?page=$3 [L,QSA]
+
+# PG STYLE: Now the same as the above sets, but without any additional parameters (and thus no index.php)
+RewriteRule ^([^=]*)pg/s/([^\&\?]*)$ $1index.php\?page=wiki&id=$2 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?]*)/([^/\&\?]*)/([^\&\?]*)/$ $1index.php\?page=$2&type=$3&id=$4 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?]*)/([^/\&\?]*)/([^\&\?]*)$ $1index.php\?page=$2&type=$3&id=$4 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?]*)/([^/\&\?]*)$ $1index.php\?page=$2&type=$3 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?]*)$ $1index.php\?page=$2 [L,QSA]
+
+# PG STYLE: And these for those nasty situations where index.php was missing and we couldn't do anything about it (usually due to keep_session creeping into a semi-cached URL)
+RewriteRule ^([^=]*)pg/s/([^\&\?\.]*)&(.*)$ $1index.php\?$3&page=wiki&id=$2 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?\.]*)/([^/\&\?\.]*)/([^/\&\?\.]*)&(.*)$ $1index.php\?$5&page=$2&type=$3&id=$4 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?\.]*)/([^/\&\?\.]*)&(.*)$ $1index.php\?$4&page=$2&type=$3 [L,QSA]
+RewriteRule ^([^=]*)pg/([^/\&\?\.]*)&(.*)$ $1index.php\?$3&page=$2 [L,QSA]
+
+# HTM STYLE: These have a specially reduced form (no need to make it too explicit that these are Wiki+). We shouldn't shorten them too much, or the actual zone or base URL might conflict
+RewriteRule ^(|status|wisdom|journal|rp|micronation|adminzone|cms|forum|radio|activism)/s/([^\&\?]*)\.htm$ $1/index.php\?page=wiki&id=$2 [L,QSA]
+RewriteRule ^s/([^\&\?]*)\.htm$ index\.php\?page=wiki&id=$1 [L,QSA]
+
+# HTM STYLE: These are standard patterns
+RewriteRule ^(|status|wisdom|journal|rp|micronation|adminzone|cms|forum|radio|activism)/([^/\&\?]+)/([^/\&\?]*)/([^\&\?]*)\.htm$ $1/index.php\?page=$2&type=$3&id=$4 [L,QSA]
+RewriteRule ^(|status|wisdom|journal|rp|micronation|adminzone|cms|forum|radio|activism)/([^/\&\?]+)/([^/\&\?]*)\.htm$ $1/index.php\?page=$2&type=$3 [L,QSA]
+RewriteRule ^(|status|wisdom|journal|rp|micronation|adminzone|cms|forum|radio|activism)/([^/\&\?]+)\.htm$ $1/index.php\?page=$2 [L,QSA]
+RewriteRule ^([^/\&\?]+)/([^/\&\?]*)/([^\&\?]*)\.htm$ index.php\?page=$1&type=$2&id=$3 [L,QSA]
+RewriteRule ^([^/\&\?]+)/([^/\&\?]*)\.htm$ index.php\?page=$1&type=$2 [L,QSA]
+RewriteRule ^([^/\&\?]+)\.htm$ index.php\?page=$1 [L,QSA]
+</IfModule>
+
+
+Order Allow,Deny
+allow from all
+# IP bans go here (leave this comment here! If this file is writeable, Composr will write in IP bans below, in sync with its own DB-based banning - this makes DOS/hack attack prevention stronger)
+# deny from xxx.xx.x.x (leave this comment here!)
+deny from 176.10.99.202
+deny from 2a00:1298:8011:0212:0000:0000:0000:0165
+deny from 2607:5300:0120:0312:0000:0000:0001:0001
+deny from 2a02:59e0:0000:0007:0000:0000:0000:0012
+deny from 95.130.11.147
+deny from 51.15.39.2
+deny from 93.115.95.206
+deny from 85.128.142.83
+deny from 54.68.246.60
+deny from 54.68.17.76
+deny from 54.69.88.128
+deny from 108.59.8.210
+deny from 45.32.242.210
+deny from 207.244.83.108
+deny from 207.244.82.187
+deny from 192.95.29.88
+deny from 207.244.79.142
+deny from 188.120.234.187
+deny from 107.150.59.210
+deny from 23.91.70.10
+deny from 123.15.44.40
+deny from 41.44.205.216
+deny from 91.109.156.150
+deny from 110.137.193.148
+deny from 182.254.159.18
+deny from 187.44.1.167
+deny from 64.16.209.152
+deny from 148.72.232.153
+
+<FilesMatch !"\.(jpg|jpeg|gif|png|ico)$">
+ErrorDocument 404 //index.php?page=404
+</FilesMatch>
+

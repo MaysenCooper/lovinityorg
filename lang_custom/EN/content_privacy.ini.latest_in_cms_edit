@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+NOTIFICATION_BODY_invited_content={1} gave you access to {2|a|an} private {2}, {3}.\n\nAccess it from:\n{4}

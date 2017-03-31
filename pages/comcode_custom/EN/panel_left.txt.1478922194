@@ -1,0 +1,9 @@
+{+START,IF,{$MATCH_KEY_MATCH,:start}}
+{+START,IF,{$NOT,{$IS_GUEST}}}
+[block="14" limit="5" hot="0" date_key="lasttime" username_key="lastusername" title="Topics of the Week" check="0" defer="1"]main_forum_topics[/block]
+[block="16,28,29,30,31,32,33,34,35,36,37,38" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Activism / Injustice" check="0" defer="1"]main_forum_topics[/block]
+[block="15,18,19,20,21,22,23,24,25" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Advice / Wisdom" check="0" defer="1"]main_forum_topics[/block]
+[block="12" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+[block="6" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+{+END}
+{+END}

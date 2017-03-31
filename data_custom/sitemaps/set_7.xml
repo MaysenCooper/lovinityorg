@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.lovinity.org/wisdom/start.htm</loc>
+        <lastmod>2016-12-14T20:32:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/wisdom/emotional.htm</loc>
+        <lastmod>2016-12-14T21:36:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+</urlset>

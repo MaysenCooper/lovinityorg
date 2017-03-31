@@ -1,0 +1,33 @@
+[semihtml][title]Admin Dashboard[/title]
+
+<h2>Tasks</h2>
+
+<div class="float_surrounder comcode_fake_table">
+<div style="float: left; width: 60%">[block defer="1"]main_staff_checklist[/block]</div>
+
+<div style="padding-left: 3.00%; float: left; width: 37%">[block defer="1"]main_staff_new_version[/block]<br />
+[box param="Staff Guide"]
+<div style="text-align: center;"><a class="button_screen_item buttons__menu__pages__help" href="https://lovinity.org/adminzone/guide" target="_blank">Staff Guide (click here)</a></div>
+[/box]{+START,IF,{$CNS}}[block param="Reported posts forum,Staff" title="Staff forum" limit="3" failsafe="1" defer="1"]main_forum_topics[/block]{+END}<br />
+[block defer="1"]main_staff_tips[/block]{+START,IF,{$ADDON_INSTALLED,syndication_blocks}}{$BLOCK,block=side_rss,param={$BRAND_BASE_URL}/backend.php?mode=news&amp;type=rss&amp;select=1-10&amp;days=100,title=Composr news,cache=1,defer=1}{+END}</div>
+</div>
+&nbsp;
+
+<h2>Latest activity <span style="  font-size: 0.8em;">(<a class="user_link" href="https://lovinity.org/adminzone/admin-actionlog">more</a>)</span></h2>
+
+<div class="float_surrounder comcode_fake_table">
+<div style="float: left; width: 60%">[block defer="1"]main_staff_actions[/block]</div>
+
+<div style="padding-left: 3.00%; float: left; width: 37%">[block defer="1"]main_db_notes[/block]</div>
+</div>
+&nbsp;
+
+<h2>Other Websites</h2>
+
+<div class="float_surrounder comcode_fake_table">
+<div style="float: left; width: 60%">[block defer="1"]main_staff_website_monitoring[/block]
+<h3>Recommend Composr</h3>
+Know someone who needs a website? <a class="user_link" href="https://lovinity.org/recommend?cms=1">Recommend Composr</a> and they&#39;ll be sent a link to your own site too.</div>
+
+<div style="padding-left: 3.00%; float: left; width: 37%">[block defer="1"]main_staff_links[/block]</div>
+</div>[/semihtml]

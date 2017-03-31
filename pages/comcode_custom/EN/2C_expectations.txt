@@ -1,0 +1,33 @@
+[semihtml][title]2C. Expectations[/title]
+
+<h2>Our Expectations for You</h2>
+
+<ul>
+	<li>A staff position with The Lovinity Community+ is not a paid position; it is voluntary. Nevertheless, you are expected to maintain the same professional standards for yourself as if this was a real-life paying job. The one exception to this is legal binding. As you are not a paid employee, you are not required to be on staff. If you feel TLC+ staff is not right for you, we will not force you to stay. However, we expect at least 3&nbsp;days notice before you depart. Departing without 3 days notice could result in discipline. Also please be aware that if you later choose to return to staff, you must go through the entire training process again. In addition, you must wait at least 90 days since you departed before you may re-apply.</li>
+	<li>Respect of other staff members is expected, even if you have personal disagreements with them. Personal issues do not belong in staff and need to be left outside when you enter staff mode. Disagreements with another staff member&#39;s performance should be privately brought up with an administrator.</li>
+	<li>You are free to question the decisions of other staff. But please do so respectfully. If, however, a consensus cannot be reached, agree to disagree and allow for the decision to be carried out.</li>
+	<li>For the purposes of maintaining efficiency and getting things done, if an administrator or leader makes a final decision, you are asked not to further dispute the decision.</li>
+	<li>Users should be treated with respect and compassion. They are what make up The Lovinity Community+. Listen to concerns users have, no matter how illogical they are, and bring them to staff attention for discussion. Personal dislike for other users should not affect your relationship with the users as a staff member, nor should they affect how you deal with them in your duties. The same holds true for users you are close with. Allowing your personal relationships with others to affect your staff work is classified as personal bias, and will not be tolerated in your work.
+	<ul>
+		<li>In accordance with the above bullet point, you should also not let personal beliefs affect your work as well, such as religion.</li>
+	</ul>
+	</li>
+	<li>You are expected to follow all rules and promote a safe and inclusive space here in The Lovinity Community+. Just like rule violations and excluding people is not allowed by members, it is ESPECIALLY not allowed by staff. You represent a community, and thus are expected to show your best behavior.</li>
+	<li>You are expected to communicate. If you&#39;re unsure of something, speak up. If there is information that staff should know, speak up. If you have a dispute with how staff procedures are done, speak up. Communication is the framework to a prosperous staff team and website community.</li>
+	<li>You are expected to be willing to learn and approach all tasks with an open mind. Other staff will not always be around to help you, therefore you will need to learn how to decide what actions are best.&nbsp;We will also not tolerate staff who keep a closed mind and refuse to see possible alternative solutions to a problem. Such staff stagnate the progress of work and any chance of improvement within the community.</li>
+	<li>We expect you to be active in the community. Our expectation is for you to log in at minimim 2-3 times per week and to keep up with your duties as staff. If a period of time arises in which you must take a leave, such as vacation or just need a break from staff, we expect a 3 day notice. Documented emergencies are excluded.</li>
+	<li>Have fun. Make some friends with other staff and members. Crack jokes and have casual talk (when appropriate). If you don&#39;t have fun and enjoy your position, then it will seem like tedious work for little to no benefit. In addition, it will subject you to the &quot;burn-out syndrome&quot;, which is when staff lose motivation because they have exhausted their energy or don&#39;t see the benefit in their position.</li>
+</ul>
+
+<h2>What you can expect of us</h2>
+
+<ul>
+	<li>You can expect from us a team of staff members who will not discriminate you. We are an inclusive safe space community for all individuals.</li>
+	<li>You can expect teamwork. Many of the jobs necessary within staff cannot be completed by one person. Therefore staff will work together with you to complete these tasks. They will also work with you to ensure you understand how things work and what to do in certain situations.</li>
+	<li>You can expect documentation. The Lovinity Community+ will have comprehensive documents on how to staff this website community. We do not, however, maintain documentation on how to use Composr CMS. For that, you can visit the tutorials at http://compo.sr .</li>
+	<li>You can expect consideration in the event you need accommodations to help you achieve your goals as a staff member. We&#39;ll do what we can to support any personal challenges you may face when being a staff member.</li>
+	<li>You can expect a community of staff who care about each other and look out for each other. Staffing a website is not an easy job. We are here for each other to make sure all staff are on the right track. We&#39;re also here if you need someone to talk to, even if it&#39;s not staff related. A happy staff member is a productive staff member.</li>
+	<li>Though we do not pay staff, you can expect praise and other small rewards for jobs well done.</li>
+</ul>
+
+<hr />[box param="Exercise"]Send a message to the staff member assisting you with your training. In your message, discuss any personal expectations you have for the rest of us here in The Lovinity Community+.[/box][block]main_comcode_page_children[/block][/semihtml]

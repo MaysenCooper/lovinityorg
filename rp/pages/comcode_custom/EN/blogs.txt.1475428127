@@ -1,0 +1,7 @@
+[semihtml][title]Blogs[/title]
+Here is a list of blogs on our website.&nbsp;<br />
+Click &quot;Add blog post&quot; at the bottom to add your own blog.<br />
+<br />
+<strong>For blogs to display here, when adding a blog, go under &quot;advanced&quot; and select &quot;Role Play&quot; as a secondary category.</strong><br />
+<br />
+[block param="0" member_based="0" select="14" multiplier="0.5" fallback_full="3" fallback_archive="6" blogs="-1" zone="_SEARCH" title="Blog Entries" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="1" as_guest="0" optimise="0" defer="1"]main_news[/block][/semihtml]

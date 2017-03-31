@@ -1,0 +1,1 @@
+<iframe{$?,{$BROWSER_MATCHES,ie}, frameBorder="0" scrolling="no"} title="Activity Index" class="dynamic_iframe" src="{URL*}"></iframe>

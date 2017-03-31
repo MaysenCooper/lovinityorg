@@ -1,0 +1,8 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+DOC_POLLS=Polls are a popular feature, and often used for a number of purposes including:\n - to charge the atmosphere of an interactive website\n - to increase the feeling that the website is regularly updated, by changing polls\n - to gather feedback from those who are not likely to go to the efforts to write it down\n - to generally find answers to questions that may not be very important, but difficult to find the answer to without a poll
+POLL_CHOSEN_NOTIFICATION_MAIL=A new poll has been chosen on {1}: {2}. Go ahead and vote at...\n[url="{3}"]{3}[/url]

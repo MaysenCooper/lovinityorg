@@ -1,0 +1,110 @@
+[semihtml][title]System Status[/title]
+Here, you will find information about how well The Lovinity Community+ is functioning. Real-time statuses provided by Uptime Robot. <a href="https://stats.uptimerobot.com/N9NXLs07A" target="_blank">Click here</a> to access our Uptime Robot status page (you may wish to bookmark it so you can check it out in the event our main website is down).
+
+<h2>Real-Time Status (Uptime Robot)</h2>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="col">Monitor</th>
+			<th scope="col">Status</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Server</td>
+			<td><strong>{$UPTIME_ROBOT,m778230873-de8219cb654a35ade0cb8706}</strong></td>
+		</tr>
+		<tr>
+			<td>POP3 Email</td>
+			<td><strong>{$UPTIME_ROBOT,m778252103-e356ba38b3149eb35f6ccb7b}</strong></td>
+		</tr>
+		<tr>
+			<td>TLC+ Website</td>
+			<td><strong>{$UPTIME_ROBOT,m778230868-9694f25b3cf466af44c8c59a}</strong></td>
+		</tr>
+		<tr>
+			<td>TLC+ Radio System &amp; Discord Bot</td>
+			<td><strong>{$UPTIME_ROBOT,m778284477-56c1aa5cc4fdbb5aaad07ee5}</strong></td>
+		</tr>
+		<tr>
+			<td>TLC+ Radio Stream</td>
+			<td><strong>{$UPTIME_ROBOT,m778291974-6b54a4dc2d9c79b81f60136f}</strong></td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Current Health (Manually Updated)</h2>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="col">Monitor</th>
+			<th scope="col">Health</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Server</td>
+			<td><span style="color:#006400;"><strong>GOOD</strong></span></td>
+		</tr>
+		<tr>
+			<td>TLC+ Website</td>
+			<td><span style="color:#008080;"><strong>MINOR PROBLEMS</strong></span></td>
+		</tr>
+		<tr>
+			<td>TLC+ Radio System</td>
+			<td><span style="color:#FF0000;"><b>MAJOR PROBLEMS</b></span></td>
+		</tr>
+		<tr>
+			<td>Discord Bot</td>
+			<td><span style="color:#8B4513;"><strong>PROBLEMS</strong></span></td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>Latest Updates (Manually Updated)</h2>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="col">Time / Date / status color</th>
+			<th scope="col">Monitor</th>
+			<th scope="col">Information</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><strong><span style="color:#FF0000;">January 29, 2017, 3:00pm EST</span></strong></td>
+			<td>TLC+ Radio System</td>
+			<td>The computer housing the radio system and Discord bot is experiencing major instability and is freezing on average 3 times per day. The TLC+ radio system has been shut down until the computer maintains good stability.</td>
+		</tr>
+		<tr>
+			<td><span style="color:#8B4513;"><strong>January 29, 2017, 9:30am EST</strong></span></td>
+			<td>TLC+ Radio System / Discord Bot</td>
+			<td>The computer housing the TLC+ Radio System and Discord Bot has been acting unstable lately, resulting in frequent downtime.</td>
+		</tr>
+		<tr>
+			<td><strong><span style="color:#008080;">January 25, 2017, 6:30am EST</span></strong></td>
+			<td>TLC+ Website</td>
+			<td>WYSIWYG bug detected that could potentially result in your cursor jumping to the end of a paragraph when in the middle of one. Have not confirmed if this is a legitimate bug yet.</td>
+		</tr>
+		<tr>
+			<td><span style="color:#008080;"><strong>January 8, 2017</strong></span></td>
+			<td>TLC+ Website</td>
+			<td>There are a couple bugs with the Catalogues system. When adding new catalogue entries, attachments system may cause a few minor issues due to bugs.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+Status colors:
+<ul>
+	<li><span style="color:#008080;"><strong>Minor problem</strong></span></li>
+	<li><span style="color:#8B4513;"><strong>Problem</strong></span></li>
+	<li><span style="color:#FF0000;"><strong>Major problem</strong></span></li>
+</ul>
+
+<hr /><br />
+Should you come across any bugs or issues, please report them promptly to support@lovinity.org or go under Help -&gt; Tickets / Contact.<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

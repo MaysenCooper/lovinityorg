@@ -1,0 +1,228 @@
+/*
+ {$BRAND_NAME`}
+ Copyright (c) ocProducts, 2004-2016
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+.skillbar {
+  font-family: 'Open Sans', 'sans-serif';
+	position:relative;
+	display:block;
+	margin-bottom:5px;
+	width:100%;
+	background:#eee;
+	height:20px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:10px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 10px;
+	height:20px;
+	line-height:20px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:20px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:20px;
+	line-height:20px;
+	color:#000;
+	color:rgba(0, 0, 0, 1);
+}
+
+.cns_profile_column {
+	background-color: {$GET,area_background};
+	border: 1px solid {$GET,pale_border};
+	margin-top: 1em;
+}
+
+.cns_profile_about_field_name_column {
+	width: 13em;
+}
+
+.cns_profile_about_field_value_column {
+	width: 100%;
+}
+
+/*{+START,IF,{$MOBILE}}*/
+	.cns_profile_column {
+		padding: 0.5em;
+		font-size: 0.9em;
+	}
+
+	.cns_profile_main {
+		padding: 10px 0 0 0;
+		float: left;
+		width: 100%;
+	}
+
+	.cns_member_profile_avatar {
+		text-align: center;
+		margin-top: 1em;
+	}
+/*{+END}*/
+
+/*{+START,IF,{$NOT,{$MOBILE}}}*/
+	.cns_profile_column {
+		float: right;
+		width: 14em;
+		padding: 1em;
+		font-size: 0.9em;
+	}
+
+	.cns_profile_column>h2:first-child {
+		margin-top: 0;
+	}
+
+	.cns_profile_main {
+		padding: 1em 16em 0 0;
+	}
+
+	.cns_member_profile_avatar {
+		text-align: center;
+		margin-top: 1.5em;
+	}
+/*{+END}*/
+
+.cns_member_profile_avatar img {
+	border: 1px solid {$GET,standard_border};
+	max-width: 100px;
+}
+
+.cns_profile_column h2 {
+	font-size: 1.1em;
+}
+
+.cns_member_profile_photo {
+	text-align: center;
+}
+
+.cns_member_profile_photo img {
+	border: 1px solid {$GET,standard_border};
+}
+.cns_member_profile_photo img:not([width]):not([height]) {
+	max-width: 100%;
+	height: auto;
+}
+
+table.cns_profile_about_section {
+	border-collapse: collapse;
+}
+
+table.cns_profile_about_section th {
+	padding: 0.5em 0;
+	border-right: 1px solid {$GET,pale_border};
+	font-weight: bold !important;
+}
+
+table.cns_profile_about_section td {
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+table.cns_profile_about_section .associated_details {
+	display: block;
+}
+
+.cns_profile_friends {
+	overflow: hidden;
+	margin-left: -5px;
+	width: calc(100% + 10px);
+}
+
+.cns_profile_friends>.box {
+	margin: 0.5em 0 1em 0;
+	border: 1px solid {$GET,standard_border};
+	background: {$GET,area_background};
+}
+
+.cns_account_links ul.nl li {
+	overflow: hidden;
+	margin-bottom: 0.5em;
+	padding-top: 4px;
+}
+
+.cns_account_links .toggleable_tray_button img {
+	width: 15px;
+}
+
+.cns_account_links .toggleable_tray img {
+	float: left;
+	margin-right: 0.5em;
+	margin-top: -2px; /* Tied to "padding-top: 4px;" on ".cns_account_links ul.nl li" */
+	width: 20px;
+}
+
+/*
+=========================
+=========Editing=========
+=========================
+*/
+
+.cns_sig_requirements {
+	/*{+START,IF,{$NOT,{$MOBILE}}}*/
+		width: 25em;
+		margin: 1em auto !important;
+	/*{+END}*/
+}
+
+.cns_avatar_page_old_avatar {
+	float: {!en_right};
+	padding: 1em 0.5em 1em 1em;
+	text-align: {!en_right};
+}
+
+.cns_current_sig_wrap {
+	margin-bottom: 1.5em;
+}
+
+.decryption_overlay label {
+	font-weight: bold;
+}

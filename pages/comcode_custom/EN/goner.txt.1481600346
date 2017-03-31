@@ -1,0 +1,13 @@
+[semihtml][box param="User"]
+
+<div class="flex-container">
+<div class="flex-item-max" style="width: 160px;">
+[attachment_safe description="14965681_1182298268484758_3714199447412932608_n.jpg" width="160" height="160" framed="0" thumb="0"]87[/attachment_safe]
+</div>
+<div class="flex-item-max" style="width: 75%;">
+<h1>Welcome, User!</h1>
+</div>
+</div>
+
+[/box][/semihtml]
+{$,page hint: no_wysiwyg}

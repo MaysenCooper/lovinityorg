@@ -1,0 +1,51 @@
+[semihtml][title]Test[/title]
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}
+{$REQUIRE_JAVASCRIPT,RGraph.common.dynamic}
+{$REQUIRE_JAVASCRIPT,RGraph.meter}
+<canvas id="cvs" width="600" height="450" style="width: 200px; height: 150px;">
+    [No canvas support]
+</canvas>
+<script>
+add_event_listener_abstract(window,'load',function() {
+        var meter = new RGraph.Meter({
+            id: 'cvs',
+            min: 0,
+            max: 3,
+            value: {$GOAL_CATALOGUE_ENTRIES,1481946031,3,secret_santa,2},
+            options: {
+            valueText: true,
+            valueTextUnitsPost: ' Entries',
+            backgroundColor: 'transparent',
+                anglesStart: RGraph.PI - 0.55,
+                anglesEnd: RGraph.TWOPI + 0.5,
+                centery: 300,
+                linewidthSegments: 15,
+                textSize: 26,
+                textColor: 'black',
+                greenColor: '#0a0',
+                segmentRadiusStart: 175,
+                border: false,
+                textAccessible: false,
+                strokestyle: 'transparent',
+                tickmarksSmallNum: 0,
+                tickmarksBigNum: 0,
+                needleRadius: 200,
+                needleColor: 'darkgreen',
+                textValign: 'bottom',
+                centerpinFill: 'white',
+                tickmarksSmallNum: 0,
+                tickmarksBigNum: 0,
+                centerpinStroke: 'black',
+                centerpinFill: '#ddd',
+                centerpinStroke: 'darkgreen',
+                colorsRanges: [
+                    [0,0.5,'Gradient(#f00:#f00:#c00:#300)'],
+                    [0.5,2.5,'Gradient(#ffa:#ff0:#cc0:#330)'],
+                    [2.5,3,'Gradient(#afa:#0f0:#0c0:#030)']
+                ],
+                labelsSpecific: [['1 Entry',1],['2 Entries',2],['GOAL', 2.8]],
+            }
+        }).grow({frames: 250});
+    });
+</script>
+[/semihtml]{$,page hint: no_wysiwyg}

@@ -1,0 +1,15 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+_PAID_SUBSCRIPTION_ENDED=Your subscription to {1} is no longer active. If you wish to re-activate your subscription, you must create a new subscription:\n\n[url="{2}"]{2}[/url]
+_PAID_SUBSCRIPTION_STARTED=Thank you for subscribing to paid membership. Your account has now been upgraded.\n\nBest wishes, {1}.
+DOC_ECOMMERCE=Use Composr's eCommerce system to sell things through your website. Our eCommerce system has a wide scope, covering:\n - Usergroup subscription (i.e. sell site access)\n - Member invoicing\n - Online store / shopping cart\n - [i]Programmers may also add new product types, including things with digital delivery[/i]\n\neCommerce support is tied to a payment gateway, such as PayPal.\n\nThe system is highly extensible, where new dynamically handled and integrated products or services can be added by minimal coding by a programmer.
+DOC_USERGROUP_SUBSCRIPTION=Usergroup subscriptions allow you to sell access to usergroups. First you create a usergroup, then you create a usergroup subscription for that usergroup. At some point you would also provide enhanced permissions to the usergroup to give members a reason to pay for the subscription to it.\n\nComposr will automatically show links for purchasing a usergroup subscription to logged in members via the [tt]side_personal_stats[/tt] block.
+INVOICE_MESSAGE=An electronic invoice has been prepared for you at {2}.\n\nYou may view this, and any other invoices using the link below:\n[url="{1}"]{1}[/url]\n\n
+PAYMENT_RECEIVED_BODY=Your payment of {1}-{2} to {3} has been confirmed.\n\nYou will receive a separate notice detailing the delivery of your ordered product or service.\nIf you do not receive such a notice, please reply to this e-mail.
+ECOM_ADDED_SUBSCRIP=<strong>It's really important that you've properly configured and tested your eCommerce options.</strong> You can do this from the <a href="{1}">eCommerce options</a>. This options include a test mode, which will allow you to make a purchase without actually paying anything.\n\nAlso, <strong>don't forget</strong> to add a link to the <kbd>site:purchase</kbd> page somewhere (by default one doesn't exist).
+MANUAL_SUBSCRIPTION_NOTIFICATION_MAIL=The manual {6} subscription for the member {4} will expire within {3} days.\n\nView the member profile of {4} at:\n[url="{1}"]{1}[/url]\n\nTo cancel the subscription of {4}:\n[url="{2}"]{2}[/url]
+MAIL_IP_ADDRESS_REPORT_BODY=These subscribers have exceeded the suggest IP limitation ({1}). They have not been informed, it is up to you to determine whether they are sharing their accounts or not...\n\n{2}

@@ -1,0 +1,113 @@
+[semihtml][title]Welcome to {$SITE_NAME*}[/title]
+[block pages="slide1,slide2,slide4" width="100%" height="300px" buttons="1" delay="7000" speed="500" keypresses="0" slider_id="unslider_front"]main_unslider[/block]
+<div style="text-align: center;"><span style="font-size:1.5em;">[block param="3"]main_greeting[/block]</span></div>
+
+<hr />
+{+START,IF,{$NOT,{$IS_GUEST}}}
+<h2>Latest / Featured Content</h2>
+&nbsp;
+
+[tabs param="Latest news,Poll / Weekly Topics,Forum Activity,Featured Content,Featured Media,Featured Social"]
+[tab param="Latest news" default="1"][block="7" member_based="0" select="8" multiplier="0.5" fallback_full="1" fallback_archive="3" blogs="0" zone="_SEARCH" title="Latest news" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="0" as_guest="0" optimise="0" defer="1"]main_news[/block][/tab]
+
+[tab param="Poll / Weekly Topics"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td>[block="14" limit="5" hot="0" date_key="lasttime" username_key="lastusername" title="Topics of the Week" check="0" defer="1"]main_forum_topics[/block]</td>
+			<td>[block zone="_SEARCH" defer="1"]main_poll[/block]</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+[/tab]
+
+[tab param="Forum Activity"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td>[block="16,28,29,30,31,32,33,34,35,36,37,38" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Activism / Injustice" check="0" defer="1"]main_forum_topics[/block]</td>
+			<td>[block="15,18,19,20,21,22,23,24,25" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Advice / Wisdom" check="0" defer="1"]main_forum_topics[/block]</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+[/tab]
+
+[tab param="Featured Content"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td>[block="6" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+			<td>[block="5" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+			<td>[block="11" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+[/tab]
+
+[tab param="Featured Media"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td>[block="3" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+			<td>[block="7" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+			<td>[block="2" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+[/tab]
+
+[tab param="Featured Social"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td>[block="4" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+			<td>[block="10" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+			<td>[block="8" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+[/tab]
+[/tabs]
+<h2>Activity Feed&nbsp;</h2>
+[block param="Status update" defer="1"]main_activities_state[/block]<br />
+[block param="Activity Feed" max="20" start="0" mode="all" grow="0" refresh_time="30" defer="1"]main_activities[/block]<br />
+{+END}
+{+START,IF,{$IS_GUEST}}
+<h2>Explore</h2>
+<div style="text-align: center;"><span style="font-size:1.5em;">Welcome to the&nbsp;safe space social network, The Lovinity Community+<br />
+<br />
+Share various thoughts throughout our community:</span>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td style="text-align: center;"><input class="cms_keep_ui_controlled" readonly="readonly" size="45" title="[media description=&quot;Wisdom&quot; framed=&quot;0&quot; thumb=&quot;0&quot;]uploads/filedump/misc/frontpageicons/wisdom.png[/media]" type="button" value="media Comcode tag (dbl-click to edit/delete)" /></td>
+			<td style="text-align: center;"><input class="cms_keep_ui_controlled" readonly="readonly" size="45" title="[media description=&quot;Activism&quot; framed=&quot;0&quot; thumb=&quot;0&quot;]uploads/filedump/misc/frontpageicons/report.png[/media]" type="button" value="media Comcode tag (dbl-click to edit/delete)" /><br />
+			&nbsp;</td>
+			<td style="text-align: center;"><input class="cms_keep_ui_controlled" readonly="readonly" size="45" title="[media description=&quot;Internet Radio&quot; framed=&quot;0&quot; thumb=&quot;0&quot;]uploads/filedump/misc/frontpageicons/microphone.png[/media]" type="button" value="media Comcode tag (dbl-click to edit/delete)" /><br />
+			&nbsp;</td>
+			<td style="text-align: center;"><input class="cms_keep_ui_controlled" readonly="readonly" size="45" title="[media description=&quot;Literature&quot; framed=&quot;0&quot; thumb=&quot;0&quot;]uploads/filedump/misc/frontpageicons/book.png[/media]" type="button" value="media Comcode tag (dbl-click to edit/delete)" /></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><span style="font-size:1.3em;">Advice / Wisdom</span><br />
+			<span style="font-size:1em;">Chat with our community on various topics relating to your life or the lives of others. Share wisdom, tips, moments, and more. Ask for help and support when you need someone. Vent out emotions when you feel the need to in our vent forum. Debate issues in our Debate forum.</span></td>
+			<td style="text-align: center;"><span style="font-size:1.3em;">Activism</span><br />
+			<span style="font-size:1em;">Promote your own activist movements on our website. Contact us to have a page set up on our site for your cause for free. Utilize our website features to gain a following and present your cause.</span></td>
+			<td style="text-align: center;"><span style="font-size:1.3em;">Internet Radio</span><br />
+			<span style="font-size:1em;">Listen to our Internet Radio Station. Enjoy music and community-contributed radio programming. Sign up to host your own radio show (weekly 1-hour shows are free).</span></td>
+			<td style="text-align: center;"><span style="font-size:1.3em;">Literature</span><br />
+			<span style="font-size:1em;">Share your literary works about various subject matters, including activism. You can submit any kind of work, from poetry to prose and more. Receive ratings/comments from the community on your work.</span></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+{+END}
+<br />
+[block]main_bottom_bar[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.lovinity.org/-unslider-slide2.htm</loc>
+        <lastmod>2016-09-18T16:15:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/rp/blogs.htm</loc>
+        <lastmod>2016-10-02T23:31:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/rp/start.htm</loc>
+        <lastmod>2016-10-07T03:11:00+00:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <url>
+        <loc>https://www.lovinity.org/guidestart/3C-support-intervention.htm</loc>
+        <lastmod>2017-02-20T00:11:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+</urlset>

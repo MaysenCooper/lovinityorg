@@ -1,0 +1,121 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,karma_bar}
+[title]Welcome to {$SITE_NAME*}[/title]
+<div style="text-align: center;"><span style="font-size:1.5em;">[block param="3"]main_greeting[/block]</span></div>
+<hr />
+<h2>Latest News</h2>
+[box="Taking a Stamp"]
+<div style="text-align: center;">[block="takeastamp" max="100"]main_banner_wave[/block]
+Suggestion for a stamp? Let us know at [page=":tickets"]Help -> Tickets / Contact[/page]</div>
+[/box]
+&nbsp;
+<div class="flex-container">
+<div class="flex-item-max" style="min-width: 150px; width: 60%;">
+[block="7" member_based="0" select="8" multiplier="0.5" fallback_full="1" fallback_archive="3" blogs="0" zone="_SEARCH" title="What's Happening Here?" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="0" as_guest="0" optimise="0"]main_news[/block]
+</div>
+<div class="flex-item-max" style="min-width: 375px; width: 40%;">
+[box="The Lovinity Community+ Official Discord Server"]
+<iframe src="https://discordapp.com/widget?id=260824811268210691&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+[/box]
+</div>
+</div>
+<br />
+
+<div class="flex-container">
+<div class="flex-item-max" style="min-width: 150px; width: 20%;">
+[block]side_stock[/block]
+[block="quotes" title="Affirmation of the Hour" cache="1"]main_quotes[/block]
+{+START,IF,{$NOT,{$IS_GUEST}}}
+[block cache="1"]side_journal[/block]
+{+END}
+[block param="14" limit="5" hot="0" date_key="lasttime" username_key="lastusername" title="Topics of the Week" check="0"]main_forum_topics[/block]
+[block param="66" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Tidbit Topics" check="0"]main_forum_topics[/block]
+{+START,IF,{$NOT,{$IS_GUEST}}}
+[block zone="_SEARCH"]main_poll[/block]
+[block param="16,28,29,30,31,32,33,34,35,36,37,38" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Activism / Injustice" check="1"]main_forum_topics[/block][block param="15,18,19,20,21,22,23,24,25" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Advice / Wisdom" check="1"]main_forum_topics[/block]
+{+END}
+</div>
+<div class="flex-item-max" style="width: 75%">
+{+START,IF,{$NOT,{$IS_GUEST}}}
+[box="Goal of the Week"]
+<div class="flex-container">
+<div class="flex-container">
+<div class="flex-item-max" style="width: 160px;">
+<div class="circle" id="circle1" style="position: relative;"><strong>{$GOAL_DATE,1480724321,1482537600,2}</strong></div>
+</div>
+<div class="flex-item-max" style="width: 66%; color: DarkRed;">
+			<span style="font-size:1.3em;">HOLIDAY SECRET SANTA</span><br />
+			<br />
+			<span style="font-size:1em;">Submit up to 3 virtual holiday gifts, such as pictures or greeting cards, to be randomly distributed to other members. The deadline is 12am GMT December 24. Go to <a href="https://lovinity.org/cms/cms-catalogues.htm?catalogue_name=secret_santa" target="_blank">This page</a> to submit your gifts.<br />
+			<br />
+Reward: Everyone who submits at least 1 gift will be rewarded 100 points. Only those who submit at least 1 gift will receive any gifts from Secret Santa.</span>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-item-max" style="width: 160px;">
+<div class="circle" id="circle2" style="position: relative;"><strong>0</strong></div>
+</div>
+<div class="flex-item-max" style="width: 66%; color: DarkGreen;">
+			<span style="font-size:1.3em;">GOAL OF THE WEEK</span><br />
+			<br />
+			<span style="font-size:1em;">Have at least 3 members submit (and get approved) Secret Santa gifts by the end of the day December 23rd .<br />
+			<br />
+Reward: Lovinity will make a special secret santa gift that will be sent to everyone.</span>
+</div>
+</div>
+</div>
+[/box]
+<script>
+window.onload = function(){
+    $('#circle1').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: {$GOAL_DATE,1480724321,1482537600,1},
+        size: 150,
+        fill: {
+            color: "rgba(255,0,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+});
+    $('#circle2').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: {$GOAL_CATALOGUE_ENTRIES,1481946031,3,secret_santa,1},
+        size: 150,
+        fill: {
+            color: "rgba(0,128,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+}).on('circle-animation-progress', function(event, progress) {
+  $(this).find('strong').html({$GOAL_CATALOGUE_ENTRIES,1481946031,3,secret_santa,2});
+});
+};
+</script>
+<h2>Activity Feed&nbsp;</h2>
+[block param="Status update"]main_activities_state[/block]<br />
+[block param="Activity Feed" max="10" start="0" mode="all" grow="0" refresh_time="30"]main_activities[/block]<br />
+</div>
+</div>
+{+END}
+<br />
+{+START,IF,{$IS_GUEST}}
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Not Logged In" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/locked-2.png[/media]</p>
+<p><span style="font-size:1.3em;">Not Logged In</span><br />
+</p>
+</div>
+</div>
+<div style="text-align: center;"><span style="font-size:1.5em;"><a href="https://lovinity.org/join">join our community</a>&nbsp;for free to access <a href="https://lovinity.org/catalogues/entry/website-functionality/what-features-does-the.htm">all of our features</a> and member-only sections of the forum.</span></div>
+{+END}
+<br />
+[block]main_bottom_bar[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

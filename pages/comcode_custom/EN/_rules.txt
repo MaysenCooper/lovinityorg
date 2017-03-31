@@ -1,0 +1,1 @@
+[html]<iframe height="2000px" src="https://lovinity.org/rules?wide_high=1&amp;overlay=1" width="100%"></iframe>[/html]

@@ -1,0 +1,95 @@
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}
+{$REQUIRE_JAVASCRIPT,RGraph.common.dynamic}
+{$REQUIRE_JAVASCRIPT,RGraph.common.tooltips}
+{$REQUIRE_JAVASCRIPT,RGraph.common.csv}
+{$REQUIRE_JAVASCRIPT,RGraph.drawing.background}
+{$REQUIRE_JAVASCRIPT,RGraph.line}
+<section class="box box___block_side_stats"><div class="box_inner">
+<h3>Activity Index</h3>
+		<p>{STOCK_INDEX} current index</p>
+		<div style="display: none" id="myData">
+		{TREND_DATA}
+		</div>
+		<canvas id="stock_trend" width="600" height="250" style="width: 175px;">
+                [No canvas support]
+                </canvas>
+		<p><a href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-activity.htm" target="_blank">What is this?</a></p>
+</div></section>
+<script>
+add_event_listener_abstract(window,'load',function() {
+
+    new RGraph.CSV('id:myData', function (csv)
+    {
+        var data     = csv.getCol(1),
+            tooltips = csv.getCol(0)
+        
+        data     = RGraph.arrayReverse(data);
+        tooltips = RGraph.arrayReverse(tooltips);
+        tooltips.forEach(function (v,k,arr)
+        {
+            var d      = new Date(RGraph.parseDate(v));
+            var month  = d.getMonth();
+            var date   = d.getDate();
+            var year   = d.getFullYear();
+            var months = [
+                'January','February','March',
+                'April','May','June',
+                'July','August','September',
+                'October','November','December',
+            ];
+            
+            if (date === 1 || date === 21 || date === 31) {var append = 'st'}
+            else if (date === 2 || date === 22) {var append = 'nd'}
+            else if (date === 3 || date === 23) {var append = 'rd'}
+            else {var append = 'th'}
+
+            arr[k] = '<i>Last price:</i><br /><br />{1} {2}{5} {3}: <b>{4}</b>'.format(
+                months[month],
+                date,
+                year,
+                data[k],
+                append
+            );
+            
+            RGraph.tooltips.style.textAlign       = 'left';
+            RGraph.tooltips.style.backgroundColor = 'rgba(255,255,255,0.75)';
+            RGraph.tooltips.style.border          = '1px solid blue';
+        })
+
+        new RGraph.Line({
+            id: 'cvs',
+            data: data,
+            options: {
+                linewidth: 2,
+                backgroundGridVlines: false,
+                backgroundGridBorder: false,
+                backgroundGridAutofitNumhlines: 4,
+                noaxes: true,
+                tickmarks: true,
+                shadow: false,
+                ylabelsCount: 4,
+                gutterLeft: 50,
+                gutterRight: 50,
+                colors: ['#7CB5EC'],
+                title: '7-day trend',
+                textAccessible: false,
+                tooltips: tooltips,
+                labels: [
+                    '','','7D',
+                    '','','6D',
+                    '','','5D',
+                    '','','4D',
+                    '','','3D',
+                    '','','2D',
+                    '','','1D',
+                    '','','Now'
+                ]
+            }
+        }).trace();
+    });
+
+var textwrap = document.getElementById('stock_trend_rgraph_domtext_wrapper');
+textwrap.style.width  = '175px';
+textwrap.style.height  = '72.91px';
+});
+</script>

@@ -1,0 +1,19 @@
+{$REQUIRE_JAVASCRIPT,karma_bar}
+{$REQUIRE_JAVASCRIPT,jquery}
+{$REQUIRE_CSS,global}
+<section class="box box___block_side_stats"><div class="box_inner">
+<h3>Activity Index</h3>
+		<p>{STOCK_INDEX} current index</p>
+		<div class="flex-container">
+		<div class="flex-item-max" style="width: 100px; min-height: 20px;">
+		<div class="circle" id="trend1" style="position: relative; display: inline-block;"></div> {TREND_1} 24-HR
+		</div>
+		<div class="flex-item-max" style="width: 100px; min-height: 20px;">
+		<div class="circle" id="trend7" style="position: relative; display: inline-block;"></div> {TREND_7} 7-DAY
+		</div>
+		<div class="flex-item-max" style="width: 100px; min-height: 20px;">
+		<div class="circle" id="trend30" style="position: relative; display: inline-block;"></div> {TREND_30} 30-DAY
+		</div>
+		</div>
+		<p><a href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-activity.htm" target="_blank">What is this?</a></p>
+</div></section>

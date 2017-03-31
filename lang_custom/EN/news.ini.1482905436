@@ -1,0 +1,8 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+NEWS_NOTIFICATION_MAIL=A new news article, {2}, has been added to {1}. You can view it from the following URL:\n[url="{3}"]{3}[/url]
+BLOG_NOTIFICATION_MAIL=A new blog post, {2}, has been added to {1}. You can view it from the following URL:\n[url="{3}"]{3}[/url]

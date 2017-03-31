@@ -1,0 +1,8 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+CT_NOTIFICATION_MAIL=A new admin task has been manually added by {1|a|an} {1} member of staff:\n\n{2}
+STAFF_CHECKLIST_MAIL_BODY=There are {1} item(s) on the {2} staff checklist that are pending action. To see and manage the staff checklist items, visit your [url="Admin Zone"]{3}[/url].\n\nYou are receiving this notification due to your notification settings -- staff checklist notifications are sent on a weekly basis, so long as there are outstanding items on the staff checklist.

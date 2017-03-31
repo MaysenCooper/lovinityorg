@@ -1,0 +1,49 @@
+[semihtml][title]Privacy policy[/title]
+
+<div class="spaced_list">This website:
+<ul>
+	<li>stores temporary cookies that are removed when you close the browser window, such as a user session identifier;{+START,IF,{$CONFIG_OPTION,remember_me_by_default}}also cookies are used for the &quot;remember me&quot; feature;{+END}{+START,IF,{$CONFIG_OPTION,detect_javascript}}also cookies are used to detect if JavaScript is enabled;{+END}{+START,IF,{$CONFIG_OPTION,is_on_timezone_detection}}also cookies are used to detect your time-zone;{+END}{+START,IF_NON_EMPTY,{$CONFIG_OPTION,google_analytics}}uses Google Analytics for analysing visitor trends and tracking the effectiveness of our advertisements;{+END}</li>
+	<li>stores cookies (yes/no) for remembering what things have been turned off/closed;</li>
+	<li>stores cookies for remembering font size;</li>
+	<li>stores cookies for improving the usability of engaging aspects such as the chatroom or forum (in particular, auto-saving of partially-typed posts);</li>
+	<li>stores other kinds of cookie that are mentioned before they are set;</li>
+	<li>logs basic information pertaining to your computer including your IP address, web browser name, and operating system;</li>
+	<li>stores other information that you explicitly enter, such as your account information, or forum posts;</li>
+	<li>if you are logged in, your member profile will update the publicly displayed time that you last visited (which will also be stored in a cookie), and you will show as online (unless you login as invisible).</li>
+</ul>
+</div>
+If you wish to see what exact cookies are saved, or delete cookies, you may do so using <a class="user_link" href="http://www.wikihow.com/View-Cookies" rel=" external" target="_blank" title="standard tools built into your web browser (this link will open in a new window)">standard tools built into your web browser</a>.<br />
+<br />
+We may occasionally send bulk e-mails about {$SITE_NAME}, or matters relating to {$SITE_SCOPE} to our members. We will not send bulk e-mails or allow others to send bulk e-mails, which we believe would be considered spam.<br />
+<br />
+We will not share private details other than what can be seen in the forum profile and public postings unless legally required to do so.<br />
+<br />
+The staff reserve the right to read any Private Topics and posts placed on this website. <strong>Any form of conversation made through this website should be considered viewable by staff.</strong> All private-posts and posts, whether &#39;deleted&#39; or not, are stored on the server and may be reviewed if we feel we have cause for an investigation. If you do want to keep something private, do not use our services for transmitting it. Situations involving investigations can be anything at our discretion, for example, to investigate specific incidents of our services being used for racism or harassment.<br />
+{+START,IF,{$ADDON_INSTALLED,shopping}}<br />
+Use of the shopping cart may cause a non-logged-in-user&#39;s session to stick around for a longer than normal period of time, using a cookie, in order to keep the cart from being lost.{+END}
+
+<h2>Content Title Privacy Disclaimer</h2>
+You should assume that the titles of any content can be viewable by anyone, including guests, even if the content itself cannot. The reason being is because the Activity Feed does not regard privacy settings when making notices that members create new content (however should a member without access try to click it, they will receive an access denied error). This also includes titles of private topics.&nbsp;<br />
+{+START,IF,{$CNS}}<br />
+<h2>Privacy settings</h2>
+Logged in members may <a class="user_link" href="https://lovinity.org/members/view#tab__edit__privacy">choose which fields display publicly</a>.{+END}<br />
+{+START,IF,{$COPPA_ON}}<br />
+<h2>Children&#39;s Online Privacy Protection Act</h2>
+In order for children under the age of thirteen to join this website, a parent or guardian must approve it. This is in accordance with U.S. law, but is applied internationally as a civil standard.<br />
+A notice will be sent, by e-mail, to the e-mail address given when a child joins, which will provide notice on how to approve the membership.<br />
+<br />
+The parent or guardian has the option to agree to the collection and use of the child&#39;s information without consenting to the disclosure of the information to third parties.<br />
+<br />
+{$SITE_NAME} may not require a child to disclose more information than is reasonably necessary to participate in an activity as a condition of participation.<br />
+<br />
+The parent or guardian can review the child&#39;s personal information, ask to have it deleted and refuse to allow any further collection or use of the child&#39;s information. This may be done by contacting the staff in the same way as was done to approve the membership originally.{+END}<br />
+{+START,IF,{$NEQ,{$CONFIG_OPTION,spam_check_level},NEVER}}<br />
+<h2>Spam checking</h2>
+For the purpose of reducing spam:<br />
+<br />
+&nbsp;
+<ol type="1">
+	<li>Your IP address, e-mail address, and username, may be checked against the <a class="user_link" href="http://www.stopforumspam.com/" rel=" external" target="_blank" title="Stop Forum Spam (this link will open in a new window)">Stop Forum Spam</a> web service, which involves these details being transmitted within a service request.</li>
+	<li>Your IP address may be checked against multiple block lists, which involves these details being transmitted within a service request.</li>
+</ol>
+{+END}[/semihtml]

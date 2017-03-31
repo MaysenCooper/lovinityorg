@@ -1,0 +1,93 @@
+[descriptions]
+
+[runtime_processing]
+DESCRIPTION_SUBMITTER_GETS_POINTS=entry_in_param_1
+REVERSE_TITLE_DESCRIPTION=entry_in_param_1
+
+[strings]
+MEMBER_POINT_FIND=YinYang profiles
+_POINTS=YinYang profile of '{1}'
+PR_NORMAL=Thank you for your sentiments. Your Yin transaction has been completed.
+VIEW_POINTS=View YinYang profile
+COUNT_POINTS_LEFT=Yang left
+COUNT_POINTS_USED=Yang used
+COUNT_POINTS_GIVEN=Yang given via. Yin
+COUNT_POINTS_EVER=Yang ever had
+COUNT_POINTS=Yang earned
+COUNT_GIFT_POINTS_LEFT=Yin available
+COUNT_GIFT_POINTS_USED=Yin used
+GIVE_TEXT=You have  <strong>{1}</strong> Yin available.
+GIVE_TEXT_UNLIMITED=You have <strong>unlimited</strong> Yin available. You may also modify this member's Yang.
+GIVE_POINTS=Give Yang (using your Yin)
+POINTS_USED=Yang used by this member
+YOU_GIVEN_POINTS=You have been given {1} {1|Yang|Yang}
+GIVEN_POINTS_FOR=A member of the {1} community ({5}) has given {2} {2|Yang|Yang} for:\n\n{3}\n\nYou can view your point profile from the link below:\n{4}
+MEMBER_GIVEN_POINTS_FOR={5} has given {2} {2|Yang|Yang} to {1} for:\n\n{3}
+GIVEN_POINTS_FOR_ANON=A member of the {1} community has anonymously given {2} {2|Yang|Yang} for:\n\n{3}\n\nYou can view your point profile from the link below:\n{4}
+PR_LUCKY=It's your lucky day; you have received {1} free Yang for your generosity towards others.
+_PR_LUCKY=Won Yang in system lottery when giving Yin.
+PE_SELF=You may not give Yin / Yang to yourself.
+PE_LACKING_GIFT_POINTS=You do not have enough Yin for this.
+LACKING_POINTS=You do not have enough Yang for this. You need {1} more.
+PE_NEGATIVE_GIFT=You can't give a user negative Yang
+CONFIG_CATEGORY_POINTS=YinYang options
+GIFT_TRANSACTIONS=Yin transactions
+MEMBER_HAS_BEEN_CHARGED=<strong>{1}</strong> has been <span class="red_alert">charged</span> <strong>{2}</strong> Yang, and now has <strong>{3} {3|Yang|Yang} remaining</strong>.
+WILL_COST=This will cost you {1} Yang.
+SUBMITTER_GETS_POINTS=Submitter-gets-Yang
+DESCRIPTION_SUBMITTER_GETS_POINTS=Tick if you want the Yang cost for this entry to be awarded to the submitter, instead of written as a system charge.
+CONFIG_OPTION_points_COMCODE_PAGE_ADD=The number of Yang awarded for adding a Comcode page.
+CONFIG_OPTION_points_joining=The Yang a new member is awarded.
+CONFIG_OPTION_points_rating=The Yang a member is awarded for rating an entry.
+CONFIG_OPTION_points_voting=The number of Yang a member is awarded for voting in a poll.
+CONFIG_OPTION_points_posting=The Yang a member is awarded for a forum post.
+CONFIG_OPTION_points_points_RECOMMEND_SITE=The Yang awarded for successfully inviting someone to join the site.
+CONFIG_OPTION_points_per_day=The Yang a member accrues automatically for each day since they joined.
+CONFIG_OPTION_points_per_daily_visit=The Yang a member receives for visiting (this is only ever allocable once per day).
+PRIVILEGE_use_points=Use YinYang
+PRIVILEGE_give_points_self=Give Yang to self
+PRIVILEGE_have_negative_gift_points=Have negative Yin
+PRIVILEGE_give_negative_points=Give negative Yang
+PRIVILEGE_view_charge_log=View YinYang charge logs
+PRIVILEGE_trace_anonymous_gifts=Trace the origin of anonymous Yin gifts
+REVERSE_TITLE=Reverse Yin transaction
+ARE_YOU_SURE_REVERSE=Are you sure you would like to reverse this Yin transaction?<br />(<strong>{1}</strong> Yang given to <strong>{3}</strong> by {2})
+REVERSE_TITLE_DESCRIPTION=The submitter of this entry was awarded Yang for doing it. You may choose to take that Yang away.
+POINTS_PER_DAY=Yang per day
+POINTS_PER_DAILY_VISIT=Yang per daily-visit
+NO_PERMISSION_TO_USE_POINTS=This member does not have the necessary permission to use YinYang
+GIFT_POINTS_LOG=The following Yin transactions have been performed on this website&hellip;
+VIEWING_POINTS_PROFILE_OF={1} has earned the following Yang through regular website use:
+POINTS_SEARCH_FORM=This form will help you find a member's YinYang profile.
+MODULE_TRANS_NAME_admin_points=YinYang
+MODULE_TRANS_NAME_points=YinYang
+NAG_MONITOR_GIFTS=<a href="{1}">Monitor Yin-transactions for misuse</a>
+POINTS_UNIT=Yang
+POINTS_EARNED=Yang earned
+POINTS_RECEIVED=Yang received
+POINTS_GIFTED=Yang gifted via. Yin
+_POINTS_GIFTED={1} has given away <strong>{2}</strong {2|Yin|Yin} as follows:
+POINTS_SPENT=Yang spent
+_POINTS_SPENT={1} has spent <strong>{2}</strong> {2|Yang|Yang} on the following purchases:
+CURRENT_POINTS=Current Yang
+POINTS_IN_ADDITION=In addition, {1} has received <strong>{2}</strong> {2|Yang|Yang}, including for&hellip;
+POINTS_MUST_LOGIN=You are not logged in but if you were you could give Yang (using Yin).
+MODIFY_POINTS=Modify YinYang
+MEMBER_CHARGED_POINTS=Charged/spent {1} {1|Yang|Yang} for {2}
+MEMBER_GIVEN_POINTS=Given {1} {1|Yang|Yang} for {2}
+NOTIFICATION_TYPE_received_points=You've received Yang
+NOTIFICATION_TYPE_receive_points_staff=A member received Yang
+POINTS_IF_LIKED=Yang if content liked
+CONFIG_OPTION_points_if_liked=The number of Yang awarded to a member whose contents is liked by another user / given a 5-star rating.
+ACTIVITY_GIVE_POINTS=Gave {2} Yang (via. Yin) to {7} for '{1}'
+POINTS_PER_CURRENCY_UNIT=Yang per unit of currency
+CONFIG_OPTION_points_per_currency_unit=Yang equivalent to one unit of currency. 100 would mean 100 Yang is worth one dollar/pound. This option is not currently used by any bundled software code, but made available to non-bundled addons as a standard.
+EXPORT_POINTS=Export YinYang tallies
+POINTS_GAINED_BETWEEN=Yang gained between {1} and {2}
+POINTS_NOW=Yang now
+DOC_EXPORT_POINTS=You can export YinTang from historical time intervals as a [acronym="Comma-Separated-Values"]CSV[/acronym] file. This works as an approximation that is accurate so long as member content had not been deleted in the interim, and point scoring parameters had not been changed. The export may take considerable time, depending on the size of your member-base.\n\nThe CSV file will be ordered via a winner algorithm. Each member has a 'ticket' from each Yang they've earned, in a randomised 'lottery' -- the top CSV result is the top winner, then runner ups follow on in the same fashion. This is a useful feature if you want to run competitions based on site activity.
+CONFIG_OPTION_gift_reward_chance=The percentage chance that members giving Yang via. Yin will be given a reward for doing so.
+CONFIG_OPTION_gift_reward_amount=Yang automatically given to a member who was lucky enough to get a reward for their own Yang (via. Yin) giving.
+GIFT_REWARD_AMOUNT=Yang reward amount
+CONFIG_OPTION_point_logs_per_page=The number of YinYang transactions shown on each pagination-screen, when viewing a member's points.
+POINT_LOGS_PER_PAGE=Number of YinYang transactions per-page

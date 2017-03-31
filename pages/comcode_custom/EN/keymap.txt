@@ -1,0 +1,64 @@
+[semihtml][title]Keyboard shortcuts[/title]
+These are the key shortcuts that will work on {$SITE_NAME}.<br />
+<br />
+On most web browsers you can activate a key shortcut by holding down the Alt key and pressing the key code (hold down the Ctrl key on a Mac). You may need to hold down the Shift key in addition.<br />
+<br />
+<b><kbd>C</kbd></b> Continue to followup page<br />
+<b><kbd>G</kbd></b> Go back to the top of the page<br />
+<b><kbd>I</kbd></b> Admin Zone (staff only)<br />
+<b><kbd>J</kbd></b> Previous<br />
+<b><kbd>K</kbd></b> Another/Next<br />
+<b><kbd>L</kbd></b> Log in/Log out<br />
+<b><kbd>M</kbd></b> Activate the management menu (staff only)<br />
+<b><kbd>N</kbd></b> Activate bookmarks menu<br />
+{+START,IF,{$ADDON_INSTALLED,commandr}}<b><kbd>O</kbd></b> Open Commandr (staff only){+END}<br />
+<b><kbd>P</kbd></b> Preview<br />
+<b><kbd>Q</kbd></b> Activate edit link (staff only)<br />
+<b><kbd>R</kbd></b> Rate<br />
+<b><kbd>S</kbd></b> Skip navigation<br />
+<b><kbd>U</kbd></b> Submit form<br />
+<b><kbd>W</kbd></b> Switch user (staff only)<br />
+<b><kbd>X</kbd></b> Go to the main posting area of a posting form<br />
+<b><kbd>Y</kbd></b> Go to advanced screen<br />
+<b><kbd>Z</kbd></b> Select the zone list<br />
+<b><kbd>1</kbd></b> Home page<br />
+<b><kbd>2</kbd></b> News archive<br />
+<b><kbd>3</kbd></b> Site map<br />
+<b><kbd>4</kbd></b> Search<br />
+<b><kbd>5</kbd></b> Staff page<br />
+<b><kbd>6</kbd></b> Help<br />
+<b><kbd>7</kbd></b> Rules<br />
+<b><kbd>8</kbd></b> View the website privacy policy<br />
+<b><kbd>9</kbd></b> Feedback form<br />
+<b><kbd>0</kbd></b> Keyboard map<br />
+<b><kbd>-</kbd></b> Webmaster chat (staff only)<br />
+<br />
+[staff_note]The following are free for using:<br />
+<br />
+=<br />
+[<br />
+]<br />
+\<br />
+;<br />
+&#39;<br />
+,<br />
+.<br />
+/<br />
+[/staff_note]
+
+<div class="accessibility_hidden">
+[box param="Tips for the JAWS screen reader"]For best performance, please set JAWS to read Title text. To do this, do the following:<br />
+<br />
+&nbsp;
+<ul>
+	<li>From Internet Explorer, Microsoft Edge, or Firefox, press Insert+F2, the JAWS manager dialog will open. There are lot&#39;s of options here, but what you want is the JCF (JAWS Configuration Manager).</li>
+	<li>Press (&quot;C&quot;) for the Configuration manager and press enter.</li>
+	<li>Press Alt+S to open the (&quot;User options submenu&quot;).</li>
+	<li>Use your up and down arrow keys to navigate to the (&quot;HTML Options Settings&quot;) dialog and press enter.</li>
+	<li>Press Ctrl+Tab till you get to the (&quot;HTML options&quot;) page.</li>
+	<li>Tab to &quot;Text Link Options&quot; and press up arrow to the &quot;Use Title&quot; radio button, and press the Tab key to get to the &quot;Ok&quot; button, and press spacebar or enter.</li>
+	<li>You should now be back in the configuration manager. Press Alt+F4 to save your settings, and you will be returned back to the website.</li>
+</ul>
+Note that these settings only work with JAWS 11 users and lower. For JAWS 12 users and higher, please see the manual on how to do this.<br />
+[/box]
+</div>[/semihtml]

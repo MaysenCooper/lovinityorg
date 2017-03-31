@@ -1,0 +1,28 @@
+[semihtml][title]Your Activism Cause Here[/title]
+The Lovinity Community+ aims to be a community that promotes activist causes and movements. Everyone who uses our website is free to promote positive activist movements. However, if you would like <strong>an activist section on our website</strong>, you may contact us via. support tickets (Help -&gt; Support Tickets, or email support@lovinity.org ). By getting an activist section / page on our website, your cause will gain extra exposure as well as the use of our website features. Here are some of the possible <strong>features</strong> we can delegate to your activist section / page:
+
+<ul>
+	<li>Club user group (so people can show their support via. their profile) (All activism sections will get a club/usergroup by default)</li>
+	<li>Forums (all activism sections will get a forum by default)</li>
+	<li>Advertising banners (for a fee)</li>
+	<li>Events Calendar</li>
+	<li>Catalogues / forms / databases</li>
+	<li>Chat rooms</li>
+	<li>Downloads</li>
+	<li>Audio / Video / Image galleries</li>
+	<li>Links library</li>
+	<li>News</li>
+	<li>Web Pages (Comcode pages)</li>
+	<li>Polls</li>
+	<li>Wikis</li>
+	<li>Internet Radio Show</li>
+</ul>
+
+<h2>What is the Cost, and What do you get?</h2>
+<strong>It is free to have an activist section on our website. </strong>However, the amount of time it takes staff to set up your&nbsp;activist section is subject to their availability.<br />
+<br />
+When you&nbsp;request an activist section with us, we will collaborate with you on several things. We will ask what&nbsp;you would like as a subdomain (eg. youractivistname.lovinity.org). We will ask what features you would like us to delegate and put on your activism&#39;s subdomain. And we will collaborate if you would like your own&nbsp;pages,&nbsp;colour style, and background image for your subdomain.&nbsp;
+<h2>Requirements</h2>
+There are only a couple requirements. First off, you must <strong>have an account on our website</strong> and have&nbsp;no more than&nbsp;<strong>25</strong>&nbsp;<strong>demerits</strong>&nbsp;before you can request an activist section (<a href="https://lovinity.org/catalogues/entry/rules-and-policies/what-is-karma">what are demerits?</a>). In addition, we ask that you <strong>actively maintain and submit content</strong> relating to the activist cause or movement. Any activist sections or websites found to go more than a month without activity may be subject to removal by The Lovinity Community+ in order to maintain freshness of our website.<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

@@ -1,0 +1,38 @@
+[semihtml][title]Leaders[/title]
+On this page, you can see a current list of our community leaders.
+
+<h2>STAR members</h2>
+Our community assigns a STAR stat percent to every user depending on how engaging they&#39;ve been within the last 30 days compared to the most active member. For more information,&nbsp;<a class="user_link" href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-star-stat">click here</a><br />
+&quot;STAR members&quot; are those that have a STAR stat of 20% or higher. Here are our current top 5 STAR members (minus the CEO, Lovinity):<br />
+<br />
+[block]main_pop[/block]&quot;Role Points&quot; is the STAR stat that user currently has.<br />
+&nbsp;
+<hr />The leaders below, top 3 for each category, are based off of the number of gift points received for various roles. To award someone for a specific role, go to their profile&#39;s points tab and give them gift points, setting the appropriate role option as defined on this page.
+<h2>Wise Mind</h2>
+Wise Minds are those individuals who provide wisdom that the community finds very helpful and beneficial.<br />
+[block param=&quot;Wise Mind&quot; defer=&quot;1&quot;]main_stars[/block]
+
+<h2>Supportive Soul</h2>
+Supportive souls are those individuals who provide personal support for others who need it.<br />
+[block param=&quot;Supportive Soul&quot; &amp;amp;amp;amp;amp;nbsp;defer=&quot;1&quot;]main_stars[/block]
+
+<h2>Randomly Kind</h2>
+Randomly Kind individuals are those known to perform random acts of kindness in our community.<br />
+[block param=&quot;Randomly Kind&quot; defer=&quot;1&quot;]main_stars[/block]
+
+<h2>Busy for Good</h2>
+Busy for Good individuals are those who put in a lot of effort and work to do something good for the community.<br />
+[block param=&quot;Busy for Good&quot; defer=&quot;1&quot;]main_stars[/block]
+
+<h2>Warm and Friendly</h2>
+Warm and Friendly individuals are those known for their warm, friendly, outgoing personality in the community.<br />
+[block param=&quot;Warm and Friendly&quot; defer=&quot;1&quot;]main_stars[/block]
+
+<h2>Community Guard</h2>
+Community guards are those known for making sure everyone is safe in the community and are following the rules.<br />
+Note: Like all the others, this can include staff and non-staff, thus should not be treated as a list of official staff.<br />
+[block param=&quot;Community Guard&quot; defer=&quot;1&quot;]main_stars[/block]
+
+<h2>Role Model</h2>
+Role Models are those whom the community look up to for inspiration and destiny.<br />
+[block param=&quot;Role Model&quot; defer=&quot;1&quot;]main_stars[/block][/semihtml]

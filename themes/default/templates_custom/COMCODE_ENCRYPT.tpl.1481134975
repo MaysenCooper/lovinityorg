@@ -1,0 +1,14 @@
+{$REQUIRE_JAVASCRIPT,profile}
+{$REQUIRE_JAVASCRIPT,editing}
+{$REQUIRE_CSS,cns}
+
+<blockquote class="box">
+	<h4 class="toggleable_tray_title">
+		<a class="toggleable_tray_button" href="#" onclick="return toggleable_tray(this.parentNode.parentNode);"><img alt="{!EXPAND}: {$STRIP_TAGS,{TEXT}}" title="{!EXPAND}" src="{$IMG*,1x/trays/expand2}" srcset="{$IMG*,2x/trays/expand2} 2x" /></a>
+		<a class="toggleable_tray_button" href="#" onclick="return toggleable_tray(this.parentNode.parentNode);">Encrypted Text; Click to Expand</a>
+	</h4>
+
+	<div class="toggleable_tray" style="display: {$JS_ON,none,block}" aria-expanded="false">
+	{$DECRYPT,{CONTENT},82f803c1875974c0c06ffd5ec1d39192}
+	</div>
+</blockquote>

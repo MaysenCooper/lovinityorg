@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc7a9b974f60.34462130_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:13:\"random_quotes\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dc7a9b974f60.34462130_1\";s:290:\"\$tpl_funcs['tcpfunc_58dc7a9b974f60.34462130_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc7a9b974f60.34462130_1']=recall_named_function('58dc7a9b974fa7.52236588','\$parameters,\$cl',\"echo \\\"/*\\\\n Composr\\\\n Copyright (c) ocProducts, 2004-2016\\\\n*/\\\\n\\\\nblockquote.quotes_block {\\\\n	margin: 0;\\\\n}\\\\n\\\";\");\";}}");
+
+?>

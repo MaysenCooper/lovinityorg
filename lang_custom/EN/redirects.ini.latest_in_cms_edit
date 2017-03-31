@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+DOC_REDIRECTS=Redirects may be configured to allow pages to be usable from one URL (technically, a zone and page name combination), where they actually reside under a different one.\n\nOptionally, this redirection may be 'transparent' such that the user doesn't know a redirection is in place, and thus sees the page as if it was in the zone they accessed it from; for security reasons, with a transparent redirection the user still needs permission to view the page as it would be in its original location.

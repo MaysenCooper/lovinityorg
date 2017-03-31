@@ -1,0 +1,1 @@
+<span>&laquo;{+START,IF,{$DESKTOP}}<span class="inline_desktop">&nbsp;{!PREVIOUS}</span>{+END}</span>

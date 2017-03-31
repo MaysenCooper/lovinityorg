@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dd82fa949820.45665574_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:22:\"CNS_MEMBER_PROFILE_PTS\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dd82fa949820.45665574_1\";s:307:\"\$tpl_funcs['tcpfunc_58dd82fa949820.45665574_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dd82fa949820.45665574_1']=recall_named_function('58dd82fa949872.81204476','\$parameters,\$cl',\"extract(\\\$parameters,EXTR_PREFIX_ALL,'bound'); echo otp(isset(\\\$bound_CONTENT)?\\\$bound_CONTENT:null,\\\"CONTENT/CNS_MEMBER_PROFILE_PTS\\\");\");\";}}");
+
+?>

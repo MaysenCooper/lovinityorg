@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dd9c021d9a80.15608095_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:13:\"addons_editor\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dd9c021d9a80.15608095_1\";s:609:\"\$tpl_funcs['tcpfunc_58dd9c021d9a80.15608095_1']=\" echo \\\"/*\\\\n Composr\\\\n Copyright (c) ocProducts, 2004-2016\\\\n*/\\\\n\\\\n.not_too_tall_addons {\\\\n	/*overflow: scroll;	Actually, this annoys some users\\\\n	height: 500px;*/\\\\n}\\\\n\\\\n.addon_name {\\\\n	font-style: italic;\\\\n}\\\\n\\\\n.addon_actions {\\\\n	white-space: nowrap;\\\\n}\\\\n\\\\n.addon_actions * {\\\\n	vertical-align: middle;\\\\n}\\\\n\\\\n.status_green {\\\\n	color: \\\",\\n	ecv_GET(\\\$cl,array(),array(\\\"green_highlight_text\\\")),\\n	\\\" !important;\\\\n}\\\\n\\\\n.status_orange {\\\\n	color: \\\",\\n	ecv_GET(\\\$cl,array(),array(\\\"orange_highlight_text\\\")),\\n	\\\" !important;\\\\n}\\\\n\\\";\";\";}}");
+
+?>

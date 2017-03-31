@@ -1,0 +1,28 @@
+[semihtml][title]Test[/title]
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}
+{$REQUIRE_JAVASCRIPT,RGraph.common.dynamic}
+{$REQUIRE_JAVASCRIPT,RGraph.common.tooltips}
+{$REQUIRE_JAVASCRIPT,RGraph.pie}
+<canvas id="cvs" width="75" height="75">
+    [No canvas support]
+</canvas>
+<script>
+    window.onload = function ()
+    {
+        var pie = new RGraph.Pie({
+            id: 'cvs',
+            data: [5,3,23,94],
+            options: {
+                radius: 35,
+                title: 'Credibility',
+                titleSize: 8,
+                titleY: 37,
+                colors: ['red','coral','lightgreen','green'],
+                tooltips: ['Staff bad','User bad','User good','Staff good'],
+                textAccessible: true,
+                shadow: false,
+            }
+        }).draw();
+    };
+</script>
+[/semihtml]{$,page hint: no_wysiwyg}

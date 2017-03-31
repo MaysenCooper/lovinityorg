@@ -1,0 +1,35 @@
+[semihtml][title]Test[/title]
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}<br />
+{$REQUIRE_JAVASCRIPT,RGraph.pie}
+<canvas id="cvs" width="75" height="75">
+    [No canvas support]
+</canvas>
+<script>
+    window.onload = function ()
+    {
+        var pie = new RGraph.Pie({
+            id: 'cvs',
+            data: [3,7.9,2,10.3,11.1,1,63.9],
+            options: {
+                radius: 37,
+                colors: [
+                    'rgb(51,102,204)',
+                    'rgb(220,57,18)',
+                    'rgb(255,153,0)',
+                    'rgb(16,150,24)',
+                    'rgb(153,0,153)',
+                    'rgb(0,153,198)',
+                    'rgb(221,68,119)'
+                ],
+                linewidth: 2,
+                shadow: false,
+                labels: ['3%','7.9%','2%','10.3%','11.1%','1%','62.9%'],
+                labelsSticksList: true,
+                textFont: 'Arial',
+                textSize: 8,
+                textAccessible: true
+            }
+        }).draw();
+    };
+</script>
+[/semihtml]{$,page hint: no_wysiwyg}

@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+[strings]
+CONFIG_CATEGORY_DESCRIPTION__POINTS=Options related to YinYang (but not the Yang Store).
+CONFIG_CATEGORY_DESCRIPTION__POINTSTORE=Options related to the Yang Store.

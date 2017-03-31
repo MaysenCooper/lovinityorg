@@ -1,0 +1,7 @@
+[descriptions]
+RECOMMEND_COMPOSR=Explanation: There is no need to edit this -- it is for recommending Composr, and is not shown to regular visitors.
+
+[runtime_processing]
+
+[strings]
+CONFIG_OPTION_points_RECOMMEND_SITE=Yang awarded for recommending the site.

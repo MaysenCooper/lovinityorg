@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:2:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc7655747928.48363844_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}i:1;a:5:{i:0;s:33:\"tcpfunc_58dc76557479a1.68948007_2\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:16:\"COMCODE_TELETYPE\";i:3;N;i:4;a:2:{s:33:\"tcpfunc_58dc7655747928.48363844_1\";s:186:\"\$tpl_funcs['tcpfunc_58dc7655747928.48363844_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc7655747928.48363844_1']=recall_named_function('58dc7655747972.99263135','\$parameters,\$cl',\"echo \\\"<kbd>\\\";\");\";s:33:\"tcpfunc_58dc76557479a1.68948007_2\";s:315:\"\$tpl_funcs['tcpfunc_58dc76557479a1.68948007_2']=\$KEEP_TPL_FUNCS['tcpfunc_58dc76557479a1.68948007_2']=recall_named_function('58dc76557479c0.99146229','\$parameters,\$cl',\"extract(\\\$parameters,EXTR_PREFIX_ALL,'bound'); echo otp(isset(\\\$bound_CONTENT)?\\\$bound_CONTENT:null,\\\"CONTENT/COMCODE_TELETYPE\\\"),\\n	\\\"</kbd>\\\";\");\";}}");
+
+?>

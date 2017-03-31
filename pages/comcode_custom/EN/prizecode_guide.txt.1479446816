@@ -1,0 +1,33 @@
+[semihtml][title]Prizecode Guide[/title]
+This is a guide containing examples of EVAL code you can use for prize codes.<br />
+<br />
+Note: use the variable $userid in your eval code to insert the ID of the member submitting the code.<br />
+Note2: Whatever is returned from the eval code is what is displayed to the user when their code is redeemed.
+<h2>Points</h2>
+
+[code scroll="1"]require_code("points");<br />
+require_code("points2");<br />
+system_gift_transfer("<strong>Reason</strong>",<strong>(Number of points to give)</strong>,$userid);<br />
+return "You earned <strong>(points)</strong> points. Your new points balance is " . available_points($userid);<br />
+[/code]
+
+<h2>Create token for a survey</h2>
+&nbsp;
+
+[code scroll="1"]require_code("survey");<br />
+return makeToken(<strong>ID of the survey to make a token for</strong>);[/code]
+
+<h2>Award points if user completed a survey</h2>
+
+[code scroll="1"]require_code("survey");<br />
+$tempresult = checkSurveyCompletion(<strong>ID of the survey we're checking for</strong>,$userid);<br />
+if ($tempresult == 1)<br />
+{<br />
+require_code("points");<br />
+require_code("points2");<br />
+system_gift_transfer("<strong>Reason</strong>",<strong>(Number of points to give)</strong>,$userid);<br />
+return "You earned <strong>(points)</strong> points for completing the survey. Your new points balance is " . available_points($userid);<br />
+}<br />
+return $tempresult;<br />
+[/code]
+&nbsp;[/semihtml]

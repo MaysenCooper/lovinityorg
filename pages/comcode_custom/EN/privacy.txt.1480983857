@@ -1,0 +1,93 @@
+[semihtml][title]Privacy policy[/title]
+
+<h2>Who collects information?</h2>
+The following is a current list of operators on The Lovinity Community+, excluding search engines, that collect information from this website:
+
+<ul>
+	<li>The Lovinity Community+ (contact: Patrick Schmalstig at support@lovinity.org)</li>
+	<li>OVH (server information) (contact: go to ovh.com)</li>
+	<li>ocProducts Ltd. / Composr CMS (They collect minimal information about this website, such as errors that occur and performance data) (contact: see ocproducts.com)</li>
+	<li>Arrowchat (they collect minimal performance information about the chat system (bar at the bottom)) (contact: see arrowchat.com)</li>
+	<li>Facebook (collects &quot;like&quot; information)</li>
+	<li>Google (collects &quot;+1&quot; information)</li>
+</ul>
+We do not currently use third party ad campaigns nor providers; all ads are served locally from our system.
+
+<h2>What cookies and information are stored?</h2>
+
+<div class="spaced_list">This website:
+<ul>
+	<li>stores temporary cookies that are removed when you close the browser window, such as a user session identifier;{+START,IF,{$CONFIG_OPTION,remember_me_by_default}}also cookies are used for the &quot;remember me&quot; feature;{+END}{+START,IF,{$CONFIG_OPTION,detect_javascript}}also cookies are used to detect if JavaScript is enabled;{+END}{+START,IF,{$CONFIG_OPTION,is_on_timezone_detection}}also cookies are used to detect your time-zone;{+END}{+START,IF_NON_EMPTY,{$CONFIG_OPTION,google_analytics}}uses Google Analytics for analysing visitor trends{+END}</li>
+	<li>stores cookies (yes/no) for remembering what things have been turned off/closed;</li>
+	<li>stores cookies for remembering font size;</li>
+	<li>stores cookies for improving the usability of engaging aspects such as the chatroom or forum (in particular, auto-saving of partially-typed posts);</li>
+	<li>stores other kinds of cookie that are mentioned before they are set;</li>
+	<li>logs basic information pertaining to your computer including your IP address, web browser name, and operating system;</li>
+	<li>stores other information that you explicitly enter, such as the following:
+	<ul>
+		<li>Usernames (used in identifying you across the entirety of this website, as well as for logging in)</li>
+		<li>Full names (optional profile fields for people to know your legal name)</li>
+		<li>Email addresses (used for sending email newsletters and notifications, verifying your account,&nbsp;aiding in preventing multiple account registrations, and blocking spam accounts)</li>
+		<li>Gender identities (optional profile field so others know what gender you identify as)</li>
+		<li>Preferred Pronouns (optional profile field so others know what pronouns you prefer to be referred to by)</li>
+		<li>Sexual orientations (optional profile field so others know who you&#39;re attracted to. <strong>This is not an invitation to use our website as a dating service.</strong>&nbsp;This field is so others can learn more about who you are, especially when it comes to topics revolving around sex, gender, and identity.)</li>
+		<li>Dates of Birth (to enforce rules that are age-dependent [COPPA, age of consent rules, etc.] and used for legal matters should they arise)</li>
+		<li>Passwords (encrypted using Blowfish technology) (used to authenticate your account)</li>
+		<li>Timezones (used to display time stamps in your time zone)</li>
+		<li>Occupations (optional profile field to let others know what field of work you are in)</li>
+		<li>Locations (optional profile fields to let others know where you are in the world)</li>
+		<li>Social Media Profiles (optional profile fields to allow others to find you on other websites)</li>
+		<li>Mobile phone numbers (optional profile field for others to contact you by phone)</li>
+		<li>Payment information (Not currently used; will be used for shopping cart functionality)</li>
+		<li>Any other information about yourself you provide on your profile</li>
+	</ul>
+	</li>
+	<li>if you are logged in, your member profile will update the publicly displayed time that you last visited (which will also be stored in a cookie), and you will show as online (unless you login as invisible).</li>
+	<li>Use of the shopping cart may cause a non-logged-in-user&#39;s session to stick around for a longer than normal period of time, using a cookie, in order to keep the cart from being lost.</li>
+</ul>
+</div>
+If you wish to see what exact cookies are saved, or delete cookies, you may do so using <a class="user_link" href="http://www.wikihow.com/View-Cookies" rel=" external" target="_blank" title="standard tools built into your web browser (this link will open in a new window)">standard tools built into your web browser</a>.
+
+<h2>What can staff see and do?</h2>
+The staff reserve the right to read any content submitted to this website, including private content, Private Topics, and Instant Messaging conversations. <strong>Any form of conversation made, or content submitted, through this website should be considered viewable by staff.</strong> All content and posts, whether &#39;deleted&#39; or not, are stored on the server and in backups and may be reviewed if we feel we have cause for an investigation. If you want to keep something completely private, do not use our services for transmitting it. It is also wise not to use any internet service to transmit private data because privacy is never guaranteed online.<br />
+<br />
+Despite the above, staff are under strict regulations not to share any private content nor information with anyone unless legally required to do so, or unless the information involved relates to an investigation of a rule violation. And they are only to share information with the parties involved in the investigation. If you feel any staff member is violating this, please contact @Lovinity directly in a Private Topic.
+<h2>Search Engines</h2>
+In order to drive traffic to The Lovinity Community+, search engines crawl our website. Crawling entails going through the website and grabbing content that can be used on search engines to list this website and sections of this website.<br />
+<br />
+<strong>All public content and information you submit to TLC+ can be indexed by search engines.</strong>&nbsp;However, content that cannot be viewed by guests, such as posts in member-only forums, or content where the privacy setting is not set to &quot;everyone&quot;, cannot be indexed; search engines will get an access denied error when they try.<br />
+<br />
+We have no control nor responsibility over what search engines index from our website. If something got indexed on a search engine that you feel violates your right to privacy, contact the&nbsp;<strong>search engine</strong>&nbsp;in question; do not contact The Lovinity Community+.
+
+<h2>Emails</h2>
+Our website sends out email notifications to our members for different website activity. Some of these notifications may be changed in terms of settings from your profile. Others cannot be changed. To see what settings can and cannot be changed, see&nbsp;<a class="user_link" href="https://lovinity.org/catalogues/entry/website-functionality/what-notifications-can.htm">This FAQ entry on notification settings</a>&nbsp;.<br />
+The Lovinity Community+ also sends weekly newsletters to everyone of the latest website news. We may also send bulk emails for high priority news.<br />
+We will not send email to others which we would consider to be spam.<br />
+{+START,IF,{$CNS}}<br />
+<h2>Privacy settings</h2>
+Logged in members may <a class="user_link" href="https://lovinity.org/members/view#tab__edit__privacy">choose which fields display publicly</a>.{+END}<br />
+{+START,IF,{$COPPA_ON}}<br />
+<h2>Children&#39;s Online Privacy Protection Act (COPPA)</h2>
+In order for children under the age of thirteen (13) to join this website, the legal guardian of the child must also have an account on our website and have verified the child to be their legal responsibility. This is in accordance with U.S. law, but is applied internationally as a civil standard.<br />
+<br />
+A notice will be sent, by e-mail, to the e-mail address given when a child joins, which will provide notice on how to approve the membership.<br />
+<br />
+The parent or guardian has the option to agree to the collection and use of the child&#39;s information without consenting to the disclosure of the information to third parties. Regardless how the parent or guardian consents, it is still required that the parent or guardian has an account on The Lovinity Community+. This is to ensure safety of the child and so the child has a spokes person in the event the child gets bullied or ends up in some other dispute on our website.<br />
+<br />
+{$SITE_NAME} may not require a child to disclose more information than is reasonably necessary to participate in an activity as a condition of participation.<br />
+<br />
+The parent or guardian can review the child&#39;s personal information, ask to have it deleted and refuse to allow any further collection or use of the child&#39;s information. This may be done by contacting the staff at support@lovinity.org or filing a support ticket under Help -&gt; Tickets / Contact.{+END}<br />
+{+START,IF,{$NEQ,{$CONFIG_OPTION,spam_check_level},NEVER}}<br />
+<h2>Spam checking</h2>
+For the purpose of reducing spam:<br />
+<br />
+&nbsp;
+<ol type="1">
+	<li>Your IP address, e-mail address, and username, may be checked against the <a class="user_link" href="http://www.stopforumspam.com/" rel=" external" target="_blank" title="Stop Forum Spam (this link will open in a new window)">Stop Forum Spam</a> web service, which involves these details being transmitted within a service request.</li>
+	<li>Your IP address may be checked against multiple block lists, which involves these details being transmitted within a service request.</li>
+	<li>If staff have reasonable suspicion that you are a spammer, they may transmit your IP address, email address, username, and/or other relevant information to spam databases to check if you have a reputation for spamming other websites.</li>
+</ol>
+{+END}
+
+<h2>Error Reporting</h2>
+This website automatically sends details about errors that occur to the developers of this website&#39;s software, ocProducts Ltd. / Composr CMS. Usually, no personal information is reported. However, sometimes information, such as usernames, paths to uploaded files by users, IP addresses, URLs to user content, and so on may be included in error reports to the developers. Only information relating to the error itself is transmitted. The use of the information transmitted is the sole responsibility of ocProducts Ltd. / Composr CMS . Should you have any concerns about this information, you can contact them at ocproducts.com or you can start a Private Topic with the account of the head developer,&nbsp;<a class="user_link" href="https://lovinity.org/members/view/29.htm">Chris Graham</a>.[/semihtml]

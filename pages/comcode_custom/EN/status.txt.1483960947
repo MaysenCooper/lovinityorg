@@ -1,0 +1,38 @@
+[semihtml][title]System Status[/title]
+Here, you will find information about how well The Lovinity Community+ is functioning. Real-time statuses provided by Uptime Robot. <a href="https://stats.uptimerobot.com/N9NXLs07A" target="_blank">Click here</a> to access our Uptime Robot status page (you may wish to bookmark it so you can check it out in the event our main website is down).
+
+<h3>Real-Time Status (Uptime Robot)</h3>
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="col">Monitor</th>
+			<th scope="col">Status</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Server</td>
+			<td><strong>{$UPTIME_ROBOT,m778230873-de8219cb654a35ade0cb8706}</strong></td>
+		</tr>
+		<tr>
+			<td>POP3 Email</td>
+			<td><strong>{$UPTIME_ROBOT,m778252103-e356ba38b3149eb35f6ccb7b}</strong></td>
+		</tr>
+		<tr>
+			<td>TLC+ Website</td>
+			<td><strong>{$UPTIME_ROBOT,m778230868-9694f25b3cf466af44c8c59a}</strong></td>
+		</tr>
+		<tr>
+			<td>TLC+ Radio System &amp; Discord Bot</td>
+			<td><strong>{$UPTIME_ROBOT,m778284477-56c1aa5cc4fdbb5aaad07ee5}</strong></td>
+		</tr>
+		<tr>
+			<td>TLC+ Radio Stream</td>
+			<td><strong>{$UPTIME_ROBOT,m778291974-6b54a4dc2d9c79b81f60136f}</strong></td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

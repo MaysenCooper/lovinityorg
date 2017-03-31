@@ -1,0 +1,31 @@
+[semihtml][title]Now Playing on The Lovinity Community+ Radio[/title]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 45%; min-width: 340px;">
+[box param="Radio Player"]
+<div style="text-align: center;">Your web browser must support HTML5 audio controls to see the web player below.<br />
+&nbsp;
+<div id="cns_ads_radio">
+<audio controls=""><source src="http://149.56.30.127:8000/stream/2/" type="audio/mpeg" /> Your browser does not support the audio element.</audio>
+</div>
+</div>
+[/box]
+</div>
+<div class="flex-item-max" style="max-width: 45%; min-width: 340px;">
+ {$SET,B320100,{$BANNER,320x100}} {$,This is to avoid evaluating the banner parameter twice}
+   {+START,IF_NON_EMPTY,{$GET,B320100}}
+<div style="max-width: 330px; display: inline-block;">
+[box param="Advertisement"]
+      <div style="text-align: {!en_right}; top: 0px;">{$GET,B320100}</div>
+[/box]
+</div>
+   {+END}
+</div>
+</div>
+<br />
+<strong>Mixed content:</strong> The web stream runs under HTTP, not HTTPS.<br /><br />
+<strong>Content Disclaimer:</strong> The views and opinions expressed on the radio do not necessarily represent the views and opinions of The Lovinity Community+. Please report inappropriate radio content under About / Help -> Tickets / Contact.<br />
+&nbsp;
+<br />
+<iframe height="1000px" src="https://dev.lovinity.org/radio/nowplaying.php" width="100%"></iframe><br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

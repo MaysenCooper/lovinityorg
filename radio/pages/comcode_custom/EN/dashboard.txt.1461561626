@@ -1,0 +1,5 @@
+[semihtml][title]Radio Dashboard[/title]
+Please be patient; it may take several seconds for the dashboard to load.<br />
+<br />
+<iframe height="1000px" src="https://dev.lovinity.org/show/dash.php?session={$SESSION}" width="100%">Please wait... the dashboard may take several seconds to load.</iframe><br />
+[block]main_comcode_page_children[/block][/semihtml]

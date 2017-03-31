@@ -1,0 +1,22 @@
+[descriptions]
+ENTER_YOUR_BIRTHDAY=The birthday in terms of you specifying your it, i.e. what is more accurately referred to as "birth-date"
+FORUM_POSTS=Post, plural (a listing not a tally [-->COUNT_POSTS])
+FORUM_TOPICS=Topic, plural (a listing not a tally [-->COUNT_TOPICS])
+SPECIFIC_FORUM_POSTS=When it needs to be very clear that posts are forum posts and not any other kind of post
+FORUM_POST=Post, noun
+
+[runtime_processing]
+PT_ALLOW_DESCRIPTION=platform_specific
+PT_ALLOW_DESCRIPTION_CHAT=platform_specific
+
+[strings]
+COPPA_MAIL=In compliance with the Children's Online Privacy Protection Act (a U.S. law, but one we follow internationally), your account on {1} is currently inactive.\n\nPlease give this message to your parent or legal guardian and ask if they can consent to your use of our website by following the steps provided.\n\n---BEGIN MESSAGE for parent or guardian---\n\nPermission to Participate at {1}\n\n{4}\n\nIn order to consent for your child to use our website, you as the parent or guardian must register an account on lovinity.org . Once you create an account, contact us at support@lovinity.org or on the website under Help -> Tickets / Contact with the username of your child's account as well as proof you are the legal responsible party for your child.\n\nBY SIGNING UP FOR AN ACCOUNT ON THE LOVINITY COMMUNITY+ AND CONFIRMING MY CHILD'S ACCOUNT, I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO {1} TO STORE THIS INFORMATION.\nI UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD.\nI UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM {1} AT ANY TIME.\nI HAVE READ AND UNDERSTAND THE FULL PRIVACY POLICY PUBLISHED AT [url="{5}"]{5}[/url]\n\n------\n\nOnce your parent or guardian registers an account and has confirmed you are their legal responsibility, your account will be activated for use.
+MEMBER_VALIDATED=Your member account, {2}, on {1} has been validated. You may now log in:\n\n[url="{3}"]{3}[/url]
+WARN_MEMBER=Hold accountable/ Prosecute member
+__WARN_MEMBER=Discipline
+NUM_WARNINGS=Number of prosecutions
+ADD_WARNING=Add accountability/prosecution
+EDIT_WARNING=Edit accountability/prosecution
+PUNITIVE_HISTORY=Accountability/Prosecution history
+_WARN_MEMBER=Hold Accountable / Prosecute
+DELETE_WARNING=Delete accountability/prosecution

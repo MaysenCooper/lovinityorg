@@ -1,0 +1,62 @@
+{$REQUIRE_JAVASCRIPT,karma_bar}
+{$REQUIRE_JAVASCRIPT,jquery}
+{$REQUIRE_JAVASCRIPT,dyn_comcode}
+<section class="box box___block_side_stats"><div class="box_inner">
+<h3>Activity Index</h3>
+		<p>{STOCK_INDEX} current index</p>
+		<div class="flex-container">
+		<div class="flex-item-max" style="width: 150px; min-height: 20px;">
+		<div class="circle" id="trend1" style="position: relative; display: inline-block;"></div> {TREND_1} 24-HR
+		</div>
+		<div class="flex-item-max" style="width: 150px; min-height: 20px;">
+		<div class="circle" id="trend7" style="position: relative; display: inline-block;"></div> {TREND_7} 7-DAY
+		</div>
+		<div class="flex-item-max" style="width: 150px; min-height: 20px;">
+		<div class="circle" id="trend30" style="position: relative; display: inline-block;"></div> {TREND_30} 30-DAY
+		</div>
+		</div>
+		<p><a href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-activity.htm" target="_blank">What is this?</a></p>
+</div></section>
+<script>
+window.onload = function(){
+    $('#trend1').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 0.1,
+        size: 20,
+        fill: {
+            color: "rgba(0,0,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+});
+    $('#trend7').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 0.4,
+        size: 20,
+        fill: {
+            color: "rgba(0,0,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+});
+    $('#trend30').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 0.55,
+        size: 20,
+        fill: {
+            color: "rgba(0,0,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+});
+};
+</script>

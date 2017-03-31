@@ -1,0 +1,14 @@
+[semihtml][title]Test[/title]
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Welcome to The Lovinity Community+!</p>
+
+<p>We provide a safe activist social network and support system for everyone.</p>
+
+<div class="box_inner"><p><a  class="menu___generic_admin__add_one button_screen" onclick="return open_link_as_overlay(this);" rel="nofollow" href="https://lovinity.org/login.htm">Login or Join for Free</a></p></div></span></div>
+
+<hr />
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Common Social Network problems:</p></span></div>
+
+[block="78" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+[/semihtml]{$,page hint: no_wysiwyg}

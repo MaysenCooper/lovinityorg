@@ -1,0 +1,9 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+DEFAULT_POST_TEMPLATE_bug_text=Version: ?\nSupport software environment (operating system, etc.):\n?\n\nAssigned to: ?\nSeverity: ?\nExample URL: ?\nDescription:\n?\n\nSteps for reproduction:\n?\n\n
+DEFAULT_POST_TEMPLATE_task_text=Assigned to: ?\nPriority/Timescale: ?\nDescription:\n?\n\n
+DEFAULT_POST_TEMPLATE_fault_text=Version: ?\nAssigned to: ?\nSeverity/Timescale: ?\nDescription:\n?\n\nSteps for reproduction:\n?\n\n

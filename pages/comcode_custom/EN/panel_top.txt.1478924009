@@ -1,0 +1,18 @@
+[semihtml]{+START,IF,{$MATCH_KEY_MATCH,:blogs}}<br />
+[block param="5" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]{+END}<br />
+{+START,IF,{$MATCH_KEY_MATCH,:downloads}}<br />
+[block param="2" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]{+END}<br />
+{+START,IF,{$MATCH_KEY_MATCH,:calendar}}<br />
+[block param="8" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]{+END}<br />
+{+START,IF,{$MATCH_KEY_MATCH,:galleries}}<br />
+<div class="flex-container">
+<div class="flex-item-max" style="width: 45%; min-width: 150px;">
+[block param="3" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="width: 45%; min-width: 150px;">
+[block param="7" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div></div>{+END}<br />
+{+START,IF,{$MATCH_KEY_MATCH,:catalogues:index:literature}}<br />
+[block param="11" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]{+END}<br />
+{+START,IF,{$MATCH_KEY_MATCH,:quiz}}<br />
+[block param="9" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]{+END}[/semihtml]{$,page hint: no_wysiwyg}

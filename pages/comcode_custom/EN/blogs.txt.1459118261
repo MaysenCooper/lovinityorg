@@ -1,0 +1,2 @@
+[semihtml][title]Blogs[/title]
+[block param="14" member_based="0" multiplier="0.5" fallback_full="3" fallback_archive="6" blogs="1" zone="_SEARCH" title="Blogs in last 14 days" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="0" as_guest="0" optimise="0"]main_news[/block][/semihtml]

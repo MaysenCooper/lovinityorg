@@ -1,0 +1,117 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,jquery}
+{$REQUIRE_JAVASCRIPT,RGraph.common.core}
+{$REQUIRE_JAVASCRIPT,RGraph.common.dynamic}
+{$REQUIRE_JAVASCRIPT,RGraph.meter}
+[box param="Lovinity Hearts"]
+<div class="flex-container">
+<div class="flex-item-max" style="width: 120px;">
+<img src="{$THUMBNAIL*,{$AVATAR},120x120}">
+</div>
+<div class="flex-item-max" style="width: 85%;">
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 90px;">
+<p><b><div id="1_strength" style="font-size: 1.3em;">30</div></b></p>
+<p><span style="font-size:1.3em;">Strength</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><b><div id="1_defense" style="font-size: 1.3em;">15</div></b></p>
+<p><span style="font-size:1.3em;">Defense</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><b><div id="1_speed" style="font-size: 1.3em;">50</div></b></p>
+<p><span style="font-size:1.3em;">Speed</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><b><div id="1_accuracy" style="font-size: 1.3em;">25</div></b></p>
+<p><span style="font-size:1.3em;">Accuracy</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><b><div id="1_endurance" style="font-size: 1.3em;">60</div></b></p>
+<p><span style="font-size:1.3em;">Endurance</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><b><div id="1_immunity" style="font-size: 1.3em;">20</div></b></p>
+<p><span style="font-size:1.3em;">Immunity</span></p>
+</div>
+<div class="flex-item-max" style="max-width: 90px;">
+<p><b><div id="1_intuition" style="font-size: 1.3em;">100</div></b></p>
+<p><span style="font-size:1.3em;">Intuition</span></p>
+</div>
+</div>
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 150px;">
+<canvas id="1_HP" width="450" height="450" style="width: 150px; height: 150px; background-color: white; border-radius: 75px; text-align: center; font-family: Arial; box-shadow: 0px 0px 10px gray; border: 5px solid #ddd">
+[No canvas support]
+</canvas>
+    <b style="font-size: 8pt">
+        HP
+    </b>
+</div>
+<div class="flex-item-max" style="max-width: 150px;">
+<canvas id="1_energy" width="450" height="450" style="width: 150px; height: 150px; background-color: white; border-radius: 75px; text-align: center; font-family: Arial; box-shadow: 0px 0px 10px gray; border: 5px solid #ddd">
+[No canvas support]
+</canvas>
+    <b style="font-size: 8pt">
+        Energy
+    </b>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+		
+add_event_listener_abstract(window,'load',function() {
+var HP1 = new RGraph.Meter({
+            id: '1_HP',
+            min: 0,
+            max: 100,
+            value: 100,
+            options: {
+                border: false,
+                tickmarksSmallNum: 0,
+                tickmarksBigNum: 0,
+                anglesStart: RGraph.HALFPI + (RGraph.HALFPI / 1.5),
+                anglesEnd: RGraph.TWOPI + RGraph.HALFPI - (RGraph.HALFPI / 1.5),
+                segmentRadiusStart: 140,
+                textSize: 8,
+                colorsRanges: [
+                    [50,100,'Gradient(#0c0:#cfc:#0c0)'],
+                    [25,50,'Gradient(yellow:#ffc:yellow)'],
+                    [0,25,'Gradient(red:#fcc:red)']
+                ],
+                needleRadius: 110,
+                gutterBottom: 50
+            }
+        }).draw();
+
+var energy1 = new RGraph.Meter({
+            id: '1_energy',
+            min: 0,
+            max: 100,
+            value: 100,
+            options: {
+                border: false,
+                tickmarksSmallNum: 0,
+                tickmarksBigNum: 0,
+                anglesStart: RGraph.HALFPI + (RGraph.HALFPI / 1.5),
+                anglesEnd: RGraph.TWOPI + RGraph.HALFPI - (RGraph.HALFPI / 1.5),
+                segmentRadiusStart: 140,
+                textSize: 8,
+                colorsRanges: [
+                    [50,100,'Gradient(#0c0:#cfc:#0c0)'],
+                    [25,50,'Gradient(yellow:#ffc:yellow)'],
+                    [0,25,'Gradient(red:#fcc:red)']
+                ],
+                needleRadius: 110,
+                gutterBottom: 50
+            }
+        }).draw();
+
+});
+</script>
+
+[/box]
+[/semihtml]
+{$,page hint: no_wysiwyg}

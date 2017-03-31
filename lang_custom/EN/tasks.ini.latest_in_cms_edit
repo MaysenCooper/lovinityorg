@@ -1,0 +1,8 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+TASK_COMPLETED_BODY=Your task has been completed. The completion message follows...\n\n{1}
+TASK_FAILED_BODY=Your task has failed. The error message follows...\n\n{1}

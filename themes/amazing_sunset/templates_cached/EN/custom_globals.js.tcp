@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc766f548eb9.31148434_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:14:\"custom_globals\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dc766f548eb9.31148434_1\";s:184:\"\$tpl_funcs['tcpfunc_58dc766f548eb9.31148434_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc766f548eb9.31148434_1']=recall_named_function('58dc766f548f16.09625549','\$parameters,\$cl',\"echo \\\"\\\\n\\\";\");\";}}");
+
+?>

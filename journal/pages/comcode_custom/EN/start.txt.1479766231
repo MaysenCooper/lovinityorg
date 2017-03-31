@@ -1,0 +1,48 @@
+[semihtml][title]TLC+ Journal[/title]
+<div style="text-align: center;"><span style="font-size:1.5em;">Welcome to the Journal section of The Lovinity Community+!</span><br />
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Journal Entries" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/contract.png[/media]</p>
+<p><span style="font-size:1.3em;">Journal Entries</span><br />
+			<span style="font-size:1em;">Write entries about the happenings in your life and the thoughts and emotions you experience. Choose your moods, emotions, and activities. Then write away! You can even attach files and pictures to entries.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Privacy" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/keyhole.png[/media]</p>
+<p><span style="font-size:1.3em;">Privacy Settings</span><br />
+			<span style="font-size:1em;">You can control who can view your entries on a per-entry basis. Let the whole world see, let only logged in members see, or keep it to yourself.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Journals" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/book.png[/media]</p>
+<p><span style="font-size:1.3em;">Journals</span><br />
+			<span style="font-size:1em;">Make multiple journals (journal categories) to separate, for example, personal life from traveling and vacationing.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Search" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/contract.png[/media]</p>
+<p><span style="font-size:1.3em;">Search</span><br />
+			<span style="font-size:1em;">COMING SOON - Search for journals in multiple ways: by date, mood level, emotions experienced, and activities participated in.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Emotion Tracking" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/statistics.png[/media]</p>
+<p><span style="font-size:1.3em;">Emotion Tracking</span><br />
+			<span style="font-size:1em;">COMING SOON - Track your emotions and trends over time.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Activity Correlation" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/insight.png[/media]</p>
+<p><span style="font-size:1.3em;">Emotion Tracking</span><br />
+			<span style="font-size:1em;">COMING SOON - See which activities you tend to participate in depending on your level of mood.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Suggest Features" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/bar-graph-in-speech-bubble.png[/media]</p>
+<p><span style="font-size:1.3em;">Suggest Features</span><br />
+			<span style="font-size:1em;">Have any suggestions on features or improvements? Let us know at support@lovinity.org or in the TLC+ main website, Help -> Tickets / Contact.</span></p>
+</div>
+</div>
+
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

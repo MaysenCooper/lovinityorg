@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc765f469605.52368461_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:41:\"BLOCK_MAIN_STAFF_CHECKLIST_ITEM_STATUS_NA\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dc765f469605.52368461_1\";s:303:\"\$tpl_funcs['tcpfunc_58dc765f469605.52368461_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc765f469605.52368461_1']=recall_named_function('58dc765f469659.01325410','\$parameters,\$cl',\"echo \\\"<img src=\\\\\\\"https://cdn1.lovinity.org/themes/default/images/checklist/checklist-.png\\\\\\\" alt=\\\\\\\"-\\\\\\\" title=\\\\\\\"-\\\\\\\" />\\\";\");\";}}");
+
+?>

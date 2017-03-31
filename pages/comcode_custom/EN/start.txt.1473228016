@@ -1,0 +1,213 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,karma_bar}
+[title]Welcome to {$SITE_NAME*}[/title]
+{+START,IF,{$NOT,{$MOBILE}}}
+[block pages="slide1,slide2,slide4" width="100%" height="300px" buttons="1" delay="7000" speed="500" keypresses="0" slider_id="unslider_front"]main_unslider[/block]
+<div style="text-align: center;"><span style="font-size:1.5em;">[block param="3"]main_greeting[/block]</span></div>
+{+END}
+{+START,IF,{$MOBILE}}
+<div style="text-align: center;">[media description="Welcome" framed="0" thumb="0" width="100%"]uploads/filedump/sliders/front/welcome.jpg[/media]</div>
+<div style="text-align: center;"><span style="font-size:1.5em;">[block param="3"]main_greeting[/block]</span></div>
+{+END}
+<hr />
+
+
+{+START,IF,{$NOT,{$IS_GUEST}}}
+<h2>Latest / Featured Content</h2>
+&nbsp;
+
+[tabs param="Latest news,Weekly Topics / Goal,Forum Activity,Featured Content,Featured Media,Featured Social"]
+[tab param="Latest news" default="1"][block="7" member_based="0" select="8" multiplier="0.5" fallback_full="1" fallback_archive="3" blogs="0" zone="_SEARCH" title="Latest news" show_in_full="0" no_links="0" attach_to_url_filter="0" render_if_empty="1" start="0" pagination="0" as_guest="0" optimise="0" defer="1"]main_news[/block][/tab]
+
+[tab param="Weekly Topics / Goal"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 300px;">
+[block="14" limit="5" hot="0" date_key="lasttime" username_key="lastusername" title="Topics of the Week" check="0" defer="1"]main_forum_topics[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+[block zone="_SEARCH" defer="1"]main_poll[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+[box="Goal of the Week"]
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<tbody>
+		<tr>
+			<td style="width: 160px;">
+			<div class="circle" id="circle">&nbsp;</div>
+			</td>
+			<td><span style="font-size:1.3em;">GOAL OF THE WEEK</span><br />
+			<br />
+			<span style="font-size:1em;">Have 3 people attempt the puzzle of the week by the end of the day September 9. [page="forum:topicview:id=280"]Keen Math Puzzle[/page]<br />
+			<br />
+Reward: The winner of the puzzle will receive 586 points instead of 486.			</span></td>
+		</tr>
+	</tbody>
+</table>
+[/box]
+<script>
+window.onload = function(){
+    $('#circle').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 0,
+        size: 150,
+        fill: {
+            color: "rgba(0,128,0,1)",
+        },
+        emptyFill: "rgba(128,0,0,.2)",
+        animation: {
+            duration: 3000,
+            easing: 'circleProgressEasing'
+        },
+    });
+};
+</script>
+</div>
+</div>
+[/tab]
+[tab param="Forum Activity"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 400px;">
+[block="16,28,29,30,31,32,33,34,35,36,37,38" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Activism / Injustice" check="0" defer="1"]main_forum_topics[/block]
+</div>
+<div class="flex-item-max" style="max-width: 400px;">
+[block="15,18,19,20,21,22,23,24,25" limit="3" hot="0" date_key="lasttime" username_key="lastusername" title="Latest in Advice / Wisdom" check="0" defer="1"]main_forum_topics[/block]
+</div>
+</div>
+[/tab]
+
+[tab param="Featured Content"]
+[block="12" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]<br />
+[block="5" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]<br />
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 300px;">
+[block="6" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+[block="11" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+</div>
+[/tab]
+
+[tab param="Featured Media"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 500px;">
+			<td>[block="3" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 300px;">
+			<td>[block="2" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 500px;">
+			<td>[block="7" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+</div>
+[/tab]
+
+[tab param="Featured Social"]
+<div class="flex-container">
+<div class="flex-item-max" style="max-width: 400px;">
+[block="4" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 400px;">
+[block="8" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+<div class="flex-item-max" style="max-width: 400px;">
+[block="10" zone="_SEARCH" give_context="0" include_breadcrumbs="0" defer="1"]main_awards[/block]
+</div>
+</div>
+[/tab]
+[/tabs]
+
+<br />
+<h2>Activity Feed&nbsp;</h2>
+[block param="Status update" defer="1"]main_activities_state[/block]<br />
+[block param="Activity Feed" max="20" start="0" mode="all" grow="0" refresh_time="30" defer="1"]main_activities[/block]<br />
+{+END}
+<br />
+
+{+START,IF,{$IS_GUEST}}
+<h2>Explore</h2>
+<div style="text-align: center;"><span style="font-size:1.5em;">Welcome to the&nbsp;safe space social network, The Lovinity Community+<br />
+<br />
+Share various thoughts throughout our community:</span>
+
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Wisdom" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/wisdom.png[/media]</p>
+<p><span style="font-size:1.3em;">Advice / Wisdom</span><br />
+			<span style="font-size:1em;">Chat with others on advice, wisdom, and activism. Debate issues in the debate forums. Vent about things in the vent forums.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Activism" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/report.png[/media]</p>
+<p><span style="font-size:1.3em;">[page="activism:"]Activism[/page]</span><br />
+			<span style="font-size:1em;">We promote activist causes and movements. Contact us to have yours promoted! Utilize our website features to gain a following.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Internet Radio" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/microphone.png[/media]</p>
+<p><span style="font-size:1.3em;">[page="radio:"]Internet Radio[/page]</span><br />
+			<span style="font-size:1em;">Free community internet radio stream. All registered members may host a weekly show up to 1 hour for free. Donor users can host more/longer shows.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Literature" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/book.png[/media]</p>
+<p><span style="font-size:1.3em;">[url="Literature" title="Literature"]https://lovinity.org/catalogues/index/literature[/url]</span><br />
+			<span style="font-size:1em;">Share poems, prose, and more on various subjects. Rate and comment on others' entries.</span></p>
+</div>
+</div>
+<span style="font-size:1.5em;">All while enjoying the convenience of our&nbsp;<a class="user_link" href="https://lovinity.org/safespace">Safe Space Policies</a>:</span><br />
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description="Inclusion" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/family-of-six-including-a-baby.png[/media]</p>
+<p><span style="font-size:1.3em;">Inclusive Community</span><br />
+			<span style="font-size:1em;">We do not tolerate discrimination, even if religiously influenced. Everyone is welcome here.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Anti-bullying" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/report-symbol.png[/media]</p>
+<p><span style="font-size:1.3em;">Anti-Bullying</span><br />
+We take an active role to ensure bullying does not take place in our community.</p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Privacy" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/keyhole.png[/media]</p>
+<p><span style="font-size:1.3em;">Privacy</span><br />
+<span style="font-size:1em;">Privacy is important. Therefore everything is encrypted under HTTPS. In addition, we prohibit copying of any content from our website.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description="Moderation" width="128" height="128" framed="0" thumb="0"]uploads/filedump/misc/frontpageicons/flag.png[/media]</p>
+<p><span style="font-size:1.3em;">Moderation</span><br />
+			<span style="font-size:1em;">We have moderators who will intervene should a problem arise. Report links are everywhere so you can report issues as you find them.</span></p>
+</div>
+</div>
+Icons provided by Freepik, Google, and Madebyoliver on flaticon.com .
+<br /><br />
+<div style="text-align: center;"><span style="font-size:1.5em;">That&#39;s not all we have:</span></div>
+&nbsp;
+
+<div class="flex-container">
+<div class="flex-item-landing" style="min-width: 40%;">
+			<ul>
+				<li>Earn points for your engagement in our community.</li>
+				<li>Points can be used for rewards, such as virtual gifts to give others, advertising, new features, and more.</li>
+				<li>Content seen as thoughtful, engaging, and/or inspiring may be featured and promoted by staff.</li>
+			</ul>
+</div>
+<div class="flex-item-landing" style="min-width: 40%;">
+			<ul>
+				<li>Every week, staff publish a set of new topics in the forum for the community to discuss and engage with.</li>
+				<li>As major issues arise in society, staff will add new channels of social interaction to discuss these issues with others.</li>
+				<li>With many features, such as member profiles, member leaders,&nbsp;the forum, private messages, chat / IM, blogs, image/video galleries, downloads, calendars,&nbsp;quizzes, internet radio, wikis,&nbsp;activist section, and more... we have you covered.</li>
+			</ul>
+</div>
+</div>
+
+<div style="text-align: center;"><span style="font-size:1.5em;">Be sure to <a href="https://lovinity.org/join">join our community</a>&nbsp;for free to access all of our features.</span></div>
+{+END}
+<br />
+[block]main_bottom_bar[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<!-- Images by various sources under the Creative Commons CC0 license and/or the Creative Commons Zero license. 
+Although you can use them, for a more unique website, replace these images with your own. -->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<TITLE>Lockdown</TITLE>
+<BASE href="/error_docs/"><!--[if lte IE 6]></BASE><![endif]-->
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom Fonts from Google -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+	<!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Lockdown</h1>
+                <p>This website is on lockdown for an unannounced amount of time due to repeated brute force login attacks. We apologise for the inconvenience.</p>
+				<p>IP addresses involved: 93.115.95.206, 51.15.39.2, 95.130.11.147, 93.115.95.205, 77.247.181.165, 212.47.253.223, 2a01:0608:ffff:ff07:0000:0000:0001:0024, 2a00:1298:8011:0212:0000:0000:0000:0165, 199.249.224.49, 93.115.95.207, 216.218.222.11</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+<!--
+   - Unfortunately, Microsoft has added a clever new
+   - "feature" to Internet Explorer. If the text of
+   - an error's message is "too small", specifically
+   - less than 512 bytes, Internet Explorer returns
+   - its own error message. You can turn that off,
+   - but it's pretty tricky to find switch called
+   - "smart error messages". That means, of course,
+   - that short error messages are censored by default.
+   - IIS always returns error messages that are long
+   - enough to make Internet Explorer happy. The
+   - workaround is pretty simple: pad the error
+   - message with a big comment like this to push it
+   - over the five hundred and twelve bytes minimum.
+   - Of course, that's exactly what you're reading
+   - right now.
+   -->

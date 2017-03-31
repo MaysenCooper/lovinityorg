@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dc89c989f473.15897012_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:40:\"BLOCK_MAIN_STAFF_CHECKLIST_ITEM_STATUS_0\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dc89c989f473.15897012_1\";s:473:\"\$tpl_funcs['tcpfunc_58dc89c989f473.15897012_1']=\$KEEP_TPL_FUNCS['tcpfunc_58dc89c989f473.15897012_1']=recall_named_function('58dc89c989f4f5.25427929','\$parameters,\$cl',\"echo \\\"<img onkeypress=\\\\\\\"this.onclick(event);\\\\\\\" onclick=\\\\\\\"fauxmodal_alert('\\\",\\n	ecv(\\\$cl,array(2),2,\\\"SYSTEM_CONTROLLED\\\",array()),\\n	\\\"');\\\\\\\" src=\\\\\\\"https://cdn1.lovinity.org/themes/amazing_sunset/images/checklist/checklist0.png\\\\\\\" title=\\\\\\\"Not completed\\\\\\\" alt=\\\\\\\"Not completed\\\\\\\" />\\\";\");\";}}");
+
+?>

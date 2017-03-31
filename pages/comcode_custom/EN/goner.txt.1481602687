@@ -1,0 +1,80 @@
+[semihtml]
+{$REQUIRE_JAVASCRIPT,jquery}
+{$REQUIRE_JAVASCRIPT,karma_bar}
+[box param="User"]
+
+<div class="flex-container">
+<div class="flex-item-max" style="width: 160px;">
+[attachment_safe description="14965681_1182298268484758_3714199447412932608_n.jpg" width="160" height="160" framed="0" thumb="0"]87[/attachment_safe]
+</div>
+<div class="flex-item-max" style="width: 75%;">
+<div class="flex-container">
+<div class="flex-item-landing">
+<p><div class="circle" id="statcircle" style="position: relative;"><strong>0%</strong></div></p>
+<p><a href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-star-stat.htm" target="_blank"><span style="font-size:1.3em;">STAR stat</span></a></p>
+</div>
+<div class="flex-item-landing">
+<p><div class="circle" id="demeritcircle" style="position: relative;"><strong>0</strong></div></p>
+<p><a href="https://lovinity.org/catalogues/entry/rules-and-policies/what-are-demerits.htm" target="_blank"><span style="font-size:1.3em;">Demerits</span></a></p>
+</div>
+<div class="flex-item-landing">
+<p><div class="circle" id="pointscircle" style="position: relative;"><strong>0</strong></div></p>
+<p><a href="https://lovinity.org/pointstore.htm" target="_blank"><span style="font-size:1.3em;">Points to Spend</span></a></p>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+[/box]
+<script>
+    $('#statcircle').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 0.50,
+        size: 150,
+        fill: {
+            color: "rgba(0,128,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+}).on('circle-animation-progress', function(event, progress) {
+  $(this).find('strong').html(parseFloat(10 * progress).toFixed(2) + '%');
+});
+    $('#demeritcircle').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 0.10,
+        size: 150,
+        fill: {
+            color: "rgba(255,0,0,1)",
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+}).on('circle-animation-progress', function(event, progress) {
+  $(this).find('strong').html(parseInt(10 * progress));
+});
+    $('#pointscircle').circleProgress({
+    	startAngle: (-Math.PI) / 2,
+        value: 1,
+        size: 150,
+        fill: {
+           gradient: ["red", "orange", "yellow", "green", "blue", "violet"],
+        },
+        emptyFill: "rgba(128,128,128,.2)",
+        animation: {
+            duration: 5000,
+            easing: 'circleProgressEasing'
+        },
+}).on('circle-animation-progress', function(event, progress) {
+  $(this).find('strong').html(parseInt(2310 * progress));
+});
+</script>
+[/semihtml]
+{$,page hint: no_wysiwyg}

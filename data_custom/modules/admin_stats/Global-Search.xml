@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://lovinity.org/themes/default/css/svg.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024.00 400.00" preserveAspectRatio="xMinYMin meet" width="1024.00" height="400.00" version="1.1">
+<script>// <![CDATA[
+if (typeof window.addEventListenerAbstract=='undefined') addEventListenerAbstract=function(element,the_event,command,capture)
+{
+    if(element)
+    {
+        if (typeof element.simulated_events=='undefined') element.simulated_events=[];
+        if (typeof element.simulated_events[the_event]=='undefined') element.simulated_events[the_event]=[];
+        element.simulated_events[the_event].push(command);
+
+        if(typeof element.addEventListener!='undefined')
+        {
+            return element.addEventListener(the_event,command,capture);
+        }
+        else if(typeof element.attachEvent!='undefined')
+        {
+            return element.attachEvent("on"+the_event,command);
+        }
+        else return false;
+    }
+    else return false;
+};
+//]]></script>
+<script xlink:href="https://lovinity.org/themes/admin/templates_cached/EN/global.js" />
+<rect x="386.00" y="2.00" width="10.00" height="10.00" style="fill: #333333;" class="key_box" />
+<text x="401.00" y="12.00" class="key_text">my little pony  (25.00%)</text>
+<rect x="386.00" y="17.00" width="10.00" height="10.00" style="fill: #3333CC;" class="key_box" />
+<text x="401.00" y="27.00" class="key_text">first (25.00%)</text>
+<rect x="386.00" y="32.00" width="10.00" height="10.00" style="fill: #339933;" class="key_box" />
+<text x="401.00" y="42.00" class="key_text">every (25.00%)</text>
+<rect x="386.00" y="47.00" width="10.00" height="10.00" style="fill: #663333;" class="key_box" />
+<text x="401.00" y="57.00" class="key_text">community (25.00%)</text>
+<path d="M192.00,192.00 L382.00,192.00 A190.00,190.00 0 0,1,192.00,382.00 Z" style="fill: #333333;" class="pie_chart" />
+<path d="M192.00,192.00 L192.00,382.00 A190.00,190.00 0 0,1,2.00,192.00 Z" style="fill: #3333CC;" class="pie_chart" />
+<path d="M192.00,192.00 L2.00,192.00 A190.00,190.00 0 0,1,192.00,2.00 Z" style="fill: #339933;" class="pie_chart" />
+<path d="M192.00,192.00 L192.00,2.00 A190.00,190.00 0 0,1,382.00,192.00 Z" style="fill: #663333;" class="pie_chart" />
+</svg>

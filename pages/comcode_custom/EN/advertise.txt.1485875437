@@ -1,0 +1,195 @@
+[semihtml][title param=&quot;1&quot;]Advertising Opportunities[/title]<br />
+The Lovinity Community+ has a couple <strong>advertising opportunities</strong> at present, with the available advertising opportunities slowly growing over time.<br />
+<br />
+Please take a look at what we have and then create a support ticket (email support@lovinity.org or go to About -&gt; Tickets / Contact) if you are interested in advertising with The Lovinity Community+.<br />
+<br />
+<strong>Prices are subject to change at any time without notice and are usually influenced by amount of traffic on our website.</strong><br />
+<br />
+[staff_note]SET the below variable to the number of users within the last month according to Google. Ad prices will be generated based on this value.[/staff_note]{$SET,analyticusers,260}<br />
+<br />
+[contents levels="3"][/contents][title param=&quot;2&quot;]Banner Advertising[/title]At the top of every page on our website is a <strong>banner</strong>. You can create a banner ad for us to randomly display up there. Users can then click on the ad to be taken to a website of your choice.[title param=&quot;3&quot;]Requirements[/title]
+
+<ul>
+	<li>Banner ads must be jpg, gif, or png images the size of 728x90 pixels.</li>
+	<li>All website rules apply to the content you put in your banner.</li>
+	<li>Your banner may not redirect users to malicious websites. We will check a website&#39;s reputation prior to approving a banner ad.</li>
+	<li>Payment must be made in advance; we do not offer &quot;pay-as-they-click&quot;.</li>
+	<li>Banners may not advertise actual prices for products or services, include comparison language (aka. &quot;We are the best there is&quot; or &quot;better than X company&quot;), nor include calls to action (aka. &quot;Buy our products&quot;). We are a non-profit entity.</li>
+	<li>Banners may not endorse any political parties or candidates.</li>
+	<li>Banners may not promote anything seen to be against progressive activism, such as&nbsp;encouraging discrimination&nbsp;or fabricating stereotypes (sexualized&nbsp;women&nbsp;for example).</li>
+	<li>Unless you provide us with an expiration date, banners will expire after a determined amount of time (see &quot;costs&quot;). Any purchased clicks not used when the banner expires will&nbsp;<strong>not</strong>&nbsp;be refunded; what is left will instead&nbsp;go towards impressions of that banner (the times it showed).</li>
+</ul>
+[title param=&quot;3&quot;]Costs[/title]You may pay for banner advertisements using U.S. Dollar equivalence (PayPal), or by using your Yang. Here are our <strong>current rates</strong>, subject to change without notice:<br />
+<br />
+[staff_note]Rate: $0.50 + (Google analytics user count * 0.05) cents per importance modulus[/staff_note]
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr>
+			<th scope="row">Importance Modulus*</th>
+			<th scope="col">Cost per click (Yang)</th>
+			<th scope="col">Cost per click (US Dollars)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">1</th>
+			<td>126</td>
+			<td>${$FLOAT_FORMAT,{$MULT,{$ADD,50,{$MULT,1,{$MULT,{$GET,analyticusers},0.05}}},0.01}}</td>
+		</tr>
+		<tr>
+			<th scope="row">2</th>
+			<td>152</td>
+			<td>$0.76</td>
+		</tr>
+		<tr>
+			<th scope="row">3</th>
+			<td>178</td>
+			<td>$0.89</td>
+		</tr>
+		<tr>
+			<th scope="row">4</th>
+			<td>204</td>
+			<td>$1.02</td>
+		</tr>
+		<tr>
+			<th scope="row">5</th>
+			<td>230</td>
+			<td>$1.15</td>
+		</tr>
+		<tr>
+			<th scope="row">6</th>
+			<td>256</td>
+			<td>$1.28</td>
+		</tr>
+		<tr>
+			<th scope="row">7</th>
+			<td>282</td>
+			<td>$1.41</td>
+		</tr>
+		<tr>
+			<th scope="row">8</th>
+			<td>308</td>
+			<td>$1.54</td>
+		</tr>
+	</tbody>
+</table>
+The <strong>minimum purchase</strong> at this time is 5 clicks.<br />
+Currently, your banner will <strong>expire</strong> in 30 days if you purchase 5 clicks. A day will be added for every additional click you purchased. This rate subject to change according to our traffic.<br />
+<br />
+*The<strong> importance modulus</strong> determines how often in random logic that the banner appears on the website&hellip; the higher the modulus, the more often it shows up. A banner with a modulus of 2 will show up 2X as often as one with a modulus of 1&hellip; and one with a modulus of 4 will show up 2X as often as one with 2, and 4X as much as one with 1&hellip; and so on.[title param=&quot;2&quot;]Advertising on our Internet Radio Station[/title]You can host <strong>underwritings on our internet radio station</strong>. Underwritings are similar to commercials or public service announcements but have some different restrictions, given we are non-profit. To request an underwriting on our internet radio station, please create a support ticket.[title param=&quot;3&quot;]Requirements[/title]
+
+<ul>
+	<li>Underwritings must be recorded by us; you may provide the script as to what we should say as well as what background music to use.</li>
+	<li>All website rules apply to what goes in your underwriting.</li>
+	<li>Payment must be made in advance; we do not offer pay-as-it-airs.</li>
+	<li>Underwritings&nbsp;may not advertise actual prices for products or services, include comparison language (aka. &quot;We are the best there is&quot; or &quot;better than X company&quot;), nor include calls to action (aka. &quot;Buy our products&quot;). We are a non-profit entity.</li>
+	<li>Underwritings&nbsp;may not endorse any political parties or candidates.</li>
+	<li>Underwritings&nbsp;may not promote anything seen to be against progressive activism, such as encouraging discrimination&nbsp;or fabricating stereotypes (sexualized&nbsp;women&nbsp;for example).</li>
+	<li>After we record using your script, the underwriting may not exceed 60 seconds in length.</li>
+	<li>All underwritings will be read in third person as the focus is The Lovinity Community Radio talking about you / your message, not you talking about your message. In addition, underwritings will begin with &quot;The Lovinity Community Radio thanks (insert entity name) for their support.&quot;</li>
+</ul>
+[title param=&quot;3&quot;]Costs[/title]Underwritings are <strong>pay-per-air</strong>. Our station is designed so that each underwriting airs at most 4 times in a 24 hour period. Underwritings will not air during radio shows; they only air during off-air music times.<br />
+<br />
+If you specify an expiration date, all un-aired times will be refunded to you.<br />
+[staff_note]Rate: ($0.50 + (Google Analytics users * 0.05)) * 1 for every 15 second slot[/staff_note]
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="row">Length of Underwriting</th>
+			<th scope="col">Cost Per Air (Yang)</th>
+			<th scope="col">Cost Per Air (U.S. Dollars)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">0-15 seconds</th>
+			<td>126</td>
+			<td>$0.63</td>
+		</tr>
+		<tr>
+			<th scope="row">16-30 seconds</th>
+			<td>252</td>
+			<td>$1.26</td>
+		</tr>
+		<tr>
+			<th scope="row">31-45 seconds</th>
+			<td>378</td>
+			<td>$1.89</td>
+		</tr>
+		<tr>
+			<th scope="row">46-60 seconds</th>
+			<td>504</td>
+			<td>$2.52</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp; The <strong>minimum purchase</strong> at this time is 12 airs and the <strong>maximum</strong> is 120.[title param=&quot;2&quot;]Advertising in our Weekly Newsletters[/title]Every Saturday, we send out <strong>newsletters</strong> to registered members on the latest website happenings. You can get a text or picture ad at the top of one of our newsletters. To do so, please contact us via. Support Tickets.[title param=&quot;3&quot;]Requirements[/title]
+
+<ul>
+	<li>All website rules apply to newsletter ads</li>
+	<li>Text ads with more than 5 lines of text generally are not approved&hellip; and images bigger than 728x90 pixels are also generally not approved.</li>
+	<li>Please keep text ads clean in terms of formatting; no over-using emojis, comcode, etc.</li>
+	<li>All links in ads will be checked for reputation.</li>
+	<li>Ads may not advertise prices for products or services, include comparison language (eg. &quot;we are the best&quot;), nor include calls to action (eg. &quot;buy this product&quot;). We are a non-profit entity.</li>
+	<li>Ads may not endorse any political parties nor candidates.</li>
+	<li>Ads may not endorse anything seen to be against progressive activism, such as discrimination or stereotype fabrication.</li>
+</ul>
+[title param=&quot;3&quot;]Costs[/title]The cost to have one ad in a weekly newsletter is <strong>$0.10 for every registered user we have</strong> (subject to change). So for example, if we have 25 users on our website, it will cost $2.50 to have an ad in our weekly newsletter. Please also be aware we will not include any more than one ad in a weekly newsletter at a time&hellip; and you may only purchase an ad for one weekly newsletter at a time (if you want an ad for three weekly newsletters for instance, you can only purchase them one at a time&hellip; buy one, and you will need to wait until that newsletter has been published before you can buy your next one).<br />
+<br />
+To find out how many registered users we have to make a cost calculation, please go to our home page and look at the bottom for user statistics.[title param=&quot;2&quot;]Community Billboard advertisements[/title]Community Billboard advertising is a form of text-only advertising. Billboard messages are <strong>displayed at the top of every page for a period of X days</strong>, which is purchased by the advertiser. Only one billboard message is active at a time; any messages purchased before previous ones expire will be held in the queue until the previous ones expired.[title param=&quot;3&quot;]Requirements[/title]
+
+<ul>
+	<li>All website rules apply to your billboard messages.</li>
+	<li>Billboard messages that are over 255 characters in size will generally not be approved.</li>
+	<li>Please keep messages clean in terms of formatting; no over-using smilies, comcode, etc.</li>
+	<li>All links in messages will be checked for reputation.</li>
+	<li>Billboard messages may not advertise prices for products or services, include comparison language (eg. &quot;we are the best&quot; or &quot;we are better than X&quot;), nor include calls to action (eg. &quot;buy this product&quot;). We are a non-profit entity.</li>
+	<li>Billboards may not endorse any political parties nor candidates.</li>
+	<li>Billboards may not endorse anything seen to be against progressive activism, such as discrimination or stereotype fabrication.</li>
+</ul>
+[title param=&quot;3&quot;]Costs[/title]We <strong>only accept Yang</strong>&nbsp;for billboard messages. Please see&nbsp;https://lovinity.org/yangstore/community_billboard/community_billboard.htm &nbsp;for the current cost, subject to change, and to purchase a billboard message. You may donate to get Yang for billboard messages by going to&nbsp;https://lovinity.org/donate.htm&nbsp; .[title param=&quot;2&quot;]Discord Server advertising[/title]We have a bot in our official Discord Server. In addition, many of our members utilise Discord to chat in real time with other members. This is a great opportunity for you to promote your cause, organization, or business within our Discord. The bot will <strong>randomly post your advertisement in the Discord server</strong> for others to see one time per day. You can optionally also request that the bot uses the @here tag or the&nbsp; @everyone tag when it announces your advertisement. That way, others are notified of the ad, giving you more exposure.[title param=&quot;3&quot;]Requirements[/title]
+
+<ul>
+	<li>All website rules apply to Discord advertising.</li>
+	<li>Discord advertisements must be less than 256 characters in length.</li>
+	<li>Please keep Discord ads clean in terms of formatting; no over-using smilies, etc.</li>
+	<li>Discord ads may only have 1 link per ad.</li>
+	<li>Your link&nbsp;in Discord ads will be checked for reputation.</li>
+	<li>Discord ads may not advertise prices for products or services, include comparison language (eg. &quot;we are the best&quot; or &quot;we are better than X&quot;), nor include calls to action (eg. &quot;buy this product&quot;). We are a non-profit entity.</li>
+	<li>Discord ads may not endorse any political parties nor candidates.</li>
+	<li>Discord ads may not endorse anything seen to be against progressive activism, such as discrimination or stereotype fabrication.</li>
+</ul>
+[title param=&quot;3&quot;]Costs[/title]Discord ads are pay-per-post, meaning you <strong>pay for each time the bot posts your ad</strong> in our Discord server.<br />
+Prices are subject to change without notice, especially if the number of users in our Discord server changes.<br />
+&nbsp;
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;">
+	<thead>
+		<tr>
+			<th scope="row">Type of Ad</th>
+			<th scope="col">Cost per Post (Yang)</th>
+			<th scope="col">Cost per Post (US Dollars)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Standard (no mentions/notifications of ad)</th>
+			<td>200</td>
+			<td>$1.00</td>
+		</tr>
+		<tr>
+			<th scope="row">Extra exposure to online users (@here mention)</th>
+			<td>400</td>
+			<td>$2.00</td>
+		</tr>
+		<tr>
+			<th scope="row">Extra exposure to everyone (@everyone mention)</th>
+			<td>600</td>
+			<td>$3.00</td>
+		</tr>
+	</tbody>
+</table>
+The&nbsp;<strong>minimum purchase</strong>&nbsp;at this time is 3 posts.<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

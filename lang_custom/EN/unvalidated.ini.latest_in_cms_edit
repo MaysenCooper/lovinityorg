@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+CONTENT_VALIDATED_NOTIFICATION_MAIL=The {1} staff have validated your {2} submission. It can be viewed at:\n[url="{3}"]{3}[/url]

@@ -1,0 +1,49 @@
+[semihtml][title]Valentine&#39;s Day Puzzle Challenge[/title]
+
+<div style="text-align: center;">[box param="Current Yang Jackpot"]<span style="font-size:1.5em;"><strong>337 Yang</strong></span><br />
+[/box]</div>
+<br />
+Valentine&#39;s Day is quickly approaching! We at The Lovinity Community+ are therefore hosting a puzzle challenge for the community, and here&#39;s how it works:<br />
+<br />
+Lovinity Hearts is taking someone out for a date on Valentine&#39;s Day. There are 10 different choices of people she is taking out... their names listed below. Also listed are some traits that describe the person Lovinity is taking out on a date. However, to make sense of those traits, you will need to find clues as to what each of the 10 people are like scattered / posted about TLC+ periodically. The more you find out about each of the 10 people, the more obvious it will be whom Lovinity is dating when comparing their traits with that described on this page.&nbsp;<strong>If you want more clues than is given freely, you can ask for them by commenting on this page.</strong>&nbsp;But be careful! Every extra clue offered will decrease the jackpot by 25 Yang.<br />
+<br />
+The first person to correctly guess whom Lovinity is taking out on a date will win the Yang as well as a special charm for their profile.&nbsp;<strong>You must make your actual person guesses in private with me, @Lovinity . And you only get one guess.&nbsp;</strong>If you&#39;re wrong, you cannot participate in the contest for the remainder of it.<br />
+<br />
+Here&#39;s a quick advertisement and then I&#39;m going to present you with the names of the 10 people as well as the clues describing the person Lovinity is dating.<br />
+&nbsp;
+ {$SET,B320100,{$BANNER,320x100}} {$,This is to avoid evaluating the banner parameter twice}
+   {+START,IF_NON_EMPTY,{$GET,B320100}}
+<div style="max-width: 330px; display: inline-block;">
+[box param="Advertisement"]
+      <div style="text-align: {!en_right}; top: 0px;">{$GET,B320100}</div>
+[/box]
+</div>
+   {+END}
+<hr /><br />
+Here are the names of the 10 potential people Lovinity is dating:
+<ol>
+	<li>Jaylee Chadwick</li>
+	<li>Nkruma Červeny</li>
+	<li>Volkan Carman</li>
+	<li>Z&eacute; Thornton</li>
+	<li>Agurtzane Robertson</li>
+	<li>Fanni Thorley</li>
+	<li>Zoe Mark&oacute;</li>
+	<li>Alfr Idoni</li>
+	<li>Niko Jez</li>
+	<li>Norma Jakeman</li>
+</ol>
+Here are some traits that describe the person she is dating:
+
+<ul>
+	<li>Lovinity loves the delicious meals that this person can cook.</li>
+	<li>Sometimes this person will argue like if they were in high school rather than as an adult.</li>
+	<li>Lovinity tries to cheer them up when they are feeling down, which happens a lot.</li>
+	<li>Lovinity sometimes becomes self conscious of herself because of this person&#39;s perfectionism.</li>
+	<li>Her date plans to teach Lovinity how to Tango.</li>
+</ul>
+Now, all you have to do is find out some clues about each of the 10 people and try to piece together who Lovinity is dating. When you think you know who it is, message me, @Lovinity&nbsp;. First to guess correctly is the winner! If you don&#39;t want to wait for me to post clues as infrequently as I do, comment below and I&#39;ll give extra clues, but the Yang jackpot will drop 25 Yang per extra clue I give.<br />
+<br />
+[block reverse="0" invisible_if_no_comments="0" reviews="0" max="-1" explicit_allow="0"]main_comments[/block]<br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

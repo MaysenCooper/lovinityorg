@@ -1,0 +1,33 @@
+[semihtml][title]Test[/title]
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Welcome to The Lovinity Community+!</p>
+
+<p>We provide a safe activist social network and support system for everyone.</p>
+
+<p><a  class="menu___generic_admin__add_one button_screen" onclick="return open_link_as_overlay(this);" rel="nofollow" href="https://lovinity.org/login.htm">Login or Join for Free</a></p></span></div>
+
+<hr />
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Common Social Network Problems:</p></span></div>
+
+[block="78" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>How We're Different from Them:</p></span></div>
+
+[block="79" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Ready to join our community? <a  class="menu___generic_admin__add_one button_screen" onclick="return open_link_as_overlay(this);" rel="nofollow" href="https://lovinity.org/login.htm">Login or Join for Free</a></p></span></div>
+
+<hr />
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Our Solutions / Main features:</p></span></div>
+
+[block="80" sorting="0" max="30" start="0" pagination="0" as_guest="0"]main_cc_embed[/block]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Here's what others have to say about us:</p></span></div>
+
+[quote="Silent Dawn (Long time user)"]The Lovinity Community+ is a safe place where even those going through depression and paranoia can feel like they have meaning somewhere, where they won't have to fear how others would normally see them.[/quote]
+
+[quote="Rarapony (user)"]I love lovinity.org! It's a lovely place to hang out and have fun. The members are always nice and willing to help, It's got a nice radio station, role play section, and everything.[/quote]
+
+<div style="text-align: center;"><span style="font-size:1.5em;"><p>Convinced? <a  class="menu___generic_admin__add_one button_screen" onclick="return open_link_as_overlay(this);" rel="nofollow" href="https://lovinity.org/login.htm">Login or Join for Free</a></p></span></div>
+
+[/semihtml]{$,page hint: no_wysiwyg}

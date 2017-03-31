@@ -1,0 +1,36 @@
+[semihtml][title]Staff[/title]
+The following is a current list of <strong>official Lovinity Community+ staff</strong>. These individuals put in volunteer hours to help this community run efficiently. Please don&#39;t hesitate to talk to any of them. However, we highly recommend using our support tickets system (About -&gt; Support Tickets , or email support@lovinity.org ) opposed to directly messaging a staff for staff related matters. That way, you will get a response faster and more efficiently.
+
+<h2>Administrators</h2>
+Administrators (and advisers) are the <strong>highest level of staff</strong>. They operate the website and its procedures as well as help out in any of the other teams that need the help.<br />
+<br />
+[block display_mode="boxes" must_have_avatar="0" must_have_photo="0" include_form="0" usergroup="2" max="30" start="0" pagination="0" defer="1" sort="random ASC"]main_members[/block]
+<h2>Advisers</h2>
+Advisers are also on the same level as administrators. Advisers are <strong>professionals</strong> whose focus is in psychology, sociology, social work, LGBTQA+ affairs, activism, or other related fields. They provide guidance for website staff when needed and are a check on power for administrators.<br />
+Though advisers are on the same level as administrators, they do not run the website and are usually only around when assistance is needed. Therefore, please do not approach advisers for staff matters.<br />
+<br />
+[block display_mode="boxes" must_have_avatar="0" must_have_photo="0" include_form="0" usergroup="13" max="30" start="0" pagination="0" sort="random ASC" defer="1"]main_members[/block]
+<h2>Moderators</h2>
+Moderators are the staff that <strong>go through content submitted on the website</strong>. They make sure everything is appropriate and in line with the website&#39;s rules and policies. Should something not be in line, moderators will take appropriate action to ensure the problem is corrected.<br />
+<br />
+[block display_mode="boxes" must_have_avatar="0" must_have_photo="0" include_form="0" usergroup="3" max="30" start="0" pagination="0" sort="random ASC" defer="1"]main_members[/block]
+<h2>Developers</h2>
+Developers <strong>work on the back end of the website</strong>. They do the coding and technical work to make sure the website is functioning properly. They also code in new features as needed.
+
+<h2>Ambassadors</h2>
+Ambassadors are in charge of <strong>relations outside of the website</strong>. They coordinate affiliations with other websites and conduct business relating to outside sources. They also help plan website and community events.
+
+<h2>Mentors</h2>
+Although anyone is free to give advice and support to members in the community, mentors are those chosen by staff to be the most helpful and trustworthy individuals when it comes to <strong>help and support</strong>. If you need someone to talk to, mentors will be there for you.<br />
+<br />
+[block display_mode="boxes" must_have_avatar="0" must_have_photo="0" include_form="0" usergroup="15" max="30" start="0" pagination="0" sort="random ASC" defer="1"]main_members[/block]<br />
+&nbsp;
+<hr /><br />
+Please contact @Lovinity if you are interested in being a staff. All positions, except administrator, are open. The following requirements are in place for applications for all/any staff position:
+<ul>
+	<li>All staff applicants must be 18 years or older and will be asked to verify their age. This is so you can be legally held accountable should you be involved in a legal dispute or a violation of privacy.</li>
+	<li>To apply for staff, you must have 0 demerits on your account at the time of applying. You must also not be in probation at the time of applying, and you must never have been suspended from our website.</li>
+	<li>Applicants for the adviser position must have a Batchelor&#39;s degree or beyond in psychology, sociology, health, social work, gender studies, sexuality studies, LGBTQA+ affairs, or other related fields.</li>
+	<li>We prioritize applicants for Ambassadors&nbsp;that have a <a class="user_link" href="https://lovinity.org/catalogues/entry/website-functionality/what-is-the-star-stat.htm">STAR stat</a> of 10% or higher. We prioritize Moderator and Mentor applicants who have a STAR stat of 20% or higher. You do not need these stats to apply, but you will not be given as high of priority if you don&#39;t have that high of a stat.</li>
+	<li>All staff applicants must also go through staff training, which also includes Safe/Brave Space training.</li>
+</ul>[/semihtml]

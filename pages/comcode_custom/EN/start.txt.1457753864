@@ -1,0 +1,9 @@
+[semihtml]
+[title="1"]Welcome to {$SITE_NAME*}[/title]
+
+[block="3"]main_greeting[/block]
+
+
+
+[block]main_comcode_page_children[/block]
+[/semihtml]

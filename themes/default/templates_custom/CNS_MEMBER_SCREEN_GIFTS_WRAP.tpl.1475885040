@@ -1,0 +1,48 @@
+<div>
+	<h2>
+	{!GIFTR_TITLE}
+	</h2>
+
+	{$REQUIRE_CSS,gifts}
+	{$REQUIRE_CSS,catalogues}
+
+	<p>The following is a list of gifts this member has received.</p>
+{+START,IF_NON_EMPTY,{GIFTS}}
+<div class="flex-container" style="align-items: baseline;">
+{+START,LOOP,GIFTS}
+<div class="flex-item-max" style="max-width: 200px; min-width: 168px;">
+<img src="{IMAGE_URL*}"></img>
+<p><div style="text-align: center;"><span style="font-size:1.3em;">
+<span class="name">{$TRUNCATE_LEFT,{GIFT_NAME},25,1,1}</span></span>
+</div></p>
+
+	{+START,IF_PASSED,GIFT_EXPLANATION}
+		{+START,IF_NON_EMPTY,{GIFT_EXPLANATION}}
+		<p><div style="text-align: center;">
+				{$TRUNCATE_LEFT,{GIFT_EXPLANATION},256,1,1}
+		</div></p>
+		
+		{+END}
+	{+END}
+
+</div>
+{+END}
+</div>
+{+END}
+
+{+START,IF_EMPTY,{GIFTS}}
+	<p class="nothing_here">
+		{!NO_ENTRIES}
+	</p>
+{+END}
+	
+			{+START,IF_EMPTY,{GIFTS}}
+			<p class="nothing_here">
+				<span class="cns_member_detailer_titler">{!NO_GIFTS_TO_DISPLAY}</span>
+			</p>
+			{+END}
+			
+			{+START,IF_NON_EMPTY,{GIFT_LINK}}
+			<p><a href="{GIFT_LINK}">{!GIFT_GIFT}</a></p>
+			{+END}
+</div>

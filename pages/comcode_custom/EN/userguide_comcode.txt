@@ -1,0 +1,3 @@
+[semihtml][title]Comcode help[/title]
+This page unfortunately got corrupted and will be fixed ASAP. For the Composr Comcode guide, please go to [url="http://compo.sr/docs10/tut-comcode.htm"]The Composr's official Comcode guide[/url]
+[/semihtml]{$,page hint: no_wysiwyg}

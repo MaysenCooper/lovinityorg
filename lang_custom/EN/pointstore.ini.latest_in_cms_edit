@@ -1,0 +1,67 @@
+[descriptions]
+
+[runtime_processing]
+
+[strings]
+DOC_POINTSTORE=Once earned, Yang may actually be spent in a number of places, including the [concept]Yang Store[/concept].\nThe Yang Store is a place where members can buy:[list]\n[*] Banner advertisements and upgrades.\n[*] POP3 e-mail accounts and quota upgrades (these must be added manually by the staff).\n[*] Forwarding e-mail accounts (these must be added manually by the staff).\n[*] Gambling.\n[*] [i]And more[/i]. In fact, custom configured products and anything a new Yang Store code hook has been programmed for (it's extensible).\n[/list]\nAny Yang Store sales mechanism may be disabled from the main Admin Zone Configuration module if desired.
+POINTSTORE_CHANGED_PRICES=Changed Yang Store prices
+IMPORTANCE_BUY=Extra hits cost <strong>{1}</strong> Yang. Extra importance levels cost <strong>{2}</strong> Yang.
+BANNERS_DESCRIPTION=Banners are shown on our banner exchange at the top of this site, and at various places at other sites, as well.<br /><br />A banner advert begins with <strong>{1}</strong> potential &lsquo;hits&rsquo;: every time someone clicks your link, you lose a &lsquo;hit&rsquo;. After you run out of hits, your banner will no longer show on the system until you purchase more.<br /><br />Banners begin with an &lsquo;importance&rsquo; level of 3. The importance level sets how often your banner is shown, and extra importance can be purchased through the Point Store.<br /><br />The banner will cost <strong>{2}</strong> {1|Yang|Yang} to set up.
+BANNERS_A=Banners allow you to advertise something of your own with a picture and a link, that will occasionally be shown to visitors of the site as an advertisement. Each member of the community may have one banner, so if you haven't already ordered one, you may do so now. The Yang-fee for the banner will be displayed on the order screen.
+CANT_AFFORD=Unfortunately you do not have enough Yang to be able to afford this.
+_CANT_AFFORD=Unfortunately you do not have enough Yang to be able to afford this (it requires <strong>{1}</strong> Yang, but you have only <strong>{2}</strong>).
+QUOTA_INTRO=You have <strong>{1}</strong>Yang available to spend on quota.
+QUOTA_COST=The cost of quota is <strong>{1}</strong> Yang per megabyte.
+HAVE_COSTED_THEM={1} Yang have been charged to you, and you now have full access over your new account.
+WILL_COST_THEM=This will cost them {1} Yang.
+ORDER_QUOTA_DONE=You have ordered a quota increase for your <abbr title="Post Office Protocol 3">POP3</abbr> account. It is a manual process for us to set up this: when it's set up you will receive a confirmation e-mail, and your Yang will be deducted. Thank you.
+ORDER_FORWARDER_DONE=You have ordered e-mail forwarding to <strong>{1}</strong> for your new address <strong>{2}</strong>. It is a manual process for us to set up your e-mail forwarding, so when it's set up you will receive a confirmation e-mail, and your Yang will be deducted. Thank you.
+ORDER_POP3_DONE=You have ordered a <abbr title="Post Office Protocol 3">POP3</abbr> account <strong>{1}</strong>. It is a manual process for us to set up your account, so when it's set up you will receive a confirmation e-mail, and your Yang will be deducted. Thank you.
+MAIL_REQUEST_FORWARDING=Yangt Store: E-mail forwarding account request
+MAIL_REQUEST_POP3=Yang Store: POP3 account request
+MAIL_REQUEST_QUOTA=Yang Store: Quota upgrade request
+CHARGE_INFO=This will cost you <strong>{1}</strong> Yang, leaving you  with <strong>{2}</strong> remaining.
+NOT_ENOUGH_POINTS=You do not have enough Yang to purchase {1|a|an} {1} account
+PRICE_GIVE=({1} Yang)
+POINTS_LEFT=Hi <strong>{1}</strong>, you have <strong>{2}</strong> Yang to spend as you choose
+POINTSTORE_ITEMS=The items that may be purchased with Yang are listed below&hellip;
+POINTSTORE_INTRO=Welcome to the yang Store. From here you can purchase items from your Yang (shown above).</p><p>You earn Yang by contributing to our community in some way. That might be through posting on our forums, receiving Yang as gifts (via. Yin) from other members, or submitting something to the site. Explore enough and do enough, and you will notice your Yang count rising.<br />Our aim is to encourage participation in the community by rewarding our active members.
+POINTSTORE=Yang Store
+CONFIG_CATEGORY_POINTSTORE=Yang Store options
+DESCRIPTION_MAIL_COST=Cost of ordering an address for <kbd>{1}</kbd> for the domain <kbd>{2}</kbd> (in Yang).
+_DESCRIPTION_MAIL_COST=Cost of ordering an address from this domain (in Yang).
+POINTSTORE_PRICE_PAGE_TEXT=Use this screen to set the prices for the custom items available from your Yang Store.
+POINTSTORE_LOG_TEXT=Below are all the primary purchases that have been made through the Yang Store. You can delete entries from the Yang Store log, which is useful because it allows people to repurchase any one-per-member product if the first attempt could not be fulfilled for some reason.
+POINTSTORE_MANAGE_INVENTORY=Yang Store inventory management
+POINTSTORE_MANAGE_SALES=Yang Store sales list management
+BANNER_DELETED_REMAKE=Your banner was deleted. Your Yang Store details have now been updated so that you may order a new banner.
+CONFIG_OPTION_is_on_pop3_buy=Can <abbr title="Post Office Protocol 3">POP3</abbr> accounts be bought through the Yang Store?
+CONFIG_OPTION_is_on_forw_buy=Can mail forwarders be bought through the Yang Store?
+CONFIG_OPTION_is_on_banner_buy=Can banners be bought through the Yang Store?
+CONFIG_OPTION_initial_banner_hits=The number of hits bundled with a newly purchased Yang Store banner is allocated.
+CONFIG_OPTION_initial_quota=The initial quota given to a Yang Store purchased <abbr title="Post Office Protocol 3">POP3</abbr> e-mail account in megabytes.
+CONFIG_OPTION_is_on_highlight_name_buy=Can name highlighting be bought through the Yang Store? (Conversr-only).
+CONFIG_OPTION_is_on_topic_pin_buy=Can topic pinning be bought through the Yang Store?
+CONFIG_OPTION_is_on_gambling_buy=Can gambling be done through the Yang Store?
+CONFIG_OPTION_maximum_gamble_amount=The maximum gamble that a member may do (although they are still limit by how much Yang they have).
+EDIT_PS_CONFIG=Edit your <a href="{1}">Yang Store configuration</a> to make changes to built-in products.
+HIGHLIGHT_NAME_A=You are about to purchase name highlighting for <strong>{1}</strong> Yang (leaving you with <strong>{2}</strong> Yang left).
+CUSTOM_ITEM_A=You are about to make a purchase for <strong>{1}</strong> Yang (leaving you with <strong>{2}</strong> Yang left).
+PIN_TOPIC_A=You are about to purchase the pinning of a forum topic for <strong>{1}</strong> Yang per day.
+DESCRIPTION_GAMBLE_AMOUNT=How much would you like to gamble? You may gamble between <strong>{1}</strong> and <strong>{2}</strong> Yang.
+GAMBLE_A=You may gamble between <strong>{1}</strong> and <strong>{2}</strong> Yang. You have <strong>{3}</strong> remaining Yang. By gambling Yang, you are spending some Yang in the hope that you'll get lucky and win more than you spent &ndash; but if you're not so lucky, you could end up losing them.
+GAMBLE_CONGRATULATIONS=Congratulations &ndash; you made a <strong>net profit of {1} Yang</strong> from your wager of <strong>{2}</strong> Yang.
+GAMBLE_COMMISERATIONS=Tough luck &ndash; you made a <strong>net loss of {1} Yang</strong> from your wager of <strong>{2}</strong> Yang.
+HOW_MUCH_THIS_COSTS=How much this Yang Store item costs.
+MAIL_REQUEST_CUSTOM=Yang Store product ordered: {1}
+MAIL_REQUEST_CUSTOM_BODY={2} has ordered the {1} product, and spent the necessary Yang. Please do whatever you need to do to deliver it.
+DESCRIPTION_PERMISSION_SCOPE_privilege=The type of permission that this Yang Store item will assign (for the privilege permission type only).
+DESCRIPTION_PERMISSION_SCOPE_type=The type of permission that will be assigned by this Yang Store item.
+THESE_PRODUCTS_DEFINED=These products are already in the Yang Store, and may be edited.
+MODULE_TRANS_NAME_admin_pointstore=Yang Store
+MODULE_TRANS_NAME_pointstore=Yang Store
+NAG_POINTSTORE=<a href="{1}">Yang Store maintenance</a><br /><span class="associated_details">(notifications are sent for new orders)</span>
+NOTIFICATION_TYPE_pointstore_request_custom=Yang Store product purchased
+TOPIC_PIN_LACK_POINTS=You don't have enough Yang to purchase <strong>{1}</strong> day(s). That would cost <strong>{2}</strong> Yang, and you only have <strong>{3}</strong> Yang at this time. Please try again after you have enough Yang, or try ordering fewer days.
+POINTSTORE_AMEND_CUSTOM_PRODUCTS=Amend Yang Store custom products
+POINTSTORE_AMEND_CUSTOM_PERMISSIONS=Amend Yang Store custom permissions

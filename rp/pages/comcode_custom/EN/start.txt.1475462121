@@ -1,0 +1,90 @@
+[semihtml][title]TLC+ Role Play - Leon&#39;s Portal[/title]
+
+<div style="text-align: center;"><span style="font-size:1.5em;">You are now entering a unique Role Playing experience!</span></div>
+<br />
+{+START,IF,{$NOT,{$IS_IN_GROUP,19}}}
+<div class="flex-container">
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Unique Main Canon&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/pokeball_code_lyoko_symbol_request_idea_2_by_kalel7-d6u4pvq.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Unique Main Canon</span><br />
+			<span style="font-size:1em;">Our Main canon is unique and flexible, open to suggestions by the community. Our main canon is a derivative of Code Lyoko.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Multi-fandom Friendly&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/pokeball_code_lyoko.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Multi-Fandom Friendly</span><br />
+			<span style="font-size:1em;">We are multi-fandom friendly. You can utilize characters based off of virtually any fandom within our RP section and canon.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Multi-canon friendly&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/hierarchical-structure.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Multi-Canon Friendly</span><br />
+			<span style="font-size:1em;">We are also multi-canon friendly. Don't want to stick to our main canon? Check out other canons under "teams" or become a game master and create your own.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Non-Canon Available&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/book.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Non-Canon Available</span><br />
+			<span style="font-size:1em;">Want to freestyle your role plays and not adhere to any canons? Or do you want to participate in mature role plays? We have a non-canon section for that.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Character Database&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/database.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Character Database</span><br />
+			<span style="font-size:1em;">Learn what characters are involved in our role playing section via. the character database. Show off your characters there as well.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Stats, XP, and Equations&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/data-management-interface-symbol-with-gears-and-binary-code-numbers.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Stats, XP, and Equations</span><br />
+			<span style="font-size:1em;">Our canon utilizes character stats and a number crunching system (equations) to make fair but unique role play outcomes. Characters can earn higher stats and other things via. earning XP.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Role Play Store&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/shopping-cart.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Role Play Store</span><br />
+			<span style="font-size:1em;">COMING SOON - Our role play store will allow you to purchase potions, weapons, and other powerups for your characters using your website points.</span></p>
+</div>
+<div class="flex-item-landing">
+<p>
+[media description=&quot;Blogs, Galleries, and Events&quot; type=&quot;image_websafe&quot; framed=&quot;0&quot; width=&quot;128&quot; height=&quot;128&quot; thumb=&quot;0&quot;]uploads/filedump/sliders/rp/update.png[/media]
+</p>
+<p><span style="font-size:1.3em;">Blogs, Events, and Galleries</span><br />
+			<span style="font-size:1em;">Show off your characters and role plays even more by adding blogs, uploading pictures and videos, and creating events.</span></p>
+</div>
+</div>
+<div style="text-align: center;"><span style="font-size:1.5em;">Join the fun now by clicking Join Group in the second top menu!</span></div>
+{+END}
+{+START,IF,{$IS_IN_GROUP,19}}
+<div class="flex-container">
+<div class="flex-item-landing">
+[block="52,55,56,58,60" limit="6" hot="0" date_key="lasttime" username_key="firstusername" title="Latest Role Play topics" check="0" defer="1"]main_forum_topics[/block]
+</div>
+<div class="flex-item-landing">
+[block="53,54,57,59,61" limit="6" hot="0" date_key="lasttime" username_key="firstusername" title="Latest OOC topics" check="0" defer="1"]main_forum_topics[/block]
+</div>
+<div class="flex-item-landing">
+[box="Latest 10 canon characters"]
+[block="52" display_type="TITLELIST" sorting="0" sort="add_date DESC" max="10" start="0" pagination="0" as_guest="0" defer="1"]main_cc_embed[/block][/box]
+</div>
+<div class="flex-item-landing">
+[box="Latest 10 non-canon characters"]
+[block="51" display_type="TITLELIST" sorting="0" sort="add_date DESC" max="10" start="0" pagination="0" as_guest="0" defer="1"]main_cc_embed[/block][/box]
+</div>
+<div class="flex-item-landing">
+[block="listing" zone="_SEARCH" days="1" title="Events Today" filter="10" as_guest="0" defer="1"]side_calendar[/block]
+</div>
+</div>
+<h2>Activity Feed (across all of lovinity.org)</h2>
+[block param="Status update" defer="1"]main_activities_state[/block]<br />
+[block param="Activity Feed" max="10" start="0" mode="all" grow="0" refresh_time="30" defer="1"]main_activities[/block]<br />
+{+END}
+[block]main_comcode_page_children[/block][/semihtml]{$,page hint: no_wysiwyg}

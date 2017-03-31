@@ -1,0 +1,70 @@
+[descriptions]
+charset=The character set of the language. ISO charsets should be upper case. UTF character sets should be lower case (e.g. utf-8).
+dir=The direction. Western languages are 'ltr' (left-to-right), while languages such as Arabic are 'rtl' (right-to-left). It should only ever hold a value of 'ltr' or 'rtl', i.e. should never be translated directly.
+en_left=Switch this to 'right' for rtl languages. It should only ever hold a value of 'left' or 'right', i.e. should never be translated directly.
+en_right=Switch this to 'left' for rtl languages. It should only ever hold a value of 'left' or 'right', i.e. should never be translated directly.
+POST_DATA=This does not refer to 'a post'. It's a POSTed HTTP form.
+MULTIPLE=More than one, many.
+NA=Not Applicable.
+USE=Not the verb, 'to use', but 'the use' of something.
+locale=A comma-separated list of locale codes, given in priority (different systems have different availability, and convention).
+LOCALE_SUBST=A comma-separated list of string substitutions to perform on date and time output, designed for environments where the locale does not perform adequately out-of-the-box. An appropriate example string would be: 'January=Januare,February=Februare,Wednesday=Wedway'.
+SKIP_NAVIGATION=This is for accessibility reasons &ndash; it is used as the text of a link which exists past the top of the site to allow tab skipping.
+CONTENTS=This is contents as in what you get at the start of a book.
+date_verbose_time=Note that if you're running an international site, you might want to put your timezone on here and related time strings.
+dont_escape_trick=Ignore this, it serves a technical purpose only.
+CONCEDED_MODE=Conceded mode is like a partial log-out, where you are declaring that to get back into the Admin Zone you should have to enter your username and password again (basically).
+CURRENTLY_HAS_KEEP_FATALISTIC=Fatalistic mode is a mode whereby all errors are treated like fatal errors, with a stack trace. It is useful for developers and power-users as a way to trace the source of error messages in the Composr code.
+POLLS=Polls, i.e. multiple polls
+POLL=Poll, i.e. a single poll
+NAME=Name, noun
+DOWNLOAD=Download, verb
+ORDER=Order as in 'position' (not 'sort' [-->SORT] or 'buy' [-->ECOM_ORDER])
+RESULTS=Results, noun
+VIEWS=Views, plural (a listing not a tally [-->COUNT_VIEWS])
+PAGES=Pages, plural (a listing not a tally [-->COUNT_PAGES])
+MEMBERS=Members, plural (a listing not a tally [-->COUNT_MEMBERS])
+LOGIN=log in, verb to use within a sentence
+_LOGIN=Log in, verb to use on its own as an action
+
+[runtime_processing]
+DESCRIPTION_AUTHOR=entry_in_param_1
+DESCRIPTION_CATEGORIES=category_in_param_1|entry_in_param_2
+DESCRIPTION_SECONDARY_CATEGORIES=category_in_param_1|entry_in_param_2
+DESCRIPTION_ALLOW_RATING=entry_in_param_1
+DESCRIPTION_ALLOW_COMMENTS=entry_in_param_1
+DESCRIPTION_ORDER=entry_in_param_1|category_in_param_2
+DESCRIPTION_ORDER_NO_CATS=entry_in_param_1
+DESCRIPTION_FIELD_ORDER=entry_in_param_1
+DESCRIPTION_FIELD_ORDER_CLEVER=entry_in_param_1
+SUBMIT_UNVALIDATED=entry_in_param_1
+UNVALIDATED_TEXT=entry_in_param_1
+UNVALIDATED_TEXT_STAFF=entry_in_param_2
+UNVALIDATED_TEXT_NON_DIRECT=entry_in_param_1
+DESCRIPTION_REPRESENTATIVE_IMAGE=category_in_param_1
+IS_MEMBER_SYNCHED=category_in_param_1
+DESCRIPTION_IS_MEMBER_SYNCHED=preserve=Submit to categories belonging|category_in_param_1
+DESCRIPTION_CATEGORY=category_in_param_1
+DESCRIPTION_PARENT=category_in_param_1
+DESCRIPTION_VALIDATED=category_in_param_1|content_type_module_in_param_1
+DESCRIPTION_DELETE_LOSE_CONTENTS=category_in_param_1
+DESCRIPTION_DELETE_PARENT_CONTENTS=category_in_param_1
+DESCRIPTION_CATEGORY_TREE=category_in_param_1
+TREE_LIST_HELP=category_in_param_3
+NO_ENTRIES=entry_in_param_1
+NO_CATEGORIES=category_in_param_1
+
+
+[strings]
+LOADING=One Moment&hellip;
+WELCOME=We hope you enjoy your visit here. Please login or join at the top to access all our features.
+JOIN_OPTIONS=Join/Options
+LOGIN_JOIN=Login/Join
+NEW_COMMENT_BODY=A new comment has been posted on {1}, for {2}:\n{5}\n\nThe comment follows...\n\n[quote="{7}"][b]{3}[/b]: {4}[/quote]
+BEING_INSTALLED=This site is currently closed because it is still being created.\nThe webmaster(s) will open it up when they are ready.
+YOUR_MESSAGE_WAS_SENT_BODY=You recently sent us a message (repeated below). This e-mail is just to confirm the message was sent and to provide a copy for your own records. Please do not directly reply to this e-mail, as your reply will not be routed properly. Your message follows...\n\n{1}
+CONTENT_LIKED_NOTIFICATION_MAIL=Congratulations, your content ([url="{2}"]{3}[/url]) has made [b]{5}[/b] happy.\n\n---\n\n[html]{4}[/html]
+AFA_NOTIFICATION_MAIL=Someone who is logged-in as {{{2}}} has accessed the Admin Zone front page. IP address: {3}.\n\nThis is probably a normal thing for them -- this notification is a security feature to help you spot potential hackers, if you think this looks wrong.
+THREADED_REPLY_NOTICE=To reply to an existing post use the reply/quote button under it. Type fresh posts here when not replying to any existing post.\n\n{1}
+QUOTED_REPLY_MESSAGE=Click to type your reply to {1}'s message, which was:\n\n{2}
+HACK_ATTACK_USER=Your action has been blocked by the website's firewall as it has detected a possible hack attack. Please DO NOT refresh this page. Please also be aware that you could be permanently banned for multiple hack attacks. If you feel this is an error, please email support@lovinity.org .

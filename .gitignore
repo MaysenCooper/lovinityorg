@@ -1,0 +1,12 @@
+cache/*
+caches/*
+cgi-bin/*
+exports/*
+imports/*
+safe_mode_temp/*
+uploads/*
+_config.php
+check_user.php
+arrowchat/includes/config.php
+arrowchat/uploads/*
+arrowchat/cache/*

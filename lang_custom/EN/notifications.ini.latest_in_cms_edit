@@ -1,0 +1,12 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+NOTIFICATION_PT_MESSAGE_WRAP=This message was generated automatically and sent to you due to your notification settings. You cannot reply.\n\n---\n\n\n{1}
+NOTIFICATION_PT_MESSAGE_WRAP_DIRECT_REPLY=This message was generated automatically and sent to you due to your notification settings. You may reply directly if you wish.\n\n---\n\n\n{1}
+NOTIFICATION_EMAIL_MESSAGE_WRAP=This e-mail from {2} was generated automatically and sent to you due to your notification settings. [i]You should not reply directly.[/i]\n\n{1}
+NOTIFICATION_EMAIL_MESSAGE_WRAP_DIRECT_REPLY=This e-mail from {2} was generated automatically and sent to you due to your notification settings. [i]You may reply directly if you wish.[/i]\n\n{1}
+DIGEST_EMAIL_INDIVIDUAL_MESSAGE_WRAP=[title="2" sub="{4}"]{1}[/title]\n\n{2}\n
+DIGEST_EMAIL_MESSAGE_WRAP=Your notifications for this period are as follows...\n\n{1}\n---\n\nThis e-mail was sent due to your notification settings on {2}.

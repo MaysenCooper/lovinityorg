@@ -1,0 +1,12 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+DOC_QUIZZES=There are three kinds of quiz:\n - surveys, which simply collect results (there are no correct answers)\n - tests, which people may pass or fail\n - competitions, which have results and possibly, a winner\n\nAll quizzes consist of a series of questions.\n\nQuizzes are a very powerful tool for you to bring a level of interactive community that few other websites have, or for which other websites rely on the services of external websites for.
+QUIZ_RESULT=\n - "{1}" was answered [b]{2}[/b]
+QUIZ_UNKNOWN=\n - "{1}" was answered [b]{2}[/b]. This question is set for manual marking: we can't automatically mark it.
+QUIZ_MISTAKE_COMCODE=\n - "{1}" was answered [b]{2}[/b]. However, the correct answer was '{3}'.
+QUIZ_MISTAKE_EXPLAINED_COMCODE=\n - "{1}" was answered [b]{2}[/b]. However, the correct answer was '{3}'. [b]Explanation:[/b] {4}
+EXAMPLE_QUESTIONS=What is the first digit of Pi? [MULTIPLECHOICE]\nThree [*]\nTwo\nFour\n\nA tomato is a? [MULTIPLECHOICE]\nFruit [*]\n:Well done, tomatoes are a fruit because they contain seeds.\nVegetable\n:Tomatoes are not a vegetable because they contain seeds.\nPomme de terre\n:Pomme de terre is Apple in French. Tomatoes are a fruit because they contain seeds.\n\nFish is to cow as magma is to? [MULTIPLECHOICE]\nLava [*]\nWater\nBovine\n\nHow are you today? [LONG] [REQUIRED] [UNMARKED]\n

@@ -1,0 +1,4 @@
+<?php
+return unserialize("a:5:{i:0;a:1:{i:0;a:1:{i:0;a:5:{i:0;s:33:\"tcpfunc_58dd9c020a05c9.39307221_1\";i:1;a:0:{}i:2;i:1;i:3;s:0:\"\";i:4;s:0:\"\";}}}i:1;a:0:{}i:2;s:9:\"cns_admin\";i:3;N;i:4;a:1:{s:33:\"tcpfunc_58dd9c020a05c9.39307221_1\";s:122:\"\$tpl_funcs['tcpfunc_58dd9c020a05c9.39307221_1']=\" echo \\\"/*\\\\n Composr\\\\n Copyright (c) ocProducts, 2004-2016\\\\n*/\\\\n\\\";\";\";}}");
+
+?>

@@ -1,0 +1,10 @@
+[descriptions]
+
+[runtime_processing]
+
+
+[strings]
+DOC_GALLERY_IMPORT=It is possible to fill a gallery with the images and videos contained within a ZIP or TAR file. This is a very useful feature to quickly fill a gallery; an example usage might be to put all images on a digital camera memory card into an archive file, and to upload the file.\nWhen importing a gallery this way, no descriptions are added for the entries. However it is possible to add descriptions, and customise other details, simply by editing the entries individually.\n\nThere is an additional "import to gallery" feature that works on the premise that any image or video file located in the [tt]uploads/galleries[/tt] directory should be pointed to by an entry in the system. Any such file that is not pointed to, is labelled as an 'orphaned file', and the import feature allows such files to be chosen selectively and imported into any gallery. This is useful because you can upload large file sets directly to [tt]uploads/galleries[/tt] and then batch-add them.
+ECARD_FOR_YOU=I thought you might like this e-card!\n\n[img]{2}[/img]\n\nI found it in a gallery on {3}, here's a direct link:\n{1}
+VIDEO_NOTIFICATION_MAIL=A new video, {2}, has been added to {1}. You can view it from the following URL:\n[url="{3}"]{3}[/url]
+IMAGE_NOTIFICATION_MAIL=A new image, {2}, has been added to {1}. You can view it from the following URL:\n[url="{3}"]{3}[/url]

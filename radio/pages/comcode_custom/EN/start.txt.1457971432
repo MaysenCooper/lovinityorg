@@ -1,0 +1,11 @@
+[semihtml][title]Now Playing on The Lovinity Community+ Radio[/title]
+
+<div style="text-align: center;">Your web browser must support HTML5 audio controls to see the web player below.<br />
+&nbsp;
+<audio controls=""><source src="http://s9.myradiostream.com:13478/;" type="audio/mpeg" /> Your browser does not support the audio element.</audio>
+<br />
+<br />
+<strong>Disclaimer:</strong> We do not review all of the content played on our internet radio stream. If you hear something that violates our website rules, please report it by clicking the report link at the bottom of this page, or by submitting a support ticket (About -&gt; Support Tickets, or email support@lovinity.org ). Include in the report what you heard and at what time you heard it (including time zone).</div>
+<iframe height="1000px" src="https://dev.lovinity.org/radio/nowplaying.php" width="100%"></iframe><br />
+<br />
+[block]main_comcode_page_children[/block][/semihtml]

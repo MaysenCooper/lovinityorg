@@ -1,0 +1,7 @@
+[descriptions]
+
+[runtime_processing]
+
+[strings]
+DELURK_MAX_POINTS=Maximum Yang
+DELURK_MAX_POINTS_DESCRIPTION=Deleted members must have at most this much Yang (earned on this website total).

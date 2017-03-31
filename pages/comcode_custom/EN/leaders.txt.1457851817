@@ -1,0 +1,31 @@
+[semihtml][title]Leaders[/title]
+Here you can view our community leaders based off of the number of gift points received for various roles. To award someone for a specific role, go to their profile&#39;s points tab and give them gift points, setting the appropriate role option as defined on this page.
+
+<h2>Wise Mind</h2>
+Wise Minds are those individuals who provide wisdom that the community finds very helpful and beneficial.<br />
+<kbd class="cms_keep_block" title="block">[block param=&quot;Wise Mind&quot;]main_stars[/block]</kbd>
+
+<h2>Supportive Soul</h2>
+Supportive souls are those individuals who provide personal support for others who need it.<br />
+<kbd class="cms_keep_block" title="block">[block param=&quot;Supportive Soul&quot;]main_stars[/block]</kbd>
+
+<h2>Randomly Kind</h2>
+Randomly Kind individuals are those known to perform random acts of kindness in our community.<br />
+<kbd class="cms_keep_block" title="block">[block param=&quot;Randomly Kind&quot;]main_stars[/block]</kbd>
+
+<h2>Busy for Good</h2>
+Busy for Good individuals are those who put in a lot of effort and work to do something good for the community.<br />
+<kbd class="cms_keep_block" title="block">[block param=&quot;Busy for Good&quot;]main_stars[/block]</kbd>
+
+<h2>Warm and Friendly</h2>
+Warm and Friendly individuals are those known for their warm, friendly, outgoing personality in the community.<br />
+<kbd class="cms_keep_block" title="block">[block param=&quot;Warm and Friendly&quot;]main_stars[/block]</kbd>
+
+<h2>Community Guard</h2>
+Community guards are those known for making sure everyone is safe in the community and are following the rules.<br />
+Note: Like all the others, this can include staff and non-staff, thus should not be treated as a list of official staff.<br />
+<kbd class="cms_keep_block" title="block">[block param=&quot;Community Guard&quot;]main_stars[/block]</kbd>
+
+<h2>Role Model</h2>
+Role Models are those whom the community look up to for inspiration and destiny.<br />
+<kbd class="cms_keep_block" title="block">[block param=&quot;Role Model&quot;]main_stars[/block]</kbd>[/semihtml]

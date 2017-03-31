@@ -1,0 +1,15 @@
+[descriptions]
+MISSING_RESOURCE_SUBSTRING=Used for detection a missing resource error message
+
+[runtime_processing]
+MISSING_RESOURCE=resource_in_param_1
+_MISSING_RESOURCE=resource_in_param_2
+STOPPED_RECURSIVE_RESOURCE_INCLUDE=resource_in_param_2
+CAT_NOT_FOUND=category_in_param_2
+RECURSIVE_TREE_CHAIN=category_in_param_2
+OWN_PARENT_ERROR=category_in_param_1
+NO_DELETE_ROOT=category_in_param_1
+NO_DELETE_LAST_CATEGORY=category_in_param_1
+
+[strings]
+WORDFILTER_YOU=Your submission has been rejected because you used one or more words that violate our inclusive language policy (found at About -> Rules and Policies -> Safe Space policy). Please correct your submission.
